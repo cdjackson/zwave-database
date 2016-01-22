@@ -1,0 +1,154 @@
+<?xml version="1.0"?>
+
+<resultset statement="SELECT id, device, number, label, basicclass, genericclass, specificclass FROM joo_zwave_endpoints
+" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <row>
+	<field name="id">1</field>
+	<field name="device">117</field>
+	<field name="number">0</field>
+	<field name="label">Endpoint 0</field>
+	<field name="basicclass">5</field>
+	<field name="genericclass">12</field>
+	<field name="specificclass">26</field>
+  </row>
+
+  <row>
+	<field name="id">2</field>
+	<field name="device">121</field>
+	<field name="number">0</field>
+	<field name="label">Endpoint 0</field>
+	<field name="basicclass">5</field>
+	<field name="genericclass">11</field>
+	<field name="specificclass">22</field>
+  </row>
+
+  <row>
+	<field name="id">3</field>
+	<field name="device">121</field>
+	<field name="number">1</field>
+	<field name="label">Endpoint 1</field>
+	<field name="basicclass">5</field>
+	<field name="genericclass">11</field>
+	<field name="specificclass">22</field>
+  </row>
+
+  <row>
+	<field name="id">4</field>
+	<field name="device">121</field>
+	<field name="number">2</field>
+	<field name="label">Endpoint 2</field>
+	<field name="basicclass">5</field>
+	<field name="genericclass">11</field>
+	<field name="specificclass">22</field>
+  </row>
+
+  <row>
+	<field name="id">5</field>
+	<field name="device">161</field>
+	<field name="number">0</field>
+	<field name="label">Endpoint 0</field>
+	<field name="basicclass">5</field>
+	<field name="genericclass">11</field>
+	<field name="specificclass">22</field>
+  </row>
+
+  <row>
+	<field name="id">6</field>
+	<field name="device">256</field>
+	<field name="number">0</field>
+	<field name="label">Endpoint 0</field>
+	<field name="basicclass">5</field>
+	<field name="genericclass">11</field>
+	<field name="specificclass">22</field>
+  </row>
+
+  <row>
+	<field name="id">7</field>
+	<field name="device">116</field>
+	<field name="number">0</field>
+	<field name="label">Endpoint 0</field>
+	<field name="basicclass">5</field>
+	<field name="genericclass">12</field>
+	<field name="specificclass">31</field>
+  </row>
+
+  <row>
+	<field name="id">8</field>
+	<field name="device">259</field>
+	<field name="number">0</field>
+	<field name="label">Endpoint 0</field>
+	<field name="basicclass">5</field>
+	<field name="genericclass">11</field>
+	<field name="specificclass">22</field>
+  </row>
+
+  <row>
+	<field name="id">9</field>
+	<field name="device">260</field>
+	<field name="number">0</field>
+	<field name="label">Endpoint 0</field>
+	<field name="basicclass">5</field>
+	<field name="genericclass">8</field>
+	<field name="specificclass">19</field>
+  </row>
+
+  <row>
+	<field name="id">10</field>
+	<field name="device">100</field>
+	<field name="number">1</field>
+	<field name="label">Switch1</field>
+	<field name="basicclass">5</field>
+	<field name="genericclass">11</field>
+	<field name="specificclass">22</field>
+  </row>
+
+  <row>
+	<field name="id">11</field>
+	<field name="device">100</field>
+	<field name="number">1</field>
+	<field name="label">Meter1</field>
+	<field name="basicclass">5</field>
+	<field name="genericclass">23</field>
+	<field name="specificclass">2</field>
+  </row>
+
+  <row>
+	<field name="id">12</field>
+	<field name="device">262</field>
+	<field name="number">0</field>
+	<field name="label">Endpoint 0</field>
+	<field name="basicclass">5</field>
+	<field name="genericclass">8</field>
+	<field name="specificclass">0</field>
+  </row>
+
+  <row>
+	<field name="id">13</field>
+	<field name="device">262</field>
+	<field name="number">1</field>
+	<field name="label">Endpoint 1</field>
+	<field name="basicclass">5</field>
+	<field name="genericclass">8</field>
+	<field name="specificclass">2</field>
+  </row>
+
+  <row>
+	<field name="id">14</field>
+	<field name="device">262</field>
+	<field name="number">2</field>
+	<field name="label">Endpoint 2</field>
+	<field name="basicclass">5</field>
+	<field name="genericclass">8</field>
+	<field name="specificclass">2</field>
+  </row>
+
+  <row>
+	<field name="id">15</field>
+	<field name="device">168</field>
+	<field name="number">0</field>
+	<field name="label">Endpoint 0</field>
+	<field name="basicclass">5</field>
+	<field name="genericclass">7</field>
+	<field name="specificclass">13</field>
+  </row>
+</resultset>

@@ -1,0 +1,5579 @@
+<?xml version="1.0"?>
+
+<resultset statement="SELECT id, device, group_id, label, description, max, controller, overview FROM joo_zwave_associations
+" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <row>
+	<field name="id">1</field>
+	<field name="device">1</field>
+	<field name="group_id">1</field>
+	<field name="label">Reports</field>
+	<field name="description"></field>
+	<field name="max">1</field>
+	<field name="controller">1</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">2</field>
+	<field name="device">2</field>
+	<field name="group_id">1</field>
+	<field name="label">Reports</field>
+	<field name="description"></field>
+	<field name="max">8</field>
+	<field name="controller">1</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">3</field>
+	<field name="device">2</field>
+	<field name="group_id">2</field>
+	<field name="label">Light Control</field>
+	<field name="description"></field>
+	<field name="max">8</field>
+	<field name="controller">0</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">4</field>
+	<field name="device">3</field>
+	<field name="group_id">1</field>
+	<field name="label">Controlled by button 1 or single clicks of buttons 1 and 3</field>
+	<field name="description"></field>
+	<field name="max">8</field>
+	<field name="controller">0</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">5</field>
+	<field name="device">3</field>
+	<field name="group_id">2</field>
+	<field name="label">Controlled by button 3 or double clicks of buttons 1 and 3</field>
+	<field name="description"></field>
+	<field name="max">8</field>
+	<field name="controller">0</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">6</field>
+	<field name="device">3</field>
+	<field name="group_id">3</field>
+	<field name="label">Controlled by button 2 or single clicks of buttons 2 and 4</field>
+	<field name="description"></field>
+	<field name="max">8</field>
+	<field name="controller">0</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">7</field>
+	<field name="device">3</field>
+	<field name="group_id">4</field>
+	<field name="label">Controlled by button 4 or double clicks of buttons 2 and 4</field>
+	<field name="description"></field>
+	<field name="max">8</field>
+	<field name="controller">0</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">8</field>
+	<field name="device">5</field>
+	<field name="group_id">1</field>
+	<field name="label">Group 1</field>
+	<field name="description"></field>
+	<field name="max">5</field>
+	<field name="controller">1</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">9</field>
+	<field name="device">6</field>
+	<field name="group_id">1</field>
+	<field name="label">UNKNOWN!!!</field>
+	<field name="description"></field>
+	<field name="max">5</field>
+	<field name="controller">0</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">10</field>
+	<field name="device">6</field>
+	<field name="group_id">2</field>
+	<field name="label">Double Tap</field>
+	<field name="description"></field>
+	<field name="max">5</field>
+	<field name="controller">0</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">11</field>
+	<field name="device">6</field>
+	<field name="group_id">3</field>
+	<field name="label">Triple Tap</field>
+	<field name="description"></field>
+	<field name="max">5</field>
+	<field name="controller">0</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">12</field>
+	<field name="device">8</field>
+	<field name="group_id">1</field>
+	<field name="label">Lifeline</field>
+	<field name="description"></field>
+	<field name="max">5</field>
+	<field name="controller">1</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">13</field>
+	<field name="device">9</field>
+	<field name="group_id">1</field>
+	<field name="label">Controller Updates</field>
+	<field name="description"></field>
+	<field name="max">5</field>
+	<field name="controller">1</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">14</field>
+	<field name="device">11</field>
+	<field name="group_id">1</field>
+	<field name="label">Group 1</field>
+	<field name="description"></field>
+	<field name="max">1</field>
+	<field name="controller">1</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">15</field>
+	<field name="device">13</field>
+	<field name="group_id">1</field>
+	<field name="label">Turn devices on and off by tapping the top or the bottom
+				of the s</field>
+	<field name="description"></field>
+	<field name="max">5</field>
+	<field name="controller">0</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">16</field>
+	<field name="device">13</field>
+	<field name="group_id">2</field>
+	<field name="label">Turn devices on and off by tapping the top or the bottom
+				of the s</field>
+	<field name="description"></field>
+	<field name="max">5</field>
+	<field name="controller">0</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">17</field>
+	<field name="device">13</field>
+	<field name="group_id">3</field>
+	<field name="label">Turn devices on and off by tapping the top or the bottom
+				of the s</field>
+	<field name="description"></field>
+	<field name="max">5</field>
+	<field name="controller">0</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">18</field>
+	<field name="device">13</field>
+	<field name="group_id">4</field>
+	<field name="label">Nodes in this group are turned ON or OFF or set to a
+				specific dim</field>
+	<field name="description"></field>
+	<field name="max">5</field>
+	<field name="controller">0</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">19</field>
+	<field name="device">14</field>
+	<field name="group_id">1</field>
+	<field name="label">Group 1</field>
+	<field name="description"></field>
+	<field name="max">5</field>
+	<field name="controller">0</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">20</field>
+	<field name="device">15</field>
+	<field name="group_id">1</field>
+	<field name="label">Group 1</field>
+	<field name="description"></field>
+	<field name="max">232</field>
+	<field name="controller">0</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">21</field>
+	<field name="device">15</field>
+	<field name="group_id">2</field>
+	<field name="label">Group 2</field>
+	<field name="description"></field>
+	<field name="max">232</field>
+	<field name="controller">0</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">22</field>
+	<field name="device">15</field>
+	<field name="group_id">3</field>
+	<field name="label">Group 3</field>
+	<field name="description"></field>
+	<field name="max">232</field>
+	<field name="controller">0</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">23</field>
+	<field name="device">15</field>
+	<field name="group_id">4</field>
+	<field name="label">Group 4</field>
+	<field name="description"></field>
+	<field name="max">232</field>
+	<field name="controller">0</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">24</field>
+	<field name="device">15</field>
+	<field name="group_id">5</field>
+	<field name="label">Group 5</field>
+	<field name="description"></field>
+	<field name="max">232</field>
+	<field name="controller">0</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">25</field>
+	<field name="device">15</field>
+	<field name="group_id">127</field>
+	<field name="label">Group 255</field>
+	<field name="description"></field>
+	<field name="max">1</field>
+	<field name="controller">1</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">26</field>
+	<field name="device">16</field>
+	<field name="group_id">1</field>
+	<field name="label">Group 1</field>
+	<field name="description"></field>
+	<field name="max">5</field>
+	<field name="controller">0</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">27</field>
+	<field name="device">17</field>
+	<field name="group_id">1</field>
+	<field name="label">Group 1</field>
+	<field name="description"></field>
+	<field name="max">5</field>
+	<field name="controller">0</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">28</field>
+	<field name="device">18</field>
+	<field name="group_id">1</field>
+	<field name="label">Group 1</field>
+	<field name="description"></field>
+	<field name="max">5</field>
+	<field name="controller">0</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">29</field>
+	<field name="device">19</field>
+	<field name="group_id">1</field>
+	<field name="label">Group 1</field>
+	<field name="description"></field>
+	<field name="max">4</field>
+	<field name="controller">1</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">30</field>
+	<field name="device">20</field>
+	<field name="group_id">1</field>
+	<field name="label">Thermostat Mode Set</field>
+	<field name="description"></field>
+	<field name="max">4</field>
+	<field name="controller">1</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">31</field>
+	<field name="device">20</field>
+	<field name="group_id">2</field>
+	<field name="label">Binary Switch Set</field>
+	<field name="description"></field>
+	<field name="max">4</field>
+	<field name="controller">1</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">32</field>
+	<field name="device">20</field>
+	<field name="group_id">3</field>
+	<field name="label">Unsolicited Battery Level Reports</field>
+	<field name="description"></field>
+	<field name="max">4</field>
+	<field name="controller">1</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">33</field>
+	<field name="device">20</field>
+	<field name="group_id">4</field>
+	<field name="label">Thermostat Set Point Reports</field>
+	<field name="description"></field>
+	<field name="max">4</field>
+	<field name="controller">1</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">34</field>
+	<field name="device">20</field>
+	<field name="group_id">5</field>
+	<field name="label">Unsolicited Sensor Multilevel Reports</field>
+	<field name="description"></field>
+	<field name="max">4</field>
+	<field name="controller">1</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">35</field>
+	<field name="device">21</field>
+	<field name="group_id">1</field>
+	<field name="label">Reports</field>
+	<field name="description"></field>
+	<field name="max">1</field>
+	<field name="controller">1</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">36</field>
+	<field name="device">21</field>
+	<field name="group_id">2</field>
+	<field name="label">Control</field>
+	<field name="description"></field>
+	<field name="max">4</field>
+	<field name="controller">0</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">37</field>
+	<field name="device">22</field>
+	<field name="group_id">1</field>
+	<field name="label">Target for reports</field>
+	<field name="description"></field>
+	<field name="max">1</field>
+	<field name="controller">0</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">38</field>
+	<field name="device">22</field>
+	<field name="group_id">2</field>
+	<field name="label">Target nodes who receive BASIC_SET command</field>
+	<field name="description"></field>
+	<field name="max">5</field>
+	<field name="controller">0</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">39</field>
+	<field name="device">24</field>
+	<field name="group_id">1</field>
+	<field name="label">Reports</field>
+	<field name="description"></field>
+	<field name="max">1</field>
+	<field name="controller">1</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">40</field>
+	<field name="device">24</field>
+	<field name="group_id">2</field>
+	<field name="label">Control</field>
+	<field name="description"></field>
+	<field name="max">4</field>
+	<field name="controller">0</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">41</field>
+	<field name="device">27</field>
+	<field name="group_id">1</field>
+	<field name="label">Reports</field>
+	<field name="description"></field>
+	<field name="max">1</field>
+	<field name="controller">1</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">42</field>
+	<field name="device">27</field>
+	<field name="group_id">2</field>
+	<field name="label">Control</field>
+	<field name="description"></field>
+	<field name="max">4</field>
+	<field name="controller">0</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">43</field>
+	<field name="device">28</field>
+	<field name="group_id">1</field>
+	<field name="label">Reports</field>
+	<field name="description"></field>
+	<field name="max">1</field>
+	<field name="controller">1</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">44</field>
+	<field name="device">28</field>
+	<field name="group_id">2</field>
+	<field name="label">Control</field>
+	<field name="description"></field>
+	<field name="max">4</field>
+	<field name="controller">0</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">45</field>
+	<field name="device">29</field>
+	<field name="group_id">1</field>
+	<field name="label">Triggered Report</field>
+	<field name="description"></field>
+	<field name="max">5</field>
+	<field name="controller">1</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">46</field>
+	<field name="device">30</field>
+	<field name="group_id">1</field>
+	<field name="label">Reports</field>
+	<field name="description"></field>
+	<field name="max">1</field>
+	<field name="controller">1</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">47</field>
+	<field name="device">30</field>
+	<field name="group_id">2</field>
+	<field name="label">Control</field>
+	<field name="description"></field>
+	<field name="max">3</field>
+	<field name="controller">0</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">48</field>
+	<field name="device">31</field>
+	<field name="group_id">1</field>
+	<field name="label">Reports</field>
+	<field name="description"></field>
+	<field name="max">1</field>
+	<field name="controller">1</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">49</field>
+	<field name="device">31</field>
+	<field name="group_id">2</field>
+	<field name="label">Control</field>
+	<field name="description"></field>
+	<field name="max">3</field>
+	<field name="controller">0</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">50</field>
+	<field name="device">32</field>
+	<field name="group_id">1</field>
+	<field name="label">Reports</field>
+	<field name="description"></field>
+	<field name="max">1</field>
+	<field name="controller">1</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">51</field>
+	<field name="device">32</field>
+	<field name="group_id">2</field>
+	<field name="label">Control</field>
+	<field name="description"></field>
+	<field name="max">3</field>
+	<field name="controller">0</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">52</field>
+	<field name="device">33</field>
+	<field name="group_id">1</field>
+	<field name="label">Alarm notifications</field>
+	<field name="description"></field>
+	<field name="max">5</field>
+	<field name="controller">1</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">53</field>
+	<field name="device">34</field>
+	<field name="group_id">1</field>
+	<field name="label">Target for reports</field>
+	<field name="description"></field>
+	<field name="max">1</field>
+	<field name="controller">0</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">54</field>
+	<field name="device">34</field>
+	<field name="group_id">2</field>
+	<field name="label">Target nodes who receive BASIC_SET command</field>
+	<field name="description"></field>
+	<field name="max">5</field>
+	<field name="controller">0</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">55</field>
+	<field name="device">35</field>
+	<field name="group_id">1</field>
+	<field name="label">Tamper Event Report (Alarm Report)</field>
+	<field name="description"></field>
+	<field name="max">5</field>
+	<field name="controller">1</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">56</field>
+	<field name="device">35</field>
+	<field name="group_id">2</field>
+	<field name="label">Control other Z-Wave Devices</field>
+	<field name="description"></field>
+	<field name="max">5</field>
+	<field name="controller">1</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">57</field>
+	<field name="device">36</field>
+	<field name="group_id">1</field>
+	<field name="label">Control/Report Group</field>
+	<field name="description"></field>
+	<field name="max">5</field>
+	<field name="controller">1</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">58</field>
+	<field name="device">37</field>
+	<field name="group_id">1</field>
+	<field name="label">Alarm notifications</field>
+	<field name="description"></field>
+	<field name="max">1</field>
+	<field name="controller">1</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">59</field>
+	<field name="device">37</field>
+	<field name="group_id">2</field>
+	<field name="label">Device control</field>
+	<field name="description"></field>
+	<field name="max">3</field>
+	<field name="controller">0</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">60</field>
+	<field name="device">38</field>
+	<field name="group_id">1</field>
+	<field name="label">Group 1</field>
+	<field name="description"></field>
+	<field name="max">5</field>
+	<field name="controller">1</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">61</field>
+	<field name="device">39</field>
+	<field name="group_id">1</field>
+	<field name="label">Group 1</field>
+	<field name="description"></field>
+	<field name="max">5</field>
+	<field name="controller">1</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">62</field>
+	<field name="device">51</field>
+	<field name="group_id">1</field>
+	<field name="label">Basic On/Off Group</field>
+	<field name="description"></field>
+	<field name="max">5</field>
+	<field name="controller">0</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">63</field>
+	<field name="device">54</field>
+	<field name="group_id">1</field>
+	<field name="label">Basic On/Off Group</field>
+	<field name="description"></field>
+	<field name="max">5</field>
+	<field name="controller">0</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">64</field>
+	<field name="device">55</field>
+	<field name="group_id">1</field>
+	<field name="label">Group 1</field>
+	<field name="description"></field>
+	<field name="max">8</field>
+	<field name="controller">0</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">65</field>
+	<field name="device">55</field>
+	<field name="group_id">2</field>
+	<field name="label">Group 2</field>
+	<field name="description"></field>
+	<field name="max">8</field>
+	<field name="controller">0</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">66</field>
+	<field name="device">55</field>
+	<field name="group_id">3</field>
+	<field name="label">Group 3</field>
+	<field name="description"></field>
+	<field name="max">8</field>
+	<field name="controller">0</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">67</field>
+	<field name="device">56</field>
+	<field name="group_id">1</field>
+	<field name="label">Red Cables</field>
+	<field name="description"></field>
+	<field name="max">12</field>
+	<field name="controller">0</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">68</field>
+	<field name="device">56</field>
+	<field name="group_id">2</field>
+	<field name="label">Green Cables</field>
+	<field name="description"></field>
+	<field name="max">12</field>
+	<field name="controller">0</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">69</field>
+	<field name="device">56</field>
+	<field name="group_id">3</field>
+	<field name="label">Brown Cables</field>
+	<field name="description"></field>
+	<field name="max">12</field>
+	<field name="controller">0</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">70</field>
+	<field name="device">56</field>
+	<field name="group_id">4</field>
+	<field name="label">Blue Cables</field>
+	<field name="description"></field>
+	<field name="max">12</field>
+	<field name="controller">0</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">71</field>
+	<field name="device">57</field>
+	<field name="group_id">1</field>
+	<field name="label">Other device to be switched</field>
+	<field name="description"></field>
+	<field name="max">5</field>
+	<field name="controller">0</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">72</field>
+	<field name="device">58</field>
+	<field name="group_id">1</field>
+	<field name="label">Other device to be switched?</field>
+	<field name="description"></field>
+	<field name="max">5</field>
+	<field name="controller">0</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">73</field>
+	<field name="device">59</field>
+	<field name="group_id">1</field>
+	<field name="label">Button</field>
+	<field name="description"></field>
+	<field name="max">12</field>
+	<field name="controller">0</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">74</field>
+	<field name="device">60</field>
+	<field name="group_id">1</field>
+	<field name="label">Button upper part</field>
+	<field name="description"></field>
+	<field name="max">12</field>
+	<field name="controller">0</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">75</field>
+	<field name="device">60</field>
+	<field name="group_id">2</field>
+	<field name="label">Button lower part</field>
+	<field name="description"></field>
+	<field name="max">12</field>
+	<field name="controller">0</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">76</field>
+	<field name="device">61</field>
+	<field name="group_id">1</field>
+	<field name="label">Switch</field>
+	<field name="description"></field>
+	<field name="max">5</field>
+	<field name="controller">0</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">77</field>
+	<field name="device">62</field>
+	<field name="group_id">1</field>
+	<field name="label">Dimmer</field>
+	<field name="description"></field>
+	<field name="max">5</field>
+	<field name="controller">0</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">78</field>
+	<field name="device">63</field>
+	<field name="group_id">1</field>
+	<field name="label">Lifeline</field>
+	<field name="description"></field>
+	<field name="max">5</field>
+	<field name="controller">1</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">79</field>
+	<field name="device">63</field>
+	<field name="group_id">2</field>
+	<field name="label">Retransmit</field>
+	<field name="description"></field>
+	<field name="max">5</field>
+	<field name="controller">1</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">80</field>
+	<field name="device">64</field>
+	<field name="group_id">1</field>
+	<field name="label">State Updates</field>
+	<field name="description"></field>
+	<field name="max">5</field>
+	<field name="controller">0</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">81</field>
+	<field name="device">64</field>
+	<field name="group_id">2</field>
+	<field name="label">Battery Warnings</field>
+	<field name="description"></field>
+	<field name="max">5</field>
+	<field name="controller">0</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">82</field>
+	<field name="device">65</field>
+	<field name="group_id">1</field>
+	<field name="label">Group 1</field>
+	<field name="description"></field>
+	<field name="max">5</field>
+	<field name="controller">0</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">83</field>
+	<field name="device">65</field>
+	<field name="group_id">2</field>
+	<field name="label">Group 2</field>
+	<field name="description"></field>
+	<field name="max">5</field>
+	<field name="controller">0</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">84</field>
+	<field name="device">66</field>
+	<field name="group_id">1</field>
+	<field name="label">Group 1</field>
+	<field name="description"></field>
+	<field name="max">5</field>
+	<field name="controller">0</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">85</field>
+	<field name="device">68</field>
+	<field name="group_id">1</field>
+	<field name="label">State Updates</field>
+	<field name="description"></field>
+	<field name="max">5</field>
+	<field name="controller">1</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">86</field>
+	<field name="device">68</field>
+	<field name="group_id">2</field>
+	<field name="label">Battery Warnings</field>
+	<field name="description"></field>
+	<field name="max">5</field>
+	<field name="controller">1</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">87</field>
+	<field name="device">69</field>
+	<field name="group_id">1</field>
+	<field name="label">State Updates</field>
+	<field name="description"></field>
+	<field name="max">5</field>
+	<field name="controller">1</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">88</field>
+	<field name="device">69</field>
+	<field name="group_id">2</field>
+	<field name="label">Battery Warnings</field>
+	<field name="description"></field>
+	<field name="max">5</field>
+	<field name="controller">1</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">89</field>
+	<field name="device">70</field>
+	<field name="group_id">1</field>
+	<field name="label">Group 1</field>
+	<field name="description"></field>
+	<field name="max">5</field>
+	<field name="controller">1</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">90</field>
+	<field name="device">71</field>
+	<field name="group_id">1</field>
+	<field name="label">Devices to be switched on when motion detected and off after on time</field>
+	<field name="description"></field>
+	<field name="max">5</field>
+	<field name="controller">1</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">91</field>
+	<field name="device">72</field>
+	<field name="group_id">1</field>
+	<field name="label">Devices to be switched on when motion detected and off after on time</field>
+	<field name="description"></field>
+	<field name="max">5</field>
+	<field name="controller">1</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">92</field>
+	<field name="device">73</field>
+	<field name="group_id">1</field>
+	<field name="label">Group 1</field>
+	<field name="description"></field>
+	<field name="max">5</field>
+	<field name="controller">1</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">93</field>
+	<field name="device">73</field>
+	<field name="group_id">2</field>
+	<field name="label">Group 2</field>
+	<field name="description"></field>
+	<field name="max">5</field>
+	<field name="controller">0</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">94</field>
+	<field name="device">73</field>
+	<field name="group_id">3</field>
+	<field name="label">Group 3</field>
+	<field name="description"></field>
+	<field name="max">5</field>
+	<field name="controller">0</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">95</field>
+	<field name="device">74</field>
+	<field name="group_id">1</field>
+	<field name="label">Scene 1</field>
+	<field name="description"></field>
+	<field name="max">5</field>
+	<field name="controller">0</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">96</field>
+	<field name="device">74</field>
+	<field name="group_id">2</field>
+	<field name="label">Scene 2</field>
+	<field name="description"></field>
+	<field name="max">5</field>
+	<field name="controller">0</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">97</field>
+	<field name="device">74</field>
+	<field name="group_id">3</field>
+	<field name="label">Scene 3</field>
+	<field name="description"></field>
+	<field name="max">5</field>
+	<field name="controller">0</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">98</field>
+	<field name="device">74</field>
+	<field name="group_id">4</field>
+	<field name="label">Scene 4</field>
+	<field name="description"></field>
+	<field name="max">5</field>
+	<field name="controller">0</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">99</field>
+	<field name="device">75</field>
+	<field name="group_id">1</field>
+	<field name="label">Status Reports</field>
+	<field name="description"></field>
+	<field name="max">5</field>
+	<field name="controller">0</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">100</field>
+	<field name="device">76</field>
+	<field name="group_id">1</field>
+	<field name="label">Status Reports</field>
+	<field name="description"></field>
+	<field name="max">5</field>
+	<field name="controller">0</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">101</field>
+	<field name="device">77</field>
+	<field name="group_id">1</field>
+	<field name="label">Status Reports</field>
+	<field name="description"></field>
+	<field name="max">5</field>
+	<field name="controller">0</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">102</field>
+	<field name="device">78</field>
+	<field name="group_id">1</field>
+	<field name="label">Scene 1</field>
+	<field name="description"></field>
+	<field name="max">5</field>
+	<field name="controller">0</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">103</field>
+	<field name="device">78</field>
+	<field name="group_id">2</field>
+	<field name="label">Scene 2</field>
+	<field name="description"></field>
+	<field name="max">5</field>
+	<field name="controller">0</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">104</field>
+	<field name="device">78</field>
+	<field name="group_id">3</field>
+	<field name="label">Scene 3</field>
+	<field name="description"></field>
+	<field name="max">5</field>
+	<field name="controller">0</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">105</field>
+	<field name="device">78</field>
+	<field name="group_id">4</field>
+	<field name="label">Scene 4</field>
+	<field name="description"></field>
+	<field name="max">5</field>
+	<field name="controller">0</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">106</field>
+	<field name="device">79</field>
+	<field name="group_id">1</field>
+	<field name="label">Target for automatic meter reports</field>
+	<field name="description"></field>
+	<field name="max">5</field>
+	<field name="controller">0</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">107</field>
+	<field name="device">79</field>
+	<field name="group_id">2</field>
+	<field name="label">Target for automatic reports</field>
+	<field name="description"></field>
+	<field name="max">5</field>
+	<field name="controller">0</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">108</field>
+	<field name="device">80</field>
+	<field name="group_id">1</field>
+	<field name="label">Target for automatic reports</field>
+	<field name="description"></field>
+	<field name="max">5</field>
+	<field name="controller">0</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">109</field>
+	<field name="device">81</field>
+	<field name="group_id">1</field>
+	<field name="label">Group 1</field>
+	<field name="description"></field>
+	<field name="max">5</field>
+	<field name="controller">0</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">110</field>
+	<field name="device">81</field>
+	<field name="group_id">2</field>
+	<field name="label">Group 2</field>
+	<field name="description"></field>
+	<field name="max">5</field>
+	<field name="controller">0</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">111</field>
+	<field name="device">81</field>
+	<field name="group_id">3</field>
+	<field name="label">Group 3</field>
+	<field name="description"></field>
+	<field name="max">5</field>
+	<field name="controller">0</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">112</field>
+	<field name="device">82</field>
+	<field name="group_id">1</field>
+	<field name="label">Target for automatic meter reports</field>
+	<field name="description"></field>
+	<field name="max">5</field>
+	<field name="controller">0</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">113</field>
+	<field name="device">82</field>
+	<field name="group_id">2</field>
+	<field name="label">Target for automatic reports</field>
+	<field name="description"></field>
+	<field name="max">5</field>
+	<field name="controller">0</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">114</field>
+	<field name="device">83</field>
+	<field name="group_id">1</field>
+	<field name="label">Group 1</field>
+	<field name="description"></field>
+	<field name="max">5</field>
+	<field name="controller">0</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">115</field>
+	<field name="device">83</field>
+	<field name="group_id">2</field>
+	<field name="label">Group 2</field>
+	<field name="description"></field>
+	<field name="max">5</field>
+	<field name="controller">0</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">116</field>
+	<field name="device">83</field>
+	<field name="group_id">3</field>
+	<field name="label">Group 3</field>
+	<field name="description"></field>
+	<field name="max">5</field>
+	<field name="controller">0</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">117</field>
+	<field name="device">84</field>
+	<field name="group_id">1</field>
+	<field name="label">Group 1</field>
+	<field name="description"></field>
+	<field name="max">5</field>
+	<field name="controller">0</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">118</field>
+	<field name="device">84</field>
+	<field name="group_id">2</field>
+	<field name="label">Group 2</field>
+	<field name="description"></field>
+	<field name="max">5</field>
+	<field name="controller">0</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">119</field>
+	<field name="device">84</field>
+	<field name="group_id">3</field>
+	<field name="label">Group 3</field>
+	<field name="description"></field>
+	<field name="max">5</field>
+	<field name="controller">0</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">120</field>
+	<field name="device">85</field>
+	<field name="group_id">1</field>
+	<field name="label">Group 1</field>
+	<field name="description"></field>
+	<field name="max">5</field>
+	<field name="controller">0</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">121</field>
+	<field name="device">85</field>
+	<field name="group_id">2</field>
+	<field name="label">Group 2</field>
+	<field name="description"></field>
+	<field name="max">5</field>
+	<field name="controller">0</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">122</field>
+	<field name="device">85</field>
+	<field name="group_id">3</field>
+	<field name="label">Group 3</field>
+	<field name="description"></field>
+	<field name="max">5</field>
+	<field name="controller">0</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">123</field>
+	<field name="device">86</field>
+	<field name="group_id">1</field>
+	<field name="label">Lifeline</field>
+	<field name="description"></field>
+	<field name="max">5</field>
+	<field name="controller">0</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">124</field>
+	<field name="device">87</field>
+	<field name="group_id">1</field>
+	<field name="label">Scene 1</field>
+	<field name="description"></field>
+	<field name="max">5</field>
+	<field name="controller">0</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">125</field>
+	<field name="device">87</field>
+	<field name="group_id">2</field>
+	<field name="label">Scene 2</field>
+	<field name="description"></field>
+	<field name="max">5</field>
+	<field name="controller">0</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">126</field>
+	<field name="device">87</field>
+	<field name="group_id">3</field>
+	<field name="label">Scene 3</field>
+	<field name="description"></field>
+	<field name="max">5</field>
+	<field name="controller">0</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">127</field>
+	<field name="device">87</field>
+	<field name="group_id">4</field>
+	<field name="label">Scene 4</field>
+	<field name="description"></field>
+	<field name="max">5</field>
+	<field name="controller">0</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">128</field>
+	<field name="device">87</field>
+	<field name="group_id">5</field>
+	<field name="label">Scene 5</field>
+	<field name="description"></field>
+	<field name="max">5</field>
+	<field name="controller">0</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">129</field>
+	<field name="device">87</field>
+	<field name="group_id">6</field>
+	<field name="label">Scene 6</field>
+	<field name="description"></field>
+	<field name="max">5</field>
+	<field name="controller">0</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">130</field>
+	<field name="device">87</field>
+	<field name="group_id">7</field>
+	<field name="label">Scene 7</field>
+	<field name="description"></field>
+	<field name="max">5</field>
+	<field name="controller">0</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">131</field>
+	<field name="device">87</field>
+	<field name="group_id">8</field>
+	<field name="label">Scene 8</field>
+	<field name="description"></field>
+	<field name="max">5</field>
+	<field name="controller">0</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">132</field>
+	<field name="device">88</field>
+	<field name="group_id">1</field>
+	<field name="label">Scene 1</field>
+	<field name="description"></field>
+	<field name="max">5</field>
+	<field name="controller">0</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">133</field>
+	<field name="device">89</field>
+	<field name="group_id">1</field>
+	<field name="label">Group 1</field>
+	<field name="description"></field>
+	<field name="max">5</field>
+	<field name="controller">1</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">134</field>
+	<field name="device">90</field>
+	<field name="group_id">1</field>
+	<field name="label">Group 1</field>
+	<field name="description"></field>
+	<field name="max">5</field>
+	<field name="controller">1</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">135</field>
+	<field name="device">91</field>
+	<field name="group_id">1</field>
+	<field name="label">Group 1</field>
+	<field name="description"></field>
+	<field name="max">5</field>
+	<field name="controller">1</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">136</field>
+	<field name="device">91</field>
+	<field name="group_id">2</field>
+	<field name="label">Group 2</field>
+	<field name="description"></field>
+	<field name="max">5</field>
+	<field name="controller">1</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">137</field>
+	<field name="device">92</field>
+	<field name="group_id">1</field>
+	<field name="label">Group 1</field>
+	<field name="description"></field>
+	<field name="max">5</field>
+	<field name="controller">1</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">138</field>
+	<field name="device">93</field>
+	<field name="group_id">1</field>
+	<field name="label">State Updates</field>
+	<field name="description"></field>
+	<field name="max">5</field>
+	<field name="controller">0</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">139</field>
+	<field name="device">93</field>
+	<field name="group_id">2</field>
+	<field name="label">Battery Warnings</field>
+	<field name="description"></field>
+	<field name="max">5</field>
+	<field name="controller">0</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">140</field>
+	<field name="device">94</field>
+	<field name="group_id">1</field>
+	<field name="label">Group 1</field>
+	<field name="description"></field>
+	<field name="max">2</field>
+	<field name="controller">0</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">141</field>
+	<field name="device">95</field>
+	<field name="group_id">1</field>
+	<field name="label">Group 1</field>
+	<field name="description"></field>
+	<field name="max">2</field>
+	<field name="controller">0</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">142</field>
+	<field name="device">96</field>
+	<field name="group_id">1</field>
+	<field name="label">Group 1</field>
+	<field name="description"></field>
+	<field name="max">2</field>
+	<field name="controller">0</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">143</field>
+	<field name="device">97</field>
+	<field name="group_id">1</field>
+	<field name="label">Group 1</field>
+	<field name="description"></field>
+	<field name="max">2</field>
+	<field name="controller">0</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">144</field>
+	<field name="device">98</field>
+	<field name="group_id">1</field>
+	<field name="label">Group 1</field>
+	<field name="description"></field>
+	<field name="max">2</field>
+	<field name="controller">0</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">145</field>
+	<field name="device">99</field>
+	<field name="group_id">1</field>
+	<field name="label">Group 1</field>
+	<field name="description"></field>
+	<field name="max">2</field>
+	<field name="controller">1</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">146</field>
+	<field name="device">102</field>
+	<field name="group_id">1</field>
+	<field name="label">Wheel position change</field>
+	<field name="description"></field>
+	<field name="max">1</field>
+	<field name="controller">0</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">147</field>
+	<field name="device">102</field>
+	<field name="group_id">2</field>
+	<field name="label">Current leakage on relay</field>
+	<field name="description"></field>
+	<field name="max">1</field>
+	<field name="controller">0</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">148</field>
+	<field name="device">102</field>
+	<field name="group_id">3</field>
+	<field name="label">Power level change</field>
+	<field name="description"></field>
+	<field name="max">1</field>
+	<field name="controller">0</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">149</field>
+	<field name="device">102</field>
+	<field name="group_id">4</field>
+	<field name="label">Over-current detection</field>
+	<field name="description"></field>
+	<field name="max">1</field>
+	<field name="controller">0</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">150</field>
+	<field name="device">103</field>
+	<field name="group_id">1</field>
+	<field name="label">Control Command</field>
+	<field name="description"></field>
+	<field name="max">5</field>
+	<field name="controller">0</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">151</field>
+	<field name="device">104</field>
+	<field name="group_id">1</field>
+	<field name="label">Control Command</field>
+	<field name="description"></field>
+	<field name="max">5</field>
+	<field name="controller">1</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">152</field>
+	<field name="device">105</field>
+	<field name="group_id">1</field>
+	<field name="label">Control Command</field>
+	<field name="description"></field>
+	<field name="max">5</field>
+	<field name="controller">1</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">153</field>
+	<field name="device">106</field>
+	<field name="group_id">1</field>
+	<field name="label">Alarm Messages</field>
+	<field name="description"></field>
+	<field name="max">5</field>
+	<field name="controller">0</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">154</field>
+	<field name="device">107</field>
+	<field name="group_id">1</field>
+	<field name="label">Alarm Messages</field>
+	<field name="description"></field>
+	<field name="max">5</field>
+	<field name="controller">0</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">155</field>
+	<field name="device">111</field>
+	<field name="group_id">1</field>
+	<field name="label">Update Controller</field>
+	<field name="description"></field>
+	<field name="max">5</field>
+	<field name="controller">1</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">156</field>
+	<field name="device">112</field>
+	<field name="group_id">1</field>
+	<field name="label">Update Controller</field>
+	<field name="description"></field>
+	<field name="max">5</field>
+	<field name="controller">1</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">157</field>
+	<field name="device">113</field>
+	<field name="group_id">1</field>
+	<field name="label">Update Controller</field>
+	<field name="description"></field>
+	<field name="max">5</field>
+	<field name="controller">1</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">158</field>
+	<field name="device">114</field>
+	<field name="group_id">1</field>
+	<field name="label">Switch 1</field>
+	<field name="description"></field>
+	<field name="max">16</field>
+	<field name="controller">0</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">159</field>
+	<field name="device">114</field>
+	<field name="group_id">2</field>
+	<field name="label">Switch 2</field>
+	<field name="description"></field>
+	<field name="max">16</field>
+	<field name="controller">0</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">160</field>
+	<field name="device">114</field>
+	<field name="group_id">3</field>
+	<field name="label">Controller Updates</field>
+	<field name="description"></field>
+	<field name="max">1</field>
+	<field name="controller">1</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">161</field>
+	<field name="device">115</field>
+	<field name="group_id">1</field>
+	<field name="label">Device Status</field>
+	<field name="description"></field>
+	<field name="max">16</field>
+	<field name="controller">0</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">162</field>
+	<field name="device">115</field>
+	<field name="group_id">2</field>
+	<field name="label">Tamper Alarm</field>
+	<field name="description"></field>
+	<field name="max">16</field>
+	<field name="controller">0</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">163</field>
+	<field name="device">115</field>
+	<field name="group_id">3</field>
+	<field name="label">Controller Updates</field>
+	<field name="description"></field>
+	<field name="max">1</field>
+	<field name="controller">1</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">164</field>
+	<field name="device">116</field>
+	<field name="group_id">1</field>
+	<field name="label">Momentary click</field>
+	<field name="description"></field>
+	<field name="max">16</field>
+	<field name="controller">0</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">165</field>
+	<field name="device">116</field>
+	<field name="group_id">2</field>
+	<field name="label">Momentary hold</field>
+	<field name="description"></field>
+	<field name="max">16</field>
+	<field name="controller">0</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">166</field>
+	<field name="device">116</field>
+	<field name="group_id">3</field>
+	<field name="label">Controller Updates</field>
+	<field name="description"></field>
+	<field name="max">1</field>
+	<field name="controller">1</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">167</field>
+	<field name="device">117</field>
+	<field name="group_id">1</field>
+	<field name="label">Switch 1</field>
+	<field name="description"></field>
+	<field name="max">5</field>
+	<field name="controller">0</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">168</field>
+	<field name="device">117</field>
+	<field name="group_id">2</field>
+	<field name="label">Switch 2</field>
+	<field name="description"></field>
+	<field name="max">5</field>
+	<field name="controller">0</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">169</field>
+	<field name="device">117</field>
+	<field name="group_id">3</field>
+	<field name="label">Controller Updates</field>
+	<field name="description"></field>
+	<field name="max">1</field>
+	<field name="controller">1</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">170</field>
+	<field name="device">118</field>
+	<field name="group_id">1</field>
+	<field name="label">Switch 1</field>
+	<field name="description"></field>
+	<field name="max">5</field>
+	<field name="controller">0</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">171</field>
+	<field name="device">118</field>
+	<field name="group_id">2</field>
+	<field name="label">Switch 2</field>
+	<field name="description"></field>
+	<field name="max">5</field>
+	<field name="controller">0</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">172</field>
+	<field name="device">118</field>
+	<field name="group_id">3</field>
+	<field name="label">Controller Updates</field>
+	<field name="description"></field>
+	<field name="max">1</field>
+	<field name="controller">1</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">173</field>
+	<field name="device">119</field>
+	<field name="group_id">1</field>
+	<field name="label">Switch 1</field>
+	<field name="description"></field>
+	<field name="max">5</field>
+	<field name="controller">0</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">174</field>
+	<field name="device">119</field>
+	<field name="group_id">2</field>
+	<field name="label">Switch 2</field>
+	<field name="description"></field>
+	<field name="max">5</field>
+	<field name="controller">0</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">175</field>
+	<field name="device">119</field>
+	<field name="group_id">3</field>
+	<field name="label">Controller Updates</field>
+	<field name="description"></field>
+	<field name="max">1</field>
+	<field name="controller">1</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">176</field>
+	<field name="device">120</field>
+	<field name="group_id">1</field>
+	<field name="label">Switch 1</field>
+	<field name="description"></field>
+	<field name="max">16</field>
+	<field name="controller">0</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">177</field>
+	<field name="device">120</field>
+	<field name="group_id">2</field>
+	<field name="label">Switch 2</field>
+	<field name="description"></field>
+	<field name="max">16</field>
+	<field name="controller">0</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">178</field>
+	<field name="device">120</field>
+	<field name="group_id">3</field>
+	<field name="label">Controller Updates</field>
+	<field name="description"></field>
+	<field name="max">1</field>
+	<field name="controller">1</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">179</field>
+	<field name="device">121</field>
+	<field name="group_id">1</field>
+	<field name="label">Switch 1</field>
+	<field name="description"></field>
+	<field name="max">16</field>
+	<field name="controller">0</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">180</field>
+	<field name="device">121</field>
+	<field name="group_id">2</field>
+	<field name="label">Switch 2</field>
+	<field name="description"></field>
+	<field name="max">16</field>
+	<field name="controller">0</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">181</field>
+	<field name="device">121</field>
+	<field name="group_id">3</field>
+	<field name="label">Controller Updates</field>
+	<field name="description"></field>
+	<field name="max">1</field>
+	<field name="controller">1</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">182</field>
+	<field name="device">122</field>
+	<field name="group_id">1</field>
+	<field name="label">Switch 1</field>
+	<field name="description"></field>
+	<field name="max">16</field>
+	<field name="controller">0</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">183</field>
+	<field name="device">122</field>
+	<field name="group_id">2</field>
+	<field name="label">Switch 2</field>
+	<field name="description"></field>
+	<field name="max">16</field>
+	<field name="controller">0</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">184</field>
+	<field name="device">122</field>
+	<field name="group_id">3</field>
+	<field name="label">Controller Updates</field>
+	<field name="description"></field>
+	<field name="max">1</field>
+	<field name="controller">1</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">185</field>
+	<field name="device">123</field>
+	<field name="group_id">1</field>
+	<field name="label">Switch 1</field>
+	<field name="description"></field>
+	<field name="max">16</field>
+	<field name="controller">0</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">186</field>
+	<field name="device">123</field>
+	<field name="group_id">2</field>
+	<field name="label">Switch 2</field>
+	<field name="description"></field>
+	<field name="max">16</field>
+	<field name="controller">0</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">187</field>
+	<field name="device">123</field>
+	<field name="group_id">3</field>
+	<field name="label">Controller Updates</field>
+	<field name="description"></field>
+	<field name="max">1</field>
+	<field name="controller">1</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">188</field>
+	<field name="device">124</field>
+	<field name="group_id">1</field>
+	<field name="label">Switch 1</field>
+	<field name="description"></field>
+	<field name="max">16</field>
+	<field name="controller">0</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">189</field>
+	<field name="device">124</field>
+	<field name="group_id">2</field>
+	<field name="label">Switch 2</field>
+	<field name="description"></field>
+	<field name="max">16</field>
+	<field name="controller">0</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">190</field>
+	<field name="device">124</field>
+	<field name="group_id">3</field>
+	<field name="label">Controller Updates</field>
+	<field name="description"></field>
+	<field name="max">1</field>
+	<field name="controller">1</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">191</field>
+	<field name="device">125</field>
+	<field name="group_id">1</field>
+	<field name="label">Input IN1</field>
+	<field name="description"></field>
+	<field name="max">5</field>
+	<field name="controller">0</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">192</field>
+	<field name="device">125</field>
+	<field name="group_id">2</field>
+	<field name="label">TMP Button</field>
+	<field name="description"></field>
+	<field name="max">5</field>
+	<field name="controller">0</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">193</field>
+	<field name="device">125</field>
+	<field name="group_id">3</field>
+	<field name="label">Condition</field>
+	<field name="description"></field>
+	<field name="max">1</field>
+	<field name="controller">1</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">194</field>
+	<field name="device">126</field>
+	<field name="group_id">1</field>
+	<field name="label">Input 1</field>
+	<field name="description"></field>
+	<field name="max">5</field>
+	<field name="controller">0</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">195</field>
+	<field name="device">126</field>
+	<field name="group_id">2</field>
+	<field name="label">Input 2</field>
+	<field name="description"></field>
+	<field name="max">5</field>
+	<field name="controller">0</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">196</field>
+	<field name="device">126</field>
+	<field name="group_id">3</field>
+	<field name="label">Controller Updates</field>
+	<field name="description"></field>
+	<field name="max">1</field>
+	<field name="controller">1</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">197</field>
+	<field name="device">127</field>
+	<field name="group_id">1</field>
+	<field name="label">Flood Alarm</field>
+	<field name="description"></field>
+	<field name="max">5</field>
+	<field name="controller">0</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">198</field>
+	<field name="device">127</field>
+	<field name="group_id">2</field>
+	<field name="label">Tilt Sensor</field>
+	<field name="description"></field>
+	<field name="max">5</field>
+	<field name="controller">0</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">199</field>
+	<field name="device">127</field>
+	<field name="group_id">3</field>
+	<field name="label">Device Status</field>
+	<field name="description"></field>
+	<field name="max">1</field>
+	<field name="controller">1</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">200</field>
+	<field name="device">128</field>
+	<field name="group_id">1</field>
+	<field name="label">Fire Status</field>
+	<field name="description"></field>
+	<field name="max">5</field>
+	<field name="controller">0</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">201</field>
+	<field name="device">128</field>
+	<field name="group_id">2</field>
+	<field name="label">TMP Button</field>
+	<field name="description"></field>
+	<field name="max">5</field>
+	<field name="controller">0</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">202</field>
+	<field name="device">128</field>
+	<field name="group_id">3</field>
+	<field name="label">Device Status</field>
+	<field name="description"></field>
+	<field name="max">1</field>
+	<field name="controller">1</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">203</field>
+	<field name="device">129</field>
+	<field name="group_id">1</field>
+	<field name="label">Device Status</field>
+	<field name="description"></field>
+	<field name="max">1</field>
+	<field name="controller">1</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">204</field>
+	<field name="device">129</field>
+	<field name="group_id">2</field>
+	<field name="label">Smoke Alarm</field>
+	<field name="description"></field>
+	<field name="max">5</field>
+	<field name="controller">0</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">205</field>
+	<field name="device">129</field>
+	<field name="group_id">3</field>
+	<field name="label">Tamper Alarm</field>
+	<field name="description"></field>
+	<field name="max">5</field>
+	<field name="controller">0</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">206</field>
+	<field name="device">129</field>
+	<field name="group_id">4</field>
+	<field name="label">Fire Alarm</field>
+	<field name="description"></field>
+	<field name="max">5</field>
+	<field name="controller">0</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">207</field>
+	<field name="device">129</field>
+	<field name="group_id">5</field>
+	<field name="label">Tamper Alarm</field>
+	<field name="description"></field>
+	<field name="max">5</field>
+	<field name="controller">0</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">208</field>
+	<field name="device">130</field>
+	<field name="group_id">1</field>
+	<field name="label">Group 1</field>
+	<field name="description"></field>
+	<field name="max">16</field>
+	<field name="controller">0</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">209</field>
+	<field name="device">130</field>
+	<field name="group_id">2</field>
+	<field name="label">Group 2</field>
+	<field name="description"></field>
+	<field name="max">16</field>
+	<field name="controller">0</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">210</field>
+	<field name="device">130</field>
+	<field name="group_id">3</field>
+	<field name="label">Controller Updates</field>
+	<field name="description"></field>
+	<field name="max">1</field>
+	<field name="controller">1</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">211</field>
+	<field name="device">131</field>
+	<field name="group_id">1</field>
+	<field name="label">Assigned to IN1 input</field>
+	<field name="description"></field>
+	<field name="max">5</field>
+	<field name="controller">0</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">212</field>
+	<field name="device">131</field>
+	<field name="group_id">2</field>
+	<field name="label">Assigned to IN2 input</field>
+	<field name="description"></field>
+	<field name="max">5</field>
+	<field name="controller">0</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">213</field>
+	<field name="device">131</field>
+	<field name="group_id">3</field>
+	<field name="label">Assigned to IN3 input</field>
+	<field name="description"></field>
+	<field name="max">5</field>
+	<field name="controller">0</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">214</field>
+	<field name="device">131</field>
+	<field name="group_id">4</field>
+	<field name="label">Assigned to IN4 input</field>
+	<field name="description"></field>
+	<field name="max">5</field>
+	<field name="controller">0</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">215</field>
+	<field name="device">131</field>
+	<field name="group_id">5</field>
+	<field name="label">Reports device status</field>
+	<field name="description"></field>
+	<field name="max">1</field>
+	<field name="controller">1</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">216</field>
+	<field name="device">132</field>
+	<field name="group_id">1</field>
+	<field name="label">Group 1</field>
+	<field name="description"></field>
+	<field name="max">16</field>
+	<field name="controller">0</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">217</field>
+	<field name="device">132</field>
+	<field name="group_id">2</field>
+	<field name="label">Group 2</field>
+	<field name="description"></field>
+	<field name="max">16</field>
+	<field name="controller">0</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">218</field>
+	<field name="device">132</field>
+	<field name="group_id">3</field>
+	<field name="label">Controller Updates</field>
+	<field name="description"></field>
+	<field name="max">1</field>
+	<field name="controller">1</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">219</field>
+	<field name="device">133</field>
+	<field name="group_id">1</field>
+	<field name="label">Lifeline - Controller Updates</field>
+	<field name="description"></field>
+	<field name="max">1</field>
+	<field name="controller">1</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">220</field>
+	<field name="device">133</field>
+	<field name="group_id">2</field>
+	<field name="label">Sends BASIC SET command class frame according to the state of the devi</field>
+	<field name="description"></field>
+	<field name="max">10</field>
+	<field name="controller">0</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">221</field>
+	<field name="device">133</field>
+	<field name="group_id">3</field>
+	<field name="label">Sends BASIC SET command class frame according to the state of the devi</field>
+	<field name="description"></field>
+	<field name="max">10</field>
+	<field name="controller">0</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">222</field>
+	<field name="device">133</field>
+	<field name="group_id">4</field>
+	<field name="label">Sends BASIC SET command class frame according to the state of the devi</field>
+	<field name="description"></field>
+	<field name="max">10</field>
+	<field name="controller">0</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">223</field>
+	<field name="device">133</field>
+	<field name="group_id">5</field>
+	<field name="label">Sends BASIC SET command class frame according to the state of the devi</field>
+	<field name="description"></field>
+	<field name="max">10</field>
+	<field name="controller">0</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">224</field>
+	<field name="device">134</field>
+	<field name="group_id">1</field>
+	<field name="label">Fire Status</field>
+	<field name="description"></field>
+	<field name="max">5</field>
+	<field name="controller">0</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">225</field>
+	<field name="device">134</field>
+	<field name="group_id">2</field>
+	<field name="label">TMP Button</field>
+	<field name="description"></field>
+	<field name="max">5</field>
+	<field name="controller">0</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">226</field>
+	<field name="device">134</field>
+	<field name="group_id">3</field>
+	<field name="label">Device Status</field>
+	<field name="description"></field>
+	<field name="max">1</field>
+	<field name="controller">1</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">227</field>
+	<field name="device">136</field>
+	<field name="group_id">1</field>
+	<field name="label">Group 1</field>
+	<field name="description"></field>
+	<field name="max">5</field>
+	<field name="controller">0</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">228</field>
+	<field name="device">136</field>
+	<field name="group_id">2</field>
+	<field name="label">Group 2</field>
+	<field name="description"></field>
+	<field name="max">5</field>
+	<field name="controller">0</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">229</field>
+	<field name="device">137</field>
+	<field name="group_id">1</field>
+	<field name="label">Group 1</field>
+	<field name="description"></field>
+	<field name="max">5</field>
+	<field name="controller">0</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">230</field>
+	<field name="device">139</field>
+	<field name="group_id">1</field>
+	<field name="label">Group 1</field>
+	<field name="description"></field>
+	<field name="max">5</field>
+	<field name="controller">1</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">231</field>
+	<field name="device">139</field>
+	<field name="group_id">2</field>
+	<field name="label">Group 2</field>
+	<field name="description"></field>
+	<field name="max">5</field>
+	<field name="controller">0</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">232</field>
+	<field name="device">140</field>
+	<field name="group_id">1</field>
+	<field name="label">Association Group</field>
+	<field name="description"></field>
+	<field name="max">4</field>
+	<field name="controller">0</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">233</field>
+	<field name="device">141</field>
+	<field name="group_id">1</field>
+	<field name="label">Group 1</field>
+	<field name="description"></field>
+	<field name="max">5</field>
+	<field name="controller">0</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">234</field>
+	<field name="device">141</field>
+	<field name="group_id">2</field>
+	<field name="label">Group 2</field>
+	<field name="description"></field>
+	<field name="max">5</field>
+	<field name="controller">0</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">235</field>
+	<field name="device">141</field>
+	<field name="group_id">3</field>
+	<field name="label">Group 3</field>
+	<field name="description"></field>
+	<field name="max">5</field>
+	<field name="controller">0</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">236</field>
+	<field name="device">142</field>
+	<field name="group_id">1</field>
+	<field name="label">Group 1</field>
+	<field name="description"></field>
+	<field name="max">5</field>
+	<field name="controller">0</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">237</field>
+	<field name="device">142</field>
+	<field name="group_id">2</field>
+	<field name="label">Group 2</field>
+	<field name="description"></field>
+	<field name="max">5</field>
+	<field name="controller">0</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">238</field>
+	<field name="device">143</field>
+	<field name="group_id">1</field>
+	<field name="label">Group 1</field>
+	<field name="description"></field>
+	<field name="max">8</field>
+	<field name="controller">0</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">239</field>
+	<field name="device">143</field>
+	<field name="group_id">2</field>
+	<field name="label">Group 2</field>
+	<field name="description"></field>
+	<field name="max">8</field>
+	<field name="controller">0</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">240</field>
+	<field name="device">143</field>
+	<field name="group_id">3</field>
+	<field name="label">Group 3</field>
+	<field name="description"></field>
+	<field name="max">8</field>
+	<field name="controller">0</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">241</field>
+	<field name="device">144</field>
+	<field name="group_id">1</field>
+	<field name="label">Single press and hold of up/down buttons</field>
+	<field name="description"></field>
+	<field name="max">8</field>
+	<field name="controller">0</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">242</field>
+	<field name="device">144</field>
+	<field name="group_id">2</field>
+	<field name="label">Double press and press-hold of up/down buttons</field>
+	<field name="description"></field>
+	<field name="max">8</field>
+	<field name="controller">0</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">243</field>
+	<field name="device">144</field>
+	<field name="group_id">3</field>
+	<field name="label">Send Reports on blind state change</field>
+	<field name="description"></field>
+	<field name="max">8</field>
+	<field name="controller">1</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">244</field>
+	<field name="device">145</field>
+	<field name="group_id">1</field>
+	<field name="label">Lifeline</field>
+	<field name="description"></field>
+	<field name="max">10</field>
+	<field name="controller">0</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">245</field>
+	<field name="device">145</field>
+	<field name="group_id">2</field>
+	<field name="label">Group 1</field>
+	<field name="description"></field>
+	<field name="max">10</field>
+	<field name="controller">0</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">246</field>
+	<field name="device">145</field>
+	<field name="group_id">3</field>
+	<field name="label">Group 2</field>
+	<field name="description"></field>
+	<field name="max">10</field>
+	<field name="controller">0</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">247</field>
+	<field name="device">145</field>
+	<field name="group_id">4</field>
+	<field name="label">Group 3</field>
+	<field name="description"></field>
+	<field name="max">10</field>
+	<field name="controller">0</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">248</field>
+	<field name="device">145</field>
+	<field name="group_id">5</field>
+	<field name="label">Group 4</field>
+	<field name="description"></field>
+	<field name="max">10</field>
+	<field name="controller">0</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">249</field>
+	<field name="device">146</field>
+	<field name="group_id">1</field>
+	<field name="label">Controlled by button 1 or single clicks of buttons 1 and 3</field>
+	<field name="description"></field>
+	<field name="max">8</field>
+	<field name="controller">0</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">250</field>
+	<field name="device">146</field>
+	<field name="group_id">2</field>
+	<field name="label">Controlled by button 3 or double clicks of buttons 1 and 3</field>
+	<field name="description"></field>
+	<field name="max">8</field>
+	<field name="controller">0</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">251</field>
+	<field name="device">146</field>
+	<field name="group_id">3</field>
+	<field name="label">Controlled by button 2 or single clicks of buttons 2 and 4</field>
+	<field name="description"></field>
+	<field name="max">8</field>
+	<field name="controller">0</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">252</field>
+	<field name="device">146</field>
+	<field name="group_id">4</field>
+	<field name="label">Controlled by button 4 or double clicks of buttons 2 and 4</field>
+	<field name="description"></field>
+	<field name="max">8</field>
+	<field name="controller">0</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">253</field>
+	<field name="device">147</field>
+	<field name="group_id">1</field>
+	<field name="label">Group 1</field>
+	<field name="description"></field>
+	<field name="max">8</field>
+	<field name="controller">0</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">254</field>
+	<field name="device">147</field>
+	<field name="group_id">2</field>
+	<field name="label">Group 2</field>
+	<field name="description"></field>
+	<field name="max">8</field>
+	<field name="controller">0</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">255</field>
+	<field name="device">147</field>
+	<field name="group_id">3</field>
+	<field name="label">Group 3</field>
+	<field name="description"></field>
+	<field name="max">8</field>
+	<field name="controller">0</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">256</field>
+	<field name="device">147</field>
+	<field name="group_id">4</field>
+	<field name="label">Group 4</field>
+	<field name="description"></field>
+	<field name="max">8</field>
+	<field name="controller">0</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">257</field>
+	<field name="device">148</field>
+	<field name="group_id">1</field>
+	<field name="label">Single Press</field>
+	<field name="description"></field>
+	<field name="max">10</field>
+	<field name="controller">0</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">258</field>
+	<field name="device">148</field>
+	<field name="group_id">2</field>
+	<field name="label">Double Press</field>
+	<field name="description"></field>
+	<field name="max">10</field>
+	<field name="controller">0</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">259</field>
+	<field name="device">149</field>
+	<field name="group_id">1</field>
+	<field name="label">Lifeline. Send to controller battery level and WakeUp Notification</field>
+	<field name="description"></field>
+	<field name="max">5</field>
+	<field name="controller">1</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">260</field>
+	<field name="device">149</field>
+	<field name="group_id">2</field>
+	<field name="label">The buttons of group No1</field>
+	<field name="description"></field>
+	<field name="max">5</field>
+	<field name="controller">0</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">261</field>
+	<field name="device">149</field>
+	<field name="group_id">3</field>
+	<field name="label">The buttons of group No2</field>
+	<field name="description"></field>
+	<field name="max">5</field>
+	<field name="controller">0</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">262</field>
+	<field name="device">149</field>
+	<field name="group_id">4</field>
+	<field name="label">The buttons of group No3</field>
+	<field name="description"></field>
+	<field name="max">5</field>
+	<field name="controller">0</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">263</field>
+	<field name="device">149</field>
+	<field name="group_id">5</field>
+	<field name="label">The buttons of group No4</field>
+	<field name="description"></field>
+	<field name="max">5</field>
+	<field name="controller">0</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">264</field>
+	<field name="device">149</field>
+	<field name="group_id">6</field>
+	<field name="label">The buttons of group No5</field>
+	<field name="description"></field>
+	<field name="max">5</field>
+	<field name="controller">0</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">265</field>
+	<field name="device">149</field>
+	<field name="group_id">7</field>
+	<field name="label">The buttons of group No6</field>
+	<field name="description"></field>
+	<field name="max">5</field>
+	<field name="controller">0</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">266</field>
+	<field name="device">149</field>
+	<field name="group_id">8</field>
+	<field name="label">The buttons of group No7</field>
+	<field name="description"></field>
+	<field name="max">5</field>
+	<field name="controller">0</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">267</field>
+	<field name="device">149</field>
+	<field name="group_id">9</field>
+	<field name="label">The buttons of scene No1</field>
+	<field name="description"></field>
+	<field name="max">5</field>
+	<field name="controller">0</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">268</field>
+	<field name="device">149</field>
+	<field name="group_id">10</field>
+	<field name="label">The buttons of scene No2</field>
+	<field name="description"></field>
+	<field name="max">5</field>
+	<field name="controller">0</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">269</field>
+	<field name="device">149</field>
+	<field name="group_id">11</field>
+	<field name="label">The buttons of scene No3</field>
+	<field name="description"></field>
+	<field name="max">5</field>
+	<field name="controller">0</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">270</field>
+	<field name="device">149</field>
+	<field name="group_id">12</field>
+	<field name="label">The buttons of All On/Off</field>
+	<field name="description"></field>
+	<field name="max">5</field>
+	<field name="controller">0</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">271</field>
+	<field name="device">150</field>
+	<field name="group_id">1</field>
+	<field name="label">Group 1</field>
+	<field name="description"></field>
+	<field name="max">14</field>
+	<field name="controller">0</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">272</field>
+	<field name="device">150</field>
+	<field name="group_id">2</field>
+	<field name="label">Group 2</field>
+	<field name="description"></field>
+	<field name="max">14</field>
+	<field name="controller">0</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">273</field>
+	<field name="device">150</field>
+	<field name="group_id">3</field>
+	<field name="label">Group 3</field>
+	<field name="description"></field>
+	<field name="max">5</field>
+	<field name="controller">1</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">274</field>
+	<field name="device">155</field>
+	<field name="group_id">1</field>
+	<field name="label">Group 1</field>
+	<field name="description"></field>
+	<field name="max">5</field>
+	<field name="controller">0</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">275</field>
+	<field name="device">155</field>
+	<field name="group_id">2</field>
+	<field name="label">Group 2</field>
+	<field name="description"></field>
+	<field name="max">5</field>
+	<field name="controller">0</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">276</field>
+	<field name="device">155</field>
+	<field name="group_id">3</field>
+	<field name="label">Group 3</field>
+	<field name="description"></field>
+	<field name="max">5</field>
+	<field name="controller">0</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">277</field>
+	<field name="device">155</field>
+	<field name="group_id">4</field>
+	<field name="label">Group 4</field>
+	<field name="description"></field>
+	<field name="max">5</field>
+	<field name="controller">1</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">278</field>
+	<field name="device">156</field>
+	<field name="group_id">1</field>
+	<field name="label">Relay 1 + 2</field>
+	<field name="description"></field>
+	<field name="max">1</field>
+	<field name="controller">0</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">279</field>
+	<field name="device">156</field>
+	<field name="group_id">2</field>
+	<field name="label">Relay 1</field>
+	<field name="description"></field>
+	<field name="max">1</field>
+	<field name="controller">0</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">280</field>
+	<field name="device">156</field>
+	<field name="group_id">3</field>
+	<field name="label">Relay 2</field>
+	<field name="description"></field>
+	<field name="max">1</field>
+	<field name="controller">0</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">281</field>
+	<field name="device">157</field>
+	<field name="group_id">1</field>
+	<field name="label">Group 1</field>
+	<field name="description"></field>
+	<field name="max">5</field>
+	<field name="controller">0</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">282</field>
+	<field name="device">157</field>
+	<field name="group_id">2</field>
+	<field name="label">Group 2</field>
+	<field name="description"></field>
+	<field name="max">5</field>
+	<field name="controller">0</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">283</field>
+	<field name="device">157</field>
+	<field name="group_id">3</field>
+	<field name="label">Group 3</field>
+	<field name="description"></field>
+	<field name="max">5</field>
+	<field name="controller">0</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">284</field>
+	<field name="device">157</field>
+	<field name="group_id">4</field>
+	<field name="label">Group 4</field>
+	<field name="description"></field>
+	<field name="max">5</field>
+	<field name="controller">1</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">285</field>
+	<field name="device">160</field>
+	<field name="group_id">1</field>
+	<field name="label">Target for automatic reports</field>
+	<field name="description"></field>
+	<field name="max">5</field>
+	<field name="controller">1</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">286</field>
+	<field name="device">161</field>
+	<field name="group_id">1</field>
+	<field name="label">Target for automatic reports</field>
+	<field name="description"></field>
+	<field name="max">1</field>
+	<field name="controller">1</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">287</field>
+	<field name="device">162</field>
+	<field name="group_id">1</field>
+	<field name="label">Light Control</field>
+	<field name="description"></field>
+	<field name="max">7</field>
+	<field name="controller">0</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">288</field>
+	<field name="device">162</field>
+	<field name="group_id">2</field>
+	<field name="label">Reports</field>
+	<field name="description"></field>
+	<field name="max">7</field>
+	<field name="controller">0</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">289</field>
+	<field name="device">163</field>
+	<field name="group_id">1</field>
+	<field name="label">Target for Wakeup and Override Notifications</field>
+	<field name="description"></field>
+	<field name="max">1</field>
+	<field name="controller">1</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">290</field>
+	<field name="device">164</field>
+	<field name="group_id">1</field>
+	<field name="label">Target for Wakeup and Override Notifications</field>
+	<field name="description"></field>
+	<field name="max">1</field>
+	<field name="controller">1</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">291</field>
+	<field name="device">165</field>
+	<field name="group_id">1</field>
+	<field name="label">Target for Wakeup and Override Notifications</field>
+	<field name="description"></field>
+	<field name="max">1</field>
+	<field name="controller">1</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">292</field>
+	<field name="device">167</field>
+	<field name="group_id">1</field>
+	<field name="label">Reports</field>
+	<field name="description"></field>
+	<field name="max">7</field>
+	<field name="controller">0</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">293</field>
+	<field name="device">167</field>
+	<field name="group_id">2</field>
+	<field name="label">Light Control</field>
+	<field name="description"></field>
+	<field name="max">7</field>
+	<field name="controller">0</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">294</field>
+	<field name="device">168</field>
+	<field name="group_id">1</field>
+	<field name="label">Reports</field>
+	<field name="description"></field>
+	<field name="max">8</field>
+	<field name="controller">1</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">295</field>
+	<field name="device">168</field>
+	<field name="group_id">2</field>
+	<field name="label">Light Control</field>
+	<field name="description"></field>
+	<field name="max">8</field>
+	<field name="controller">0</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">296</field>
+	<field name="device">169</field>
+	<field name="group_id">1</field>
+	<field name="label">Reports</field>
+	<field name="description"></field>
+	<field name="max">7</field>
+	<field name="controller">0</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">297</field>
+	<field name="device">169</field>
+	<field name="group_id">2</field>
+	<field name="label">Light Control</field>
+	<field name="description"></field>
+	<field name="max">7</field>
+	<field name="controller">0</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">298</field>
+	<field name="device">170</field>
+	<field name="group_id">1</field>
+	<field name="label">Reports</field>
+	<field name="description"></field>
+	<field name="max">8</field>
+	<field name="controller">1</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">299</field>
+	<field name="device">170</field>
+	<field name="group_id">2</field>
+	<field name="label">Light Control</field>
+	<field name="description"></field>
+	<field name="max">8</field>
+	<field name="controller">0</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">300</field>
+	<field name="device">171</field>
+	<field name="group_id">1</field>
+	<field name="label">Relay 1 + 2</field>
+	<field name="description"></field>
+	<field name="max">1</field>
+	<field name="controller">0</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">301</field>
+	<field name="device">171</field>
+	<field name="group_id">2</field>
+	<field name="label">Relay 1</field>
+	<field name="description"></field>
+	<field name="max">1</field>
+	<field name="controller">0</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">302</field>
+	<field name="device">171</field>
+	<field name="group_id">3</field>
+	<field name="label">Relay 2</field>
+	<field name="description"></field>
+	<field name="max">1</field>
+	<field name="controller">0</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">303</field>
+	<field name="device">172</field>
+	<field name="group_id">1</field>
+	<field name="label">Relay 1 + 2</field>
+	<field name="description"></field>
+	<field name="max">1</field>
+	<field name="controller">0</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">304</field>
+	<field name="device">172</field>
+	<field name="group_id">2</field>
+	<field name="label">Relay 1</field>
+	<field name="description"></field>
+	<field name="max">1</field>
+	<field name="controller">1</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">305</field>
+	<field name="device">172</field>
+	<field name="group_id">3</field>
+	<field name="label">Relay 2</field>
+	<field name="description"></field>
+	<field name="max">1</field>
+	<field name="controller">1</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">306</field>
+	<field name="device">173</field>
+	<field name="group_id">1</field>
+	<field name="label">Relay 1 + 2</field>
+	<field name="description"></field>
+	<field name="max">1</field>
+	<field name="controller">0</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">307</field>
+	<field name="device">173</field>
+	<field name="group_id">2</field>
+	<field name="label">Relay 1</field>
+	<field name="description"></field>
+	<field name="max">1</field>
+	<field name="controller">0</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">308</field>
+	<field name="device">173</field>
+	<field name="group_id">3</field>
+	<field name="label">Relay 2</field>
+	<field name="description"></field>
+	<field name="max">1</field>
+	<field name="controller">0</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">309</field>
+	<field name="device">174</field>
+	<field name="group_id">1</field>
+	<field name="label">Relay 1 + 2</field>
+	<field name="description"></field>
+	<field name="max">1</field>
+	<field name="controller">0</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">310</field>
+	<field name="device">174</field>
+	<field name="group_id">2</field>
+	<field name="label">Relay 1</field>
+	<field name="description"></field>
+	<field name="max">1</field>
+	<field name="controller">0</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">311</field>
+	<field name="device">174</field>
+	<field name="group_id">3</field>
+	<field name="label">Relay 2</field>
+	<field name="description"></field>
+	<field name="max">1</field>
+	<field name="controller">0</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">312</field>
+	<field name="device">175</field>
+	<field name="group_id">1</field>
+	<field name="label">Blind Control</field>
+	<field name="description"></field>
+	<field name="max">1</field>
+	<field name="controller">0</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">313</field>
+	<field name="device">176</field>
+	<field name="group_id">1</field>
+	<field name="label">Reports</field>
+	<field name="description"></field>
+	<field name="max">1</field>
+	<field name="controller">1</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">314</field>
+	<field name="device">177</field>
+	<field name="group_id">1</field>
+	<field name="label">Reports</field>
+	<field name="description"></field>
+	<field name="max">1</field>
+	<field name="controller">1</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">315</field>
+	<field name="device">178</field>
+	<field name="group_id">1</field>
+	<field name="label">Reports</field>
+	<field name="description"></field>
+	<field name="max">8</field>
+	<field name="controller">1</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">316</field>
+	<field name="device">178</field>
+	<field name="group_id">2</field>
+	<field name="label">Light Control</field>
+	<field name="description"></field>
+	<field name="max">8</field>
+	<field name="controller">0</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">317</field>
+	<field name="device">182</field>
+	<field name="group_id">1</field>
+	<field name="label">Relationship of devices in the network</field>
+	<field name="description"></field>
+	<field name="max">5</field>
+	<field name="controller">0</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">318</field>
+	<field name="device">186</field>
+	<field name="group_id">1</field>
+	<field name="label">Reports</field>
+	<field name="description"></field>
+	<field name="max">5</field>
+	<field name="controller">1</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">319</field>
+	<field name="device">187</field>
+	<field name="group_id">1</field>
+	<field name="label">Group 1</field>
+	<field name="description"></field>
+	<field name="max">5</field>
+	<field name="controller">0</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">320</field>
+	<field name="device">187</field>
+	<field name="group_id">2</field>
+	<field name="label">Group 2</field>
+	<field name="description"></field>
+	<field name="max">5</field>
+	<field name="controller">0</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">321</field>
+	<field name="device">187</field>
+	<field name="group_id">3</field>
+	<field name="label">Group 3</field>
+	<field name="description"></field>
+	<field name="max">5</field>
+	<field name="controller">0</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">322</field>
+	<field name="device">187</field>
+	<field name="group_id">4</field>
+	<field name="label">Group 4</field>
+	<field name="description"></field>
+	<field name="max">5</field>
+	<field name="controller">0</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">323</field>
+	<field name="device">187</field>
+	<field name="group_id">5</field>
+	<field name="label">Group 5</field>
+	<field name="description"></field>
+	<field name="max">5</field>
+	<field name="controller">0</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">324</field>
+	<field name="device">187</field>
+	<field name="group_id">6</field>
+	<field name="label">Group 6</field>
+	<field name="description"></field>
+	<field name="max">5</field>
+	<field name="controller">0</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">325</field>
+	<field name="device">187</field>
+	<field name="group_id">7</field>
+	<field name="label">Group 7</field>
+	<field name="description"></field>
+	<field name="max">5</field>
+	<field name="controller">0</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">326</field>
+	<field name="device">188</field>
+	<field name="group_id">1</field>
+	<field name="label">Left paddle (relais)</field>
+	<field name="description"></field>
+	<field name="max">5</field>
+	<field name="controller">0</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">327</field>
+	<field name="device">188</field>
+	<field name="group_id">2</field>
+	<field name="label">Right paddle</field>
+	<field name="description"></field>
+	<field name="max">5</field>
+	<field name="controller">0</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">328</field>
+	<field name="device">188</field>
+	<field name="group_id">3</field>
+	<field name="label">Right double click paddle</field>
+	<field name="description"></field>
+	<field name="max">5</field>
+	<field name="controller">0</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">329</field>
+	<field name="device">188</field>
+	<field name="group_id">4</field>
+	<field name="label">Group used to inform devices about the updates of
+				status of the Z</field>
+	<field name="description"></field>
+	<field name="max">5</field>
+	<field name="controller">1</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">330</field>
+	<field name="device">189</field>
+	<field name="group_id">1</field>
+	<field name="label">Motion</field>
+	<field name="description"></field>
+	<field name="max">5</field>
+	<field name="controller">0</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">331</field>
+	<field name="device">189</field>
+	<field name="group_id">2</field>
+	<field name="label">Tamper</field>
+	<field name="description"></field>
+	<field name="max">5</field>
+	<field name="controller">0</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">332</field>
+	<field name="device">189</field>
+	<field name="group_id">3</field>
+	<field name="label">Battery</field>
+	<field name="description"></field>
+	<field name="max">5</field>
+	<field name="controller">0</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">333</field>
+	<field name="device">190</field>
+	<field name="group_id">1</field>
+	<field name="label">Group 1</field>
+	<field name="description"></field>
+	<field name="max">5</field>
+	<field name="controller">1</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">334</field>
+	<field name="device">191</field>
+	<field name="group_id">1</field>
+	<field name="label">Group 1</field>
+	<field name="description"></field>
+	<field name="max">5</field>
+	<field name="controller">1</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">335</field>
+	<field name="device">192</field>
+	<field name="group_id">1</field>
+	<field name="label">Group 1</field>
+	<field name="description"></field>
+	<field name="max">5</field>
+	<field name="controller">1</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">336</field>
+	<field name="device">193</field>
+	<field name="group_id">1</field>
+	<field name="label">Group 1</field>
+	<field name="description"></field>
+	<field name="max">5</field>
+	<field name="controller">1</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">337</field>
+	<field name="device">194</field>
+	<field name="group_id">1</field>
+	<field name="label">Group 1</field>
+	<field name="description"></field>
+	<field name="max">232</field>
+	<field name="controller">0</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">338</field>
+	<field name="device">197</field>
+	<field name="group_id">1</field>
+	<field name="label">Group 1</field>
+	<field name="description"></field>
+	<field name="max">232</field>
+	<field name="controller">0</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">339</field>
+	<field name="device">197</field>
+	<field name="group_id">2</field>
+	<field name="label">Group 2</field>
+	<field name="description"></field>
+	<field name="max">232</field>
+	<field name="controller">0</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">340</field>
+	<field name="device">197</field>
+	<field name="group_id">3</field>
+	<field name="label">Group 3</field>
+	<field name="description"></field>
+	<field name="max">232</field>
+	<field name="controller">0</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">341</field>
+	<field name="device">197</field>
+	<field name="group_id">4</field>
+	<field name="label">Group 4</field>
+	<field name="description"></field>
+	<field name="max">232</field>
+	<field name="controller">0</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">342</field>
+	<field name="device">198</field>
+	<field name="group_id">1</field>
+	<field name="label">Group 1</field>
+	<field name="description"></field>
+	<field name="max">232</field>
+	<field name="controller">0</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">343</field>
+	<field name="device">198</field>
+	<field name="group_id">2</field>
+	<field name="label">Group 2</field>
+	<field name="description"></field>
+	<field name="max">232</field>
+	<field name="controller">0</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">344</field>
+	<field name="device">198</field>
+	<field name="group_id">3</field>
+	<field name="label">Group 3</field>
+	<field name="description"></field>
+	<field name="max">232</field>
+	<field name="controller">0</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">345</field>
+	<field name="device">198</field>
+	<field name="group_id">4</field>
+	<field name="label">Group 4</field>
+	<field name="description"></field>
+	<field name="max">232</field>
+	<field name="controller">0</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">346</field>
+	<field name="device">203</field>
+	<field name="group_id">1</field>
+	<field name="label">Heat Pump</field>
+	<field name="description"></field>
+	<field name="max">4</field>
+	<field name="controller">0</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">347</field>
+	<field name="device">203</field>
+	<field name="group_id">2</field>
+	<field name="label">Compressor</field>
+	<field name="description"></field>
+	<field name="max">4</field>
+	<field name="controller">0</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">348</field>
+	<field name="device">203</field>
+	<field name="group_id">3</field>
+	<field name="label">Controller Update</field>
+	<field name="description"></field>
+	<field name="max">1</field>
+	<field name="controller">1</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">349</field>
+	<field name="device">205</field>
+	<field name="group_id">1</field>
+	<field name="label">basic on/off (triggered at change of the output 
+Q state and reflecti</field>
+	<field name="description"></field>
+	<field name="max">4</field>
+	<field name="controller">0</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">350</field>
+	<field name="device">205</field>
+	<field name="group_id">2</field>
+	<field name="label"> basic on/off (triggered at change of the input I2 
+state and reflect</field>
+	<field name="description"></field>
+	<field name="max">4</field>
+	<field name="controller">0</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">351</field>
+	<field name="device">205</field>
+	<field name="group_id">3</field>
+	<field name="label"> basic on/off (triggered at change of the input I3 
+state and reflect</field>
+	<field name="description"></field>
+	<field name="max">4</field>
+	<field name="controller">0</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">352</field>
+	<field name="device">205</field>
+	<field name="group_id">4</field>
+	<field name="label">Controller Updates</field>
+	<field name="description"></field>
+	<field name="max">1</field>
+	<field name="controller">1</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">353</field>
+	<field name="device">206</field>
+	<field name="group_id">1</field>
+	<field name="label">Lifeline to Controller (reserved for communication with the main contr</field>
+	<field name="description"></field>
+	<field name="max">1</field>
+	<field name="controller">1</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">354</field>
+	<field name="device">206</field>
+	<field name="group_id">2</field>
+	<field name="label">Basic on/off (triggered at change of the input Q 
+state and reflectin</field>
+	<field name="description"></field>
+	<field name="max">16</field>
+	<field name="controller">0</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">355</field>
+	<field name="device">206</field>
+	<field name="group_id">3</field>
+	<field name="label">Basic on/off (triggered at change of the input I2 
+state and reflecti</field>
+	<field name="description"></field>
+	<field name="max">16</field>
+	<field name="controller">0</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">356</field>
+	<field name="device">206</field>
+	<field name="group_id">4</field>
+	<field name="label">Notification report (triggered at change of the input I2 
+state and r</field>
+	<field name="description"></field>
+	<field name="max">16</field>
+	<field name="controller">0</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">357</field>
+	<field name="device">206</field>
+	<field name="group_id">5</field>
+	<field name="label">Binary Sensor (triggered at change of the input I2 
+state and reflect</field>
+	<field name="description"></field>
+	<field name="max">16</field>
+	<field name="controller">0</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">358</field>
+	<field name="device">206</field>
+	<field name="group_id">6</field>
+	<field name="label">Basic on/off (triggered at change of the input I3 
+state and reflecti</field>
+	<field name="description"></field>
+	<field name="max">16</field>
+	<field name="controller">0</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">359</field>
+	<field name="device">206</field>
+	<field name="group_id">7</field>
+	<field name="label">Notification report (triggered at change of the input I3
+state and re</field>
+	<field name="description"></field>
+	<field name="max">16</field>
+	<field name="controller">0</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">360</field>
+	<field name="device">206</field>
+	<field name="group_id">8</field>
+	<field name="label">Binary Sensor report(triggered at change of the input I3 
+state and r</field>
+	<field name="description"></field>
+	<field name="max">16</field>
+	<field name="controller">0</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">361</field>
+	<field name="device">206</field>
+	<field name="group_id">9</field>
+	<field name="label">Multilevel Sensor report (triggered at change of temperature sensor)</field>
+	<field name="description"></field>
+	<field name="max">16</field>
+	<field name="controller">0</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">362</field>
+	<field name="device">207</field>
+	<field name="group_id">1</field>
+	<field name="label">Lifeline to Controller (reserved for communication with the main contr</field>
+	<field name="description"></field>
+	<field name="max">1</field>
+	<field name="controller">1</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">363</field>
+	<field name="device">207</field>
+	<field name="group_id">2</field>
+	<field name="label">Basic on/off (triggered at change of the input Q 
+state and reflectin</field>
+	<field name="description"></field>
+	<field name="max">16</field>
+	<field name="controller">0</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">364</field>
+	<field name="device">207</field>
+	<field name="group_id">3</field>
+	<field name="label">Basic on/off (triggered at change of the input I2 
+state and reflecti</field>
+	<field name="description"></field>
+	<field name="max">16</field>
+	<field name="controller">0</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">365</field>
+	<field name="device">207</field>
+	<field name="group_id">4</field>
+	<field name="label">Notification report (triggered at change of the input I2 
+state and r</field>
+	<field name="description"></field>
+	<field name="max">16</field>
+	<field name="controller">0</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">366</field>
+	<field name="device">207</field>
+	<field name="group_id">5</field>
+	<field name="label">Binary Sensor (triggered at change of the input I2 
+state and reflect</field>
+	<field name="description"></field>
+	<field name="max">16</field>
+	<field name="controller">0</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">367</field>
+	<field name="device">207</field>
+	<field name="group_id">9</field>
+	<field name="label">Multilevel Sensor report (triggered at change of temperature sensor)</field>
+	<field name="description"></field>
+	<field name="max">16</field>
+	<field name="controller">0</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">368</field>
+	<field name="device">208</field>
+	<field name="group_id">1</field>
+	<field name="label">Basic on/off Q1</field>
+	<field name="description"></field>
+	<field name="max">4</field>
+	<field name="controller">0</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">369</field>
+	<field name="device">208</field>
+	<field name="group_id">2</field>
+	<field name="label">Basic on/off Q2</field>
+	<field name="description"></field>
+	<field name="max">4</field>
+	<field name="controller">0</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">370</field>
+	<field name="device">208</field>
+	<field name="group_id">3</field>
+	<field name="label">Default Reporting Group</field>
+	<field name="description"></field>
+	<field name="max">4</field>
+	<field name="controller">1</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">371</field>
+	<field name="device">209</field>
+	<field name="group_id">1</field>
+	<field name="label">multilevel (triggered at changes of state/value of the Flush dimmer)</field>
+	<field name="description"></field>
+	<field name="max">4</field>
+	<field name="controller">0</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">372</field>
+	<field name="device">209</field>
+	<field name="group_id">2</field>
+	<field name="label">basic on/off (triggered at change of the input I2 state and reflecting</field>
+	<field name="description"></field>
+	<field name="max">4</field>
+	<field name="controller">0</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">373</field>
+	<field name="device">209</field>
+	<field name="group_id">3</field>
+	<field name="label">basic on/off (triggered at change of the input I3 state and reflecting</field>
+	<field name="description"></field>
+	<field name="max">4</field>
+	<field name="controller">0</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">374</field>
+	<field name="device">209</field>
+	<field name="group_id">4</field>
+	<field name="label">default reporting group (reserved for the main controller)</field>
+	<field name="description"></field>
+	<field name="max">4</field>
+	<field name="controller">0</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">375</field>
+	<field name="device">210</field>
+	<field name="group_id">1</field>
+	<field name="label">Controller Updates</field>
+	<field name="description"></field>
+	<field name="max">1</field>
+	<field name="controller">1</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">376</field>
+	<field name="device">210</field>
+	<field name="group_id">2</field>
+	<field name="label">I1 basic on/off</field>
+	<field name="description"></field>
+	<field name="max">16</field>
+	<field name="controller">0</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">377</field>
+	<field name="device">210</field>
+	<field name="group_id">3</field>
+	<field name="label">I1 start/stop level change</field>
+	<field name="description"></field>
+	<field name="max">16</field>
+	<field name="controller">0</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">378</field>
+	<field name="device">210</field>
+	<field name="group_id">4</field>
+	<field name="label">Multilevel</field>
+	<field name="description"></field>
+	<field name="max">16</field>
+	<field name="controller">0</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">379</field>
+	<field name="device">210</field>
+	<field name="group_id">5</field>
+	<field name="label">I2 basic on/off</field>
+	<field name="description"></field>
+	<field name="max">16</field>
+	<field name="controller">0</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">380</field>
+	<field name="device">210</field>
+	<field name="group_id">6</field>
+	<field name="label">I2 notification report</field>
+	<field name="description"></field>
+	<field name="max">16</field>
+	<field name="controller">0</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">381</field>
+	<field name="device">210</field>
+	<field name="group_id">7</field>
+	<field name="label">I2 binary sensor</field>
+	<field name="description"></field>
+	<field name="max">16</field>
+	<field name="controller">0</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">382</field>
+	<field name="device">210</field>
+	<field name="group_id">8</field>
+	<field name="label">I3 basic on/off</field>
+	<field name="description"></field>
+	<field name="max">16</field>
+	<field name="controller">0</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">383</field>
+	<field name="device">210</field>
+	<field name="group_id">9</field>
+	<field name="label">I3 notification report</field>
+	<field name="description"></field>
+	<field name="max">16</field>
+	<field name="controller">0</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">384</field>
+	<field name="device">210</field>
+	<field name="group_id">10</field>
+	<field name="label">I3 binary sensor</field>
+	<field name="description"></field>
+	<field name="max">16</field>
+	<field name="controller">0</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">385</field>
+	<field name="device">210</field>
+	<field name="group_id">11</field>
+	<field name="label">Multilevel sensor</field>
+	<field name="description"></field>
+	<field name="max">16</field>
+	<field name="controller">0</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">386</field>
+	<field name="device">211</field>
+	<field name="group_id">1</field>
+	<field name="label">Basic on/off Q1</field>
+	<field name="description"></field>
+	<field name="max">16</field>
+	<field name="controller">0</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">387</field>
+	<field name="device">211</field>
+	<field name="group_id">2</field>
+	<field name="label">Basic on/off I2</field>
+	<field name="description"></field>
+	<field name="max">16</field>
+	<field name="controller">0</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">388</field>
+	<field name="device">211</field>
+	<field name="group_id">3</field>
+	<field name="label">Basic on/off I3</field>
+	<field name="description"></field>
+	<field name="max">16</field>
+	<field name="controller">0</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">389</field>
+	<field name="device">211</field>
+	<field name="group_id">4</field>
+	<field name="label">High Temperature</field>
+	<field name="description"></field>
+	<field name="max">16</field>
+	<field name="controller">0</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">390</field>
+	<field name="device">211</field>
+	<field name="group_id">5</field>
+	<field name="label">Low Temperature</field>
+	<field name="description"></field>
+	<field name="max">16</field>
+	<field name="controller">1</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">391</field>
+	<field name="device">211</field>
+	<field name="group_id">6</field>
+	<field name="label">Default Reporting Group</field>
+	<field name="description"></field>
+	<field name="max">1</field>
+	<field name="controller">1</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">392</field>
+	<field name="device">212</field>
+	<field name="group_id">1</field>
+	<field name="label">On/Off Triggered by Q State</field>
+	<field name="description"></field>
+	<field name="max">16</field>
+	<field name="controller">0</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">393</field>
+	<field name="device">212</field>
+	<field name="group_id">2</field>
+	<field name="label">On/Off Triggered by I2</field>
+	<field name="description"></field>
+	<field name="max">16</field>
+	<field name="controller">0</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">394</field>
+	<field name="device">212</field>
+	<field name="group_id">3</field>
+	<field name="label">On/Off Triggered by I3</field>
+	<field name="description"></field>
+	<field name="max">16</field>
+	<field name="controller">0</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">395</field>
+	<field name="device">212</field>
+	<field name="group_id">4</field>
+	<field name="label">On/Off Triggerd by High Temp</field>
+	<field name="description"></field>
+	<field name="max">16</field>
+	<field name="controller">0</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">396</field>
+	<field name="device">212</field>
+	<field name="group_id">5</field>
+	<field name="label">On/Off Trigger by Low Temp</field>
+	<field name="description"></field>
+	<field name="max">16</field>
+	<field name="controller">0</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">397</field>
+	<field name="device">212</field>
+	<field name="group_id">6</field>
+	<field name="label">Controller Updates</field>
+	<field name="description"></field>
+	<field name="max">1</field>
+	<field name="controller">1</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">398</field>
+	<field name="device">213</field>
+	<field name="group_id">1</field>
+	<field name="label">Controller Updates</field>
+	<field name="description"></field>
+	<field name="max">1</field>
+	<field name="controller">1</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">399</field>
+	<field name="device">213</field>
+	<field name="group_id">2</field>
+	<field name="label">On/Off Triggered by I2</field>
+	<field name="description"></field>
+	<field name="max">16</field>
+	<field name="controller">0</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">400</field>
+	<field name="device">213</field>
+	<field name="group_id">3</field>
+	<field name="label">On/Off Triggered by I3</field>
+	<field name="description"></field>
+	<field name="max">16</field>
+	<field name="controller">0</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">401</field>
+	<field name="device">213</field>
+	<field name="group_id">4</field>
+	<field name="label">Multi-level Triggerd by Shutter Position</field>
+	<field name="description"></field>
+	<field name="max">16</field>
+	<field name="controller">0</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">402</field>
+	<field name="device">213</field>
+	<field name="group_id">5</field>
+	<field name="label">Multilevel Trigger by Slat Position</field>
+	<field name="description"></field>
+	<field name="max">16</field>
+	<field name="controller">0</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">403</field>
+	<field name="device">214</field>
+	<field name="group_id">1</field>
+	<field name="label">Group 1</field>
+	<field name="description"></field>
+	<field name="max">1</field>
+	<field name="controller">1</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">404</field>
+	<field name="device">214</field>
+	<field name="group_id">2</field>
+	<field name="label">Group 2</field>
+	<field name="description"></field>
+	<field name="max">16</field>
+	<field name="controller">0</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">405</field>
+	<field name="device">214</field>
+	<field name="group_id">3</field>
+	<field name="label">Group 3</field>
+	<field name="description"></field>
+	<field name="max">16</field>
+	<field name="controller">0</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">406</field>
+	<field name="device">214</field>
+	<field name="group_id">4</field>
+	<field name="label">Group 4</field>
+	<field name="description"></field>
+	<field name="max">16</field>
+	<field name="controller">0</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">407</field>
+	<field name="device">214</field>
+	<field name="group_id">5</field>
+	<field name="label">Group 5</field>
+	<field name="description"></field>
+	<field name="max">16</field>
+	<field name="controller">0</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">408</field>
+	<field name="device">215</field>
+	<field name="group_id">1</field>
+	<field name="label">Default Reporting Group</field>
+	<field name="description"></field>
+	<field name="max">1</field>
+	<field name="controller">1</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">409</field>
+	<field name="device">215</field>
+	<field name="group_id">2</field>
+	<field name="label">Q1 basic on/off</field>
+	<field name="description"></field>
+	<field name="max">16</field>
+	<field name="controller">0</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">410</field>
+	<field name="device">215</field>
+	<field name="group_id">3</field>
+	<field name="label">Q1 switch binary</field>
+	<field name="description"></field>
+	<field name="max">16</field>
+	<field name="controller">0</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">411</field>
+	<field name="device">215</field>
+	<field name="group_id">4</field>
+	<field name="label">Q1 power meter</field>
+	<field name="description"></field>
+	<field name="max">16</field>
+	<field name="controller">0</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">412</field>
+	<field name="device">215</field>
+	<field name="group_id">5</field>
+	<field name="label">Q2 basic on/off</field>
+	<field name="description"></field>
+	<field name="max">16</field>
+	<field name="controller">0</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">413</field>
+	<field name="device">215</field>
+	<field name="group_id">6</field>
+	<field name="label">Q2 switch binary</field>
+	<field name="description"></field>
+	<field name="max">16</field>
+	<field name="controller">0</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">414</field>
+	<field name="device">215</field>
+	<field name="group_id">7</field>
+	<field name="label">Q2 power meter</field>
+	<field name="description"></field>
+	<field name="max">16</field>
+	<field name="controller">0</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">415</field>
+	<field name="device">215</field>
+	<field name="group_id">8</field>
+	<field name="label">Multilevel sensor</field>
+	<field name="description"></field>
+	<field name="max">16</field>
+	<field name="controller">0</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">416</field>
+	<field name="device">216</field>
+	<field name="group_id">1</field>
+	<field name="label">Binary input Group</field>
+	<field name="description"></field>
+	<field name="max">5</field>
+	<field name="controller">0</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">417</field>
+	<field name="device">216</field>
+	<field name="group_id">2</field>
+	<field name="label">Alarm Group</field>
+	<field name="description"></field>
+	<field name="max">5</field>
+	<field name="controller">0</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">418</field>
+	<field name="device">217</field>
+	<field name="group_id">1</field>
+	<field name="label">Group1</field>
+	<field name="description"></field>
+	<field name="max">5</field>
+	<field name="controller">0</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">419</field>
+	<field name="device">218</field>
+	<field name="group_id">1</field>
+	<field name="label">Group 1</field>
+	<field name="description"></field>
+	<field name="max">5</field>
+	<field name="controller">0</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">420</field>
+	<field name="device">219</field>
+	<field name="group_id">1</field>
+	<field name="label">Binary input Set Group</field>
+	<field name="description"></field>
+	<field name="max">2</field>
+	<field name="controller">0</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">421</field>
+	<field name="device">219</field>
+	<field name="group_id">2</field>
+	<field name="label">MultiLevel Sensor report</field>
+	<field name="description"></field>
+	<field name="max">2</field>
+	<field name="controller">0</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">422</field>
+	<field name="device">219</field>
+	<field name="group_id">3</field>
+	<field name="label">Power Alarm</field>
+	<field name="description"></field>
+	<field name="max">2</field>
+	<field name="controller">0</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">423</field>
+	<field name="device">219</field>
+	<field name="group_id">4</field>
+	<field name="label">Binary Sensor report</field>
+	<field name="description"></field>
+	<field name="max">2</field>
+	<field name="controller">0</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">424</field>
+	<field name="device">219</field>
+	<field name="group_id">5</field>
+	<field name="label">Pulse Meter Sensor report</field>
+	<field name="description"></field>
+	<field name="max">2</field>
+	<field name="controller">0</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">425</field>
+	<field name="device">222</field>
+	<field name="group_id">1</field>
+	<field name="label">Water and Temperature Alarms</field>
+	<field name="description"></field>
+	<field name="max">5</field>
+	<field name="controller">0</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">426</field>
+	<field name="device">222</field>
+	<field name="group_id">2</field>
+	<field name="label">Water Alarms</field>
+	<field name="description"></field>
+	<field name="max">5</field>
+	<field name="controller">0</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">427</field>
+	<field name="device">222</field>
+	<field name="group_id">3</field>
+	<field name="label">Temperature Alarms</field>
+	<field name="description"></field>
+	<field name="max">5</field>
+	<field name="controller">0</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">428</field>
+	<field name="device">223</field>
+	<field name="group_id">1</field>
+	<field name="label">Send frame to every node in this group (internal contact)</field>
+	<field name="description"></field>
+	<field name="max">5</field>
+	<field name="controller">1</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">429</field>
+	<field name="device">223</field>
+	<field name="group_id">2</field>
+	<field name="label">Send frame to every node in this group (external contact)</field>
+	<field name="description"></field>
+	<field name="max">5</field>
+	<field name="controller">0</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">430</field>
+	<field name="device">224</field>
+	<field name="group_id">1</field>
+	<field name="label">Group 1</field>
+	<field name="description"></field>
+	<field name="max">1</field>
+	<field name="controller">1</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">431</field>
+	<field name="device">225</field>
+	<field name="group_id">1</field>
+	<field name="label">Group 1</field>
+	<field name="description"></field>
+	<field name="max">8</field>
+	<field name="controller">0</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">432</field>
+	<field name="device">225</field>
+	<field name="group_id">2</field>
+	<field name="label">Group 2</field>
+	<field name="description"></field>
+	<field name="max">1</field>
+	<field name="controller">0</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">433</field>
+	<field name="device">225</field>
+	<field name="group_id">3</field>
+	<field name="label">Group 3</field>
+	<field name="description"></field>
+	<field name="max">1</field>
+	<field name="controller">0</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">434</field>
+	<field name="device">226</field>
+	<field name="group_id">1</field>
+	<field name="label">Group 1</field>
+	<field name="description"></field>
+	<field name="max">8</field>
+	<field name="controller">0</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">435</field>
+	<field name="device">226</field>
+	<field name="group_id">2</field>
+	<field name="label">Group 2</field>
+	<field name="description"></field>
+	<field name="max">1</field>
+	<field name="controller">0</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">436</field>
+	<field name="device">226</field>
+	<field name="group_id">3</field>
+	<field name="label">Group 3</field>
+	<field name="description"></field>
+	<field name="max">1</field>
+	<field name="controller">0</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">437</field>
+	<field name="device">228</field>
+	<field name="group_id">1</field>
+	<field name="label">Switch State</field>
+	<field name="description"></field>
+	<field name="max">5</field>
+	<field name="controller">1</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">438</field>
+	<field name="device">229</field>
+	<field name="group_id">1</field>
+	<field name="label">Lifeline</field>
+	<field name="description"></field>
+	<field name="max">4</field>
+	<field name="controller">0</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">439</field>
+	<field name="device">229</field>
+	<field name="group_id">2</field>
+	<field name="label">Alarm Reports</field>
+	<field name="description"></field>
+	<field name="max">4</field>
+	<field name="controller">0</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">440</field>
+	<field name="device">229</field>
+	<field name="group_id">3</field>
+	<field name="label">Switching Command when Alarm</field>
+	<field name="description"></field>
+	<field name="max">4</field>
+	<field name="controller">0</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">441</field>
+	<field name="device">230</field>
+	<field name="group_id">1</field>
+	<field name="label">Send Reports on switch state change.</field>
+	<field name="description"></field>
+	<field name="max">5</field>
+	<field name="controller">1</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">442</field>
+	<field name="device">230</field>
+	<field name="group_id">2</field>
+	<field name="label">Controlled by buttons</field>
+	<field name="description"></field>
+	<field name="max">5</field>
+	<field name="controller">0</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">443</field>
+	<field name="device">231</field>
+	<field name="group_id">1</field>
+	<field name="label">Switch State</field>
+	<field name="description"></field>
+	<field name="max">5</field>
+	<field name="controller">0</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">444</field>
+	<field name="device">232</field>
+	<field name="group_id">1</field>
+	<field name="label">Switch State</field>
+	<field name="description"></field>
+	<field name="max">5</field>
+	<field name="controller">0</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">445</field>
+	<field name="device">233</field>
+	<field name="group_id">1</field>
+	<field name="label">Lifeline</field>
+	<field name="description"></field>
+	<field name="max">10</field>
+	<field name="controller">1</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">446</field>
+	<field name="device">233</field>
+	<field name="group_id">2</field>
+	<field name="label">Control Group A</field>
+	<field name="description"></field>
+	<field name="max">10</field>
+	<field name="controller">0</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">447</field>
+	<field name="device">233</field>
+	<field name="group_id">3</field>
+	<field name="label">Control Group B</field>
+	<field name="description"></field>
+	<field name="max">10</field>
+	<field name="controller">0</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">448</field>
+	<field name="device">233</field>
+	<field name="group_id">4</field>
+	<field name="label">Control Group C</field>
+	<field name="description"></field>
+	<field name="max">10</field>
+	<field name="controller">0</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">449</field>
+	<field name="device">233</field>
+	<field name="group_id">5</field>
+	<field name="label">Control Group D</field>
+	<field name="description"></field>
+	<field name="max">10</field>
+	<field name="controller">0</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">450</field>
+	<field name="device">234</field>
+	<field name="group_id">1</field>
+	<field name="label">Life Line</field>
+	<field name="description"></field>
+	<field name="max">1</field>
+	<field name="controller">1</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">451</field>
+	<field name="device">234</field>
+	<field name="group_id">2</field>
+	<field name="label">Wind Speed</field>
+	<field name="description"></field>
+	<field name="max">5</field>
+	<field name="controller">0</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">452</field>
+	<field name="device">234</field>
+	<field name="group_id">3</field>
+	<field name="label">End of Dawn</field>
+	<field name="description"></field>
+	<field name="max">5</field>
+	<field name="controller">0</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">453</field>
+	<field name="device">234</field>
+	<field name="group_id">4</field>
+	<field name="label">End of Dusk</field>
+	<field name="description"></field>
+	<field name="max">5</field>
+	<field name="controller">0</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">454</field>
+	<field name="device">235</field>
+	<field name="group_id">1</field>
+	<field name="label">Alarm Reports</field>
+	<field name="description"></field>
+	<field name="max">4</field>
+	<field name="controller">1</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">455</field>
+	<field name="device">236</field>
+	<field name="group_id">1</field>
+	<field name="label">Group 1</field>
+	<field name="description"></field>
+	<field name="max">5</field>
+	<field name="controller">0</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">456</field>
+	<field name="device">236</field>
+	<field name="group_id">2</field>
+	<field name="label">Group 2</field>
+	<field name="description"></field>
+	<field name="max">5</field>
+	<field name="controller">1</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">457</field>
+	<field name="device">237</field>
+	<field name="group_id">1</field>
+	<field name="label">Lifeline</field>
+	<field name="description"></field>
+	<field name="max">7</field>
+	<field name="controller">1</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">458</field>
+	<field name="device">238</field>
+	<field name="group_id">1</field>
+	<field name="label">Group 1</field>
+	<field name="description"></field>
+	<field name="max">5</field>
+	<field name="controller">1</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">459</field>
+	<field name="device">239</field>
+	<field name="group_id">1</field>
+	<field name="label">Group 1</field>
+	<field name="description"></field>
+	<field name="max">5</field>
+	<field name="controller">1</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">460</field>
+	<field name="device">240</field>
+	<field name="group_id">1</field>
+	<field name="label">Group 1</field>
+	<field name="description"></field>
+	<field name="max">2</field>
+	<field name="controller">1</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">461</field>
+	<field name="device">241</field>
+	<field name="group_id">1</field>
+	<field name="label">Group 1</field>
+	<field name="description"></field>
+	<field name="max">5</field>
+	<field name="controller">1</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">462</field>
+	<field name="device">242</field>
+	<field name="group_id">1</field>
+	<field name="label">Group 1</field>
+	<field name="description"></field>
+	<field name="max">5</field>
+	<field name="controller">1</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">463</field>
+	<field name="device">243</field>
+	<field name="group_id">1</field>
+	<field name="label">Group 1</field>
+	<field name="description"></field>
+	<field name="max">5</field>
+	<field name="controller">1</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">464</field>
+	<field name="device">244</field>
+	<field name="group_id">1</field>
+	<field name="label">Group 1</field>
+	<field name="description"></field>
+	<field name="max">5</field>
+	<field name="controller">1</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">465</field>
+	<field name="device">245</field>
+	<field name="group_id">1</field>
+	<field name="label">Reports</field>
+	<field name="description"></field>
+	<field name="max">1</field>
+	<field name="controller">1</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">466</field>
+	<field name="device">246</field>
+	<field name="group_id">1</field>
+	<field name="label">Group 1</field>
+	<field name="description"></field>
+	<field name="max">8</field>
+	<field name="controller">1</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">467</field>
+	<field name="device">246</field>
+	<field name="group_id">2</field>
+	<field name="label">Up Power Level Group</field>
+	<field name="description"></field>
+	<field name="max">8</field>
+	<field name="controller">0</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">468</field>
+	<field name="device">246</field>
+	<field name="group_id">3</field>
+	<field name="label">Down Power Level Group</field>
+	<field name="description"></field>
+	<field name="max">8</field>
+	<field name="controller">0</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">469</field>
+	<field name="device">247</field>
+	<field name="group_id">1</field>
+	<field name="label">Lifeline</field>
+	<field name="description"></field>
+	<field name="max">1</field>
+	<field name="controller">1</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">470</field>
+	<field name="device">247</field>
+	<field name="group_id">2</field>
+	<field name="label">On/Off Control</field>
+	<field name="description"></field>
+	<field name="max">8</field>
+	<field name="controller">0</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">471</field>
+	<field name="device">249</field>
+	<field name="group_id">1</field>
+	<field name="label">Lifeline</field>
+	<field name="description"></field>
+	<field name="max">1</field>
+	<field name="controller">1</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">472</field>
+	<field name="device">249</field>
+	<field name="group_id">2</field>
+	<field name="label">Button 1 - Mono - Controlled nodes</field>
+	<field name="description"></field>
+	<field name="max">8</field>
+	<field name="controller">0</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">473</field>
+	<field name="device">249</field>
+	<field name="group_id">3</field>
+	<field name="label">Button 2 - Mono - Controlled nodes</field>
+	<field name="description"></field>
+	<field name="max">8</field>
+	<field name="controller">0</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">474</field>
+	<field name="device">249</field>
+	<field name="group_id">4</field>
+	<field name="label">Button 3 - Mono - Controlled nodes</field>
+	<field name="description"></field>
+	<field name="max">8</field>
+	<field name="controller">0</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">475</field>
+	<field name="device">249</field>
+	<field name="group_id">5</field>
+	<field name="label">Button 4 - Mono - Controlled nodes</field>
+	<field name="description"></field>
+	<field name="max">8</field>
+	<field name="controller">0</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">476</field>
+	<field name="device">249</field>
+	<field name="group_id">6</field>
+	<field name="label">Button 1 and 3 - Duo - Controlled nodes</field>
+	<field name="description"></field>
+	<field name="max">8</field>
+	<field name="controller">0</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">477</field>
+	<field name="device">249</field>
+	<field name="group_id">7</field>
+	<field name="label">Button 2 and 4 - Duo - Controlled nodes</field>
+	<field name="description"></field>
+	<field name="max">8</field>
+	<field name="controller">0</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">478</field>
+	<field name="device">250</field>
+	<field name="group_id">1</field>
+	<field name="label">Lifeline</field>
+	<field name="description"></field>
+	<field name="max">1</field>
+	<field name="controller">1</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">479</field>
+	<field name="device">250</field>
+	<field name="group_id">2</field>
+	<field name="label">Button 1 - Mono - Controlled nodes</field>
+	<field name="description"></field>
+	<field name="max">8</field>
+	<field name="controller">0</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">480</field>
+	<field name="device">250</field>
+	<field name="group_id">3</field>
+	<field name="label">Button 2 - Mono - Controlled nodes</field>
+	<field name="description"></field>
+	<field name="max">8</field>
+	<field name="controller">0</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">481</field>
+	<field name="device">250</field>
+	<field name="group_id">4</field>
+	<field name="label">Button 3 - Mono - Controlled nodes</field>
+	<field name="description"></field>
+	<field name="max">8</field>
+	<field name="controller">0</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">482</field>
+	<field name="device">250</field>
+	<field name="group_id">5</field>
+	<field name="label">Button 4 - Mono - Controlled nodes</field>
+	<field name="description"></field>
+	<field name="max">8</field>
+	<field name="controller">0</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">483</field>
+	<field name="device">250</field>
+	<field name="group_id">6</field>
+	<field name="label">Button 1 and 3 - Duo - Controlled nodes</field>
+	<field name="description"></field>
+	<field name="max">8</field>
+	<field name="controller">0</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">484</field>
+	<field name="device">250</field>
+	<field name="group_id">7</field>
+	<field name="label">Button 2 and 4 - Duo - Controlled nodes</field>
+	<field name="description"></field>
+	<field name="max">8</field>
+	<field name="controller">0</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">485</field>
+	<field name="device">251</field>
+	<field name="group_id">1</field>
+	<field name="label">Lifeline</field>
+	<field name="description"></field>
+	<field name="max">1</field>
+	<field name="controller">1</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">486</field>
+	<field name="device">252</field>
+	<field name="group_id">1</field>
+	<field name="label">Reports</field>
+	<field name="description"></field>
+	<field name="max">8</field>
+	<field name="controller">1</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">487</field>
+	<field name="device">252</field>
+	<field name="group_id">2</field>
+	<field name="label">Light Control</field>
+	<field name="description"></field>
+	<field name="max">8</field>
+	<field name="controller">0</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">488</field>
+	<field name="device">253</field>
+	<field name="group_id">1</field>
+	<field name="label">ZB22UK supports Group 1 with up to ﬁve devices for lifeline communicat</field>
+	<field name="description"></field>
+	<field name="max">5</field>
+	<field name="controller">1</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">489</field>
+	<field name="device">254</field>
+	<field name="group_id">1</field>
+	<field name="label">Group 1</field>
+	<field name="description"></field>
+	<field name="max">2</field>
+	<field name="controller">1</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">490</field>
+	<field name="device">255</field>
+	<field name="group_id">1</field>
+	<field name="label">Status Reports</field>
+	<field name="description"></field>
+	<field name="max">5</field>
+	<field name="controller">1</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">491</field>
+	<field name="device">256</field>
+	<field name="group_id">1</field>
+	<field name="label">Group 1</field>
+	<field name="description">position status changed</field>
+	<field name="max">5</field>
+	<field name="controller">0</field>
+	<field name="overview">&lt;p&gt;When the state of load(position status) is changed:&lt;/p&gt;
+&lt;p&gt;1, Set Configuration parameter 80 to 0 : Reserved ( Default ) .&lt;br /&gt;2, Set Configuration parameter 80 to 1 : Send Hail CC.&lt;br /&gt;3, Set Configuration parameter 80 to 2: send Barrier operator&lt;br /&gt;report CC.&lt;/p&gt;</field>
+  </row>
+
+  <row>
+	<field name="id">492</field>
+	<field name="device">256</field>
+	<field name="group_id">2</field>
+	<field name="label">Group 2</field>
+	<field name="description">Forward the Basic Set</field>
+	<field name="max">5</field>
+	<field name="controller">0</field>
+	<field name="overview">&lt;p&gt;Forward the Basic Set, Switch Binary Set commands to associated&lt;br /&gt;nodes in Group 2 when the Garage Door Controller receives the&lt;br /&gt;Basic Set, Switch Binary Set commands from main controller.&lt;/p&gt;</field>
+  </row>
+
+  <row>
+	<field name="id">493</field>
+	<field name="device">257</field>
+	<field name="group_id">1</field>
+	<field name="label">multilevel (triggered at changes of state/value of the Flush dimmer)</field>
+	<field name="description"></field>
+	<field name="max">4</field>
+	<field name="controller">1</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">494</field>
+	<field name="device">257</field>
+	<field name="group_id">2</field>
+	<field name="label">basic on/off (triggered at change of the input I2 state and reflecting</field>
+	<field name="description"></field>
+	<field name="max">4</field>
+	<field name="controller">0</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">495</field>
+	<field name="device">257</field>
+	<field name="group_id">3</field>
+	<field name="label">basic on/off (triggered at change of the input I3 state and reflecting</field>
+	<field name="description"></field>
+	<field name="max">4</field>
+	<field name="controller">0</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">496</field>
+	<field name="device">257</field>
+	<field name="group_id">4</field>
+	<field name="label">default reporting group (reserved for the main controller)</field>
+	<field name="description"></field>
+	<field name="max">4</field>
+	<field name="controller">0</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">497</field>
+	<field name="device">258</field>
+	<field name="group_id">1</field>
+	<field name="label">Life Line</field>
+	<field name="description"></field>
+	<field name="max">1</field>
+	<field name="controller">1</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">498</field>
+	<field name="device">258</field>
+	<field name="group_id">2</field>
+	<field name="label">Wind Speed</field>
+	<field name="description">Wind speed is higher than 6 m/s (22 Km/h)</field>
+	<field name="max">5</field>
+	<field name="controller">0</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">499</field>
+	<field name="device">258</field>
+	<field name="group_id">3</field>
+	<field name="label">End of Dawn</field>
+	<field name="description">At the end of the dawn if it becomes bright</field>
+	<field name="max">5</field>
+	<field name="controller">0</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">500</field>
+	<field name="device">258</field>
+	<field name="group_id">4</field>
+	<field name="label">End of Dusk</field>
+	<field name="description">At the end of the dusk if it becomes bright</field>
+	<field name="max">5</field>
+	<field name="controller">0</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">501</field>
+	<field name="device">260</field>
+	<field name="group_id">1</field>
+	<field name="label">Group 1</field>
+	<field name="description"></field>
+	<field name="max">5</field>
+	<field name="controller">0</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">502</field>
+	<field name="device">260</field>
+	<field name="group_id">2</field>
+	<field name="label">Group 2</field>
+	<field name="description"></field>
+	<field name="max">5</field>
+	<field name="controller">0</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">503</field>
+	<field name="device">260</field>
+	<field name="group_id">3</field>
+	<field name="label">Group 3</field>
+	<field name="description"></field>
+	<field name="max">5</field>
+	<field name="controller">0</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">504</field>
+	<field name="device">261</field>
+	<field name="group_id">1</field>
+	<field name="label">Reports</field>
+	<field name="description"></field>
+	<field name="max">7</field>
+	<field name="controller">1</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">505</field>
+	<field name="device">261</field>
+	<field name="group_id">2</field>
+	<field name="label">Light Control</field>
+	<field name="description"></field>
+	<field name="max">7</field>
+	<field name="controller">0</field>
+	<field name="overview"></field>
+  </row>
+</resultset>

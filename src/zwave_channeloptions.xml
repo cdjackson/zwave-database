@@ -1,0 +1,130 @@
+<?xml version="1.0"?>
+
+<resultset statement="SELECT id, channel, name, value, config, overview FROM joo_zwave_channeloptions
+" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <row>
+	<field name="id">1</field>
+	<field name="channel">14</field>
+	<field name="name">Heat</field>
+	<field name="value">1</field>
+	<field name="config">modeType=HEAT</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">2</field>
+	<field name="channel">14</field>
+	<field name="name">Auto</field>
+	<field name="value">3</field>
+	<field name="config">modeType=AUTO</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">3</field>
+	<field name="channel">14</field>
+	<field name="name">Aux Heat</field>
+	<field name="value">4</field>
+	<field name="config">modeType=AUX_HEAT</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">4</field>
+	<field name="channel">14</field>
+	<field name="name">Off</field>
+	<field name="value">0</field>
+	<field name="config">modeType=OFF</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">5</field>
+	<field name="channel">14</field>
+	<field name="name">Cool</field>
+	<field name="value">2</field>
+	<field name="config">modeType=COOL</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">6</field>
+	<field name="channel">15</field>
+	<field name="name">Running</field>
+	<field name="value">1</field>
+	<field name="config">stateType=RUNNING</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">7</field>
+	<field name="channel">16</field>
+	<field name="name">Auto (Low)</field>
+	<field name="value">0</field>
+	<field name="config">modeType=AUTO_LOW</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">8</field>
+	<field name="channel">16</field>
+	<field name="name">On (Low)</field>
+	<field name="value">1</field>
+	<field name="config">modeType=ON_LOW</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">9</field>
+	<field name="channel">20</field>
+	<field name="name">Off</field>
+	<field name="value">0</field>
+	<field name="config">modeType=OFF</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">10</field>
+	<field name="channel">20</field>
+	<field name="name">Heat</field>
+	<field name="value">1</field>
+	<field name="config">modeType=HEAT</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">11</field>
+	<field name="channel">22</field>
+	<field name="name">Off</field>
+	<field name="value">0</field>
+	<field name="config">modeType=OFF</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">12</field>
+	<field name="channel">22</field>
+	<field name="name">Heat</field>
+	<field name="value">1</field>
+	<field name="config">modeType=HEAT</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">13</field>
+	<field name="channel">24</field>
+	<field name="name">Off</field>
+	<field name="value">0</field>
+	<field name="config">modeType=OFF</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">14</field>
+	<field name="channel">24</field>
+	<field name="name">Heat</field>
+	<field name="value">1</field>
+	<field name="config">modeType=HEAT</field>
+	<field name="overview"></field>
+  </row>
+</resultset>

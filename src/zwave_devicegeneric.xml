@@ -1,0 +1,186 @@
+<?xml version="1.0"?>
+
+<resultset statement="SELECT id, value, name, label FROM zwave_devicegeneric
+" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <row>
+	<field name="id">2</field>
+	<field name="value">0</field>
+	<field name="name">NOT_KNOWN</field>
+	<field name="label">Not Known</field>
+  </row>
+
+  <row>
+	<field name="id">3</field>
+	<field name="value">1</field>
+	<field name="name">REMOTE_CONTROLLER</field>
+	<field name="label">Remote Controller</field>
+  </row>
+
+  <row>
+	<field name="id">4</field>
+	<field name="value">2</field>
+	<field name="name">STATIC_CONTROLLER</field>
+	<field name="label">Static Controller</field>
+  </row>
+
+  <row>
+	<field name="id">5</field>
+	<field name="value">3</field>
+	<field name="name">AV_CONTROL_POINT</field>
+	<field name="label">A/V Control Point</field>
+  </row>
+
+  <row>
+	<field name="id">6</field>
+	<field name="value">6</field>
+	<field name="name">DISPLAY</field>
+	<field name="label">Display</field>
+  </row>
+
+  <row>
+	<field name="id">7</field>
+	<field name="value">7</field>
+	<field name="name">GARAGE_DOOR</field>
+	<field name="label">Garage Door</field>
+  </row>
+
+  <row>
+	<field name="id">8</field>
+	<field name="value">8</field>
+	<field name="name">THERMOSTAT</field>
+	<field name="label">Thermostat</field>
+  </row>
+
+  <row>
+	<field name="id">9</field>
+	<field name="value">9</field>
+	<field name="name">WINDOW_COVERING</field>
+	<field name="label">Window Covering</field>
+  </row>
+
+  <row>
+	<field name="id">10</field>
+	<field name="value">15</field>
+	<field name="name">REPEATER_SLAVE</field>
+	<field name="label">Repeater Slave</field>
+  </row>
+
+  <row>
+	<field name="id">11</field>
+	<field name="value">16</field>
+	<field name="name">BINARY_SWITCH</field>
+	<field name="label">Binary Switch</field>
+  </row>
+
+  <row>
+	<field name="id">12</field>
+	<field name="value">17</field>
+	<field name="name">MULTILEVEL_SWITCH</field>
+	<field name="label">Multi-Level Switch</field>
+  </row>
+
+  <row>
+	<field name="id">13</field>
+	<field name="value">18</field>
+	<field name="name">REMOTE_SWITCH</field>
+	<field name="label">Remote Switch</field>
+  </row>
+
+  <row>
+	<field name="id">14</field>
+	<field name="value">19</field>
+	<field name="name">TOGGLE_SWITCH</field>
+	<field name="label">Toggle Switch</field>
+  </row>
+
+  <row>
+	<field name="id">15</field>
+	<field name="value">20</field>
+	<field name="name">Z_IP_GATEWAY</field>
+	<field name="label">Z/IP Gateway</field>
+  </row>
+
+  <row>
+	<field name="id">16</field>
+	<field name="value">21</field>
+	<field name="name">Z_IP_NODE</field>
+	<field name="label">Z/IP Node</field>
+  </row>
+
+  <row>
+	<field name="id">17</field>
+	<field name="value">22</field>
+	<field name="name">VENTILATION</field>
+	<field name="label">Ventilation</field>
+  </row>
+
+  <row>
+	<field name="id">18</field>
+	<field name="value">24</field>
+	<field name="name">REMOTE_SWITCH_2</field>
+	<field name="label">Remote Switch 2</field>
+  </row>
+
+  <row>
+	<field name="id">19</field>
+	<field name="value">32</field>
+	<field name="name">BINARY_SENSOR</field>
+	<field name="label">Binary Sensor</field>
+  </row>
+
+  <row>
+	<field name="id">20</field>
+	<field name="value">33</field>
+	<field name="name">MULTILEVEL_SENSOR</field>
+	<field name="label">Multi-Level Sensor</field>
+  </row>
+
+  <row>
+	<field name="id">21</field>
+	<field name="value">34</field>
+	<field name="name">WATER_CONTROL</field>
+	<field name="label">Water Control</field>
+  </row>
+
+  <row>
+	<field name="id">22</field>
+	<field name="value">48</field>
+	<field name="name">PULSE_METER</field>
+	<field name="label">Pulse Meter</field>
+  </row>
+
+  <row>
+	<field name="id">23</field>
+	<field name="value">49</field>
+	<field name="name">METER</field>
+	<field name="label">Meter</field>
+  </row>
+
+  <row>
+	<field name="id">24</field>
+	<field name="value">64</field>
+	<field name="name">ENTRY_CONTROL</field>
+	<field name="label">Entry Control</field>
+  </row>
+
+  <row>
+	<field name="id">25</field>
+	<field name="value">80</field>
+	<field name="name">SEMI_INTEROPERABLE</field>
+	<field name="label">Semi-Interoperable</field>
+  </row>
+
+  <row>
+	<field name="id">26</field>
+	<field name="value">161</field>
+	<field name="name">ALARM_SENSOR</field>
+	<field name="label">Alarm Sensor</field>
+  </row>
+
+  <row>
+	<field name="id">27</field>
+	<field name="value">255</field>
+	<field name="name">NON_INTEROPERABLE</field>
+	<field name="label">Non-Interoperable</field>
+  </row>
+</resultset>

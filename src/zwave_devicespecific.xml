@@ -1,0 +1,492 @@
+<?xml version="1.0"?>
+
+<resultset statement="SELECT id, generic, value, name, label FROM zwave_devicespecific
+" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <row>
+	<field name="id">2</field>
+	<field name="generic">2</field>
+	<field name="value">0</field>
+	<field name="name">NOT_USED</field>
+	<field name="label">Not Known</field>
+  </row>
+
+  <row>
+	<field name="id">3</field>
+	<field name="generic">3</field>
+	<field name="value">1</field>
+	<field name="name">PORTABLE_REMOTE_CONTROLLER</field>
+	<field name="label">Portable Remote Controller</field>
+  </row>
+
+  <row>
+	<field name="id">4</field>
+	<field name="generic">3</field>
+	<field name="value">2</field>
+	<field name="name">PORTABLE_SCENE_CONTROLLER</field>
+	<field name="label">Portable Scene Controller</field>
+  </row>
+
+  <row>
+	<field name="id">5</field>
+	<field name="generic">3</field>
+	<field name="value">3</field>
+	<field name="name">PORTABLE_INSTALLER_TOOL</field>
+	<field name="label">Portable Installer Tool</field>
+  </row>
+
+  <row>
+	<field name="id">6</field>
+	<field name="generic">4</field>
+	<field name="value">1</field>
+	<field name="name">PC_CONTROLLER</field>
+	<field name="label">PC Controller</field>
+  </row>
+
+  <row>
+	<field name="id">7</field>
+	<field name="generic">4</field>
+	<field name="value">2</field>
+	<field name="name">SCENE_CONTROLLER</field>
+	<field name="label">Scene Controller</field>
+  </row>
+
+  <row>
+	<field name="id">8</field>
+	<field name="generic">4</field>
+	<field name="value">3</field>
+	<field name="name">INSTALLER_TOOL</field>
+	<field name="label">Static Installer Tool</field>
+  </row>
+
+  <row>
+	<field name="id">9</field>
+	<field name="generic">5</field>
+	<field name="value">4</field>
+	<field name="name">SATELLITE_RECEIVER</field>
+	<field name="label">Satellite Receiver</field>
+  </row>
+
+  <row>
+	<field name="id">10</field>
+	<field name="generic">5</field>
+	<field name="value">17</field>
+	<field name="name">SATELLITE_RECEIVER_V2</field>
+	<field name="label">Satellite Receiver V2</field>
+  </row>
+
+  <row>
+	<field name="id">11</field>
+	<field name="generic">5</field>
+	<field name="value">18</field>
+	<field name="name">DOORBELL</field>
+	<field name="label">Doorbell</field>
+  </row>
+
+  <row>
+	<field name="id">12</field>
+	<field name="generic">6</field>
+	<field name="value">1</field>
+	<field name="name">SIMPLE_DISPLAY</field>
+	<field name="label">Simple Display</field>
+  </row>
+
+  <row>
+	<field name="id">13</field>
+	<field name="generic">7</field>
+	<field name="value">1</field>
+	<field name="name">SIMPLE_GARAGE_DOOR</field>
+	<field name="label">Simple Garage Door</field>
+  </row>
+
+  <row>
+	<field name="id">14</field>
+	<field name="generic">8</field>
+	<field name="value">1</field>
+	<field name="name">THERMOSTAT_HEATING</field>
+	<field name="label">Heating Thermostat</field>
+  </row>
+
+  <row>
+	<field name="id">15</field>
+	<field name="generic">8</field>
+	<field name="value">2</field>
+	<field name="name">THERMOSTAT_GENERAL</field>
+	<field name="label">General Thermostat</field>
+  </row>
+
+  <row>
+	<field name="id">16</field>
+	<field name="generic">8</field>
+	<field name="value">3</field>
+	<field name="name">SETBACK_SCHEDULE_THERMOSTAT</field>
+	<field name="label">Setback Schedule Thermostat</field>
+  </row>
+
+  <row>
+	<field name="id">17</field>
+	<field name="generic">8</field>
+	<field name="value">4</field>
+	<field name="name">SETPOINT_THERMOSTAT</field>
+	<field name="label">Setpoint Thermostat</field>
+  </row>
+
+  <row>
+	<field name="id">18</field>
+	<field name="generic">8</field>
+	<field name="value">5</field>
+	<field name="name">SETBACK_THERMOSTAT</field>
+	<field name="label">Setback Thermostat</field>
+  </row>
+
+  <row>
+	<field name="id">19</field>
+	<field name="generic">8</field>
+	<field name="value">6</field>
+	<field name="name">THERMOSTAT_GENERAL_V2</field>
+	<field name="label">General Thermostat V2</field>
+  </row>
+
+  <row>
+	<field name="id">20</field>
+	<field name="generic">9</field>
+	<field name="value">1</field>
+	<field name="name">SIMPLE_WINDOW_COVERING</field>
+	<field name="label">Simple Window Covering Control</field>
+  </row>
+
+  <row>
+	<field name="id">21</field>
+	<field name="generic">10</field>
+	<field name="value">1</field>
+	<field name="name">BASIC_REPEATER_SLAVE</field>
+	<field name="label">Basic Repeater Slave</field>
+  </row>
+
+  <row>
+	<field name="id">22</field>
+	<field name="generic">11</field>
+	<field name="value">1</field>
+	<field name="name">POWER_SWITCH_BINARY</field>
+	<field name="label">Binary Power Switch</field>
+  </row>
+
+  <row>
+	<field name="id">23</field>
+	<field name="generic">11</field>
+	<field name="value">2</field>
+	<field name="name">SCENE_SWITCH_BINARY_DISCONTINUED</field>
+	<field name="label">Binary Scene Switch (Discontinued)</field>
+  </row>
+
+  <row>
+	<field name="id">24</field>
+	<field name="generic">11</field>
+	<field name="value">3</field>
+	<field name="name">SCENE_SWITCH_BINARY</field>
+	<field name="label">Binary Scene Switch</field>
+  </row>
+
+  <row>
+	<field name="id">25</field>
+	<field name="generic">11</field>
+	<field name="value">5</field>
+	<field name="name">SIREN_SWITCH_BINARY</field>
+	<field name="label">Siren Switch</field>
+  </row>
+
+  <row>
+	<field name="id">26</field>
+	<field name="generic">12</field>
+	<field name="value">1</field>
+	<field name="name">POWER_SWITCH_MULTILEVEL</field>
+	<field name="label">Multilevel Power Switch</field>
+  </row>
+
+  <row>
+	<field name="id">27</field>
+	<field name="generic">12</field>
+	<field name="value">2</field>
+	<field name="name">SCENE_SWITCH_MULTILEVEL_DISCONTINUED</field>
+	<field name="label">Multilevel Scene Switch (Discontinued)</field>
+  </row>
+
+  <row>
+	<field name="id">28</field>
+	<field name="generic">12</field>
+	<field name="value">3</field>
+	<field name="name">MOTOR_MULTIPOSITION</field>
+	<field name="label">Multiposition Motor</field>
+  </row>
+
+  <row>
+	<field name="id">29</field>
+	<field name="generic">12</field>
+	<field name="value">4</field>
+	<field name="name">SCENE_SWITCH_MULTILEVEL</field>
+	<field name="label">Multilevel Scene Switch</field>
+  </row>
+
+  <row>
+	<field name="id">30</field>
+	<field name="generic">12</field>
+	<field name="value">5</field>
+	<field name="name">MOTOR_CONTROL_CLASS_A</field>
+	<field name="label">Motor Control Class A</field>
+  </row>
+
+  <row>
+	<field name="id">31</field>
+	<field name="generic">12</field>
+	<field name="value">6</field>
+	<field name="name">MOTOR_CONTROL_CLASS_B</field>
+	<field name="label">Motor Control Class B</field>
+  </row>
+
+  <row>
+	<field name="id">32</field>
+	<field name="generic">12</field>
+	<field name="value">7</field>
+	<field name="name">MOTOR_CONTROL_CLASS_C</field>
+	<field name="label">Motor Control Class C</field>
+  </row>
+
+  <row>
+	<field name="id">33</field>
+	<field name="generic">13</field>
+	<field name="value">1</field>
+	<field name="name">SWITCH_REMOTE_BINARY</field>
+	<field name="label">Binary Remote Switch</field>
+  </row>
+
+  <row>
+	<field name="id">34</field>
+	<field name="generic">13</field>
+	<field name="value">2</field>
+	<field name="name">SWITCH_REMOTE_MULTILEVEL</field>
+	<field name="label">Multilevel Remote Switch</field>
+  </row>
+
+  <row>
+	<field name="id">35</field>
+	<field name="generic">13</field>
+	<field name="value">3</field>
+	<field name="name">SWITCH_REMOTE_TOGGLE_BINARY</field>
+	<field name="label">Binary Toggle Remote Switch</field>
+  </row>
+
+  <row>
+	<field name="id">36</field>
+	<field name="generic">13</field>
+	<field name="value">4</field>
+	<field name="name">SWITCH_REMOTE_TOGGLE_MULTILEVEL</field>
+	<field name="label">Multilevel Toggle Remote Switch</field>
+  </row>
+
+  <row>
+	<field name="id">37</field>
+	<field name="generic">14</field>
+	<field name="value">1</field>
+	<field name="name">SWITCH_TOGGLE_BINARY</field>
+	<field name="label">Binary Toggle Switch</field>
+  </row>
+
+  <row>
+	<field name="id">38</field>
+	<field name="generic">14</field>
+	<field name="value">2</field>
+	<field name="name">SWITCH_TOGGLE_MULTILEVEL</field>
+	<field name="label">Multilevel Toggle Switch</field>
+  </row>
+
+  <row>
+	<field name="id">39</field>
+	<field name="generic">15</field>
+	<field name="value">1</field>
+	<field name="name">Z_IP_TUNNELING_GATEWAY</field>
+	<field name="label">Z/IP Tunneling Gateway</field>
+  </row>
+
+  <row>
+	<field name="id">40</field>
+	<field name="generic">15</field>
+	<field name="value">2</field>
+	<field name="name">Z_IP_ADVANCED_GATEWAY</field>
+	<field name="label">Z/IP Advanced Gateway</field>
+  </row>
+
+  <row>
+	<field name="id">41</field>
+	<field name="generic">16</field>
+	<field name="value">1</field>
+	<field name="name">Z_IP_TUNNELING_NODE</field>
+	<field name="label">Z/IP Tunneling Node</field>
+  </row>
+
+  <row>
+	<field name="id">42</field>
+	<field name="generic">16</field>
+	<field name="value">2</field>
+	<field name="name">Z_IP_ADVANCED_NODE</field>
+	<field name="label">Z/IP Advanced Node</field>
+  </row>
+
+  <row>
+	<field name="id">43</field>
+	<field name="generic">17</field>
+	<field name="value">1</field>
+	<field name="name">RESIDENTIAL_HEAT_RECOVERY_VENTILATION</field>
+	<field name="label">Residential Heat Recovery Ventilation</field>
+  </row>
+
+  <row>
+	<field name="id">44</field>
+	<field name="generic">18</field>
+	<field name="value">1</field>
+	<field name="name">SWITCH_REMOTE2_MULTILEVEL</field>
+	<field name="label">Multilevel Remote Switch</field>
+  </row>
+
+  <row>
+	<field name="id">45</field>
+	<field name="generic">19</field>
+	<field name="value">1</field>
+	<field name="name">ROUTING_SENSOR_BINARY</field>
+	<field name="label">Routing Binary Sensor</field>
+  </row>
+
+  <row>
+	<field name="id">46</field>
+	<field name="generic">20</field>
+	<field name="value">1</field>
+	<field name="name">ROUTING_SENSOR_MULTILEVEL</field>
+	<field name="label">Routing Multilevel Sensor</field>
+  </row>
+
+  <row>
+	<field name="id">47</field>
+	<field name="generic">23</field>
+	<field name="value">1</field>
+	<field name="name">SIMPLE_METER</field>
+	<field name="label">Simple Meter</field>
+  </row>
+
+  <row>
+	<field name="id">48</field>
+	<field name="generic">24</field>
+	<field name="value">1</field>
+	<field name="name">DOOR_LOCK</field>
+	<field name="label">Door Lock</field>
+  </row>
+
+  <row>
+	<field name="id">49</field>
+	<field name="generic">24</field>
+	<field name="value">2</field>
+	<field name="name">ADVANCED_DOOR_LOCK</field>
+	<field name="label">Advanced Door Lock</field>
+  </row>
+
+  <row>
+	<field name="id">50</field>
+	<field name="generic">24</field>
+	<field name="value">3</field>
+	<field name="name">SECURE_KEYPAD_DOOR_LOCK</field>
+	<field name="label">Secure Keypad Door Lock</field>
+  </row>
+
+  <row>
+	<field name="id">51</field>
+	<field name="generic">24</field>
+	<field name="value">7</field>
+	<field name="name">SECURE_BARRIER</field>
+	<field name="label">Secure Barrier Add-on</field>
+  </row>
+
+  <row>
+	<field name="id">52</field>
+	<field name="generic">25</field>
+	<field name="value">1</field>
+	<field name="name">ENERGY_PRODUCTION</field>
+	<field name="label">Energy Production</field>
+  </row>
+
+  <row>
+	<field name="id">53</field>
+	<field name="generic">26</field>
+	<field name="value">1</field>
+	<field name="name">ALARM_SENSOR_ROUTING_BASIC</field>
+	<field name="label">Basic Routing Alarm Sensor</field>
+  </row>
+
+  <row>
+	<field name="id">54</field>
+	<field name="generic">26</field>
+	<field name="value">2</field>
+	<field name="name">ALARM_SENSOR_ROUTING</field>
+	<field name="label">Routing Alarm Sensor</field>
+  </row>
+
+  <row>
+	<field name="id">55</field>
+	<field name="generic">26</field>
+	<field name="value">3</field>
+	<field name="name">ALARM_SENSOR_ZENSOR_BASIC</field>
+	<field name="label">Basic Zensor Alarm Sensor</field>
+  </row>
+
+  <row>
+	<field name="id">56</field>
+	<field name="generic">26</field>
+	<field name="value">4</field>
+	<field name="name">ALARM_SENSOR_ZENSOR</field>
+	<field name="label">Zensor Alarm Sensor</field>
+  </row>
+
+  <row>
+	<field name="id">57</field>
+	<field name="generic">26</field>
+	<field name="value">5</field>
+	<field name="name">ALARM_SENSOR_ZENSOR_ADVANCED</field>
+	<field name="label">Advanced Zensor Alarm Sensor</field>
+  </row>
+
+  <row>
+	<field name="id">58</field>
+	<field name="generic">26</field>
+	<field name="value">6</field>
+	<field name="name">SMOKE_SENSOR_ROUTING_BASIC</field>
+	<field name="label">Basic Routing Smoke Sensor</field>
+  </row>
+
+  <row>
+	<field name="id">59</field>
+	<field name="generic">26</field>
+	<field name="value">7</field>
+	<field name="name">SMOKE_SENSOR_ROUTING</field>
+	<field name="label">Routing Smoke Sensor</field>
+  </row>
+
+  <row>
+	<field name="id">60</field>
+	<field name="generic">26</field>
+	<field name="value">8</field>
+	<field name="name">SMOKE_SENSOR_ZENSOR_BASIC</field>
+	<field name="label">Basic Zensor Smoke Sensor</field>
+  </row>
+
+  <row>
+	<field name="id">61</field>
+	<field name="generic">26</field>
+	<field name="value">9</field>
+	<field name="name">SMOKE_SENSOR_ZENSOR</field>
+	<field name="label">Zensor Smoke Sensor</field>
+  </row>
+
+  <row>
+	<field name="id">62</field>
+	<field name="generic">26</field>
+	<field name="value">10</field>
+	<field name="name">SMOKE_SENSOR_ZENSOR_ADVANCED</field>
+	<field name="label">Advanced Zensor Smoke Sensor</field>
+  </row>
+</resultset>

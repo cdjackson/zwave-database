@@ -1,0 +1,884 @@
+<?xml version="1.0"?>
+
+<resultset statement="SELECT id, name, label, class_ref, support_oh1, support_oh2, support_ozw FROM zwave_commandclasses
+" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <row>
+	<field name="id">1</field>
+	<field name="name">NO_OPERATION</field>
+	<field name="label">No Operation - used for PINGing a device.</field>
+	<field name="class_ref">0</field>
+	<field name="support_oh1">0</field>
+	<field name="support_oh2">0</field>
+	<field name="support_ozw">0</field>
+  </row>
+
+  <row>
+	<field name="id">33</field>
+	<field name="name">BASIC</field>
+	<field name="label">BASIC</field>
+	<field name="class_ref">32</field>
+	<field name="support_oh1"></field>
+	<field name="support_oh2"></field>
+	<field name="support_ozw"></field>
+  </row>
+
+  <row>
+	<field name="id">34</field>
+	<field name="name">CONTROLLER_REPLICATION</field>
+	<field name="label">CONTROLLER_REPLICATION</field>
+	<field name="class_ref">33</field>
+	<field name="support_oh1"></field>
+	<field name="support_oh2"></field>
+	<field name="support_ozw"></field>
+  </row>
+
+  <row>
+	<field name="id">35</field>
+	<field name="name">APPLICATION_STATUS</field>
+	<field name="label">APPLICATION_STATUS</field>
+	<field name="class_ref">34</field>
+	<field name="support_oh1"></field>
+	<field name="support_oh2"></field>
+	<field name="support_ozw"></field>
+  </row>
+
+  <row>
+	<field name="id">36</field>
+	<field name="name">ZIP_SERVICES</field>
+	<field name="label">ZIP_SERVICES</field>
+	<field name="class_ref">35</field>
+	<field name="support_oh1"></field>
+	<field name="support_oh2"></field>
+	<field name="support_ozw"></field>
+  </row>
+
+  <row>
+	<field name="id">37</field>
+	<field name="name">ZIP_SERVER</field>
+	<field name="label">ZIP_SERVER</field>
+	<field name="class_ref">36</field>
+	<field name="support_oh1"></field>
+	<field name="support_oh2"></field>
+	<field name="support_ozw"></field>
+  </row>
+
+  <row>
+	<field name="id">38</field>
+	<field name="name">SWITCH_BINARY</field>
+	<field name="label">SWITCH_BINARY</field>
+	<field name="class_ref">37</field>
+	<field name="support_oh1"></field>
+	<field name="support_oh2"></field>
+	<field name="support_ozw"></field>
+  </row>
+
+  <row>
+	<field name="id">39</field>
+	<field name="name">SWITCH_MULTILEVEL</field>
+	<field name="label">SWITCH_MULTILEVEL</field>
+	<field name="class_ref">38</field>
+	<field name="support_oh1"></field>
+	<field name="support_oh2"></field>
+	<field name="support_ozw"></field>
+  </row>
+
+  <row>
+	<field name="id">40</field>
+	<field name="name">SWITCH_ALL</field>
+	<field name="label">SWITCH_ALL</field>
+	<field name="class_ref">39</field>
+	<field name="support_oh1"></field>
+	<field name="support_oh2"></field>
+	<field name="support_ozw"></field>
+  </row>
+
+  <row>
+	<field name="id">41</field>
+	<field name="name">SWITCH_TOGGLE_BINARY</field>
+	<field name="label">SWITCH_TOGGLE_BINARY</field>
+	<field name="class_ref">40</field>
+	<field name="support_oh1"></field>
+	<field name="support_oh2"></field>
+	<field name="support_ozw"></field>
+  </row>
+
+  <row>
+	<field name="id">42</field>
+	<field name="name">SWITCH_TOGGLE_MULTILEVEL</field>
+	<field name="label">SWITCH_TOGGLE_MULTILEVEL</field>
+	<field name="class_ref">41</field>
+	<field name="support_oh1"></field>
+	<field name="support_oh2"></field>
+	<field name="support_ozw"></field>
+  </row>
+
+  <row>
+	<field name="id">43</field>
+	<field name="name">CHIMNEY_FAN</field>
+	<field name="label">CHIMNEY_FAN</field>
+	<field name="class_ref">42</field>
+	<field name="support_oh1"></field>
+	<field name="support_oh2"></field>
+	<field name="support_ozw"></field>
+  </row>
+
+  <row>
+	<field name="id">44</field>
+	<field name="name">SCENE_ACTIVATION</field>
+	<field name="label">SCENE_ACTIVATION</field>
+	<field name="class_ref">43</field>
+	<field name="support_oh1"></field>
+	<field name="support_oh2"></field>
+	<field name="support_ozw"></field>
+  </row>
+
+  <row>
+	<field name="id">45</field>
+	<field name="name">SCENE_ACTUATOR_CONF</field>
+	<field name="label">SCENE_ACTUATOR_CONF</field>
+	<field name="class_ref">44</field>
+	<field name="support_oh1"></field>
+	<field name="support_oh2"></field>
+	<field name="support_ozw"></field>
+  </row>
+
+  <row>
+	<field name="id">46</field>
+	<field name="name">SCENE_CONTROLLER_CONF</field>
+	<field name="label">SCENE_CONTROLLER_CONF</field>
+	<field name="class_ref">45</field>
+	<field name="support_oh1"></field>
+	<field name="support_oh2"></field>
+	<field name="support_ozw"></field>
+  </row>
+
+  <row>
+	<field name="id">47</field>
+	<field name="name">ZIP_CLIENT</field>
+	<field name="label">ZIP_CLIENT</field>
+	<field name="class_ref">46</field>
+	<field name="support_oh1"></field>
+	<field name="support_oh2"></field>
+	<field name="support_ozw"></field>
+  </row>
+
+  <row>
+	<field name="id">48</field>
+	<field name="name">ZIP_ADV_SERVICES</field>
+	<field name="label">ZIP_ADV_SERVICES</field>
+	<field name="class_ref">47</field>
+	<field name="support_oh1"></field>
+	<field name="support_oh2"></field>
+	<field name="support_ozw"></field>
+  </row>
+
+  <row>
+	<field name="id">49</field>
+	<field name="name">SENSOR_BINARY</field>
+	<field name="label">SENSOR_BINARY</field>
+	<field name="class_ref">48</field>
+	<field name="support_oh1"></field>
+	<field name="support_oh2"></field>
+	<field name="support_ozw"></field>
+  </row>
+
+  <row>
+	<field name="id">50</field>
+	<field name="name">SENSOR_MULTILEVEL</field>
+	<field name="label">SENSOR_MULTILEVEL</field>
+	<field name="class_ref">49</field>
+	<field name="support_oh1"></field>
+	<field name="support_oh2"></field>
+	<field name="support_ozw"></field>
+  </row>
+
+  <row>
+	<field name="id">51</field>
+	<field name="name">METER</field>
+	<field name="label">METER</field>
+	<field name="class_ref">50</field>
+	<field name="support_oh1"></field>
+	<field name="support_oh2"></field>
+	<field name="support_ozw"></field>
+  </row>
+
+  <row>
+	<field name="id">52</field>
+	<field name="name">ZIP_ADV_SERVER</field>
+	<field name="label">COLOR</field>
+	<field name="class_ref">51</field>
+	<field name="support_oh1"></field>
+	<field name="support_oh2"></field>
+	<field name="support_ozw"></field>
+  </row>
+
+  <row>
+	<field name="id">53</field>
+	<field name="name">ZIP_ADV_CLIENT</field>
+	<field name="label">ZIP_ADV_CLIENT</field>
+	<field name="class_ref">52</field>
+	<field name="support_oh1"></field>
+	<field name="support_oh2"></field>
+	<field name="support_ozw"></field>
+  </row>
+
+  <row>
+	<field name="id">54</field>
+	<field name="name">METER_PULSE</field>
+	<field name="label">METER_PULSE</field>
+	<field name="class_ref">53</field>
+	<field name="support_oh1"></field>
+	<field name="support_oh2"></field>
+	<field name="support_ozw"></field>
+  </row>
+
+  <row>
+	<field name="id">57</field>
+	<field name="name">THERMOSTAT_HEATING</field>
+	<field name="label">THERMOSTAT_HEATING</field>
+	<field name="class_ref">56</field>
+	<field name="support_oh1"></field>
+	<field name="support_oh2"></field>
+	<field name="support_ozw"></field>
+  </row>
+
+  <row>
+	<field name="id">61</field>
+	<field name="name">METER_TBL_CONFIG</field>
+	<field name="label">METER_TBL_CONFIG</field>
+	<field name="class_ref">60</field>
+	<field name="support_oh1"></field>
+	<field name="support_oh2"></field>
+	<field name="support_ozw"></field>
+  </row>
+
+  <row>
+	<field name="id">62</field>
+	<field name="name">METER_TBL_MONITOR</field>
+	<field name="label">METER_TBL_MONITOR</field>
+	<field name="class_ref">61</field>
+	<field name="support_oh1"></field>
+	<field name="support_oh2"></field>
+	<field name="support_ozw"></field>
+  </row>
+
+  <row>
+	<field name="id">63</field>
+	<field name="name">METER_TBL_PUSH</field>
+	<field name="label">METER_TBL_PUSH</field>
+	<field name="class_ref">62</field>
+	<field name="support_oh1"></field>
+	<field name="support_oh2"></field>
+	<field name="support_ozw"></field>
+  </row>
+
+  <row>
+	<field name="id">65</field>
+	<field name="name">THERMOSTAT_MODE</field>
+	<field name="label">THERMOSTAT_MODE</field>
+	<field name="class_ref">64</field>
+	<field name="support_oh1"></field>
+	<field name="support_oh2"></field>
+	<field name="support_ozw"></field>
+  </row>
+
+  <row>
+	<field name="id">67</field>
+	<field name="name">THERMOSTAT_OPERATING_STATE</field>
+	<field name="label">THERMOSTAT_OPERATING_STATE</field>
+	<field name="class_ref">66</field>
+	<field name="support_oh1"></field>
+	<field name="support_oh2"></field>
+	<field name="support_ozw"></field>
+  </row>
+
+  <row>
+	<field name="id">68</field>
+	<field name="name">THERMOSTAT_SETPOINT</field>
+	<field name="label">THERMOSTAT_SETPOINT</field>
+	<field name="class_ref">67</field>
+	<field name="support_oh1"></field>
+	<field name="support_oh2"></field>
+	<field name="support_ozw"></field>
+  </row>
+
+  <row>
+	<field name="id">69</field>
+	<field name="name">THERMOSTAT_FAN_MODE</field>
+	<field name="label">THERMOSTAT_FAN_MODE</field>
+	<field name="class_ref">68</field>
+	<field name="support_oh1"></field>
+	<field name="support_oh2"></field>
+	<field name="support_ozw"></field>
+  </row>
+
+  <row>
+	<field name="id">70</field>
+	<field name="name">THERMOSTAT_FAN_STATE</field>
+	<field name="label">THERMOSTAT_FAN_STATE</field>
+	<field name="class_ref">69</field>
+	<field name="support_oh1"></field>
+	<field name="support_oh2"></field>
+	<field name="support_ozw"></field>
+  </row>
+
+  <row>
+	<field name="id">71</field>
+	<field name="name">CLIMATE_CONTROL_SCHEDULE</field>
+	<field name="label">CLIMATE_CONTROL_SCHEDULE</field>
+	<field name="class_ref">70</field>
+	<field name="support_oh1"></field>
+	<field name="support_oh2"></field>
+	<field name="support_ozw"></field>
+  </row>
+
+  <row>
+	<field name="id">72</field>
+	<field name="name">THERMOSTAT_SETBACK</field>
+	<field name="label">THERMOSTAT_SETBACK</field>
+	<field name="class_ref">71</field>
+	<field name="support_oh1"></field>
+	<field name="support_oh2"></field>
+	<field name="support_ozw"></field>
+  </row>
+
+  <row>
+	<field name="id">77</field>
+	<field name="name">DOOR_LOCK_LOGGING</field>
+	<field name="label">DOOR_LOCK_LOGGING</field>
+	<field name="class_ref">76</field>
+	<field name="support_oh1"></field>
+	<field name="support_oh2"></field>
+	<field name="support_ozw"></field>
+  </row>
+
+  <row>
+	<field name="id">79</field>
+	<field name="name">SCHEDULE_ENTRY_LOCK</field>
+	<field name="label">SCHEDULE_ENTRY_LOCK</field>
+	<field name="class_ref">78</field>
+	<field name="support_oh1"></field>
+	<field name="support_oh2"></field>
+	<field name="support_ozw"></field>
+  </row>
+
+  <row>
+	<field name="id">81</field>
+	<field name="name">BASIC_WINDOW_COVERING</field>
+	<field name="label">BASIC_WINDOW_COVERING</field>
+	<field name="class_ref">80</field>
+	<field name="support_oh1"></field>
+	<field name="support_oh2"></field>
+	<field name="support_ozw"></field>
+  </row>
+
+  <row>
+	<field name="id">82</field>
+	<field name="name">MTP_WINDOW_COVERING</field>
+	<field name="label">MTP_WINDOW_COVERING</field>
+	<field name="class_ref">81</field>
+	<field name="support_oh1"></field>
+	<field name="support_oh2"></field>
+	<field name="support_ozw"></field>
+  </row>
+
+  <row>
+	<field name="id">87</field>
+	<field name="name">CRC_16_ENCAP</field>
+	<field name="label">CRC_16_ENCAP</field>
+	<field name="class_ref">86</field>
+	<field name="support_oh1"></field>
+	<field name="support_oh2"></field>
+	<field name="support_ozw"></field>
+  </row>
+
+  <row>
+	<field name="id">90</field>
+	<field name="name">ASSOCIATION_GROUP_INFO</field>
+	<field name="label">ASSOCIATION_GROUP_INFO</field>
+	<field name="class_ref">89</field>
+	<field name="support_oh1"></field>
+	<field name="support_oh2"></field>
+	<field name="support_ozw"></field>
+  </row>
+
+  <row>
+	<field name="id">91</field>
+	<field name="name">DEVICE_RESET_LOCALLY</field>
+	<field name="label">DEVICE_RESET_LOCALLY</field>
+	<field name="class_ref">90</field>
+	<field name="support_oh1"></field>
+	<field name="support_oh2"></field>
+	<field name="support_ozw"></field>
+  </row>
+
+  <row>
+	<field name="id">95</field>
+	<field name="name">ZWAVE_PLUS_INFO</field>
+	<field name="label">ZWAVE_PLUS_INFO</field>
+	<field name="class_ref">94</field>
+	<field name="support_oh1"></field>
+	<field name="support_oh2"></field>
+	<field name="support_ozw"></field>
+  </row>
+
+  <row>
+	<field name="id">97</field>
+	<field name="name">MULTI_INSTANCE</field>
+	<field name="label">MULTI_INSTANCE</field>
+	<field name="class_ref">96</field>
+	<field name="support_oh1"></field>
+	<field name="support_oh2"></field>
+	<field name="support_ozw"></field>
+  </row>
+
+  <row>
+	<field name="id">99</field>
+	<field name="name">DOOR_LOCK</field>
+	<field name="label">DOOR_LOCK</field>
+	<field name="class_ref">98</field>
+	<field name="support_oh1"></field>
+	<field name="support_oh2"></field>
+	<field name="support_ozw"></field>
+  </row>
+
+  <row>
+	<field name="id">100</field>
+	<field name="name">USER_CODE</field>
+	<field name="label">USER_CODE</field>
+	<field name="class_ref">99</field>
+	<field name="support_oh1"></field>
+	<field name="support_oh2"></field>
+	<field name="support_ozw"></field>
+  </row>
+
+  <row>
+	<field name="id">113</field>
+	<field name="name">CONFIGURATION</field>
+	<field name="label">CONFIGURATION</field>
+	<field name="class_ref">112</field>
+	<field name="support_oh1"></field>
+	<field name="support_oh2"></field>
+	<field name="support_ozw"></field>
+  </row>
+
+  <row>
+	<field name="id">114</field>
+	<field name="name">ALARM</field>
+	<field name="label">ALARM</field>
+	<field name="class_ref">113</field>
+	<field name="support_oh1"></field>
+	<field name="support_oh2"></field>
+	<field name="support_ozw"></field>
+  </row>
+
+  <row>
+	<field name="id">115</field>
+	<field name="name">MANUFACTURER_SPECIFIC</field>
+	<field name="label">MANUFACTURER_SPECIFIC</field>
+	<field name="class_ref">114</field>
+	<field name="support_oh1"></field>
+	<field name="support_oh2"></field>
+	<field name="support_ozw"></field>
+  </row>
+
+  <row>
+	<field name="id">116</field>
+	<field name="name">POWERLEVEL</field>
+	<field name="label">POWERLEVEL</field>
+	<field name="class_ref">115</field>
+	<field name="support_oh1"></field>
+	<field name="support_oh2"></field>
+	<field name="support_ozw"></field>
+  </row>
+
+  <row>
+	<field name="id">118</field>
+	<field name="name">PROTECTION</field>
+	<field name="label">PROTECTION</field>
+	<field name="class_ref">117</field>
+	<field name="support_oh1"></field>
+	<field name="support_oh2"></field>
+	<field name="support_ozw"></field>
+  </row>
+
+  <row>
+	<field name="id">119</field>
+	<field name="name">LOCK</field>
+	<field name="label">LOCK</field>
+	<field name="class_ref">118</field>
+	<field name="support_oh1"></field>
+	<field name="support_oh2"></field>
+	<field name="support_ozw"></field>
+  </row>
+
+  <row>
+	<field name="id">120</field>
+	<field name="name">NODE_NAMING</field>
+	<field name="label">NODE_NAMING</field>
+	<field name="class_ref">119</field>
+	<field name="support_oh1"></field>
+	<field name="support_oh2"></field>
+	<field name="support_ozw"></field>
+  </row>
+
+  <row>
+	<field name="id">123</field>
+	<field name="name">FIRMWARE_UPDATE_MD</field>
+	<field name="label">FIRMWARE_UPDATE_MD</field>
+	<field name="class_ref">122</field>
+	<field name="support_oh1"></field>
+	<field name="support_oh2"></field>
+	<field name="support_ozw"></field>
+  </row>
+
+  <row>
+	<field name="id">124</field>
+	<field name="name">GROUPING_NAME</field>
+	<field name="label">GROUPING_NAME</field>
+	<field name="class_ref">123</field>
+	<field name="support_oh1"></field>
+	<field name="support_oh2"></field>
+	<field name="support_ozw"></field>
+  </row>
+
+  <row>
+	<field name="id">125</field>
+	<field name="name">REMOTE_ASSOCIATION_ACTIVATE</field>
+	<field name="label">REMOTE_ASSOCIATION_ACTIVATE</field>
+	<field name="class_ref">124</field>
+	<field name="support_oh1"></field>
+	<field name="support_oh2"></field>
+	<field name="support_ozw"></field>
+  </row>
+
+  <row>
+	<field name="id">126</field>
+	<field name="name">REMOTE_ASSOCIATION</field>
+	<field name="label">REMOTE_ASSOCIATION</field>
+	<field name="class_ref">125</field>
+	<field name="support_oh1"></field>
+	<field name="support_oh2"></field>
+	<field name="support_ozw"></field>
+  </row>
+
+  <row>
+	<field name="id">129</field>
+	<field name="name">BATTERY</field>
+	<field name="label">BATTERY</field>
+	<field name="class_ref">128</field>
+	<field name="support_oh1"></field>
+	<field name="support_oh2"></field>
+	<field name="support_ozw"></field>
+  </row>
+
+  <row>
+	<field name="id">130</field>
+	<field name="name">CLOCK</field>
+	<field name="label">CLOCK</field>
+	<field name="class_ref">129</field>
+	<field name="support_oh1"></field>
+	<field name="support_oh2"></field>
+	<field name="support_ozw"></field>
+  </row>
+
+  <row>
+	<field name="id">131</field>
+	<field name="name">HAIL</field>
+	<field name="label">HAIL</field>
+	<field name="class_ref">130</field>
+	<field name="support_oh1"></field>
+	<field name="support_oh2"></field>
+	<field name="support_ozw"></field>
+  </row>
+
+  <row>
+	<field name="id">133</field>
+	<field name="name">WAKE_UP</field>
+	<field name="label">WAKE_UP</field>
+	<field name="class_ref">132</field>
+	<field name="support_oh1"></field>
+	<field name="support_oh2"></field>
+	<field name="support_ozw"></field>
+  </row>
+
+  <row>
+	<field name="id">134</field>
+	<field name="name">ASSOCIATION</field>
+	<field name="label">ASSOCIATION</field>
+	<field name="class_ref">133</field>
+	<field name="support_oh1"></field>
+	<field name="support_oh2"></field>
+	<field name="support_ozw"></field>
+  </row>
+
+  <row>
+	<field name="id">135</field>
+	<field name="name">VERSION</field>
+	<field name="label">VERSION</field>
+	<field name="class_ref">134</field>
+	<field name="support_oh1"></field>
+	<field name="support_oh2"></field>
+	<field name="support_ozw"></field>
+  </row>
+
+  <row>
+	<field name="id">136</field>
+	<field name="name">INDICATOR</field>
+	<field name="label">INDICATOR</field>
+	<field name="class_ref">135</field>
+	<field name="support_oh1"></field>
+	<field name="support_oh2"></field>
+	<field name="support_ozw"></field>
+  </row>
+
+  <row>
+	<field name="id">137</field>
+	<field name="name">PROPRIETARY</field>
+	<field name="label">PROPRIETARY</field>
+	<field name="class_ref">136</field>
+	<field name="support_oh1"></field>
+	<field name="support_oh2"></field>
+	<field name="support_ozw"></field>
+  </row>
+
+  <row>
+	<field name="id">138</field>
+	<field name="name">LANGUAGE</field>
+	<field name="label">LANGUAGE</field>
+	<field name="class_ref">137</field>
+	<field name="support_oh1"></field>
+	<field name="support_oh2"></field>
+	<field name="support_ozw"></field>
+  </row>
+
+  <row>
+	<field name="id">139</field>
+	<field name="name">TIME</field>
+	<field name="label">TIME</field>
+	<field name="class_ref">138</field>
+	<field name="support_oh1"></field>
+	<field name="support_oh2"></field>
+	<field name="support_ozw"></field>
+  </row>
+
+  <row>
+	<field name="id">140</field>
+	<field name="name">TIME_PARAMETERS</field>
+	<field name="label">TIME_PARAMETERS</field>
+	<field name="class_ref">139</field>
+	<field name="support_oh1"></field>
+	<field name="support_oh2"></field>
+	<field name="support_ozw"></field>
+  </row>
+
+  <row>
+	<field name="id">141</field>
+	<field name="name">GEOGRAPHIC_LOCATION</field>
+	<field name="label">GEOGRAPHIC_LOCATION</field>
+	<field name="class_ref">140</field>
+	<field name="support_oh1"></field>
+	<field name="support_oh2"></field>
+	<field name="support_ozw"></field>
+  </row>
+
+  <row>
+	<field name="id">142</field>
+	<field name="name">COMPOSITE</field>
+	<field name="label">COMPOSITE</field>
+	<field name="class_ref">141</field>
+	<field name="support_oh1"></field>
+	<field name="support_oh2"></field>
+	<field name="support_ozw"></field>
+  </row>
+
+  <row>
+	<field name="id">143</field>
+	<field name="name">MULTI_INSTANCE_ASSOCIATION</field>
+	<field name="label">MULTI_INSTANCE_ASSOCIATION</field>
+	<field name="class_ref">142</field>
+	<field name="support_oh1"></field>
+	<field name="support_oh2"></field>
+	<field name="support_ozw"></field>
+  </row>
+
+  <row>
+	<field name="id">144</field>
+	<field name="name">MULTI_CMD</field>
+	<field name="label">MULTI_CMD</field>
+	<field name="class_ref">143</field>
+	<field name="support_oh1"></field>
+	<field name="support_oh2"></field>
+	<field name="support_ozw"></field>
+  </row>
+
+  <row>
+	<field name="id">145</field>
+	<field name="name">ENERGY_PRODUCTION</field>
+	<field name="label">ENERGY_PRODUCTION</field>
+	<field name="class_ref">144</field>
+	<field name="support_oh1"></field>
+	<field name="support_oh2"></field>
+	<field name="support_ozw"></field>
+  </row>
+
+  <row>
+	<field name="id">146</field>
+	<field name="name">MANUFACTURER_PROPRIETARY</field>
+	<field name="label">MANUFACTURER_PROPRIETARY</field>
+	<field name="class_ref">145</field>
+	<field name="support_oh1"></field>
+	<field name="support_oh2"></field>
+	<field name="support_ozw"></field>
+  </row>
+
+  <row>
+	<field name="id">147</field>
+	<field name="name">SCREEN_MD</field>
+	<field name="label">SCREEN_MD</field>
+	<field name="class_ref">146</field>
+	<field name="support_oh1"></field>
+	<field name="support_oh2"></field>
+	<field name="support_ozw"></field>
+  </row>
+
+  <row>
+	<field name="id">148</field>
+	<field name="name">SCREEN_ATTRIBUTES</field>
+	<field name="label">SCREEN_ATTRIBUTES</field>
+	<field name="class_ref">147</field>
+	<field name="support_oh1"></field>
+	<field name="support_oh2"></field>
+	<field name="support_ozw"></field>
+  </row>
+
+  <row>
+	<field name="id">149</field>
+	<field name="name">SIMPLE_AV_CONTROL</field>
+	<field name="label">SIMPLE_AV_CONTROL</field>
+	<field name="class_ref">148</field>
+	<field name="support_oh1"></field>
+	<field name="support_oh2"></field>
+	<field name="support_ozw"></field>
+  </row>
+
+  <row>
+	<field name="id">150</field>
+	<field name="name">AV_CONTENT_DIRECTORY_MD</field>
+	<field name="label">AV_CONTENT_DIRECTORY_MD</field>
+	<field name="class_ref">149</field>
+	<field name="support_oh1"></field>
+	<field name="support_oh2"></field>
+	<field name="support_ozw"></field>
+  </row>
+
+  <row>
+	<field name="id">151</field>
+	<field name="name">AV_RENDERER_STATUS</field>
+	<field name="label">AV_RENDERER_STATUS</field>
+	<field name="class_ref">150</field>
+	<field name="support_oh1"></field>
+	<field name="support_oh2"></field>
+	<field name="support_ozw"></field>
+  </row>
+
+  <row>
+	<field name="id">152</field>
+	<field name="name">AV_CONTENT_SEARCH_MD</field>
+	<field name="label">AV_CONTENT_SEARCH_MD</field>
+	<field name="class_ref">151</field>
+	<field name="support_oh1"></field>
+	<field name="support_oh2"></field>
+	<field name="support_ozw"></field>
+  </row>
+
+  <row>
+	<field name="id">153</field>
+	<field name="name">SECURITY</field>
+	<field name="label">SECURITY</field>
+	<field name="class_ref">152</field>
+	<field name="support_oh1"></field>
+	<field name="support_oh2"></field>
+	<field name="support_ozw"></field>
+  </row>
+
+  <row>
+	<field name="id">154</field>
+	<field name="name">AV_TAGGING_MD</field>
+	<field name="label">AV_TAGGING_MD</field>
+	<field name="class_ref">153</field>
+	<field name="support_oh1"></field>
+	<field name="support_oh2"></field>
+	<field name="support_ozw"></field>
+  </row>
+
+  <row>
+	<field name="id">155</field>
+	<field name="name">IP_CONFIGURATION</field>
+	<field name="label">IP_CONFIGURATION</field>
+	<field name="class_ref">154</field>
+	<field name="support_oh1"></field>
+	<field name="support_oh2"></field>
+	<field name="support_ozw"></field>
+  </row>
+
+  <row>
+	<field name="id">156</field>
+	<field name="name">ASSOCIATION_COMMAND_CONFIGURATION</field>
+	<field name="label">ASSOCIATION_COMMAND_CONFIGURATION</field>
+	<field name="class_ref">155</field>
+	<field name="support_oh1"></field>
+	<field name="support_oh2"></field>
+	<field name="support_ozw"></field>
+  </row>
+
+  <row>
+	<field name="id">157</field>
+	<field name="name">SENSOR_ALARM</field>
+	<field name="label">SENSOR_ALARM</field>
+	<field name="class_ref">156</field>
+	<field name="support_oh1"></field>
+	<field name="support_oh2"></field>
+	<field name="support_ozw"></field>
+  </row>
+
+  <row>
+	<field name="id">158</field>
+	<field name="name">SILENCE_ALARM</field>
+	<field name="label">SILENCE_ALARM</field>
+	<field name="class_ref">157</field>
+	<field name="support_oh1"></field>
+	<field name="support_oh2"></field>
+	<field name="support_ozw"></field>
+  </row>
+
+  <row>
+	<field name="id">159</field>
+	<field name="name">SENSOR_CONFIGURATION</field>
+	<field name="label">SENSOR_CONFIGURATION</field>
+	<field name="class_ref">158</field>
+	<field name="support_oh1"></field>
+	<field name="support_oh2"></field>
+	<field name="support_ozw"></field>
+  </row>
+
+  <row>
+	<field name="id">240</field>
+	<field name="name">MARK</field>
+	<field name="label">MARK</field>
+	<field name="class_ref">239</field>
+	<field name="support_oh1"></field>
+	<field name="support_oh2"></field>
+	<field name="support_ozw"></field>
+  </row>
+
+  <row>
+	<field name="id">241</field>
+	<field name="name">NON_INTEROPERABLE</field>
+	<field name="label">NON_INTEROPERABLE</field>
+	<field name="class_ref">240</field>
+	<field name="support_oh1"></field>
+	<field name="support_oh2"></field>
+	<field name="support_ozw"></field>
+  </row>
+</resultset>
