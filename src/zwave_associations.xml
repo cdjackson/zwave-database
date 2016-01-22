@@ -5382,7 +5382,7 @@ state and reflect</field>
 	<field name="id">488</field>
 	<field name="device">253</field>
 	<field name="group_id">1</field>
-	<field name="label">ZB22UK supports Group 1 with up to Ô¨Åve devices for lifeline communicat</field>
+	<field name="label">ZB22UK supports Group 1 with up to ?ve devices for lifeline communicat</field>
 	<field name="description"></field>
 	<field name="max">5</field>
 	<field name="controller">1</field>
@@ -5431,7 +5431,7 @@ state and reflect</field>
 	<field name="description">Forward the Basic Set</field>
 	<field name="max">5</field>
 	<field name="controller">0</field>
-	<field name="overview">&lt;p&gt;Forward the Basic Set, Switch Binary Set commands to associated¬†nodes in Group 2 when the Garage Door Controller receives the¬†Basic Set, Switch Binary Set commands from main controller.&lt;/p&gt;</field>
+	<field name="overview">&lt;p&gt;Forward the Basic Set, Switch Binary Set commands to associated†nodes in Group 2 when the Garage Door Controller receives the†Basic Set, Switch Binary Set commands from main controller.&lt;/p&gt;</field>
   </row>
 
   <row>

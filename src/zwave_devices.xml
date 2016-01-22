@@ -1230,7 +1230,7 @@
 	<field name="id">52</field>
 	<field name="manufacturer">11</field>
 	<field name="label">064459</field>
-	<field name="description">DÃ¼wi Remote Control</field>
+	<field name="description">Düwi Remote Control</field>
 	<field name="type_id">5001:0000</field>
 	<field name="versionmin">0.000</field>
 	<field name="versionmax">0.000</field>
@@ -6151,17 +6151,17 @@
 	<field name="genericclass">11</field>
 	<field name="specificclass">22</field>
 	<field name="thingid">zw062</field>
-	<field name="info_overview">&lt;p&gt;Aeon Labs Garage Door Controller is a smart and wireless Garage Door Control system, you can controlÂ the garage door to open, close, or stop moving via wireless signal on your gateway client or phoneÂ application.&lt;/p&gt;
-&lt;p&gt;The Garage Door Controller allows you to configure different alarm sounds to indicate the door â€™s action.&lt;/p&gt;
-&lt;p&gt;Each action alarm sound can be customized. To change or update new alarm sounds for the Garage DoorÂ Controller, connect the Garage Door Controller to your PC host with a USB cable and download yourÂ sound files to the flash memory (128 MB) of the Garage Door Controller.&lt;/p&gt;
-&lt;p&gt;It can be included and operated in any Z-wave network with other Z-wave certified devices from otherÂ manufacturers and/or other applications. All non-battery operated nodes within the network will act asÂ repeaters regardless of vendor to increase reliability of the network.&lt;/p&gt;
-&lt;p&gt;It is also a security Z-wave device and supports the Over The Air (OTA) feature for the productâ€™s firmwareÂ upgrade.&lt;/p&gt;</field>
+	<field name="info_overview">&lt;p&gt;Aeon Labs Garage Door Controller is a smart and wireless Garage Door Control system, you can control the garage door to open, close, or stop moving via wireless signal on your gateway client or phone application.&lt;/p&gt;
+&lt;p&gt;The Garage Door Controller allows you to configure different alarm sounds to indicate the door ’s action.&lt;/p&gt;
+&lt;p&gt;Each action alarm sound can be customized. To change or update new alarm sounds for the Garage Door Controller, connect the Garage Door Controller to your PC host with a USB cable and download your sound files to the flash memory (128 MB) of the Garage Door Controller.&lt;/p&gt;
+&lt;p&gt;It can be included and operated in any Z-wave network with other Z-wave certified devices from other manufacturers and/or other applications. All non-battery operated nodes within the network will act as repeaters regardless of vendor to increase reliability of the network.&lt;/p&gt;
+&lt;p&gt;It is also a security Z-wave device and supports the Over The Air (OTA) feature for the product’s firmware upgrade.&lt;/p&gt;</field>
 	<field name="info_inclusion">&lt;p&gt;Add Garage Door Controller into Z-Wave Network:&lt;/p&gt;
-&lt;p&gt;1. Install Garage Door Controller, and connect it to the 5V DC Adapter.&lt;br /&gt;2. Let the primary controller into inclusion mode (If you donâ€™t knowÂ how to do this, please refer to its manual).&lt;br /&gt;3. Press the Z-Wave Button.&lt;/p&gt;
-&lt;p&gt;Â &lt;/p&gt;</field>
+&lt;p&gt;1. Install Garage Door Controller, and connect it to the 5V DC Adapter.&lt;br /&gt;2. Let the primary controller into inclusion mode (If you don’t know how to do this, please refer to its manual).&lt;br /&gt;3. Press the Z-Wave Button.&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;</field>
 	<field name="info_exclusion">&lt;p&gt;Remove Garage Door Controller from Z-Wave Network:&lt;/p&gt;
-&lt;p&gt;1. Install Garage Door Controller, and connect it to the 5V DC Adapter.&lt;br /&gt;2. Let the primary controller into exclusion mode (If you donâ€™t knowÂ how to do this, refer to its manual).&lt;br /&gt;3. Press the Z-Wave Button.&lt;br /&gt;4. If the remove is failed, please repeat the process from step 2.&lt;/p&gt;
-&lt;p&gt;Note: If Garage Door Controller is removed from Z-wave network, itÂ will be reset to factory default.&lt;/p&gt;</field>
+&lt;p&gt;1. Install Garage Door Controller, and connect it to the 5V DC Adapter.&lt;br /&gt;2. Let the primary controller into exclusion mode (If you don’t know how to do this, refer to its manual).&lt;br /&gt;3. Press the Z-Wave Button.&lt;br /&gt;4. If the remove is failed, please repeat the process from step 2.&lt;/p&gt;
+&lt;p&gt;Note: If Garage Door Controller is removed from Z-wave network, it will be reset to factory default.&lt;/p&gt;</field>
 	<field name="info_wakeup"></field>
   </row>
 
