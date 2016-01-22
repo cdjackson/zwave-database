@@ -1321,4 +1321,328 @@
 	<field name="nonsecure">1</field>
 	<field name="config"></field>
   </row>
+
+  <row>
+	<field name="id">111</field>
+	<field name="endpoint">17</field>
+	<field name="commandclass">38</field>
+	<field name="basic">0</field>
+	<field name="version">1</field>
+	<field name="nif"></field>
+	<field name="secure"></field>
+	<field name="nonsecure">1</field>
+	<field name="config"></field>
+  </row>
+
+  <row>
+	<field name="id">112</field>
+	<field name="endpoint">17</field>
+	<field name="commandclass">51</field>
+	<field name="basic">0</field>
+	<field name="version">2</field>
+	<field name="nif"></field>
+	<field name="secure"></field>
+	<field name="nonsecure">1</field>
+	<field name="config"></field>
+  </row>
+
+  <row>
+	<field name="id">113</field>
+	<field name="endpoint">17</field>
+	<field name="commandclass">135</field>
+	<field name="basic">0</field>
+	<field name="version">1</field>
+	<field name="nif"></field>
+	<field name="secure"></field>
+	<field name="nonsecure">1</field>
+	<field name="config"></field>
+  </row>
+
+  <row>
+	<field name="id">114</field>
+	<field name="endpoint">17</field>
+	<field name="commandclass">134</field>
+	<field name="basic">0</field>
+	<field name="version">1</field>
+	<field name="nif"></field>
+	<field name="secure"></field>
+	<field name="nonsecure">1</field>
+	<field name="config"></field>
+  </row>
+
+  <row>
+	<field name="id">115</field>
+	<field name="endpoint">17</field>
+	<field name="commandclass">1</field>
+	<field name="basic">0</field>
+	<field name="version">1</field>
+	<field name="nif"></field>
+	<field name="secure"></field>
+	<field name="nonsecure">1</field>
+	<field name="config"></field>
+  </row>
+
+  <row>
+	<field name="id">116</field>
+	<field name="endpoint">17</field>
+	<field name="commandclass">87</field>
+	<field name="basic">0</field>
+	<field name="version">1</field>
+	<field name="nif"></field>
+	<field name="secure"></field>
+	<field name="nonsecure">1</field>
+	<field name="config"></field>
+  </row>
+
+  <row>
+	<field name="id">117</field>
+	<field name="endpoint">17</field>
+	<field name="commandclass">40</field>
+	<field name="basic">0</field>
+	<field name="version">0</field>
+	<field name="nif"></field>
+	<field name="secure"></field>
+	<field name="nonsecure">1</field>
+	<field name="config"></field>
+  </row>
+
+  <row>
+	<field name="id">118</field>
+	<field name="endpoint">17</field>
+	<field name="commandclass">115</field>
+	<field name="basic">0</field>
+	<field name="version">1</field>
+	<field name="nif"></field>
+	<field name="secure"></field>
+	<field name="nonsecure">1</field>
+	<field name="config"></field>
+  </row>
+
+  <row>
+	<field name="id">119</field>
+	<field name="endpoint">17</field>
+	<field name="commandclass">114</field>
+	<field name="basic">0</field>
+	<field name="version">1</field>
+	<field name="nif"></field>
+	<field name="secure"></field>
+	<field name="nonsecure">1</field>
+	<field name="config"></field>
+  </row>
+
+  <row>
+	<field name="id">120</field>
+	<field name="endpoint">17</field>
+	<field name="commandclass">113</field>
+	<field name="basic">0</field>
+	<field name="version">1</field>
+	<field name="nif"></field>
+	<field name="secure"></field>
+	<field name="nonsecure">1</field>
+	<field name="config"></field>
+  </row>
+
+  <row>
+	<field name="id">121</field>
+	<field name="endpoint">17</field>
+	<field name="commandclass">33</field>
+	<field name="basic">0</field>
+	<field name="version">1</field>
+	<field name="nif"></field>
+	<field name="secure"></field>
+	<field name="nonsecure">1</field>
+	<field name="config"></field>
+  </row>
+
+  <row>
+	<field name="id">122</field>
+	<field name="endpoint">17</field>
+	<field name="commandclass">97</field>
+	<field name="basic">0</field>
+	<field name="version">2</field>
+	<field name="nif"></field>
+	<field name="secure"></field>
+	<field name="nonsecure">1</field>
+	<field name="config"></field>
+  </row>
+
+  <row>
+	<field name="id">123</field>
+	<field name="endpoint">18</field>
+	<field name="commandclass">38</field>
+	<field name="basic">0</field>
+	<field name="version">1</field>
+	<field name="nif"></field>
+	<field name="secure"></field>
+	<field name="nonsecure">1</field>
+	<field name="config"></field>
+  </row>
+
+  <row>
+	<field name="id">124</field>
+	<field name="endpoint">18</field>
+	<field name="commandclass">51</field>
+	<field name="basic">0</field>
+	<field name="version">2</field>
+	<field name="nif"></field>
+	<field name="secure"></field>
+	<field name="nonsecure">1</field>
+	<field name="config"></field>
+  </row>
+
+  <row>
+	<field name="id">125</field>
+	<field name="endpoint">18</field>
+	<field name="commandclass">33</field>
+	<field name="basic">0</field>
+	<field name="version">0</field>
+	<field name="nif"></field>
+	<field name="secure"></field>
+	<field name="nonsecure">1</field>
+	<field name="config"></field>
+  </row>
+
+  <row>
+	<field name="id">126</field>
+	<field name="endpoint">19</field>
+	<field name="commandclass">38</field>
+	<field name="basic">0</field>
+	<field name="version">1</field>
+	<field name="nif"></field>
+	<field name="secure"></field>
+	<field name="nonsecure">1</field>
+	<field name="config"></field>
+  </row>
+
+  <row>
+	<field name="id">127</field>
+	<field name="endpoint">19</field>
+	<field name="commandclass">51</field>
+	<field name="basic">0</field>
+	<field name="version">2</field>
+	<field name="nif"></field>
+	<field name="secure"></field>
+	<field name="nonsecure">1</field>
+	<field name="config"></field>
+  </row>
+
+  <row>
+	<field name="id">128</field>
+	<field name="endpoint">19</field>
+	<field name="commandclass">33</field>
+	<field name="basic">0</field>
+	<field name="version">0</field>
+	<field name="nif"></field>
+	<field name="secure"></field>
+	<field name="nonsecure">1</field>
+	<field name="config"></field>
+  </row>
+
+  <row>
+	<field name="id">129</field>
+	<field name="endpoint">20</field>
+	<field name="commandclass">38</field>
+	<field name="basic">0</field>
+	<field name="version">1</field>
+	<field name="nif"></field>
+	<field name="secure"></field>
+	<field name="nonsecure">1</field>
+	<field name="config"></field>
+  </row>
+
+  <row>
+	<field name="id">130</field>
+	<field name="endpoint">20</field>
+	<field name="commandclass">51</field>
+	<field name="basic">0</field>
+	<field name="version">2</field>
+	<field name="nif"></field>
+	<field name="secure"></field>
+	<field name="nonsecure">1</field>
+	<field name="config"></field>
+  </row>
+
+  <row>
+	<field name="id">131</field>
+	<field name="endpoint">20</field>
+	<field name="commandclass">33</field>
+	<field name="basic">0</field>
+	<field name="version">0</field>
+	<field name="nif"></field>
+	<field name="secure"></field>
+	<field name="nonsecure">1</field>
+	<field name="config"></field>
+  </row>
+
+  <row>
+	<field name="id">132</field>
+	<field name="endpoint">21</field>
+	<field name="commandclass">38</field>
+	<field name="basic">0</field>
+	<field name="version">1</field>
+	<field name="nif"></field>
+	<field name="secure"></field>
+	<field name="nonsecure">1</field>
+	<field name="config"></field>
+  </row>
+
+  <row>
+	<field name="id">133</field>
+	<field name="endpoint">21</field>
+	<field name="commandclass">51</field>
+	<field name="basic">0</field>
+	<field name="version">2</field>
+	<field name="nif"></field>
+	<field name="secure"></field>
+	<field name="nonsecure">1</field>
+	<field name="config"></field>
+  </row>
+
+  <row>
+	<field name="id">134</field>
+	<field name="endpoint">21</field>
+	<field name="commandclass">33</field>
+	<field name="basic">0</field>
+	<field name="version">0</field>
+	<field name="nif"></field>
+	<field name="secure"></field>
+	<field name="nonsecure">1</field>
+	<field name="config"></field>
+  </row>
+
+  <row>
+	<field name="id">135</field>
+	<field name="endpoint">22</field>
+	<field name="commandclass">38</field>
+	<field name="basic">0</field>
+	<field name="version">1</field>
+	<field name="nif"></field>
+	<field name="secure"></field>
+	<field name="nonsecure">1</field>
+	<field name="config"></field>
+  </row>
+
+  <row>
+	<field name="id">136</field>
+	<field name="endpoint">22</field>
+	<field name="commandclass">51</field>
+	<field name="basic">0</field>
+	<field name="version">2</field>
+	<field name="nif"></field>
+	<field name="secure"></field>
+	<field name="nonsecure">1</field>
+	<field name="config"></field>
+  </row>
+
+  <row>
+	<field name="id">137</field>
+	<field name="endpoint">22</field>
+	<field name="commandclass">33</field>
+	<field name="basic">0</field>
+	<field name="version">0</field>
+	<field name="nif"></field>
+	<field name="secure"></field>
+	<field name="nonsecure">1</field>
+	<field name="config"></field>
+  </row>
 </resultset>

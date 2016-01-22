@@ -1,0 +1,346 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Product>
+  <Model>FGD211</Model>
+  <Label lang="en">Universal Dimmer 500W</Label>
+
+  <Configuration>
+
+    <Parameter>
+      <Index>1</Index>
+      <Label lang="en">Enable/Disable ALL ON/OFF</Label>
+      <Type>list</Type>
+      <Default>255</Default>
+      <Minimum>0</Minimum>
+      <Maximum>65535</Maximum>
+      <Size>1</Size>
+      <Item>
+        <Value>-1</Value>
+        <Label lang="en">ALL ON active / ALL OFF active</Label>
+      </Item>
+      <Item>
+        <Value>0</Value>
+        <Label lang="en">ALL ON disabled / ALL OFF disabled</Label>
+      </Item>
+      <Item>
+        <Value>1</Value>
+        <Label lang="en">ALL ON disabled / ALL OFF active</Label>
+      </Item>
+      <Item>
+        <Value>2</Value>
+        <Label lang="en">ALL ON active / ALL OFF disabled</Label>
+      </Item>
+    </Parameter>
+
+    <Parameter>
+      <Index>6</Index>
+      <Label lang="en">Separation of association sending (key 1)</Label>
+      <Type>list</Type>
+      <Default>0</Default>
+      <Minimum>0</Minimum>
+      <Maximum>65535</Maximum>
+      <Size>1</Size>
+      <Item>
+        <Value>0</Value>
+        <Label lang="en">Map status to all devices in group 1</Label>
+      </Item>
+      <Item>
+        <Value>1</Value>
+        <Label lang="en">Map OFF status to all devices in group 1, Double click on key 1 will s</Label>
+      </Item>
+      <Item>
+        <Value>2</Value>
+        <Label lang="en">Map OFF status to all devices in group 1, Double click on key 1 will s</Label>
+      </Item>
+    </Parameter>
+
+    <Parameter>
+      <Index>7</Index>
+      <Label lang="en">Control key #2 behaviour</Label>
+      <Type>list</Type>
+      <Default>1</Default>
+      <Minimum>0</Minimum>
+      <Maximum>65535</Maximum>
+      <Size>1</Size>
+      <Item>
+        <Value>0</Value>
+        <Label lang="en">Device status is not checked</Label>
+      </Item>
+      <Item>
+        <Value>1</Value>
+        <Label lang="en">Device status is checked</Label>
+      </Item>
+    </Parameter>
+
+    <Parameter>
+      <Index>8</Index>
+      <Label lang="en">Dimming step at automatic control</Label>
+      <Type>short</Type>
+      <Default>1</Default>
+      <Minimum>1</Minimum>
+      <Maximum>99</Maximum>
+      <Size>1</Size>
+    </Parameter>
+
+    <Parameter>
+      <Index>9</Index>
+      <Label lang="en">Time of MANUALLY moving between the extreme dimming values</Label>
+      <Type>short</Type>
+      <Default>5</Default>
+      <Minimum>1</Minimum>
+      <Maximum>255</Maximum>
+      <Size>1</Size>
+    </Parameter>
+
+    <Parameter>
+      <Index>10</Index>
+      <Label lang="en">Time of AUTOMATIC moving between the extreme dimming values</Label>
+      <Type>short</Type>
+      <Default>1</Default>
+      <Minimum>0</Minimum>
+      <Maximum>255</Maximum>
+      <Size>1</Size>
+    </Parameter>
+
+    <Parameter>
+      <Index>11</Index>
+      <Label lang="en">Dimming step at manual control</Label>
+      <Type>short</Type>
+      <Default>1</Default>
+      <Minimum>1</Minimum>
+      <Maximum>99</Maximum>
+      <Size>1</Size>
+    </Parameter>
+
+    <Parameter>
+      <Index>12</Index>
+      <Label lang="en">Maximum dimmer level control</Label>
+      <Type>short</Type>
+      <Default>99</Default>
+      <Minimum>2</Minimum>
+      <Maximum>99</Maximum>
+      <Size>1</Size>
+    </Parameter>
+
+    <Parameter>
+      <Index>13</Index>
+      <Label lang="en">Minimum dimmer level control</Label>
+      <Type>short</Type>
+      <Default>2</Default>
+      <Minimum>1</Minimum>
+      <Maximum>98</Maximum>
+      <Size>1</Size>
+    </Parameter>
+
+    <Parameter>
+      <Index>14</Index>
+      <Label lang="en">Inputs Button/Switch configuration</Label>
+      <Type>list</Type>
+      <Default>0</Default>
+      <Minimum>0</Minimum>
+      <Maximum>65535</Maximum>
+      <Size>1</Size>
+      <Item>
+        <Value>0</Value>
+        <Label lang="en">Mono-stable input (button)</Label>
+      </Item>
+      <Item>
+        <Value>1</Value>
+        <Label lang="en">Bi-stable input (switch)</Label>
+      </Item>
+      <Item>
+        <Value>2</Value>
+        <Label lang="en">Roller blind switch (UP / DOWN)</Label>
+      </Item>
+    </Parameter>
+
+    <Parameter>
+      <Index>15</Index>
+      <Label lang="en">Parm 15</Label>
+      <Type>list</Type>
+      <Default>1</Default>
+      <Minimum>0</Minimum>
+      <Maximum>65535</Maximum>
+      <Size>1</Size>
+      <Item>
+        <Value>0</Value>
+        <Label lang="en">Disable double click</Label>
+      </Item>
+      <Item>
+        <Value>1</Value>
+        <Label lang="en">Enable double click</Label>
+      </Item>
+    </Parameter>
+
+    <Parameter>
+      <Index>16</Index>
+      <Label lang="en">Saving state before power failure</Label>
+      <Type>list</Type>
+      <Default>1</Default>
+      <Minimum>0</Minimum>
+      <Maximum>65535</Maximum>
+      <Size>1</Size>
+      <Item>
+        <Value>0</Value>
+        <Label lang="en">State NOT saved at power failure, all outputs are set to OFF upon powe</Label>
+      </Item>
+      <Item>
+        <Value>1</Value>
+        <Label lang="en">State saved at power failure, all outputs are set to previous state up</Label>
+      </Item>
+    </Parameter>
+
+    <Parameter>
+      <Index>17</Index>
+      <Label lang="en">3-way switch</Label>
+      <Type>list</Type>
+      <Default>0</Default>
+      <Minimum>0</Minimum>
+      <Maximum>65535</Maximum>
+      <Size>1</Size>
+      <Item>
+        <Value>0</Value>
+        <Label lang="en">Disable</Label>
+      </Item>
+      <Item>
+        <Value>1</Value>
+        <Label lang="en">Enable</Label>
+      </Item>
+    </Parameter>
+
+    <Parameter>
+      <Index>18</Index>
+      <Label lang="en">Synchronizing light level for associated devices</Label>
+      <Type>list</Type>
+      <Default>0</Default>
+      <Minimum>0</Minimum>
+      <Maximum>65535</Maximum>
+      <Size>1</Size>
+      <Item>
+        <Value>0</Value>
+        <Label lang="en">Disable</Label>
+      </Item>
+      <Item>
+        <Value>1</Value>
+        <Label lang="en">Enable</Label>
+      </Item>
+    </Parameter>
+
+    <Parameter>
+      <Index>19</Index>
+      <Label lang="en">Change [On-Off] bi-stable keys</Label>
+      <Type>list</Type>
+      <Default>0</Default>
+      <Minimum>0</Minimum>
+      <Maximum>65535</Maximum>
+      <Size>1</Size>
+      <Item>
+        <Value>0</Value>
+        <Label lang="en">Device changes status on key status change</Label>
+      </Item>
+      <Item>
+        <Value>1</Value>
+        <Label lang="en">Device status depends on key status; ON when the key is ON, OFF when t</Label>
+      </Item>
+    </Parameter>
+
+    <Parameter>
+      <Index>20</Index>
+      <Label lang="en">Parm 20</Label>
+      <Type>short</Type>
+      <Default>110</Default>
+      <Minimum>100</Minimum>
+      <Maximum>170</Maximum>
+      <Size>1</Size>
+    </Parameter>
+
+    <Parameter>
+      <Index>30</Index>
+      <Label lang="en">Relay 1: Response to General Alarm</Label>
+      <Type>list</Type>
+      <Default>3</Default>
+      <Minimum>0</Minimum>
+      <Maximum>65535</Maximum>
+      <Size>1</Size>
+      <Item>
+        <Value>0</Value>
+        <Label lang="en">DEACTIVATION - no response to alarm frames</Label>
+      </Item>
+      <Item>
+        <Value>1</Value>
+        <Label lang="en">ALARM RELAY ON - relay will turn ON upon receipt of alarm frame</Label>
+      </Item>
+      <Item>
+        <Value>2</Value>
+        <Label lang="en">ALARM RELAY OFF - relay will turn OFF upon receipt of alarm frame</Label>
+      </Item>
+      <Item>
+        <Value>3</Value>
+        <Label lang="en">ALARM FLASHING - relay will turn ON and OFF periodically (see param.39</Label>
+      </Item>
+    </Parameter>
+
+    <Parameter>
+      <Index>39</Index>
+      <Label lang="en">ALARM FLASHING alarm time</Label>
+      <Type>short</Type>
+      <Default>600</Default>
+      <Minimum>0</Minimum>
+      <Maximum>65535</Maximum>
+      <Size>2</Size>
+    </Parameter>
+
+    <Parameter>
+      <Index>40</Index>
+      <Label lang="en">Updating the dimming level without switch.</Label>
+      <Type>short</Type>
+      <Default>99</Default>
+      <Minimum>1</Minimum>
+      <Maximum>99</Maximum>
+      <Size>1</Size>
+    </Parameter>
+
+    <Parameter>
+      <Index>41</Index>
+      <Label lang="en">Scene activation functionality</Label>
+      <Type>list</Type>
+      <Default>0</Default>
+      <Minimum>0</Minimum>
+      <Maximum>65535</Maximum>
+      <Size>1</Size>
+      <Item>
+        <Value>0</Value>
+        <Label lang="en">Scene functionality deactivated</Label>
+      </Item>
+      <Item>
+        <Value>1</Value>
+        <Label lang="en">Scene functionality activated</Label>
+      </Item>
+    </Parameter>
+
+  </Configuration>
+
+  <Associations>
+
+    <Group>
+      <Index>1</Index>
+      <Label lang="en">Switch 1</Label>
+      <Maximum>5</Maximum>
+    </Group>
+
+    <Group>
+      <Index>2</Index>
+      <Label lang="en">Switch 2</Label>
+      <Maximum>5</Maximum>
+    </Group>
+
+    <Group>
+      <Index>3</Index>
+      <Label lang="en">Controller Updates</Label>
+      <Maximum>1</Maximum>
+      <SetToController>true</SetToController>
+    </Group>
+
+  </Associations>
+
+</Product>
+
