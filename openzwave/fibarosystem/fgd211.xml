@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Product xmlns="http://code.google.com/p/open-zwave/">
+
+  <!-- Configuration Parameters -->
+  <CommandClass id="112">
+    <Value genre="config" instance="1" index=1" value=255" label=Enable/Disable ALL ON/OFF" units=" size=1" min=0" max=65535" type="list">
+      <Help>Activate/Deactive ALL ON/OFF</Help>
+      <Item value="-1" label="ALL ON active / ALL OFF active">
+      <Item value="0" label="ALL ON disabled / ALL OFF disabled">
+      <Item value="1" label="ALL ON disabled / ALL OFF active">
+      <Item value="2" label="ALL ON active / ALL OFF disabled">
+    </Value>
+    <Value genre="config" instance="1" index=6" value=0" label=Separation of association sending (key 1)" units=" size=1" min=0" max=65535" type="list">
+      <Help>Activate/Deactivate association sending for group
+				1 - Also see param #16</Help>
+      <Item value="0" label="Map status to all devices in group 1">
+      <Item value="1" label="Map OFF status to all devices in group 1, Double click on key 1 will s">
+      <Item value="2" label="Map OFF status to all devices in group 1, Double click on key 1 will s">
+    </Value>
+    <Value genre="config" instance="1" index=7" value=1" label=Control key #2 behaviour" units=" size=1" min=0" max=65535" type="list">
+      <Help>Key no.2 is not represented by any physical device - only
+				devices in the association list.
+				This functionality prevents of lack of reaction on pressing key no.2
+				through polling devices
+				from association list one by one and checking their</Help>
+      <Item value="0" label="Device status is not checked">
+      <Item value="1" label="Device status is checked">
+    </Value>
+    <Value genre="config" instance="1" index=8" value=1" label=Dimming step at automatic control" units=" size=1" min=1" max=99" type="byte">
+      <Help></Help>
+    </Value>
+    <Value genre="config" instance="1" index=9" value=5" label=Time of MANUALLY moving between the extreme dimming values" units=" size=1" min=1" max=255" type="byte">
+      <Help>Options for changing parameter 1-255 (10ms - 2,5s)</Help>
+    </Value>
+    <Value genre="config" instance="1" index=10" value=1" label=Time of AUTOMATIC moving between the extreme dimming values" units=" size=1" min=0" max=255" type="byte">
+      <Help>Options for changing parameter 1-255 (10ms - 2,5s) - 0: this value disables the smooth change in light intensity. NOTE: value 0 is required for inductive and capacitive devices unsuitable for dimming (e.g. fluorescent lamps, motors, etc...)</Help>
+    </Value>
+    <Value genre="config" instance="1" index=11" value=1" label=Dimming step at manual control" units=" size=1" min=1" max=99" type="byte">
+      <Help>Options for changing parameter 1-99</Help>
+    </Value>
+    <Value genre="config" instance="1" index=12" value=2" label=Maximum dimmer level control" units=" size=1" min=2" max=99" type="byte">
+      <Help>Options for changing parameter 2-99</Help>
+    </Value>
+    <Value genre="config" instance="1" index=13" value=0" label=Minimum dimmer level control" units=" size=1" min=0" max=65535" type="byte">
+      <Help>Options for changing parameter 1-98</Help>
+    </Value>
+    <Value genre="config" instance="1" index=14" value=0" label=Inputs Button/Switch configuration" units=" size=1" min=0" max=65535" type="list">
+      <Help>Binary inputs type configuration</Help>
+      <Item value="0" label="Mono-stable input (button)">
+      <Item value="1" label="Bi-stable input (switch)">
+    </Value>
+    <Value genre="config" instance="1" index=15" value=0" label=Parm 15" units=" size=1" min=0" max=65535" type="list">
+      <Help>Double-click set lighting at 100%</Help>
+      <Item value="0" label="Disable double click">
+      <Item value="1" label="Enable double click">
+    </Value>
+    <Value genre="config" instance="1" index=16" value=1" label=Saving state before power failure" units=" size=1" min=0" max=65535" type="list">
+      <Help>Saving state before power failure</Help>
+      <Item value="0" label="State NOT saved at power failure, all outputs are set to OFF upon powe">
+      <Item value="1" label="State saved at power failure, all outputs are set to previous state up">
+    </Value>
+    <Value genre="config" instance="1" index=17" value=0" label=3-way switch" units=" size=1" min=0" max=65535" type="list">
+      <Help>The function of 3-way switch provides the option to double key no. 1. The dimmer may control two bi-stable push-buttons or an infinite number of mono-stable push-buttons. (default value 0)</Help>
+      <Item value="0" label="Disable">
+      <Item value="1" label="Enable">
+    </Value>
+    <Value genre="config" instance="1" index=18" value=0" label=Synchronizing light level for associated devices" units=" size=1" min=0" max=65535" type="list">
+      <Help>The dimmer communicate the level to the associated devices. (default value 0)</Help>
+      <Item value="0" label="Disable">
+      <Item value="1" label="Enable">
+    </Value>
+    <Value genre="config" instance="1" index=19" value=0" label=Change [On-Off] bi-stable keys" units=" size=1" min=0" max=65535" type="list">
+      <Help>This function allow user to change [On-Off] bi-stable keys (parameter no. 14) (default value 0)</Help>
+      <Item value="0" label="Device changes status on key status change">
+      <Item value="1" label="Device status depends on key status; ON when the key is ON, OFF when t">
+    </Value>
+    <Value genre="config" instance="1" index=20" value=110" label=Parm 20" units=" size=1" min=100" max=170" type="byte">
+      <Help>This function will enable decreasing the minimum level of the Dimmer by extending the control impulse.[100 - 170]
+      By changing the minimem level, the user may completely dim LED bulbs. 
+      Not all LED bulbs available on the market have the dimmm</Help>
+    </Value>
+    <Value genre="config" instance="1" index=30" value=3" label=Relay 1: Response to General Alarm" units=" size=1" min=0" max=65535" type="list">
+      <Help></Help>
+      <Item value="0" label="DEACTIVATION - no response to alarm frames">
+      <Item value="1" label="ALARM RELAY ON - relay will turn ON upon receipt of alarm frame">
+      <Item value="2" label="ALARM RELAY OFF - relay will turn OFF upon receipt of alarm frame">
+      <Item value="3" label="ALARM FLASHING - relay will turn ON and OFF periodically (see param.39">
+    </Value>
+    <Value genre="config" instance="1" index=39" value=600" label=ALARM FLASHING alarm time" units=" size=2" min=0" max=65535" type="short">
+      <Help>Amount of time (ms) the device keeps on flashing after receipt of Alarm Frame</Help>
+    </Value>
+  </CommandClass>
+
+  <!-- Association Groups -->
+  <CommandClass id="133">
+    <Associations num_groups="3">
+      <Group index="1" label="Switch 1" max_associations="5" />
+      <Group index="2" label="Switch 2" max_associations="5" />
+      <Group index="3" label="Controller Updates" max_associations="1" auto="true" />
+    </Associations>
+  </CommandClass>
+
+</Product>
+
