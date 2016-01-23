@@ -6,7 +6,7 @@
     <Value genre="config" instance="1" index=1" value=2" label=No communication light" units="" size=1" min=0" max=65535" type="byte">
       <Help>After how many minutes the GreenWave device should start flashing if the controller didn't communicate with this device</Help>
     </Value>
-    <Value genre="config" instance="1" index=2" value=0" label=Room color" units="" size=1" min=0" max=65535" type="list">
+    <Value genre="config" instance="1" index=2" value=0" label=Room color" units="" size=1" min=0" max=255" type="list">
       <Help>The room color (Corner wheel color) on the GreenWave device</Help>
       <Item value="128" label="Black">
       <Item value="129" label="Green">
