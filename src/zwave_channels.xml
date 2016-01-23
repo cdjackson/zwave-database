@@ -532,4 +532,22 @@
 	<field name="label">Alarm (volts)</field>
 	<field name="overview"></field>
   </row>
+
+  <row>
+	<field name="id">60</field>
+	<field name="commandclass">154</field>
+	<field name="name">alarm_general</field>
+	<field name="config"></field>
+	<field name="label">Alarm</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">61</field>
+	<field name="commandclass">156</field>
+	<field name="name">binary_sensor</field>
+	<field name="config"></field>
+	<field name="label">Binary Sensor</field>
+	<field name="overview"></field>
+  </row>
 </resultset>

@@ -9,7 +9,7 @@
 	<field name="description">Home Control Metering Plug</field>
 	<field name="type_id">0001:0011</field>
 	<field name="versionmin">0.000</field>
-	<field name="versionmax">0.000</field>
+	<field name="versionmax">255.255</field>
 	<field name="library_type">0</field>
 	<field name="protocol_version">0.000</field>
 	<field name="listening">0</field>
@@ -33,7 +33,7 @@
 	<field name="description">Door/Window Contact</field>
 	<field name="type_id">0002:000E</field>
 	<field name="versionmin">0.000</field>
-	<field name="versionmax">0.000</field>
+	<field name="versionmax">255.255</field>
 	<field name="library_type">0</field>
 	<field name="protocol_version">0.000</field>
 	<field name="listening"></field>
@@ -57,7 +57,7 @@
 	<field name="description">Scene Switch</field>
 	<field name="type_id">0100:0101</field>
 	<field name="versionmin">0.000</field>
-	<field name="versionmax">0.000</field>
+	<field name="versionmax">255.255</field>
 	<field name="library_type">0</field>
 	<field name="protocol_version">0.000</field>
 	<field name="listening"></field>
@@ -81,7 +81,7 @@
 	<field name="description">Wall Mounted Switch</field>
 	<field name="type_id">5257:3533</field>
 	<field name="versionmin">0.000</field>
-	<field name="versionmax">0.000</field>
+	<field name="versionmax">255.255</field>
 	<field name="library_type">0</field>
 	<field name="protocol_version">0.000</field>
 	<field name="listening"></field>
@@ -105,7 +105,7 @@
 	<field name="description">PIR Motion Detector</field>
 	<field name="type_id">2002:0203</field>
 	<field name="versionmin">0.000</field>
-	<field name="versionmax">0.000</field>
+	<field name="versionmax">255.255</field>
 	<field name="library_type">0</field>
 	<field name="protocol_version">0.000</field>
 	<field name="listening">0</field>
@@ -129,7 +129,7 @@
 	<field name="description">Wall Dimmer Switch</field>
 	<field name="type_id">4457:3034</field>
 	<field name="versionmin">0.000</field>
-	<field name="versionmax">0.000</field>
+	<field name="versionmax">255.255</field>
 	<field name="library_type">0</field>
 	<field name="protocol_version">0.000</field>
 	<field name="listening">0</field>
@@ -153,7 +153,7 @@
 	<field name="description">Plug-in Wall Dimmer</field>
 	<field name="type_id">4450:3030</field>
 	<field name="versionmin">0.000</field>
-	<field name="versionmax">0.000</field>
+	<field name="versionmax">255.255</field>
 	<field name="library_type">0</field>
 	<field name="protocol_version">0.000</field>
 	<field name="listening"></field>
@@ -177,7 +177,7 @@
 	<field name="description">Dimmable LED Light Bulb</field>
 	<field name="type_id">4754:3038</field>
 	<field name="versionmin">0.000</field>
-	<field name="versionmax">0.000</field>
+	<field name="versionmax">255.255</field>
 	<field name="library_type">0</field>
 	<field name="protocol_version">0.000</field>
 	<field name="listening"></field>
@@ -201,7 +201,7 @@
 	<field name="description">Door/Windows Sensor</field>
 	<field name="type_id">2001:0102</field>
 	<field name="versionmin">0.000</field>
-	<field name="versionmax">0.000</field>
+	<field name="versionmax">255.255</field>
 	<field name="library_type">0</field>
 	<field name="protocol_version">0.000</field>
 	<field name="listening"></field>
@@ -225,7 +225,7 @@
 	<field name="description">Isolated Contact Fixture Module</field>
 	<field name="type_id">5246:3133</field>
 	<field name="versionmin">0.000</field>
-	<field name="versionmax">0.000</field>
+	<field name="versionmax">255.255</field>
 	<field name="library_type">0</field>
 	<field name="protocol_version">0.000</field>
 	<field name="listening"></field>
@@ -249,7 +249,7 @@
 	<field name="description">Garage Door Controller</field>
 	<field name="type_id">4744:3030,4744:3530</field>
 	<field name="versionmin">0.000</field>
-	<field name="versionmax">0.000</field>
+	<field name="versionmax">255.255</field>
 	<field name="library_type">0</field>
 	<field name="protocol_version">0.000</field>
 	<field name="listening"></field>
@@ -273,7 +273,7 @@
 	<field name="description">Single Wall Outlet</field>
 	<field name="type_id">5252:3530</field>
 	<field name="versionmin">0.000</field>
-	<field name="versionmax">0.000</field>
+	<field name="versionmax">255.255</field>
 	<field name="library_type">0</field>
 	<field name="protocol_version">0.000</field>
 	<field name="listening">0</field>
@@ -297,7 +297,7 @@
 	<field name="description">3-Way Wall Accessory Switch</field>
 	<field name="type_id">5457:3033</field>
 	<field name="versionmin">0.000</field>
-	<field name="versionmax">0.000</field>
+	<field name="versionmax">255.255</field>
 	<field name="library_type">0</field>
 	<field name="protocol_version">0.000</field>
 	<field name="listening"></field>
@@ -321,7 +321,7 @@
 	<field name="description">Battery Switch</field>
 	<field name="type_id">5342:0000</field>
 	<field name="versionmin">0.000</field>
-	<field name="versionmax">0.000</field>
+	<field name="versionmax">255.255</field>
 	<field name="library_type">0</field>
 	<field name="protocol_version">0.000</field>
 	<field name="listening"></field>
@@ -345,7 +345,7 @@
 	<field name="description">5-Scene Keypad</field>
 	<field name="type_id">574D:0000</field>
 	<field name="versionmin">0.000</field>
-	<field name="versionmax">0.000</field>
+	<field name="versionmax">255.255</field>
 	<field name="library_type">0</field>
 	<field name="protocol_version">0.000</field>
 	<field name="listening"></field>
@@ -369,7 +369,7 @@
 	<field name="description">All Load Dimmer Light Switch</field>
 	<field name="type_id">4449:0101</field>
 	<field name="versionmin">0.000</field>
-	<field name="versionmax">0.000</field>
+	<field name="versionmax">255.255</field>
 	<field name="library_type">0</field>
 	<field name="protocol_version">0.000</field>
 	<field name="listening"></field>
@@ -393,7 +393,7 @@
 	<field name="description">Dimmer Accessory Switch</field>
 	<field name="type_id">4441:0000</field>
 	<field name="versionmin">0.000</field>
-	<field name="versionmax">0.000</field>
+	<field name="versionmax">255.255</field>
 	<field name="library_type">0</field>
 	<field name="protocol_version">0.000</field>
 	<field name="listening"></field>
@@ -417,7 +417,7 @@
 	<field name="description">15A Light Switch</field>
 	<field name="type_id">534C:0000</field>
 	<field name="versionmin">0.000</field>
-	<field name="versionmax">0.000</field>
+	<field name="versionmax">255.255</field>
 	<field name="library_type">0</field>
 	<field name="protocol_version">0.000</field>
 	<field name="listening"></field>
@@ -441,7 +441,7 @@
 	<field name="description">Dimmer Switch</field>
 	<field name="type_id">4841:0020</field>
 	<field name="versionmin">0.000</field>
-	<field name="versionmax">0.000</field>
+	<field name="versionmax">255.255</field>
 	<field name="library_type">0</field>
 	<field name="protocol_version">0.000</field>
 	<field name="listening"></field>
@@ -465,7 +465,7 @@
 	<field name="description">Battery Powered Wall Thermostat</field>
 	<field name="type_id">0001:0003</field>
 	<field name="versionmin">0.000</field>
-	<field name="versionmax">0.000</field>
+	<field name="versionmax">255.255</field>
 	<field name="library_type">0</field>
 	<field name="protocol_version">0.000</field>
 	<field name="listening"></field>
@@ -489,7 +489,7 @@
 	<field name="description">7 Day Room Thermostat</field>
 	<field name="type_id">0004:0001</field>
 	<field name="versionmin">0.000</field>
-	<field name="versionmax">0.000</field>
+	<field name="versionmax">255.255</field>
 	<field name="library_type">0</field>
 	<field name="protocol_version">0.000</field>
 	<field name="listening"></field>
@@ -513,7 +513,7 @@
 	<field name="description">Motion Detector</field>
 	<field name="type_id">0001:0003</field>
 	<field name="versionmin">0.000</field>
-	<field name="versionmax">0.000</field>
+	<field name="versionmax">255.255</field>
 	<field name="library_type">0</field>
 	<field name="protocol_version">0.000</field>
 	<field name="listening"></field>
@@ -537,7 +537,7 @@
 	<field name="description">Dimmer Plugin</field>
 	<field name="type_id">0003:0001</field>
 	<field name="versionmin">0.000</field>
-	<field name="versionmax">0.000</field>
+	<field name="versionmax">255.255</field>
 	<field name="library_type">0</field>
 	<field name="protocol_version">0.000</field>
 	<field name="listening"></field>
@@ -561,7 +561,7 @@
 	<field name="description">In-Wall Dimmer Module</field>
 	<field name="type_id">0003:0002</field>
 	<field name="versionmin">0.000</field>
-	<field name="versionmax">0.000</field>
+	<field name="versionmax">255.255</field>
 	<field name="library_type">0</field>
 	<field name="protocol_version">0.000</field>
 	<field name="listening"></field>
@@ -585,7 +585,7 @@
 	<field name="description">Dimmer Plugin</field>
 	<field name="type_id">0103:0001</field>
 	<field name="versionmin">0.000</field>
-	<field name="versionmax">0.000</field>
+	<field name="versionmax">255.255</field>
 	<field name="library_type">0</field>
 	<field name="protocol_version">0.000</field>
 	<field name="listening"></field>
@@ -609,7 +609,7 @@
 	<field name="description">Switch Plugin</field>
 	<field name="type_id">0004:0001</field>
 	<field name="versionmin">0.000</field>
-	<field name="versionmax">0.000</field>
+	<field name="versionmax">255.255</field>
 	<field name="library_type">0</field>
 	<field name="protocol_version">0.000</field>
 	<field name="listening"></field>
@@ -633,7 +633,7 @@
 	<field name="description">Switch Meter Plugin</field>
 	<field name="type_id">0004:0002</field>
 	<field name="versionmin">0.000</field>
-	<field name="versionmax">0.000</field>
+	<field name="versionmax">255.255</field>
 	<field name="library_type">0</field>
 	<field name="protocol_version">0.000</field>
 	<field name="listening"></field>
@@ -657,7 +657,7 @@
 	<field name="description">In-Wall Switch Module</field>
 	<field name="type_id">0004:0008</field>
 	<field name="versionmin">0.000</field>
-	<field name="versionmax">0.000</field>
+	<field name="versionmax">255.255</field>
 	<field name="library_type">0</field>
 	<field name="protocol_version">0.000</field>
 	<field name="listening"></field>
@@ -681,7 +681,7 @@
 	<field name="description">Motion Detector</field>
 	<field name="type_id">0101:0001</field>
 	<field name="versionmin">0.000</field>
-	<field name="versionmax">0.000</field>
+	<field name="versionmax">255.255</field>
 	<field name="library_type">0</field>
 	<field name="protocol_version">0.000</field>
 	<field name="listening"></field>
@@ -705,7 +705,7 @@
 	<field name="description">Motion Detector</field>
 	<field name="type_id">0001:0002</field>
 	<field name="versionmin">0.000</field>
-	<field name="versionmax">0.000</field>
+	<field name="versionmax">255.255</field>
 	<field name="library_type">0</field>
 	<field name="protocol_version">0.000</field>
 	<field name="listening"></field>
@@ -729,7 +729,7 @@
 	<field name="description">Temperature and Humidity Sensor</field>
 	<field name="type_id">0006:0001</field>
 	<field name="versionmin">0.000</field>
-	<field name="versionmax">0.000</field>
+	<field name="versionmax">255.255</field>
 	<field name="library_type">0</field>
 	<field name="protocol_version">0.000</field>
 	<field name="listening"></field>
@@ -753,7 +753,7 @@
 	<field name="description">Illumination Sensor</field>
 	<field name="type_id">0007:0001</field>
 	<field name="versionmin">0.000</field>
-	<field name="versionmax">0.000</field>
+	<field name="versionmax">255.255</field>
 	<field name="library_type">0</field>
 	<field name="protocol_version">0.000</field>
 	<field name="listening"></field>
@@ -777,7 +777,7 @@
 	<field name="description">Smoke Sensor</field>
 	<field name="type_id">000D:0001</field>
 	<field name="versionmin">0.000</field>
-	<field name="versionmax">0.000</field>
+	<field name="versionmax">255.255</field>
 	<field name="library_type">0</field>
 	<field name="protocol_version">0.000</field>
 	<field name="listening"></field>
@@ -801,7 +801,7 @@
 	<field name="description">Door/Window Contact</field>
 	<field name="type_id">0202:0001,0002:0002</field>
 	<field name="versionmin">0.000</field>
-	<field name="versionmax">0.000</field>
+	<field name="versionmax">255.255</field>
 	<field name="library_type">0</field>
 	<field name="protocol_version">0.000</field>
 	<field name="listening"></field>
@@ -825,7 +825,7 @@
 	<field name="description">Door/Window Contact</field>
 	<field name="type_id">0002:0001</field>
 	<field name="versionmin">0.000</field>
-	<field name="versionmax">0.000</field>
+	<field name="versionmax">255.255</field>
 	<field name="library_type">0</field>
 	<field name="protocol_version">0.000</field>
 	<field name="listening"></field>
@@ -849,7 +849,7 @@
 	<field name="description">Siren</field>
 	<field name="type_id">000C:0001</field>
 	<field name="versionmin">0.000</field>
-	<field name="versionmax">0.000</field>
+	<field name="versionmax">255.255</field>
 	<field name="library_type">0</field>
 	<field name="protocol_version">0.000</field>
 	<field name="listening"></field>
@@ -873,7 +873,7 @@
 	<field name="description">Flood Sensor</field>
 	<field name="type_id">000B:0001</field>
 	<field name="versionmin">0.000</field>
-	<field name="versionmax">0.000</field>
+	<field name="versionmax">255.255</field>
 	<field name="library_type">0</field>
 	<field name="protocol_version">0.000</field>
 	<field name="listening"></field>
@@ -897,7 +897,7 @@
 	<field name="description">Wall Mount Accessory Switch</field>
 	<field name="type_id">5457:3033</field>
 	<field name="versionmin">0.000</field>
-	<field name="versionmax">0.000</field>
+	<field name="versionmax">255.255</field>
 	<field name="library_type">0</field>
 	<field name="protocol_version">0.000</field>
 	<field name="listening"></field>
@@ -921,7 +921,7 @@
 	<field name="description">Wall Mounted Dimmer</field>
 	<field name="type_id">4457:3034</field>
 	<field name="versionmin">0.000</field>
-	<field name="versionmax">0.000</field>
+	<field name="versionmax">255.255</field>
 	<field name="library_type">0</field>
 	<field name="protocol_version">0.000</field>
 	<field name="listening"></field>
@@ -945,7 +945,7 @@
 	<field name="description">On/Off Relay Switch</field>
 	<field name="type_id">5257:3533</field>
 	<field name="versionmin">0.000</field>
-	<field name="versionmax">0.000</field>
+	<field name="versionmax">255.255</field>
 	<field name="library_type">0</field>
 	<field name="protocol_version">0.000</field>
 	<field name="listening"></field>
@@ -969,7 +969,7 @@
 	<field name="description">2-Way Dimmer Switch</field>
 	<field name="type_id">4457:3230</field>
 	<field name="versionmin">0.000</field>
-	<field name="versionmax">0.000</field>
+	<field name="versionmax">255.255</field>
 	<field name="library_type">0</field>
 	<field name="protocol_version">0.000</field>
 	<field name="listening"></field>
@@ -993,7 +993,7 @@
 	<field name="description">Fluorescent Light &amp; Appliance Module</field>
 	<field name="type_id">5250:3030</field>
 	<field name="versionmin">0.000</field>
-	<field name="versionmax">0.000</field>
+	<field name="versionmax">255.255</field>
 	<field name="library_type">0</field>
 	<field name="protocol_version">0.000</field>
 	<field name="listening"></field>
@@ -1017,7 +1017,7 @@
 	<field name="description">In-Wall Dimmer</field>
 	<field name="type_id">4944:3031</field>
 	<field name="versionmin">0.000</field>
-	<field name="versionmax">0.000</field>
+	<field name="versionmax">255.255</field>
 	<field name="library_type">0</field>
 	<field name="protocol_version">0.000</field>
 	<field name="listening"></field>
@@ -1041,7 +1041,7 @@
 	<field name="description">Lamp Module</field>
 	<field name="type_id">4450:3030</field>
 	<field name="versionmin">0.000</field>
-	<field name="versionmax">0.000</field>
+	<field name="versionmax">255.255</field>
 	<field name="library_type">0</field>
 	<field name="protocol_version">0.000</field>
 	<field name="listening"></field>
@@ -1065,7 +1065,7 @@
 	<field name="description">Duplex receptacle</field>
 	<field name="type_id">5252:3530</field>
 	<field name="versionmin">0.000</field>
-	<field name="versionmax">0.000</field>
+	<field name="versionmax">255.255</field>
 	<field name="library_type">0</field>
 	<field name="protocol_version">0.000</field>
 	<field name="listening"></field>
@@ -1089,7 +1089,7 @@
 	<field name="description">Smart Outlet</field>
 	<field name="type_id">4952:3031</field>
 	<field name="versionmin">0.000</field>
-	<field name="versionmax">0.000</field>
+	<field name="versionmax">255.255</field>
 	<field name="library_type">0</field>
 	<field name="protocol_version">0.000</field>
 	<field name="listening"></field>
@@ -1113,7 +1113,7 @@
 	<field name="description">Outdoor Lighting Control Module</field>
 	<field name="type_id">5250:3130,4F50:3031</field>
 	<field name="versionmin">0.000</field>
-	<field name="versionmax">0.000</field>
+	<field name="versionmax">255.255</field>
 	<field name="library_type">0</field>
 	<field name="protocol_version">0.000</field>
 	<field name="listening"></field>
@@ -1137,7 +1137,7 @@
 	<field name="description">On/Off Relay Switch</field>
 	<field name="type_id">4952:3032</field>
 	<field name="versionmin">0.000</field>
-	<field name="versionmax">0.000</field>
+	<field name="versionmax">255.255</field>
 	<field name="library_type">0</field>
 	<field name="protocol_version">0.000</field>
 	<field name="listening"></field>
@@ -1161,7 +1161,7 @@
 	<field name="description">Schuko Plug Switch</field>
 	<field name="type_id">3001:0000,3002:0000</field>
 	<field name="versionmin">0.000</field>
-	<field name="versionmax">0.000</field>
+	<field name="versionmax">255.255</field>
 	<field name="library_type">0</field>
 	<field name="protocol_version">0.000</field>
 	<field name="listening"></field>
@@ -1185,7 +1185,7 @@
 	<field name="description">Insert blind control</field>
 	<field name="type_id">4001:0000</field>
 	<field name="versionmin">0.000</field>
-	<field name="versionmax">0.000</field>
+	<field name="versionmax">255.255</field>
 	<field name="library_type">0</field>
 	<field name="protocol_version">0.000</field>
 	<field name="listening"></field>
@@ -1209,7 +1209,7 @@
 	<field name="description">One Paddle Wall Dimmer Insert</field>
 	<field name="type_id">0001:0000</field>
 	<field name="versionmin">0.000</field>
-	<field name="versionmax">0.000</field>
+	<field name="versionmax">255.255</field>
 	<field name="library_type">0</field>
 	<field name="protocol_version">0.000</field>
 	<field name="listening"></field>
@@ -1233,7 +1233,7 @@
 	<field name="description">Düwi Remote Control</field>
 	<field name="type_id">5001:0000</field>
 	<field name="versionmin">0.000</field>
-	<field name="versionmax">0.000</field>
+	<field name="versionmax">255.255</field>
 	<field name="library_type">0</field>
 	<field name="protocol_version">0.000</field>
 	<field name="listening"></field>
@@ -1257,7 +1257,7 @@
 	<field name="description">Schuko Plug Dimmer</field>
 	<field name="type_id">1001:0000</field>
 	<field name="versionmin">0.000</field>
-	<field name="versionmax">0.000</field>
+	<field name="versionmax">255.255</field>
 	<field name="library_type">0</field>
 	<field name="protocol_version">0.000</field>
 	<field name="listening"></field>
@@ -1281,7 +1281,7 @@
 	<field name="description">Battery powered One paddle wall controller</field>
 	<field name="type_id">5002:0000</field>
 	<field name="versionmin">0.000</field>
-	<field name="versionmax">0.000</field>
+	<field name="versionmax">255.255</field>
 	<field name="library_type">0</field>
 	<field name="protocol_version">0.000</field>
 	<field name="listening"></field>
@@ -1305,7 +1305,7 @@
 	<field name="description">Duewi ZW BJ ES 1000 / Reitz 054313 / ZWave.me 05457 Single button wall switch</field>
 	<field name="type_id">2001:0000</field>
 	<field name="versionmin">0.000</field>
-	<field name="versionmax">0.000</field>
+	<field name="versionmax">255.255</field>
 	<field name="library_type">0</field>
 	<field name="protocol_version">0.000</field>
 	<field name="listening"></field>
@@ -1329,7 +1329,7 @@
 	<field name="description">Transmitter Flush-Mounted 4-Gang Switch</field>
 	<field name="type_id">0003:0004</field>
 	<field name="versionmin">0.000</field>
-	<field name="versionmax">0.000</field>
+	<field name="versionmax">255.255</field>
 	<field name="library_type">0</field>
 	<field name="protocol_version">0.000</field>
 	<field name="listening"></field>
@@ -1353,7 +1353,7 @@
 	<field name="description">Window Blind Control Insert Button</field>
 	<field name="type_id">4004:0001</field>
 	<field name="versionmin">0.000</field>
-	<field name="versionmax">0.000</field>
+	<field name="versionmax">255.255</field>
 	<field name="library_type">0</field>
 	<field name="protocol_version">0.000</field>
 	<field name="listening"></field>
@@ -1377,7 +1377,7 @@
 	<field name="description">Switch Plug</field>
 	<field name="type_id">8001:0001</field>
 	<field name="versionmin">0.000</field>
-	<field name="versionmax">0.000</field>
+	<field name="versionmax">255.255</field>
 	<field name="library_type">0</field>
 	<field name="protocol_version">0.000</field>
 	<field name="listening"></field>
@@ -1401,7 +1401,7 @@
 	<field name="description">Battery Powered Wall Controller MOVE</field>
 	<field name="type_id">0002:0001</field>
 	<field name="versionmin">0.000</field>
-	<field name="versionmax">0.000</field>
+	<field name="versionmax">255.255</field>
 	<field name="library_type">0</field>
 	<field name="protocol_version">0.000</field>
 	<field name="listening"></field>
@@ -1425,7 +1425,7 @@
 	<field name="description">Battery Powered Wall Controller</field>
 	<field name="type_id">0001:0002</field>
 	<field name="versionmin">0.000</field>
-	<field name="versionmax">0.000</field>
+	<field name="versionmax">255.255</field>
 	<field name="library_type">0</field>
 	<field name="protocol_version">0.000</field>
 	<field name="listening"></field>
@@ -1449,7 +1449,7 @@
 	<field name="description">RAone SmartPower</field>
 	<field name="type_id">0010:0001</field>
 	<field name="versionmin">0.000</field>
-	<field name="versionmax">0.000</field>
+	<field name="versionmax">255.255</field>
 	<field name="library_type">0</field>
 	<field name="protocol_version">0.000</field>
 	<field name="listening"></field>
@@ -1473,7 +1473,7 @@
 	<field name="description">RAone SmartDimmer</field>
 	<field name="type_id">0011:0001</field>
 	<field name="versionmin">0.000</field>
-	<field name="versionmax">0.000</field>
+	<field name="versionmax">255.255</field>
 	<field name="library_type">0</field>
 	<field name="protocol_version">0.000</field>
 	<field name="listening"></field>
@@ -1497,7 +1497,7 @@
 	<field name="description">Smart Switch 6</field>
 	<field name="type_id">0003:0060,0103:0060,0203:0060,1D03:0060</field>
 	<field name="versionmin">0.000</field>
-	<field name="versionmax">0.000</field>
+	<field name="versionmax">255.255</field>
 	<field name="library_type">0</field>
 	<field name="protocol_version">0.000</field>
 	<field name="listening"></field>
@@ -1521,7 +1521,7 @@
 	<field name="description">Door/Window Sensor</field>
 	<field name="type_id">0002:0059</field>
 	<field name="versionmin">0.000</field>
-	<field name="versionmax">0.000</field>
+	<field name="versionmax">255.255</field>
 	<field name="library_type">0</field>
 	<field name="protocol_version">0.000</field>
 	<field name="listening"></field>
@@ -1545,7 +1545,7 @@
 	<field name="description">Heavy Duty Switch</field>
 	<field name="type_id">0003:000A,0003:004E</field>
 	<field name="versionmin">0.000</field>
-	<field name="versionmax">0.000</field>
+	<field name="versionmax">255.255</field>
 	<field name="library_type">0</field>
 	<field name="protocol_version">0.000</field>
 	<field name="listening"></field>
@@ -1569,7 +1569,7 @@
 	<field name="description">Range Extender</field>
 	<field name="type_id">0004:0025,0019:0004</field>
 	<field name="versionmin">0.000</field>
-	<field name="versionmax">0.000</field>
+	<field name="versionmax">255.255</field>
 	<field name="library_type">0</field>
 	<field name="protocol_version">0.000</field>
 	<field name="listening"></field>
@@ -1593,7 +1593,7 @@
 	<field name="description">Z-Wave USB Controller</field>
 	<field name="type_id">0002:0001</field>
 	<field name="versionmin">0.000</field>
-	<field name="versionmax">0.000</field>
+	<field name="versionmax">255.255</field>
 	<field name="library_type">0</field>
 	<field name="protocol_version">0.000</field>
 	<field name="listening"></field>
@@ -1617,7 +1617,7 @@
 	<field name="description">Recessed Door/Window Sensor</field>
 	<field name="type_id">0002:0036</field>
 	<field name="versionmin">0.000</field>
-	<field name="versionmax">0.000</field>
+	<field name="versionmax">255.255</field>
 	<field name="library_type">0</field>
 	<field name="protocol_version">0.000</field>
 	<field name="listening"></field>
@@ -1641,16 +1641,16 @@
 	<field name="description">Recessed Door/Window Sensor (Gen5)</field>
 	<field name="type_id">0102:0059</field>
 	<field name="versionmin">0.000</field>
-	<field name="versionmax">0.000</field>
-	<field name="library_type">0</field>
-	<field name="protocol_version">0.000</field>
-	<field name="listening"></field>
-	<field name="beaming"></field>
-	<field name="security"></field>
-	<field name="max_baud">0</field>
-	<field name="basicclass">0</field>
-	<field name="genericclass">0</field>
-	<field name="specificclass">0</field>
+	<field name="versionmax">255.255</field>
+	<field name="library_type">3</field>
+	<field name="protocol_version">3.092</field>
+	<field name="listening">0</field>
+	<field name="beaming">1</field>
+	<field name="security">0</field>
+	<field name="max_baud">40000</field>
+	<field name="basicclass">5</field>
+	<field name="genericclass">7</field>
+	<field name="specificclass">13</field>
 	<field name="thingid">dsb54</field>
 	<field name="info_overview"></field>
 	<field name="info_inclusion"></field>
@@ -1665,7 +1665,7 @@
 	<field name="description">Door/Window sensor</field>
 	<field name="type_id">0002:0004,0002:001D</field>
 	<field name="versionmin">0.000</field>
-	<field name="versionmax">0.000</field>
+	<field name="versionmax">255.255</field>
 	<field name="library_type">0</field>
 	<field name="protocol_version">0.000</field>
 	<field name="listening"></field>
@@ -1689,7 +1689,7 @@
 	<field name="description">4 in One MultiSensor</field>
 	<field name="type_id">0002:0005</field>
 	<field name="versionmin">0.000</field>
-	<field name="versionmax">0.000</field>
+	<field name="versionmax">255.255</field>
 	<field name="library_type">0</field>
 	<field name="protocol_version">0.000</field>
 	<field name="listening"></field>
@@ -1713,7 +1713,7 @@
 	<field name="description">4 in One MultiSensor (G5)</field>
 	<field name="type_id">0002:004A,0102:004A</field>
 	<field name="versionmin">0.000</field>
-	<field name="versionmax">0.000</field>
+	<field name="versionmax">255.255</field>
 	<field name="library_type">0</field>
 	<field name="protocol_version">0.000</field>
 	<field name="listening"></field>
@@ -1737,7 +1737,7 @@
 	<field name="description">MultiSensor 6</field>
 	<field name="type_id">0002:0064,0102:0064,0202:0064</field>
 	<field name="versionmin">0.000</field>
-	<field name="versionmax">0.000</field>
+	<field name="versionmax">255.255</field>
 	<field name="library_type">0</field>
 	<field name="protocol_version">0.000</field>
 	<field name="listening"></field>
@@ -1761,7 +1761,7 @@
 	<field name="description">4 button remote control</field>
 	<field name="type_id">0006:0002,0001:0003</field>
 	<field name="versionmin">0.000</field>
-	<field name="versionmax">0.000</field>
+	<field name="versionmax">255.255</field>
 	<field name="library_type">0</field>
 	<field name="protocol_version">0.000</field>
 	<field name="listening"></field>
@@ -1785,7 +1785,7 @@
 	<field name="description">Smart Energy Switch</field>
 	<field name="type_id">0003:0006</field>
 	<field name="versionmin">0.000</field>
-	<field name="versionmax">0.000</field>
+	<field name="versionmax">255.255</field>
 	<field name="library_type">0</field>
 	<field name="protocol_version">0.000</field>
 	<field name="listening"></field>
@@ -1809,7 +1809,7 @@
 	<field name="description">Smart Energy Switch v2</field>
 	<field name="type_id">0003:0018</field>
 	<field name="versionmin">0.000</field>
-	<field name="versionmax">0.000</field>
+	<field name="versionmax">255.255</field>
 	<field name="library_type">0</field>
 	<field name="protocol_version">0.000</field>
 	<field name="listening"></field>
@@ -1833,7 +1833,7 @@
 	<field name="description">Smart Energy Dimmer</field>
 	<field name="type_id">0003:0008</field>
 	<field name="versionmin">0.000</field>
-	<field name="versionmax">0.000</field>
+	<field name="versionmax">255.255</field>
 	<field name="library_type">0</field>
 	<field name="protocol_version">0.000</field>
 	<field name="listening"></field>
@@ -1857,7 +1857,7 @@
 	<field name="description">4 button keyfob</field>
 	<field name="type_id">0001:0016</field>
 	<field name="versionmin">0.000</field>
-	<field name="versionmax">0.000</field>
+	<field name="versionmax">255.255</field>
 	<field name="library_type">0</field>
 	<field name="protocol_version">0.000</field>
 	<field name="listening"></field>
@@ -1881,7 +1881,7 @@
 	<field name="description">Micro Smart Dimmer 2nd Edition</field>
 	<field name="type_id">0003:000D,0003:0013</field>
 	<field name="versionmin">0.000</field>
-	<field name="versionmax">0.000</field>
+	<field name="versionmax">255.255</field>
 	<field name="library_type">0</field>
 	<field name="protocol_version">0.000</field>
 	<field name="listening"></field>
@@ -1905,7 +1905,7 @@
 	<field name="description">Micro Dimmer 2nd Edition</field>
 	<field name="type_id">0003:001B</field>
 	<field name="versionmin">0.000</field>
-	<field name="versionmax">0.000</field>
+	<field name="versionmax">255.255</field>
 	<field name="library_type">0</field>
 	<field name="protocol_version">0.000</field>
 	<field name="listening"></field>
@@ -1929,7 +1929,7 @@
 	<field name="description">Micro Smart Switch</field>
 	<field name="type_id">0003:0011</field>
 	<field name="versionmin">0.000</field>
-	<field name="versionmax">0.000</field>
+	<field name="versionmax">255.255</field>
 	<field name="library_type">0</field>
 	<field name="protocol_version">0.000</field>
 	<field name="listening"></field>
@@ -1953,7 +1953,7 @@
 	<field name="description">Micro Smart Switch 2nd Edition</field>
 	<field name="type_id">0003:000C,0003:0012,0003:001A</field>
 	<field name="versionmin">0.000</field>
-	<field name="versionmax">0.000</field>
+	<field name="versionmax">255.255</field>
 	<field name="library_type">0</field>
 	<field name="protocol_version">0.000</field>
 	<field name="listening"></field>
@@ -1977,7 +1977,7 @@
 	<field name="description">Smart Energy Switch 3rd Edition</field>
 	<field name="type_id">0003:004B</field>
 	<field name="versionmin">0.000</field>
-	<field name="versionmax">0.000</field>
+	<field name="versionmax">255.255</field>
 	<field name="library_type">0</field>
 	<field name="protocol_version">0.000</field>
 	<field name="listening"></field>
@@ -2001,7 +2001,7 @@
 	<field name="description">Home Energy Meter</field>
 	<field name="type_id">0002:0009</field>
 	<field name="versionmin">0.000</field>
-	<field name="versionmax">0.000</field>
+	<field name="versionmax">255.255</field>
 	<field name="library_type">0</field>
 	<field name="protocol_version">0.000</field>
 	<field name="listening"></field>
@@ -2025,7 +2025,7 @@
 	<field name="description">Home Energy Meter G2</field>
 	<field name="type_id">0002:001C</field>
 	<field name="versionmin">0.000</field>
-	<field name="versionmax">0.000</field>
+	<field name="versionmax">255.255</field>
 	<field name="library_type">0</field>
 	<field name="protocol_version">0.000</field>
 	<field name="listening"></field>
@@ -2049,7 +2049,7 @@
 	<field name="description">Outlet Plugable Siren</field>
 	<field name="type_id">0004:0050</field>
 	<field name="versionmin">0.000</field>
-	<field name="versionmax">0.000</field>
+	<field name="versionmax">255.255</field>
 	<field name="library_type">0</field>
 	<field name="protocol_version">0.000</field>
 	<field name="listening"></field>
@@ -2073,7 +2073,7 @@
 	<field name="description">4 button keyfob - generation 5</field>
 	<field name="type_id">0001:0058,0101:0058,0201:0058</field>
 	<field name="versionmin">0.000</field>
-	<field name="versionmax">0.000</field>
+	<field name="versionmax">255.255</field>
 	<field name="library_type">0</field>
 	<field name="protocol_version">0.000</field>
 	<field name="listening"></field>
@@ -2097,7 +2097,7 @@
 	<field name="description">1 button keyfob</field>
 	<field name="type_id">0001:0026</field>
 	<field name="versionmin">0.000</field>
-	<field name="versionmax">0.000</field>
+	<field name="versionmax">255.255</field>
 	<field name="library_type">0</field>
 	<field name="protocol_version">0.000</field>
 	<field name="listening"></field>
@@ -2121,7 +2121,7 @@
 	<field name="description">Smart Strip</field>
 	<field name="type_id">0003:000B</field>
 	<field name="versionmin">0.000</field>
-	<field name="versionmax">0.000</field>
+	<field name="versionmax">255.255</field>
 	<field name="library_type">0</field>
 	<field name="protocol_version">0.000</field>
 	<field name="listening"></field>
@@ -2145,7 +2145,7 @@
 	<field name="description">Siren</field>
 	<field name="type_id">0104:0050</field>
 	<field name="versionmin">0.000</field>
-	<field name="versionmax">0.000</field>
+	<field name="versionmax">255.255</field>
 	<field name="library_type">0</field>
 	<field name="protocol_version">0.000</field>
 	<field name="listening"></field>
@@ -2169,7 +2169,7 @@
 	<field name="description">LED Bulb</field>
 	<field name="type_id">0003:0062</field>
 	<field name="versionmin">0.000</field>
-	<field name="versionmax">0.000</field>
+	<field name="versionmax">255.255</field>
 	<field name="library_type">0</field>
 	<field name="protocol_version">0.000</field>
 	<field name="listening"></field>
@@ -2193,7 +2193,7 @@
 	<field name="description">Water Sensor</field>
 	<field name="type_id">0002:002D</field>
 	<field name="versionmin">0.000</field>
-	<field name="versionmax">0.000</field>
+	<field name="versionmax">255.255</field>
 	<field name="library_type">0</field>
 	<field name="protocol_version">0.000</field>
 	<field name="listening"></field>
@@ -2217,7 +2217,7 @@
 	<field name="description">Door/Window Sensor</field>
 	<field name="type_id">0202:0059</field>
 	<field name="versionmin">0.000</field>
-	<field name="versionmax">0.000</field>
+	<field name="versionmax">255.255</field>
 	<field name="library_type">0</field>
 	<field name="protocol_version">0.000</field>
 	<field name="listening"></field>
@@ -2241,7 +2241,7 @@
 	<field name="description">Z-Wave Thermostat</field>
 	<field name="type_id">0001:001E,1E10:0158,1E12:015E,3200:015E,1E12:015C</field>
 	<field name="versionmin">0.000</field>
-	<field name="versionmax">0.000</field>
+	<field name="versionmax">255.255</field>
 	<field name="library_type">0</field>
 	<field name="protocol_version">0.000</field>
 	<field name="listening"></field>
@@ -2265,7 +2265,7 @@
 	<field name="description">Z-Wave Thermostat</field>
 	<field name="type_id">0000:0000</field>
 	<field name="versionmin">0.000</field>
-	<field name="versionmax">0.000</field>
+	<field name="versionmax">255.255</field>
 	<field name="library_type">0</field>
 	<field name="protocol_version">0.000</field>
 	<field name="listening"></field>
@@ -2289,7 +2289,7 @@
 	<field name="description">Z-Wave Thermostat</field>
 	<field name="type_id">6401:0015,6401:0106,6401:0107</field>
 	<field name="versionmin">0.000</field>
-	<field name="versionmax">0.000</field>
+	<field name="versionmax">255.255</field>
 	<field name="library_type">0</field>
 	<field name="protocol_version">0.000</field>
 	<field name="listening"></field>
@@ -2313,7 +2313,7 @@
 	<field name="description">Z-Wave Thermostat</field>
 	<field name="type_id">5002:0100,5003:0109</field>
 	<field name="versionmin">0.000</field>
-	<field name="versionmax">0.000</field>
+	<field name="versionmax">255.255</field>
 	<field name="library_type">0</field>
 	<field name="protocol_version">0.000</field>
 	<field name="listening"></field>
@@ -2337,7 +2337,7 @@
 	<field name="description">Z-Wave Thermostat</field>
 	<field name="type_id">6501:000C</field>
 	<field name="versionmin">0.000</field>
-	<field name="versionmax">0.000</field>
+	<field name="versionmax">255.255</field>
 	<field name="library_type">0</field>
 	<field name="protocol_version">0.000</field>
 	<field name="listening"></field>
@@ -2361,7 +2361,7 @@
 	<field name="description">Z-Wave Thermostat</field>
 	<field name="type_id">2002:0100</field>
 	<field name="versionmin">0.000</field>
-	<field name="versionmax">0.000</field>
+	<field name="versionmax">255.255</field>
 	<field name="library_type">0</field>
 	<field name="protocol_version">0.000</field>
 	<field name="listening"></field>
@@ -2385,7 +2385,7 @@
 	<field name="description">Smart PowerNode</field>
 	<field name="type_id">0003:0004,0003:0003</field>
 	<field name="versionmin">0.000</field>
-	<field name="versionmax">0.000</field>
+	<field name="versionmax">255.255</field>
 	<field name="library_type">3</field>
 	<field name="protocol_version">3.041</field>
 	<field name="listening">1</field>
@@ -2433,7 +2433,7 @@
 	<field name="description">Smart PowerNode</field>
 	<field name="type_id">0002:0002</field>
 	<field name="versionmin">4.000</field>
-	<field name="versionmax">0.000</field>
+	<field name="versionmax">255.255</field>
 	<field name="library_type">0</field>
 	<field name="protocol_version">0.000</field>
 	<field name="listening"></field>
@@ -2457,7 +2457,7 @@
 	<field name="description">Garage Door Tilt Sensor</field>
 	<field name="type_id">200A:0A02</field>
 	<field name="versionmin">0.000</field>
-	<field name="versionmax">0.000</field>
+	<field name="versionmax">255.255</field>
 	<field name="library_type">0</field>
 	<field name="protocol_version">0.000</field>
 	<field name="listening"></field>
@@ -2481,7 +2481,7 @@
 	<field name="description">Motion Sensor</field>
 	<field name="type_id">2002:0201,2002:0202,2002:0203,2002:0204,2002:0205</field>
 	<field name="versionmin">0.000</field>
-	<field name="versionmax">0.000</field>
+	<field name="versionmax">255.255</field>
 	<field name="library_type">0</field>
 	<field name="protocol_version">0.000</field>
 	<field name="listening"></field>
@@ -2505,7 +2505,7 @@
 	<field name="description">Door Window Sensor</field>
 	<field name="type_id">2001:0102,2001:0105,2001:0106</field>
 	<field name="versionmin">0.000</field>
-	<field name="versionmax">0.000</field>
+	<field name="versionmax">255.255</field>
 	<field name="library_type">0</field>
 	<field name="protocol_version">0.000</field>
 	<field name="listening"></field>
@@ -2529,7 +2529,7 @@
 	<field name="description">Smoke Detector</field>
 	<field name="type_id">2004:0403</field>
 	<field name="versionmin">0.000</field>
-	<field name="versionmax">0.000</field>
+	<field name="versionmax">255.255</field>
 	<field name="library_type">0</field>
 	<field name="protocol_version">0.000</field>
 	<field name="listening"></field>
@@ -2553,7 +2553,7 @@
 	<field name="description">CO Detector</field>
 	<field name="type_id">200F:0F03</field>
 	<field name="versionmin">0.000</field>
-	<field name="versionmax">0.000</field>
+	<field name="versionmax">255.255</field>
 	<field name="library_type">0</field>
 	<field name="protocol_version">0.000</field>
 	<field name="listening"></field>
@@ -2577,7 +2577,7 @@
 	<field name="description">Battery Siren</field>
 	<field name="type_id">2005:0503</field>
 	<field name="versionmin">0.000</field>
-	<field name="versionmax">0.000</field>
+	<field name="versionmax">255.255</field>
 	<field name="library_type">0</field>
 	<field name="protocol_version">0.000</field>
 	<field name="listening"></field>
@@ -2649,7 +2649,7 @@
 	<field name="description">In Wall Relay Switch</field>
 	<field name="type_id">2016:1616,200C:0C02</field>
 	<field name="versionmin">0.000</field>
-	<field name="versionmax">0.000</field>
+	<field name="versionmax">255.255</field>
 	<field name="library_type">0</field>
 	<field name="protocol_version">0.000</field>
 	<field name="listening"></field>
@@ -2673,7 +2673,7 @@
 	<field name="description">In Wall Dual Relay Switch</field>
 	<field name="type_id">2017:1717</field>
 	<field name="versionmin">0.000</field>
-	<field name="versionmax">0.000</field>
+	<field name="versionmax">255.255</field>
 	<field name="library_type">0</field>
 	<field name="protocol_version">0.000</field>
 	<field name="listening"></field>
@@ -2697,7 +2697,7 @@
 	<field name="description">Battery Operated Siren</field>
 	<field name="type_id">2005:0508</field>
 	<field name="versionmin">0.000</field>
-	<field name="versionmax">0.000</field>
+	<field name="versionmax">255.255</field>
 	<field name="library_type">0</field>
 	<field name="protocol_version">0.000</field>
 	<field name="listening"></field>
@@ -2721,7 +2721,7 @@
 	<field name="description">Relay Switch 1x2.5kW</field>
 	<field name="type_id">0402:1002</field>
 	<field name="versionmin">0.000</field>
-	<field name="versionmax">0.000</field>
+	<field name="versionmax">255.255</field>
 	<field name="library_type">0</field>
 	<field name="protocol_version">0.000</field>
 	<field name="listening"></field>
@@ -2745,7 +2745,7 @@
 	<field name="description">Motion Sensor</field>
 	<field name="type_id">0800:1001,0800:2001,0800:3001</field>
 	<field name="versionmin">0.000</field>
-	<field name="versionmax">0.000</field>
+	<field name="versionmax">255.255</field>
 	<field name="library_type">0</field>
 	<field name="protocol_version">0.000</field>
 	<field name="listening"></field>
@@ -2769,7 +2769,7 @@
 	<field name="description">Roller Shutter</field>
 	<field name="type_id">0301:1001,0302:1000</field>
 	<field name="versionmin">0.000</field>
-	<field name="versionmax">0.000</field>
+	<field name="versionmax">255.255</field>
 	<field name="library_type">3</field>
 	<field name="protocol_version">8.002</field>
 	<field name="listening">1</field>
@@ -2841,12 +2841,12 @@
 	<field name="description">Universal Dimmer 500W</field>
 	<field name="type_id">0100:0107,0100:0109,0100:300A,0100:100A,0100:0104,0100:0106</field>
 	<field name="versionmin">2.001</field>
-	<field name="versionmax">0.000</field>
+	<field name="versionmax">255.255</field>
 	<field name="library_type">0</field>
 	<field name="protocol_version">0.000</field>
-	<field name="listening"></field>
-	<field name="beaming"></field>
-	<field name="security"></field>
+	<field name="listening">0</field>
+	<field name="beaming">0</field>
+	<field name="security">0</field>
 	<field name="max_baud">0</field>
 	<field name="basicclass">0</field>
 	<field name="genericclass">0</field>
@@ -2865,7 +2865,7 @@
 	<field name="description">Relay Switch 1x3kW</field>
 	<field name="type_id">0400:0102,0400:0104,0400:0105,0400:0106,0400:0107,0400:0108,0400:0109,0400:100A,0400:300A</field>
 	<field name="versionmin">0.000</field>
-	<field name="versionmax">0.000</field>
+	<field name="versionmax">255.255</field>
 	<field name="library_type">0</field>
 	<field name="protocol_version">0.000</field>
 	<field name="listening"></field>
@@ -2937,7 +2937,7 @@
 	<field name="description">Double Relay Switch 2x1.5kW</field>
 	<field name="type_id">0200:0102,0200:0103,0200:0104,0200:0105,0200:0106,0200:0107,0200:0109,0200:100A,0200:300A,0202:3002</field>
 	<field name="versionmin">2.001</field>
-	<field name="versionmax">0.000</field>
+	<field name="versionmax">255.255</field>
 	<field name="library_type">0</field>
 	<field name="protocol_version">0.000</field>
 	<field name="listening"></field>
@@ -2961,7 +2961,7 @@
 	<field name="description">Double Relay Switch 2x1.5kW</field>
 	<field name="type_id">0202:1002</field>
 	<field name="versionmin">0.000</field>
-	<field name="versionmax">0.000</field>
+	<field name="versionmax">255.255</field>
 	<field name="library_type">0</field>
 	<field name="protocol_version">0.000</field>
 	<field name="listening"></field>
@@ -2985,7 +2985,7 @@
 	<field name="description">Door Opening Sensor</field>
 	<field name="type_id">0700:1000,0700:3000</field>
 	<field name="versionmin">0.000</field>
-	<field name="versionmax">0.000</field>
+	<field name="versionmax">255.255</field>
 	<field name="library_type">3</field>
 	<field name="protocol_version">3.042</field>
 	<field name="listening">0</field>
@@ -3009,7 +3009,7 @@
 	<field name="description">Universal Binary Sensor</field>
 	<field name="type_id">0501:0102,0501:1002,0501:3002</field>
 	<field name="versionmin">0.000</field>
-	<field name="versionmax">0.000</field>
+	<field name="versionmax">255.255</field>
 	<field name="library_type">0</field>
 	<field name="protocol_version">0.000</field>
 	<field name="listening"></field>
@@ -3033,7 +3033,7 @@
 	<field name="description">Flood Sensor</field>
 	<field name="type_id">0B00:1001,0B00:2001,0B00:3001</field>
 	<field name="versionmin">0.000</field>
-	<field name="versionmax">0.000</field>
+	<field name="versionmax">255.255</field>
 	<field name="library_type">0</field>
 	<field name="protocol_version">0.000</field>
 	<field name="listening"></field>
@@ -3057,7 +3057,7 @@
 	<field name="description">Smoke Sensor</field>
 	<field name="type_id">0C00:1000</field>
 	<field name="versionmin">0.000</field>
-	<field name="versionmax">0.000</field>
+	<field name="versionmax">255.255</field>
 	<field name="library_type">0</field>
 	<field name="protocol_version">0.000</field>
 	<field name="listening"></field>
@@ -3081,7 +3081,7 @@
 	<field name="description">Smoke Detector</field>
 	<field name="type_id">0C02:1002</field>
 	<field name="versionmin">0.000</field>
-	<field name="versionmax">0.000</field>
+	<field name="versionmax">255.255</field>
 	<field name="library_type">0</field>
 	<field name="protocol_version">0.000</field>
 	<field name="listening"></field>
@@ -3105,7 +3105,7 @@
 	<field name="description">Metered Wall Plug Switch</field>
 	<field name="type_id">0600:1000</field>
 	<field name="versionmin">0.000</field>
-	<field name="versionmax">0.000</field>
+	<field name="versionmax">255.255</field>
 	<field name="library_type">0</field>
 	<field name="protocol_version">0.000</field>
 	<field name="listening"></field>
@@ -3129,7 +3129,7 @@
 	<field name="description">Fibaro RGBW Controller</field>
 	<field name="type_id">0900:1000,0900:2000,0900:4000,0900:3000</field>
 	<field name="versionmin">0.000</field>
-	<field name="versionmax">0.000</field>
+	<field name="versionmax">255.255</field>
 	<field name="library_type">0</field>
 	<field name="protocol_version">0.000</field>
 	<field name="listening">0</field>
@@ -3153,7 +3153,7 @@
 	<field name="description">Fibaro FGR221 Roller Shutter Controller</field>
 	<field name="type_id">0300:100A,0300:0106,0300:0104,0300:0107</field>
 	<field name="versionmin">0.000</field>
-	<field name="versionmax">0.000</field>
+	<field name="versionmax">255.255</field>
 	<field name="library_type">0</field>
 	<field name="protocol_version">0.000</field>
 	<field name="listening"></field>
@@ -3177,7 +3177,7 @@
 	<field name="description">Fibaro Dimmer 2</field>
 	<field name="type_id">0102:1000,0102:3000</field>
 	<field name="versionmin">0.000</field>
-	<field name="versionmax">0.000</field>
+	<field name="versionmax">255.255</field>
 	<field name="library_type">0</field>
 	<field name="protocol_version">0.000</field>
 	<field name="listening"></field>
@@ -3201,7 +3201,7 @@
 	<field name="description">Smoke Sensor</field>
 	<field name="type_id">0C00:3000</field>
 	<field name="versionmin">0.000</field>
-	<field name="versionmax">0.000</field>
+	<field name="versionmax">255.255</field>
 	<field name="library_type">3</field>
 	<field name="protocol_version">3.067</field>
 	<field name="listening">0</field>
@@ -3225,7 +3225,7 @@
 	<field name="description">Z-Wave Door/Window Sensor</field>
 	<field name="type_id">0001:0002</field>
 	<field name="versionmin">0.000</field>
-	<field name="versionmax">0.000</field>
+	<field name="versionmax">255.255</field>
 	<field name="library_type">0</field>
 	<field name="protocol_version">0.000</field>
 	<field name="listening"></field>
@@ -3249,7 +3249,7 @@
 	<field name="description">Z-Wave Garage Door Sensor</field>
 	<field name="type_id">0001:0003</field>
 	<field name="versionmin">0.000</field>
-	<field name="versionmax">0.000</field>
+	<field name="versionmax">255.255</field>
 	<field name="library_type">0</field>
 	<field name="protocol_version">0.000</field>
 	<field name="listening"></field>
@@ -3273,7 +3273,7 @@
 	<field name="description">Z-Wave PIR Motion Sensor</field>
 	<field name="type_id">0001:0001</field>
 	<field name="versionmin">0.000</field>
-	<field name="versionmax">0.000</field>
+	<field name="versionmax">255.255</field>
 	<field name="library_type">0</field>
 	<field name="protocol_version">0.000</field>
 	<field name="listening"></field>
@@ -3297,7 +3297,7 @@
 	<field name="description">Z-Wave Door/Window Sensor</field>
 	<field name="type_id">0001:0002</field>
 	<field name="versionmin">0.000</field>
-	<field name="versionmax">0.000</field>
+	<field name="versionmax">255.255</field>
 	<field name="library_type">0</field>
 	<field name="protocol_version">0.000</field>
 	<field name="listening"></field>
@@ -3321,7 +3321,7 @@
 	<field name="description">Z-Wave Garage Door Sensor</field>
 	<field name="type_id">0001:0003</field>
 	<field name="versionmin">0.000</field>
-	<field name="versionmax">0.000</field>
+	<field name="versionmax">255.255</field>
 	<field name="library_type">0</field>
 	<field name="protocol_version">0.000</field>
 	<field name="listening"></field>
@@ -3345,7 +3345,7 @@
 	<field name="description">Wireless 3-in-1 Sensor</field>
 	<field name="type_id">0002:0002,0002:0001</field>
 	<field name="versionmin">0.000</field>
-	<field name="versionmax">0.000</field>
+	<field name="versionmax">255.255</field>
 	<field name="library_type">0</field>
 	<field name="protocol_version">0.000</field>
 	<field name="listening"></field>
@@ -3369,7 +3369,7 @@
 	<field name="description">Double switch</field>
 	<field name="type_id">1000:0100</field>
 	<field name="versionmin">0.000</field>
-	<field name="versionmax">0.000</field>
+	<field name="versionmax">255.255</field>
 	<field name="library_type">0</field>
 	<field name="protocol_version">0.000</field>
 	<field name="listening"></field>
@@ -3393,7 +3393,7 @@
 	<field name="description">Wall Plug Switch</field>
 	<field name="type_id">1000:0200</field>
 	<field name="versionmin">0.000</field>
-	<field name="versionmax">0.000</field>
+	<field name="versionmax">255.255</field>
 	<field name="library_type">0</field>
 	<field name="protocol_version">0.000</field>
 	<field name="listening"></field>
@@ -3417,7 +3417,7 @@
 	<field name="description">Flush mountable switch</field>
 	<field name="type_id">1000:0001</field>
 	<field name="versionmin">0.000</field>
-	<field name="versionmax">0.000</field>
+	<field name="versionmax">255.255</field>
 	<field name="library_type">0</field>
 	<field name="protocol_version">0.000</field>
 	<field name="listening"></field>
@@ -3441,7 +3441,7 @@
 	<field name="description">Blinds controller</field>
 	<field name="type_id">1000:0003</field>
 	<field name="versionmin">0.000</field>
-	<field name="versionmax">0.000</field>
+	<field name="versionmax">255.255</field>
 	<field name="library_type">0</field>
 	<field name="protocol_version">0.000</field>
 	<field name="listening"></field>
@@ -3465,7 +3465,7 @@
 	<field name="description">Wall Controller</field>
 	<field name="type_id">0100:0101</field>
 	<field name="versionmin">0.000</field>
-	<field name="versionmax">0.000</field>
+	<field name="versionmax">255.255</field>
 	<field name="library_type">0</field>
 	<field name="protocol_version">0.000</field>
 	<field name="listening"></field>
@@ -3489,7 +3489,7 @@
 	<field name="description">4 button keyfob</field>
 	<field name="type_id">0100:0001,0100:0002,0100:0102,0100:0101</field>
 	<field name="versionmin">0.000</field>
-	<field name="versionmax">0.000</field>
+	<field name="versionmax">255.255</field>
 	<field name="library_type">0</field>
 	<field name="protocol_version">0.000</field>
 	<field name="listening"></field>
@@ -3513,7 +3513,7 @@
 	<field name="description">Double Paddle Wall Controller</field>
 	<field name="type_id">0100:0004</field>
 	<field name="versionmin">0.000</field>
-	<field name="versionmax">0.000</field>
+	<field name="versionmax">255.255</field>
 	<field name="library_type">0</field>
 	<field name="protocol_version">0.000</field>
 	<field name="listening"></field>
@@ -3537,7 +3537,7 @@
 	<field name="description">Single Paddle Wall Controller</field>
 	<field name="type_id">0400:0004,1000:0004</field>
 	<field name="versionmin">0.000</field>
-	<field name="versionmax">0.000</field>
+	<field name="versionmax">255.255</field>
 	<field name="library_type">0</field>
 	<field name="protocol_version">0.000</field>
 	<field name="listening"></field>
@@ -3561,7 +3561,7 @@
 	<field name="description">Z-Wave Remote Control+</field>
 	<field name="type_id">1000:0300</field>
 	<field name="versionmin">0.000</field>
-	<field name="versionmax">0.000</field>
+	<field name="versionmax">255.255</field>
 	<field name="library_type">0</field>
 	<field name="protocol_version">0.000</field>
 	<field name="listening"></field>
@@ -3585,7 +3585,7 @@
 	<field name="description">Wall Switch Set for Busch Jaeger</field>
 	<field name="type_id">1000:0005</field>
 	<field name="versionmin">0.000</field>
-	<field name="versionmax">0.000</field>
+	<field name="versionmax">255.255</field>
 	<field name="library_type">0</field>
 	<field name="protocol_version">0.000</field>
 	<field name="listening"></field>
@@ -3609,7 +3609,7 @@
 	<field name="description">Floor Thermostat</field>
 	<field name="type_id">0024:0001</field>
 	<field name="versionmin">0.000</field>
-	<field name="versionmax">0.000</field>
+	<field name="versionmax">255.255</field>
 	<field name="library_type">0</field>
 	<field name="protocol_version">0.000</field>
 	<field name="listening"></field>
@@ -3681,7 +3681,7 @@
 	<field name="description">Floor Thermostat</field>
 	<field name="type_id">0024:0001</field>
 	<field name="versionmin">1.004</field>
-	<field name="versionmax">0.000</field>
+	<field name="versionmax">255.255</field>
 	<field name="library_type">0</field>
 	<field name="protocol_version">0.000</field>
 	<field name="listening"></field>
@@ -3705,7 +3705,7 @@
 	<field name="description">Dual Paddle Wall Dimmer</field>
 	<field name="type_id">0808:0808</field>
 	<field name="versionmin">0.000</field>
-	<field name="versionmax">0.000</field>
+	<field name="versionmax">255.255</field>
 	<field name="library_type">0</field>
 	<field name="protocol_version">0.000</field>
 	<field name="listening"></field>
@@ -3730,7 +3730,7 @@
 			</field>
 	<field name="type_id">0001:0004</field>
 	<field name="versionmin">0.000</field>
-	<field name="versionmax">0.000</field>
+	<field name="versionmax">255.255</field>
 	<field name="library_type">0</field>
 	<field name="protocol_version">0.000</field>
 	<field name="listening"></field>
@@ -3754,7 +3754,7 @@
 	<field name="description">Dual Paddle Wall Switch</field>
 	<field name="type_id">0102:1020</field>
 	<field name="versionmin">0.000</field>
-	<field name="versionmax">0.000</field>
+	<field name="versionmax">255.255</field>
 	<field name="library_type">0</field>
 	<field name="protocol_version">0.000</field>
 	<field name="listening"></field>
@@ -3778,7 +3778,7 @@
 	<field name="description">Wall Plug Dimmer</field>
 	<field name="type_id">0202:0611</field>
 	<field name="versionmin">0.000</field>
-	<field name="versionmax">0.000</field>
+	<field name="versionmax">255.255</field>
 	<field name="library_type">0</field>
 	<field name="protocol_version">0.000</field>
 	<field name="listening"></field>
@@ -3802,7 +3802,7 @@
 	<field name="description">Wall Plug</field>
 	<field name="type_id">0101:0103</field>
 	<field name="versionmin">0.000</field>
-	<field name="versionmax">0.000</field>
+	<field name="versionmax">255.255</field>
 	<field name="library_type">0</field>
 	<field name="protocol_version">0.000</field>
 	<field name="listening"></field>
@@ -3826,7 +3826,7 @@
 	<field name="description">In Wall Micro Switch</field>
 	<field name="type_id">0121:0133</field>
 	<field name="versionmin">0.000</field>
-	<field name="versionmax">0.000</field>
+	<field name="versionmax">255.255</field>
 	<field name="library_type">0</field>
 	<field name="protocol_version">0.000</field>
 	<field name="listening"></field>
@@ -3850,7 +3850,7 @@
 	<field name="description">Energy Monitoring Wall Plug</field>
 	<field name="type_id">0001:0001</field>
 	<field name="versionmin">0.000</field>
-	<field name="versionmax">0.000</field>
+	<field name="versionmax">255.255</field>
 	<field name="library_type">3</field>
 	<field name="protocol_version">3.041</field>
 	<field name="listening">1</field>
@@ -3874,7 +3874,7 @@
 	<field name="description">Slim Multi-Sensor</field>
 	<field name="type_id">0002:0002</field>
 	<field name="versionmin">0.000</field>
-	<field name="versionmax">0.000</field>
+	<field name="versionmax">255.255</field>
 	<field name="library_type">0</field>
 	<field name="protocol_version">0.000</field>
 	<field name="listening"></field>
@@ -3898,7 +3898,7 @@
 	<field name="description">Living Connect Z Thermostat 2.51</field>
 	<field name="type_id">0005:0003</field>
 	<field name="versionmin">0.000</field>
-	<field name="versionmax">0.000</field>
+	<field name="versionmax">255.255</field>
 	<field name="library_type">0</field>
 	<field name="protocol_version">0.000</field>
 	<field name="listening"></field>
@@ -3922,7 +3922,7 @@
 	<field name="description">Living Connect Z Thermostat</field>
 	<field name="type_id">8005:0001</field>
 	<field name="versionmin">0.000</field>
-	<field name="versionmax">0.000</field>
+	<field name="versionmax">255.255</field>
 	<field name="library_type">0</field>
 	<field name="protocol_version">0.000</field>
 	<field name="listening"></field>
@@ -3946,7 +3946,7 @@
 	<field name="description">Living Connect Z Thermostat</field>
 	<field name="type_id">0005:0004,8005:0001</field>
 	<field name="versionmin">0.000</field>
-	<field name="versionmax">0.000</field>
+	<field name="versionmax">255.255</field>
 	<field name="library_type">0</field>
 	<field name="protocol_version">0.000</field>
 	<field name="listening"></field>
@@ -3970,7 +3970,7 @@
 	<field name="description">Danfoss Air CCM</field>
 	<field name="type_id">8007:0200</field>
 	<field name="versionmin">0.000</field>
-	<field name="versionmax">0.000</field>
+	<field name="versionmax">255.255</field>
 	<field name="library_type">0</field>
 	<field name="protocol_version">0.000</field>
 	<field name="listening"></field>
@@ -3994,7 +3994,7 @@
 	<field name="description">Slim Multi-Sensor</field>
 	<field name="type_id">0002:0002</field>
 	<field name="versionmin">0.000</field>
-	<field name="versionmax">0.000</field>
+	<field name="versionmax">255.255</field>
 	<field name="library_type">0</field>
 	<field name="protocol_version">0.000</field>
 	<field name="listening"></field>
@@ -4018,7 +4018,7 @@
 	<field name="description">Slim Multi-Sensor</field>
 	<field name="type_id">0002:000C,0002:000D,0002:000E</field>
 	<field name="versionmin">0.000</field>
-	<field name="versionmax">0.000</field>
+	<field name="versionmax">255.255</field>
 	<field name="library_type">3</field>
 	<field name="protocol_version">3.095</field>
 	<field name="listening">0</field>
@@ -4042,7 +4042,7 @@
 	<field name="description">Slim Multi-Sensor</field>
 	<field name="type_id">0002:0002</field>
 	<field name="versionmin">0.000</field>
-	<field name="versionmax">0.000</field>
+	<field name="versionmax">255.255</field>
 	<field name="library_type">0</field>
 	<field name="protocol_version">0.000</field>
 	<field name="listening"></field>
@@ -4066,7 +4066,7 @@
 	<field name="description">Slim Multi-Sensor</field>
 	<field name="type_id">0002:000D</field>
 	<field name="versionmin">0.000</field>
-	<field name="versionmax">0.000</field>
+	<field name="versionmax">255.255</field>
 	<field name="library_type">0</field>
 	<field name="protocol_version">0.000</field>
 	<field name="listening"></field>
@@ -4092,7 +4092,7 @@
 			</field>
 	<field name="type_id">0001:0003</field>
 	<field name="versionmin">0.000</field>
-	<field name="versionmax">0.000</field>
+	<field name="versionmax">255.255</field>
 	<field name="library_type">0</field>
 	<field name="protocol_version">0.000</field>
 	<field name="listening"></field>
@@ -4118,7 +4118,7 @@
 			</field>
 	<field name="type_id">0001:0012</field>
 	<field name="versionmin">0.000</field>
-	<field name="versionmax">0.000</field>
+	<field name="versionmax">255.255</field>
 	<field name="library_type">0</field>
 	<field name="protocol_version">0.000</field>
 	<field name="listening"></field>
@@ -4143,7 +4143,7 @@
 			</field>
 	<field name="type_id">0001:0004</field>
 	<field name="versionmin">0.000</field>
-	<field name="versionmax">0.000</field>
+	<field name="versionmax">255.255</field>
 	<field name="library_type">0</field>
 	<field name="protocol_version">0.000</field>
 	<field name="listening"></field>
@@ -4168,7 +4168,7 @@
 			</field>
 	<field name="type_id">0001:0013</field>
 	<field name="versionmin">0.000</field>
-	<field name="versionmax">0.000</field>
+	<field name="versionmax">255.255</field>
 	<field name="library_type">0</field>
 	<field name="protocol_version">0.000</field>
 	<field name="listening"></field>
@@ -4192,7 +4192,7 @@
 	<field name="description">Relay Insert for Blind Control</field>
 	<field name="type_id">0001:0006</field>
 	<field name="versionmin">0.000</field>
-	<field name="versionmax">0.000</field>
+	<field name="versionmax">255.255</field>
 	<field name="library_type">0</field>
 	<field name="protocol_version">0.000</field>
 	<field name="listening"></field>
@@ -4216,7 +4216,7 @@
 	<field name="description">Smart Energy Plug In Switch</field>
 	<field name="type_id">0001:0001</field>
 	<field name="versionmin">0.000</field>
-	<field name="versionmax">0.000</field>
+	<field name="versionmax">255.255</field>
 	<field name="library_type">0</field>
 	<field name="protocol_version">0.000</field>
 	<field name="listening"></field>
@@ -4240,7 +4240,7 @@
 	<field name="description">Smart Energy Plug In Switch</field>
 	<field name="type_id">0001:0011</field>
 	<field name="versionmin">0.000</field>
-	<field name="versionmax">0.000</field>
+	<field name="versionmax">255.255</field>
 	<field name="library_type">0</field>
 	<field name="protocol_version">0.000</field>
 	<field name="listening"></field>
@@ -4264,7 +4264,7 @@
 	<field name="description">Flood Sensor</field>
 	<field name="type_id">0002:0021</field>
 	<field name="versionmin">0.000</field>
-	<field name="versionmax">0.000</field>
+	<field name="versionmax">255.255</field>
 	<field name="library_type">0</field>
 	<field name="protocol_version">0.000</field>
 	<field name="listening"></field>
@@ -4288,7 +4288,7 @@
 	<field name="description">NorthQ Gas Meter</field>
 	<field name="type_id">0010:0001</field>
 	<field name="versionmin">0.000</field>
-	<field name="versionmax">0.000</field>
+	<field name="versionmax">255.255</field>
 	<field name="library_type">0</field>
 	<field name="protocol_version">0.000</field>
 	<field name="listening"></field>
@@ -4312,7 +4312,7 @@
 	<field name="description">NorthQ Electrical Meter</field>
 	<field name="type_id">0001:0001</field>
 	<field name="versionmin">0.000</field>
-	<field name="versionmax">0.000</field>
+	<field name="versionmax">255.255</field>
 	<field name="library_type">0</field>
 	<field name="protocol_version">0.000</field>
 	<field name="listening"></field>
@@ -4336,7 +4336,7 @@
 	<field name="description">NorthQ Electrical Meter</field>
 	<field name="type_id">0001:0002</field>
 	<field name="versionmin">0.000</field>
-	<field name="versionmax">0.000</field>
+	<field name="versionmax">255.255</field>
 	<field name="library_type">0</field>
 	<field name="protocol_version">0.000</field>
 	<field name="listening"></field>
@@ -4362,7 +4362,7 @@
 			</field>
 	<field name="type_id">0011:0001</field>
 	<field name="versionmin">0.000</field>
-	<field name="versionmax">0.000</field>
+	<field name="versionmax">255.255</field>
 	<field name="library_type">0</field>
 	<field name="protocol_version">0.000</field>
 	<field name="listening"></field>
@@ -4386,7 +4386,7 @@
 	<field name="description">Thermostatic Valve</field>
 	<field name="type_id">0001:0001</field>
 	<field name="versionmin">0.000</field>
-	<field name="versionmax">0.000</field>
+	<field name="versionmax">255.255</field>
 	<field name="library_type">0</field>
 	<field name="protocol_version">0.000</field>
 	<field name="listening"></field>
@@ -4410,7 +4410,7 @@
 	<field name="description">Dimming Switch Module</field>
 	<field name="type_id">8200:0200</field>
 	<field name="versionmin">0.000</field>
-	<field name="versionmax">0.000</field>
+	<field name="versionmax">255.255</field>
 	<field name="library_type">0</field>
 	<field name="protocol_version">0.000</field>
 	<field name="listening"></field>
@@ -4434,7 +4434,7 @@
 	<field name="description">20A Tamper Resistant Duplex Receptacle</field>
 	<field name="type_id">0101:0603</field>
 	<field name="versionmin">0.000</field>
-	<field name="versionmax">0.000</field>
+	<field name="versionmax">255.255</field>
 	<field name="library_type">0</field>
 	<field name="protocol_version">0.000</field>
 	<field name="listening"></field>
@@ -4458,7 +4458,7 @@
 	<field name="description">PIR Sensor</field>
 	<field name="type_id">0601:0901</field>
 	<field name="versionmin">0.000</field>
-	<field name="versionmax">0.000</field>
+	<field name="versionmax">255.255</field>
 	<field name="library_type">0</field>
 	<field name="protocol_version">0.000</field>
 	<field name="listening"></field>
@@ -4482,7 +4482,7 @@
 	<field name="description">Scene Controller</field>
 	<field name="type_id">0801:0B03</field>
 	<field name="versionmin">0.000</field>
-	<field name="versionmax">0.000</field>
+	<field name="versionmax">255.255</field>
 	<field name="library_type">0</field>
 	<field name="protocol_version">0.000</field>
 	<field name="listening"></field>
@@ -4506,7 +4506,7 @@
 	<field name="description">Wall Switch/Transmitter (2-gang)</field>
 	<field name="type_id">524D:3330</field>
 	<field name="versionmin">0.000</field>
-	<field name="versionmax">0.000</field>
+	<field name="versionmax">255.255</field>
 	<field name="library_type">0</field>
 	<field name="protocol_version">0.000</field>
 	<field name="listening"></field>
@@ -4530,7 +4530,7 @@
 	<field name="description">PIR Motion Sensor</field>
 	<field name="type_id">4952:3130</field>
 	<field name="versionmin">0.000</field>
-	<field name="versionmax">0.000</field>
+	<field name="versionmax">255.255</field>
 	<field name="library_type">0</field>
 	<field name="protocol_version">0.000</field>
 	<field name="listening"></field>
@@ -4554,7 +4554,7 @@
 	<field name="description">Scene Capable Push On/Off Dimmer</field>
 	<field name="type_id">0501:0334,0501:0209</field>
 	<field name="versionmin">0.000</field>
-	<field name="versionmax">0.000</field>
+	<field name="versionmax">255.255</field>
 	<field name="library_type">0</field>
 	<field name="protocol_version">0.000</field>
 	<field name="listening"></field>
@@ -4578,7 +4578,7 @@
 	<field name="description">Scene Capable Push On/Off Dimmer</field>
 	<field name="type_id">0602:0334</field>
 	<field name="versionmin">0.000</field>
-	<field name="versionmax">0.000</field>
+	<field name="versionmax">255.255</field>
 	<field name="library_type">0</field>
 	<field name="protocol_version">0.000</field>
 	<field name="listening"></field>
@@ -4602,7 +4602,7 @@
 	<field name="description">Scene Capable Push On/Off Dimmer</field>
 	<field name="type_id">0E01:0334</field>
 	<field name="versionmin">0.000</field>
-	<field name="versionmax">0.000</field>
+	<field name="versionmax">255.255</field>
 	<field name="library_type">0</field>
 	<field name="protocol_version">0.000</field>
 	<field name="listening"></field>
@@ -4626,7 +4626,7 @@
 	<field name="description">Scene Capable Push On/Off</field>
 	<field name="type_id">0301:0209,0301:0334</field>
 	<field name="versionmin">0.000</field>
-	<field name="versionmax">0.000</field>
+	<field name="versionmax">255.255</field>
 	<field name="library_type">0</field>
 	<field name="protocol_version">0.000</field>
 	<field name="listening"></field>
@@ -4650,7 +4650,7 @@
 	<field name="description">Scene Capable Push On/Off Dimmer</field>
 	<field name="type_id">0401:0209,0401:0334</field>
 	<field name="versionmin">0.000</field>
-	<field name="versionmax">0.000</field>
+	<field name="versionmax">255.255</field>
 	<field name="library_type">0</field>
 	<field name="protocol_version">0.000</field>
 	<field name="listening"></field>
@@ -4674,7 +4674,7 @@
 	<field name="description">Scene Capable Push On/Off</field>
 	<field name="type_id">1C02:0334</field>
 	<field name="versionmin">0.000</field>
-	<field name="versionmax">0.000</field>
+	<field name="versionmax">255.255</field>
 	<field name="library_type">0</field>
 	<field name="protocol_version">0.000</field>
 	<field name="listening"></field>
@@ -4698,7 +4698,7 @@
 	<field name="description">Scene Capable Push On/Off</field>
 	<field name="type_id">1B03:0334</field>
 	<field name="versionmin">0.000</field>
-	<field name="versionmax">0.000</field>
+	<field name="versionmax">255.255</field>
 	<field name="library_type">0</field>
 	<field name="protocol_version">0.000</field>
 	<field name="listening"></field>
@@ -4722,7 +4722,7 @@
 	<field name="description">4-Zone Controller</field>
 	<field name="type_id">0702:0261,0802:0261</field>
 	<field name="versionmin">0.000</field>
-	<field name="versionmax">0.000</field>
+	<field name="versionmax">255.255</field>
 	<field name="library_type">0</field>
 	<field name="protocol_version">0.000</field>
 	<field name="listening"></field>
@@ -4746,7 +4746,7 @@
 	<field name="description">4-Zone Controller</field>
 	<field name="type_id">1202:0243</field>
 	<field name="versionmin">0.000</field>
-	<field name="versionmax">0.000</field>
+	<field name="versionmax">255.255</field>
 	<field name="library_type">0</field>
 	<field name="protocol_version">0.000</field>
 	<field name="listening"></field>
@@ -4770,7 +4770,7 @@
 	<field name="description">Scene Capable Plug-in Dimmer</field>
 	<field name="type_id">1706:0334</field>
 	<field name="versionmin">0.000</field>
-	<field name="versionmax">0.000</field>
+	<field name="versionmax">255.255</field>
 	<field name="library_type">0</field>
 	<field name="protocol_version">0.000</field>
 	<field name="listening"></field>
@@ -4794,7 +4794,7 @@
 	<field name="description">Scene Capable Receptacle</field>
 	<field name="type_id">1D04:0334</field>
 	<field name="versionmin">0.000</field>
-	<field name="versionmax">0.000</field>
+	<field name="versionmax">255.255</field>
 	<field name="library_type">0</field>
 	<field name="protocol_version">0.000</field>
 	<field name="listening"></field>
@@ -4818,7 +4818,7 @@
 	<field name="description">Plugin Appliance Module</field>
 	<field name="type_id">0101:0206</field>
 	<field name="versionmin">0.000</field>
-	<field name="versionmax">0.000</field>
+	<field name="versionmax">255.255</field>
 	<field name="library_type">0</field>
 	<field name="protocol_version">0.000</field>
 	<field name="listening"></field>
@@ -4842,7 +4842,7 @@
 	<field name="description">Remotec ZXT-120 AC IR Remote</field>
 	<field name="type_id">0101:8377</field>
 	<field name="versionmin">0.000</field>
-	<field name="versionmax">0.000</field>
+	<field name="versionmax">255.255</field>
 	<field name="library_type">0</field>
 	<field name="protocol_version">0.000</field>
 	<field name="listening"></field>
@@ -4866,7 +4866,7 @@
 	<field name="description">Remotec ZTS-110 Z Wave Thermostat</field>
 	<field name="type_id">0200:8031</field>
 	<field name="versionmin">0.000</field>
-	<field name="versionmax">0.000</field>
+	<field name="versionmax">255.255</field>
 	<field name="library_type">0</field>
 	<field name="protocol_version">0.000</field>
 	<field name="listening"></field>
@@ -4890,7 +4890,7 @@
 	<field name="description">Remotec ZXT-120 AC IR Remote</field>
 	<field name="type_id">0102:8377</field>
 	<field name="versionmin">0.000</field>
-	<field name="versionmax">0.000</field>
+	<field name="versionmax">255.255</field>
 	<field name="library_type">0</field>
 	<field name="protocol_version">0.000</field>
 	<field name="listening"></field>
@@ -4914,7 +4914,7 @@
 	<field name="description">Flush 1 relay</field>
 	<field name="type_id">0002:0002</field>
 	<field name="versionmin">0.000</field>
-	<field name="versionmax">0.000</field>
+	<field name="versionmax">255.255</field>
 	<field name="library_type">0</field>
 	<field name="protocol_version">0.000</field>
 	<field name="listening"></field>
@@ -4938,7 +4938,7 @@
 	<field name="description">Flush 1 relay</field>
 	<field name="type_id">0002:0052</field>
 	<field name="versionmin">0.000</field>
-	<field name="versionmax">0.000</field>
+	<field name="versionmax">255.255</field>
 	<field name="library_type">0</field>
 	<field name="protocol_version">0.000</field>
 	<field name="listening"></field>
@@ -4962,7 +4962,7 @@
 	<field name="description">Flush 1D relay</field>
 	<field name="type_id">0002:0053</field>
 	<field name="versionmin">0.000</field>
-	<field name="versionmax">0.000</field>
+	<field name="versionmax">255.255</field>
 	<field name="library_type">0</field>
 	<field name="protocol_version">0.000</field>
 	<field name="listening"></field>
@@ -4986,7 +4986,7 @@
 	<field name="description">Flush 2 relays</field>
 	<field name="type_id">0002:0001</field>
 	<field name="versionmin">0.000</field>
-	<field name="versionmax">0.000</field>
+	<field name="versionmax">255.255</field>
 	<field name="library_type">0</field>
 	<field name="protocol_version">0.000</field>
 	<field name="listening"></field>
@@ -5010,7 +5010,7 @@
 	<field name="description">Flush dimmer</field>
 	<field name="type_id">0001:0001</field>
 	<field name="versionmin">0.000</field>
-	<field name="versionmax">0.000</field>
+	<field name="versionmax">255.255</field>
 	<field name="library_type">0</field>
 	<field name="protocol_version">0.000</field>
 	<field name="listening"></field>
@@ -5034,7 +5034,7 @@
 	<field name="description">Flush Dimmer Plus</field>
 	<field name="type_id">0001:0051</field>
 	<field name="versionmin">0.000</field>
-	<field name="versionmax">0.000</field>
+	<field name="versionmax">255.255</field>
 	<field name="library_type">0</field>
 	<field name="protocol_version">0.000</field>
 	<field name="listening"></field>
@@ -5058,7 +5058,7 @@
 	<field name="description">Flush on/off thermostat</field>
 	<field name="type_id">0005:0001</field>
 	<field name="versionmin">0.000</field>
-	<field name="versionmax">0.000</field>
+	<field name="versionmax">255.255</field>
 	<field name="library_type">0</field>
 	<field name="protocol_version">0.000</field>
 	<field name="listening"></field>
@@ -5082,7 +5082,7 @@
 	<field name="description">Flush PWM thermostat</field>
 	<field name="type_id">0005:0003</field>
 	<field name="versionmin">0.000</field>
-	<field name="versionmax">0.000</field>
+	<field name="versionmax">255.255</field>
 	<field name="library_type">0</field>
 	<field name="protocol_version">0.000</field>
 	<field name="listening"></field>
@@ -5106,7 +5106,7 @@
 	<field name="description">Flush Shutter</field>
 	<field name="type_id">0003:0002,0003:0052</field>
 	<field name="versionmin">0.000</field>
-	<field name="versionmax">0.000</field>
+	<field name="versionmax">255.255</field>
 	<field name="library_type">0</field>
 	<field name="protocol_version">0.000</field>
 	<field name="listening"></field>
@@ -5130,7 +5130,7 @@
 	<field name="description">Flush Shutter</field>
 	<field name="type_id">0003:0053</field>
 	<field name="versionmin">0.000</field>
-	<field name="versionmax">0.000</field>
+	<field name="versionmax">255.255</field>
 	<field name="library_type">0</field>
 	<field name="protocol_version">0.000</field>
 	<field name="listening"></field>
@@ -5154,7 +5154,7 @@
 	<field name="description">Flush 2 relays</field>
 	<field name="type_id">0002:0051</field>
 	<field name="versionmin">0.000</field>
-	<field name="versionmax">0.000</field>
+	<field name="versionmax">255.255</field>
 	<field name="library_type">0</field>
 	<field name="protocol_version">0.000</field>
 	<field name="listening"></field>
@@ -5178,7 +5178,7 @@
 	<field name="description">Contact and temperature sensor</field>
 	<field name="type_id">1182:4501,1188:4501</field>
 	<field name="versionmin">0.000</field>
-	<field name="versionmax">0.000</field>
+	<field name="versionmax">255.255</field>
 	<field name="library_type">0</field>
 	<field name="protocol_version">0.000</field>
 	<field name="listening"></field>
@@ -5202,7 +5202,7 @@
 	<field name="description">Mini Keypad RFID/Z-Wave</field>
 	<field name="type_id">6131:4501</field>
 	<field name="versionmin">0.000</field>
-	<field name="versionmax">0.000</field>
+	<field name="versionmax">255.255</field>
 	<field name="library_type">0</field>
 	<field name="protocol_version">0.000</field>
 	<field name="listening"></field>
@@ -5226,7 +5226,7 @@
 	<field name="description">Wall Plug</field>
 	<field name="type_id">6943:4501</field>
 	<field name="versionmin">0.000</field>
-	<field name="versionmax">0.000</field>
+	<field name="versionmax">255.255</field>
 	<field name="library_type">0</field>
 	<field name="protocol_version">0.000</field>
 	<field name="listening"></field>
@@ -5252,7 +5252,7 @@
 			</field>
 	<field name="type_id">0453:010E,0453:010F,0453:0110</field>
 	<field name="versionmin">0.000</field>
-	<field name="versionmax">0.000</field>
+	<field name="versionmax">255.255</field>
 	<field name="library_type">0</field>
 	<field name="protocol_version">0.000</field>
 	<field name="listening"></field>
@@ -5276,7 +5276,7 @@
 	<field name="description">Siren and Strobe Alarm</field>
 	<field name="type_id">0313:0108,0313:010B</field>
 	<field name="versionmin">0.000</field>
-	<field name="versionmax">0.000</field>
+	<field name="versionmax">255.255</field>
 	<field name="library_type">0</field>
 	<field name="protocol_version">0.000</field>
 	<field name="listening"></field>
@@ -5300,7 +5300,7 @@
 	<field name="description">Siren and Strobe Alarm</field>
 	<field name="type_id">0341:0205</field>
 	<field name="versionmin">0.000</field>
-	<field name="versionmax">0.000</field>
+	<field name="versionmax">255.255</field>
 	<field name="library_type">0</field>
 	<field name="protocol_version">0.000</field>
 	<field name="listening"></field>
@@ -5324,7 +5324,7 @@
 	<field name="description">Wireless Water and Temperature Alarm</field>
 	<field name="type_id">0063:010C</field>
 	<field name="versionmin">0.000</field>
-	<field name="versionmax">0.000</field>
+	<field name="versionmax">255.255</field>
 	<field name="library_type">0</field>
 	<field name="protocol_version">0.000</field>
 	<field name="listening"></field>
@@ -5348,7 +5348,7 @@
 	<field name="description">BeNext Door Sensor</field>
 	<field name="type_id">0004:0101</field>
 	<field name="versionmin">0.000</field>
-	<field name="versionmax">0.000</field>
+	<field name="versionmax">255.255</field>
 	<field name="library_type">0</field>
 	<field name="protocol_version">0.000</field>
 	<field name="listening"></field>
@@ -5372,7 +5372,7 @@
 	<field name="description">BeNext Power Switch EU</field>
 	<field name="type_id">0008:0101</field>
 	<field name="versionmin">0.000</field>
-	<field name="versionmax">0.000</field>
+	<field name="versionmax">255.255</field>
 	<field name="library_type">0</field>
 	<field name="protocol_version">0.000</field>
 	<field name="listening"></field>
@@ -5396,7 +5396,7 @@
 	<field name="description">BeNext Built-in Dimmer</field>
 	<field name="type_id">000D:0100</field>
 	<field name="versionmin">0.000</field>
-	<field name="versionmax">0.000</field>
+	<field name="versionmax">255.255</field>
 	<field name="library_type">0</field>
 	<field name="protocol_version">0.000</field>
 	<field name="listening"></field>
@@ -5420,7 +5420,7 @@
 	<field name="description">BeNext Plug-in Dimmer</field>
 	<field name="type_id">0018:0100</field>
 	<field name="versionmin">0.000</field>
-	<field name="versionmax">0.000</field>
+	<field name="versionmax">255.255</field>
 	<field name="library_type">0</field>
 	<field name="protocol_version">0.000</field>
 	<field name="listening"></field>
@@ -5444,7 +5444,7 @@
 	<field name="description">Vera Home Gateway</field>
 	<field name="type_id">0001:0001</field>
 	<field name="versionmin">0.000</field>
-	<field name="versionmax">0.000</field>
+	<field name="versionmax">255.255</field>
 	<field name="library_type">0</field>
 	<field name="protocol_version">0.000</field>
 	<field name="listening"></field>
@@ -5468,7 +5468,7 @@
 	<field name="description">Wall Plug Meter Switch</field>
 	<field name="type_id">0001:0001</field>
 	<field name="versionmin">0.000</field>
-	<field name="versionmax">0.000</field>
+	<field name="versionmax">255.255</field>
 	<field name="library_type">0</field>
 	<field name="protocol_version">0.000</field>
 	<field name="listening"></field>
@@ -5492,7 +5492,7 @@
 	<field name="description">Smoke Detector and Siren</field>
 	<field name="type_id">0100:0201</field>
 	<field name="versionmin">0.000</field>
-	<field name="versionmax">0.000</field>
+	<field name="versionmax">255.255</field>
 	<field name="library_type">0</field>
 	<field name="protocol_version">0.000</field>
 	<field name="listening"></field>
@@ -5516,7 +5516,7 @@
 	<field name="description">Indoor/Outdoor Wall Plug Switch</field>
 	<field name="type_id">0003:0001</field>
 	<field name="versionmin">0.000</field>
-	<field name="versionmax">0.000</field>
+	<field name="versionmax">255.255</field>
 	<field name="library_type">0</field>
 	<field name="protocol_version">0.000</field>
 	<field name="listening"></field>
@@ -5540,7 +5540,7 @@
 	<field name="description">Wall Plug Switch</field>
 	<field name="type_id">1100:0001</field>
 	<field name="versionmin">0.000</field>
-	<field name="versionmax">0.000</field>
+	<field name="versionmax">255.255</field>
 	<field name="library_type">0</field>
 	<field name="protocol_version">0.000</field>
 	<field name="listening"></field>
@@ -5564,7 +5564,7 @@
 	<field name="description">Wall Plug Dimmer</field>
 	<field name="type_id">1100:0002</field>
 	<field name="versionmin">0.000</field>
-	<field name="versionmax">0.000</field>
+	<field name="versionmax">255.255</field>
 	<field name="library_type">0</field>
 	<field name="protocol_version">0.000</field>
 	<field name="listening"></field>
@@ -5588,7 +5588,7 @@
 	<field name="description">Wall Controller</field>
 	<field name="type_id">0100:0101</field>
 	<field name="versionmin">0.000</field>
-	<field name="versionmax">0.000</field>
+	<field name="versionmax">255.255</field>
 	<field name="library_type">0</field>
 	<field name="protocol_version">0.000</field>
 	<field name="listening"></field>
@@ -5612,7 +5612,7 @@
 	<field name="description">Z Weather</field>
 	<field name="type_id">0001:0001</field>
 	<field name="versionmin">0.000</field>
-	<field name="versionmax">0.000</field>
+	<field name="versionmax">255.255</field>
 	<field name="library_type">0</field>
 	<field name="protocol_version">0.000</field>
 	<field name="listening"></field>
@@ -5636,7 +5636,7 @@
 	<field name="description">Push Button Deadbolt</field>
 	<field name="type_id">0004:AA00</field>
 	<field name="versionmin">0.000</field>
-	<field name="versionmax">0.000</field>
+	<field name="versionmax">255.255</field>
 	<field name="library_type">0</field>
 	<field name="protocol_version">0.000</field>
 	<field name="listening"></field>
@@ -5660,7 +5660,7 @@
 	<field name="description">Cord Switch</field>
 	<field name="type_id">0100:0100</field>
 	<field name="versionmin">0.000</field>
-	<field name="versionmax">0.000</field>
+	<field name="versionmax">255.255</field>
 	<field name="library_type">0</field>
 	<field name="protocol_version">0.000</field>
 	<field name="listening"></field>
@@ -5684,7 +5684,7 @@
 	<field name="description">RGBW bulb</field>
 	<field name="type_id">0002:0002</field>
 	<field name="versionmin">0.000</field>
-	<field name="versionmax">0.000</field>
+	<field name="versionmax">255.255</field>
 	<field name="library_type">0</field>
 	<field name="protocol_version">0.000</field>
 	<field name="listening"></field>
@@ -5708,7 +5708,7 @@
 	<field name="description">Smoke and Carbon Monoxide Alarm</field>
 	<field name="type_id">0001:0002</field>
 	<field name="versionmin">0.000</field>
-	<field name="versionmax">0.000</field>
+	<field name="versionmax">255.255</field>
 	<field name="library_type">0</field>
 	<field name="protocol_version">0.000</field>
 	<field name="listening"></field>
@@ -5732,7 +5732,7 @@
 	<field name="description">Smoke Alarm</field>
 	<field name="type_id">0001:0001</field>
 	<field name="versionmin">0.000</field>
-	<field name="versionmax">0.000</field>
+	<field name="versionmax">255.255</field>
 	<field name="library_type">0</field>
 	<field name="protocol_version">0.000</field>
 	<field name="listening"></field>
@@ -5756,7 +5756,7 @@
 	<field name="description">Touchscreen Deadbolt</field>
 	<field name="type_id">6349:5044</field>
 	<field name="versionmin">0.000</field>
-	<field name="versionmax">0.000</field>
+	<field name="versionmax">255.255</field>
 	<field name="library_type">0</field>
 	<field name="protocol_version">0.000</field>
 	<field name="listening"></field>
@@ -5780,7 +5780,7 @@
 	<field name="description">Plug-in On/Off Switch</field>
 	<field name="type_id">4447:3031</field>
 	<field name="versionmin">0.000</field>
-	<field name="versionmax">0.000</field>
+	<field name="versionmax">255.255</field>
 	<field name="library_type">0</field>
 	<field name="protocol_version">0.000</field>
 	<field name="listening"></field>
@@ -5804,7 +5804,7 @@
 	<field name="description">Wall On/Off Switch</field>
 	<field name="type_id">4447:3033</field>
 	<field name="versionmin">0.000</field>
-	<field name="versionmax">0.000</field>
+	<field name="versionmax">255.255</field>
 	<field name="library_type">0</field>
 	<field name="protocol_version">0.000</field>
 	<field name="listening"></field>
@@ -5828,7 +5828,7 @@
 	<field name="description">Wall Dimmer Switch</field>
 	<field name="type_id">4447:3034</field>
 	<field name="versionmin">0.000</field>
-	<field name="versionmax">0.000</field>
+	<field name="versionmax">255.255</field>
 	<field name="library_type">0</field>
 	<field name="protocol_version">0.000</field>
 	<field name="listening"></field>
@@ -5852,7 +5852,7 @@
 	<field name="description">PM2.5 Monitor</field>
 	<field name="type_id">0A05:0100</field>
 	<field name="versionmin">0.000</field>
-	<field name="versionmax">0.000</field>
+	<field name="versionmax">255.255</field>
 	<field name="library_type">0</field>
 	<field name="protocol_version">0.000</field>
 	<field name="listening"></field>
@@ -5876,7 +5876,7 @@
 	<field name="description">Trane Z-Wave Programmable Thermostat</field>
 	<field name="type_id">5452:5433,5452:5439</field>
 	<field name="versionmin">0.000</field>
-	<field name="versionmax">0.000</field>
+	<field name="versionmax">255.255</field>
 	<field name="library_type">0</field>
 	<field name="protocol_version">0.000</field>
 	<field name="listening"></field>
@@ -5900,7 +5900,7 @@
 	<field name="description">Energy Driven Switch</field>
 	<field name="type_id">1214:0304</field>
 	<field name="versionmin">0.000</field>
-	<field name="versionmax">0.000</field>
+	<field name="versionmax">255.255</field>
 	<field name="library_type">0</field>
 	<field name="protocol_version">0.000</field>
 	<field name="listening"></field>
@@ -5924,7 +5924,7 @@
 	<field name="description">ZWave Thermostat</field>
 	<field name="type_id">0001:0001</field>
 	<field name="versionmin">0.000</field>
-	<field name="versionmax">0.000</field>
+	<field name="versionmax">255.255</field>
 	<field name="library_type">0</field>
 	<field name="protocol_version">0.000</field>
 	<field name="listening"></field>
@@ -5948,7 +5948,7 @@
 	<field name="description">Roller Shutter Module</field>
 	<field name="type_id">0002:0002</field>
 	<field name="versionmin">0.000</field>
-	<field name="versionmax">0.000</field>
+	<field name="versionmax">255.255</field>
 	<field name="library_type">0</field>
 	<field name="protocol_version">0.000</field>
 	<field name="listening"></field>
@@ -5972,7 +5972,7 @@
 	<field name="description">Remote Control</field>
 	<field name="type_id">0002:0001</field>
 	<field name="versionmin">0.000</field>
-	<field name="versionmax">0.000</field>
+	<field name="versionmax">255.255</field>
 	<field name="library_type">0</field>
 	<field name="protocol_version">0.000</field>
 	<field name="listening"></field>
@@ -5996,7 +5996,7 @@
 	<field name="description">Remote Control</field>
 	<field name="type_id">0002:0002</field>
 	<field name="versionmin">0.000</field>
-	<field name="versionmax">0.000</field>
+	<field name="versionmax">255.255</field>
 	<field name="library_type">0</field>
 	<field name="protocol_version">0.000</field>
 	<field name="listening"></field>
@@ -6020,7 +6020,7 @@
 	<field name="description">Strips-MaZw</field>
 	<field name="type_id">0003:0003</field>
 	<field name="versionmin">0.000</field>
-	<field name="versionmax">0.000</field>
+	<field name="versionmax">255.255</field>
 	<field name="library_type">0</field>
 	<field name="protocol_version">0.000</field>
 	<field name="listening"></field>
@@ -6044,7 +6044,7 @@
 	<field name="description">Door &amp; Window Sensor</field>
 	<field name="type_id">0002:000E</field>
 	<field name="versionmin">0.000</field>
-	<field name="versionmax">0.000</field>
+	<field name="versionmax">255.255</field>
 	<field name="library_type">0</field>
 	<field name="protocol_version">0.000</field>
 	<field name="listening"></field>
@@ -6068,7 +6068,7 @@
 	<field name="description">Smart LED Light Bulb</field>
 	<field name="type_id">4C42:3135</field>
 	<field name="versionmin">0.000</field>
-	<field name="versionmax">0.000</field>
+	<field name="versionmax">255.255</field>
 	<field name="library_type">0</field>
 	<field name="protocol_version">0.000</field>
 	<field name="listening"></field>
@@ -6092,7 +6092,7 @@
 	<field name="description">Door Sensor</field>
 	<field name="type_id">0003:0001</field>
 	<field name="versionmin">0.000</field>
-	<field name="versionmax">0.000</field>
+	<field name="versionmax">255.255</field>
 	<field name="library_type">0</field>
 	<field name="protocol_version">0.000</field>
 	<field name="listening"></field>
@@ -6116,7 +6116,7 @@
 	<field name="description">Temperature Sensor</field>
 	<field name="type_id">0002:035D</field>
 	<field name="versionmin">0.000</field>
-	<field name="versionmax">0.000</field>
+	<field name="versionmax">255.255</field>
 	<field name="library_type">0</field>
 	<field name="protocol_version">0.000</field>
 	<field name="listening"></field>
@@ -6140,7 +6140,7 @@
 	<field name="description">Aeon Labs Garage Door Controller  Gen5 </field>
 	<field name="type_id">0103:003E</field>
 	<field name="versionmin">0.000</field>
-	<field name="versionmax">0.000</field>
+	<field name="versionmax">255.255</field>
 	<field name="library_type">3</field>
 	<field name="protocol_version">3.099</field>
 	<field name="listening">1</field>
@@ -6172,7 +6172,7 @@
 	<field name="description">DIN Rail Dimmer</field>
 	<field name="type_id">0001:0052</field>
 	<field name="versionmin">0.000</field>
-	<field name="versionmax">0.000</field>
+	<field name="versionmax">255.255</field>
 	<field name="library_type">0</field>
 	<field name="protocol_version">0.000</field>
 	<field name="listening">0</field>
@@ -6196,7 +6196,7 @@
 	<field name="description">Z-Wave weather interface</field>
 	<field name="type_id">0100:0400</field>
 	<field name="versionmin">0.000</field>
-	<field name="versionmax">0.000</field>
+	<field name="versionmax">255.255</field>
 	<field name="library_type">0</field>
 	<field name="protocol_version">0.000</field>
 	<field name="listening">0</field>
@@ -6220,7 +6220,7 @@
 	<field name="description">GE 12727 Z-Wave Wireless Lighting Control Smart Toggle Switch</field>
 	<field name="type_id">4952:3033</field>
 	<field name="versionmin">0.000</field>
-	<field name="versionmax">0.000</field>
+	<field name="versionmax">255.255</field>
 	<field name="library_type">6</field>
 	<field name="protocol_version">3.067</field>
 	<field name="listening">1</field>
@@ -6247,7 +6247,7 @@
 	<field name="description">TBZ48 thermostat</field>
 	<field name="type_id">5442:5432</field>
 	<field name="versionmin">0.000</field>
-	<field name="versionmax">0.000</field>
+	<field name="versionmax">255.255</field>
 	<field name="library_type">7</field>
 	<field name="protocol_version">3.040</field>
 	<field name="listening">0</field>
@@ -6271,7 +6271,7 @@
 	<field name="description">Flood Multisensor (incl. humidty and temperature)</field>
 	<field name="type_id">0002:001f</field>
 	<field name="versionmin">0.000</field>
-	<field name="versionmax">0.000</field>
+	<field name="versionmax">255.255</field>
 	<field name="library_type">0</field>
 	<field name="protocol_version">0.000</field>
 	<field name="listening">0</field>
@@ -6295,7 +6295,7 @@
 	<field name="description">Secure SSR302 Two Channel Boiler Actuator</field>
 	<field name="type_id">0003:0002</field>
 	<field name="versionmin">0.000</field>
-	<field name="versionmax">0.000</field>
+	<field name="versionmax">255.255</field>
 	<field name="library_type">7</field>
 	<field name="protocol_version">2.078</field>
 	<field name="listening">0</field>
