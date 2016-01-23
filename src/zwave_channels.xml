@@ -496,4 +496,40 @@
 	<field name="label">Electric meter (kWh) 5</field>
 	<field name="overview"></field>
   </row>
+
+  <row>
+	<field name="id">56</field>
+	<field name="commandclass">140</field>
+	<field name="name">temperature</field>
+	<field name="config">sensorType=TEMPERATURE</field>
+	<field name="label">Sensor (temperature)</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">57</field>
+	<field name="commandclass">141</field>
+	<field name="name"></field>
+	<field name="config">sensorType=SMOKE</field>
+	<field name="label">Alarm (smoke)</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">58</field>
+	<field name="commandclass">141</field>
+	<field name="name"></field>
+	<field name="config">sensorType=GENERAL</field>
+	<field name="label">Alarm (general)</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">59</field>
+	<field name="commandclass">141</field>
+	<field name="name"></field>
+	<field name="config">sensorType=HEAT</field>
+	<field name="label">Alarm (volts)</field>
+	<field name="overview"></field>
+  </row>
 </resultset>
