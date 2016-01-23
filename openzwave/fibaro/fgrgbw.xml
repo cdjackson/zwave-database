@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Product xmlns="http://code.google.com/p/open-zwave/">
+
+  <!-- Configuration Parameters -->
+  <CommandClass id="112">
+    <Value genre="config" instance="1" index=1" value=255" label=ALL ON / ALL OFF function activation" units="" size=1" min=0" max=65535" type="list">
+      <Help>Activation/deactivation of ALL ON/ALL OFF functions. By default, ALL ON active ALL OFF active.<BR/>
+                             Default setting: ALL ON active ALL OFF active
+			</Help>
+      <Item value="-1" label="ALL ON active ALL OFF active">
+      <Item value="0" label="ALL ON inactive ALL OFF inactive">
+      <Item value="1" label="ALL ON inactive ALL OFF active">
+      <Item value="2" label="ALL ON active ALL OFF inactive">
+    </Value>
+    <Value genre="config" instance="1" index=6" value=0" label=Associations command class choice" units="" size=1" min=0" max=65535" type="list">
+      <Help>Associations command class choice. By default, Normal (Dimmer) - BASIC_SET/SWITCH_MULTILEVEL_START/STOP.<BR/>
+                             Default setting: Normal (Dimmer) - BASIC_SET/SWITCH_MULTILEVEL_START/STOP
+			</Help>
+      <Item value="0" label="Normal (Dimmer) - BASIC_SET/SWITCH_MULTILEVEL_START/STOP">
+      <Item value="1" label="Normal (RGBW) - COLOR_CONTROL_SET/START/STOP_STATE_CHANGE">
+      <Item value="2" label="Normal (RGBW) - COLOR_CONTROL_SET">
+      <Item value="3" label="Brightness - BASIC_SET/SWITCH_MULTILEVEL_START/STOP">
+      <Item value="4" label="Rainbow (RGBW) - COLOR_CONTROL_SET">
+    </Value>
+    <Value genre="config" instance="1" index=8" value=0" label=Outputs state change mode" units="" size=1" min=0" max=65535" type="list">
+      <Help>MODE1, Example: change saturation level from 0% to 99% <BR/> 
+			                 Parameter 9: Step = 5 <BR/> 
+							 Parameter 10: Time between steps: 10ms.<BR/>
+                             Default setting: MODE1
+			</Help>
+      <Item value="0" label="MODE1 (related parameters: 9-step value, 10-time between steps)">
+      <Item value="1" label="MODE2 (related parameters: 11-time to change value, relevant for RGB/R">
+    </Value>
+    <Value genre="config" instance="1" index=9" value=1" label=Step value (relevant for MODE1)" units="" size=1" min=1" max=255" type="byte">
+      <Help>Step value (relevant for MODE1).<BR/>
+			                 Default setting: 1<BR/>
+                             Available settings: 1 - 255.
+			</Help>
+    </Value>
+    <Value genre="config" instance="1" index=10" value=10" label=Time between steps (relevant for MODE1)" units="" size=2" min=0" max=60000" type="short">
+      <Help>Time between steps (relevant for MODE1).<BR/>
+			                 Default setting: 10 ms<BR/>
+			                 0 - immediate change of state<BR/>
+                             Available settings: 1 - 60000 ms.<BR/>
+			</Help>
+    </Value>
+    <Value genre="config" instance="1" index=11" value=67" label=Time for changing from start to end value" units="" size=1" min=1" max=255" type="byte">
+      <Help>Step value (relevant for MODE1).<BR/>
+			                 Default setting: 67 (3s)<BR/>
+							 0: immediate change<BR/>
+							 1-63: 20-126 [ms] value*20ms<BR/>
+							 65-127: 1-63 [s] (value-64)*1s<BR/>
+							 129-191: 10-630 [s] (value-128)*10s</Help>
+    </Value>
+    <Value genre="config" instance="1" index=12" value=255" label=Maximum Brightening level" units="" size=1" min=3" max=255" type="byte">
+      <Help>Maximum Brightening level.<BR/>
+			                 Default setting: 255<BR/>
+                             Available settings: 3 - 255.
+			</Help>
+    </Value>
+    <Value genre="config" instance="1" index=13" value=2" label=Minimum dim level" units="" size=1" min=3" max=255" type="byte">
+      <Help>Minimum dim level.<BR/>
+			                 Default setting: 2<BR/>
+                             Available settings: 3 - 255.
+			</Help>
+    </Value>
+    <Value genre="config" instance="1" index=14" value=4369" label=Inputs/Outputs configuration - relevant for main controllers other than Home Center 2 only" units="" size=2" min=0" max=65535" type="short">
+      <Help>Inputs/Outputs configuration - relevant for main controllers other than Home Center 2 only.<BR/>
+			                 Default setting: 4369<BR/>
+			                 Controlled device: RGBW, toggle switch inputs (NORMAL MODE).<BR/>
+                      </Help>
+    </Value>
+    <Value genre="config" instance="1" index=16" value=1" label=Remember device status after power failure" units="" size=1" min=0" max=65535" type="list">
+      <Help>Define how will the Plug react after the power supply is back on.<BR/>
+                              Default setting: 1<BR/>
+                              Available settings:<BR/>
+                              0 - Device does not memorize its state aft</Help>
+      <Item value="0" label="Do not remember state">
+      <Item value="1" label="Remember state before power failure">
+    </Value>
+    <Value genre="config" instance="1" index=30" value=0" label=Alarm of any type (General alarm, flood alarm, smoke alarm: CO, CO2, temperature alarm.)" units="" size=1" min=0" max=65535" type="list">
+      <Help>Alarm of any type (General alarm, flood alarm, smoke alarm: CO, CO2, temperature alarm.)<BR/> 
+                             Default setting: INACTIVE
+			</Help>
+      <Item value="0" label="INACTIVE - the device doesn't respond to alarm frames">
+      <Item value="1" label="ALARM ON - the device turns on once alarm is detected (all channels se">
+      <Item value="2" label="ALARM OFF - the device turns off once alarm is detected (all channels ">
+      <Item value="3" label="ALARM PROGRAM - alarm sequence turns on (program selected in parameter">
+    </Value>
+    <Value genre="config" instance="1" index=38" value=10" label=Alarm sequence program" units="" size=1" min=1" max=10" type="byte">
+      <Help>Alarm sequence program.<BR/>
+			                 Default setting: 10<BR/>
+                             1-10 specifies alarm program number.
+			</Help>
+    </Value>
+    <Value genre="config" instance="1" index=39" value=600" label=Active PROGRAM alarm time" units="" size=2" min=1" max=65534" type="short">
+      <Help>IActive PROGRAM alarm time.<BR/>
+			                 Default setting: 600s<BR/>
+                             1-65534 specifies alarm time in seconds.
+			</Help>
+    </Value>
+    <Value genre="config" instance="1" index=42" value=0" label=Command class reporting Outputs status change" units="" size=1" min=0" max=65535" type="list">
+      <Help>Command class reporting Outputs status change.<BR/>
+                              Default setting: 0
+			</Help>
+      <Item value="0" label="Reporting as a result of inputs and controllers actions (SWITCH MULTIL">
+      <Item value="1" label="Reporting as a result of inputs actions (SWITCH MULTILEVEL)">
+      <Item value="2" label="Reporting as a result of inputs actions (COLOR CONTROL)">
+    </Value>
+    <Value genre="config" instance="1" index=43" value=5" label=Reporting 0-10v analog inputs change threshold" units="" size=1" min=1" max=100" type="byte">
+      <Help>Parameter defines a value by which input voltage must change in order to be reported to the main controller.<BR/>
+			                 New value is calculated based on last reported value.<BR/>
+			                 Default setting: 5<BR/>
+               </Help>
+    </Value>
+    <Value genre="config" instance="1" index=44" value=30" label=Power load reporting frequency" units="" size=2" min=1" max=65534" type="short">
+      <Help>Parameter defines Time between reports. The report will be sent if last reported value differs from the current value, else reports will also be sent in case of polling.<BR/> 
+		                     Default setting: 3 600 (s)<BR/>
+                      </Help>
+    </Value>
+    <Value genre="config" instance="1" index=45" value=1" label=Reporting Changes in energy consumed by controlled devices" units="" size=1" min=1" max=255" type="byte">
+      <Help>Defines the required change in power to generate an unsolicited power report.<BR/>
+			                 New, reported energy value is calculated based on last reported value.<BR/>
+							 Default setting: 10 (0,1 kWh).<BR/>
+                             </Help>
+    </Value>
+    <Value genre="config" instance="1" index=71" value=1" label=Response to BRIGHTNESS set to 0%" units="" size=1" min=0" max=65535" type="list">
+      <Help>Response to BRIGHTNESS set to 0%.<BR/>
+                              Default setting: 1
+			</Help>
+      <Item value="0" label="illumination colour set to white (all channels controlled together)">
+      <Item value="1" label="last set colour is memorized">
+    </Value>
+    <Value genre="config" instance="1" index=72" value=1" label=Starting animation programm" units="" size=1" min=1" max=10" type="byte">
+      <Help>Starting animation programm.<BR/>
+			                 Starting predefined program when device set to work in RGB/RGBW mode (parameter 14) - relevant for main controllers other than Home Center 2 only.<BR/>
+			                 Default setting: 1<BR/>
+  </Help>
+    </Value>
+    <Value genre="config" instance="1" index=73" value=0" label=Triple click action" units="" size=1" min=0" max=65535" type="list">
+      <Help>Triple click action.<BR/>
+                              Default setting: 0
+			</Help>
+      <Item value="0" label="NODE INFO control frame is sent">
+      <Item value="1" label="starting favourite program">
+    </Value>
+  </CommandClass>
+
+  <!-- Association Groups -->
+  <CommandClass id="133">
+    <Associations num_groups="5">
+      <Group index="1" label="Assigned to IN1 input" max_associations="5" />
+      <Group index="2" label="Assigned to IN2 input" max_associations="5" />
+      <Group index="3" label="Assigned to IN3 input" max_associations="5" />
+      <Group index="4" label="Assigned to IN4 input" max_associations="5" />
+      <Group index="5" label="Reports device status" max_associations="1" auto="true" />
+    </Associations>
+  </CommandClass>
+
+</Product>
+
