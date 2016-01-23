@@ -174,7 +174,7 @@
 	<field name="id">22</field>
 	<field name="label">ZWave.me</field>
 	<field name="reference">277</field>
-	<field name="thingid">zwave.me</field>
+	<field name="thingid">zwaveme</field>
 	<field name="url"></field>
   </row>
 
@@ -182,7 +182,7 @@
 	<field name="id">23</field>
 	<field name="label">Wenzhou TKB Control System</field>
 	<field name="reference">280</field>
-	<field name="thingid">wenzhoutkbcontrolsystem</field>
+	<field name="thingid">tkb</field>
 	<field name="url"></field>
   </row>
 
@@ -342,7 +342,7 @@
 	<field name="id">43</field>
 	<field name="label">Yale Locks</field>
 	<field name="reference">297</field>
-	<field name="thingid">yalelocks</field>
+	<field name="thingid">yale</field>
 	<field name="url"></field>
   </row>
 
