@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Product>
+  <Model>PST-02</Model>
+  <Label lang="en">Slim Multi-Sensor</Label>
+
+  <Configuration>
+
+    <Parameter>
+      <Index>2</Index>
+      <Label lang="en">Basic Set Level</Label>
+      <Type>short</Type>
+      <Default>-1</Default>
+      <Minimum>-1</Minimum>
+      <Maximum>100</Maximum>
+      <Size>1</Size>
+    </Parameter>
+
+    <Parameter>
+      <Index>3</Index>
+      <Label lang="en">PIR Sensitivity</Label>
+      <Type>short</Type>
+      <Default>70</Default>
+      <Minimum>0</Minimum>
+      <Maximum>99</Maximum>
+      <Size>1</Size>
+    </Parameter>
+
+    <Parameter>
+      <Index>4</Index>
+      <Label lang="en">Light Threshold</Label>
+      <Type>short</Type>
+      <Default>100</Default>
+      <Minimum>0</Minimum>
+      <Maximum>100</Maximum>
+      <Size>1</Size>
+    </Parameter>
+
+    <Parameter>
+      <Index>5</Index>
+      <Label lang="en">Operation Mode</Label>
+      <Type>short</Type>
+      <Default>0</Default>
+      <Minimum>0</Minimum>
+      <Maximum>127</Maximum>
+      <Size>1</Size>
+    </Parameter>
+
+    <Parameter>
+      <Index>6</Index>
+      <Label lang="en">Multi-Sensor Function Switch</Label>
+      <Type>short</Type>
+      <Default>4</Default>
+      <Minimum>0</Minimum>
+      <Maximum>127</Maximum>
+      <Size>1</Size>
+    </Parameter>
+
+    <Parameter>
+      <Index>7</Index>
+      <Label lang="en">Customer Function</Label>
+      <Type>short</Type>
+      <Default>4</Default>
+      <Minimum>0</Minimum>
+      <Maximum>127</Maximum>
+      <Size>1</Size>
+    </Parameter>
+
+    <Parameter>
+      <Index>8</Index>
+      <Label lang="en">PIR Re-Detect Interval Time</Label>
+      <Type>short</Type>
+      <Default>3</Default>
+      <Minimum>1</Minimum>
+      <Maximum>127</Maximum>
+      <Size>1</Size>
+    </Parameter>
+
+    <Parameter>
+      <Index>9</Index>
+      <Label lang="en">Turn Off Light Time</Label>
+      <Type>short</Type>
+      <Default>4</Default>
+      <Minimum>0</Minimum>
+      <Maximum>127</Maximum>
+      <Size>1</Size>
+    </Parameter>
+
+    <Parameter>
+      <Index>10</Index>
+      <Label lang="en">Auto Report Battery Time</Label>
+      <Type>short</Type>
+      <Default>12</Default>
+      <Minimum>0</Minimum>
+      <Maximum>127</Maximum>
+      <Size>1</Size>
+    </Parameter>
+
+    <Parameter>
+      <Index>11</Index>
+      <Label lang="en">Auto Report Door/Window State Time</Label>
+      <Type>short</Type>
+      <Default>12</Default>
+      <Minimum>0</Minimum>
+      <Maximum>127</Maximum>
+      <Size>1</Size>
+    </Parameter>
+
+    <Parameter>
+      <Index>12</Index>
+      <Label lang="en">Auto Report Illumination Time</Label>
+      <Type>short</Type>
+      <Default>12</Default>
+      <Minimum>1</Minimum>
+      <Maximum>127</Maximum>
+      <Size>1</Size>
+    </Parameter>
+
+    <Parameter>
+      <Index>13</Index>
+      <Label lang="en">Auto Report Temperature Time</Label>
+      <Type>short</Type>
+      <Default>12</Default>
+      <Minimum>1</Minimum>
+      <Maximum>127</Maximum>
+      <Size>1</Size>
+    </Parameter>
+
+    <Parameter>
+      <Index>20</Index>
+      <Label lang="en">Auto Report Tick Interval</Label>
+      <Type>short</Type>
+      <Default>30</Default>
+      <Minimum>0</Minimum>
+      <Maximum>255</Maximum>
+      <Size>1</Size>
+    </Parameter>
+
+    <Parameter>
+      <Index>21</Index>
+      <Label lang="en">Temperature Differential Report</Label>
+      <Type>short</Type>
+      <Default>1</Default>
+      <Minimum>0</Minimum>
+      <Maximum>127</Maximum>
+      <Size>1</Size>
+    </Parameter>
+
+    <Parameter>
+      <Index>22</Index>
+      <Label lang="en">Illumination Differential Report</Label>
+      <Type>short</Type>
+      <Default>1</Default>
+      <Minimum>0</Minimum>
+      <Maximum>99</Maximum>
+      <Size>1</Size>
+    </Parameter>
+
+  </Configuration>
+
+  <Associations>
+
+    <Group>
+      <Index>1</Index>
+      <Label lang="en">Reports</Label>
+      <Maximum>8</Maximum>
+      <SetToController>true</SetToController>
+    </Group>
+
+    <Group>
+      <Index>2</Index>
+      <Label lang="en">Light Control</Label>
+      <Maximum>8</Maximum>
+    </Group>
+
+  </Associations>
+
+</Product>
+

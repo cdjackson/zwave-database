@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Product>
+  <Model>GE12727</Model>
+  <Label lang="en">GE 12727 Z-Wave Wireless Lighting Control Smart Toggle Switch</Label>
+
+  <Configuration>
+
+    <Parameter>
+      <Index>4</Index>
+      <Label lang="en">Invert switch</Label>
+      <Type>list</Type>
+      <Default>0</Default>
+      <Minimum>0</Minimum>
+      <Maximum>1</Maximum>
+      <Size>1</Size>
+      <Item>
+        <Value>0</Value>
+        <Label lang="en">Normal switch install</Label>
+      </Item>
+      <Item>
+        <Value>1</Value>
+        <Label lang="en">Inverted switch</Label>
+      </Item>
+    </Parameter>
+
+  </Configuration>
+
+  <Associations>
+
+  </Associations>
+
+</Product>
+
