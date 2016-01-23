@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Product xmlns="http://code.google.com/p/open-zwave/">
+
+  <!-- Configuration Parameters -->
+  <CommandClass id="112">
+    <Value genre="config" instance="1" index=1" value=1" label=Set LED indication mode" units="" size=1" min=0" max=3" type="list">
+      <Help></Help>
+      <Item value="0" label="Disabled">
+      <Item value="1" label="On when switch on">
+      <Item value="2" label="On when switch off">
+      <Item value="3" label="Operated by command">
+    </Value>
+    <Value genre="config" instance="1" index=2" value=0" label=Automatic switch off time" units="" size=2" min=0" max=65535" type="short">
+      <Help>If not zero, automatically switch off after a user defined time (in seconds)</Help>
+    </Value>
+    <Value genre="config" instance="1" index=3" value=0" label=RF Off command" units="" size=1" min=0" max=3" type="list">
+      <Help>Defines how to interpret RF Off command. Can be used in conjunction with Auto Off function: Ignore - to switch on the light by motion detectors and switch it off after some amount of time: in case of multiple motion detectors each would try to switch the </Help>
+      <Item value="0" label="Switch OFF">
+      <Item value="1" label="Ignore">
+      <Item value="2" label="Switch ON">
+      <Item value="3" label="Switch on if load is off else switch off">
+    </Value>
+    <Value genre="config" instance="1" index=4" value=1" label=Ignore start level" units="" size=1" min=0" max=1" type="list">
+      <Help></Help>
+      <Item value="0" label="No">
+      <Item value="1" label="Yes">
+    </Value>
+    <Value genre="config" instance="1" index=5" value=30" label=Speed for fast dimming" units="" size=1" min=0" max=255" type="byte">
+      <Help>Time to dim on button presses and Set command (if it has no duration specified). If not 0, dimming will be done smoothly to preserve bulb life. Set in 10ms steps.</Help>
+    </Value>
+    <Value genre="config" instance="1" index=6" value=3" label=Speed for slow dimming" units="" size=1" min=0" max=255" type="byte">
+      <Help>Time to dim on button presses and Set command (if it has no duration specified). If not 0, dimming will be done smoothly to preserve bulb life. Set in 10ms steps.</Help>
+    </Value>
+    <Value genre="config" instance="1" index=7" value=0" label=Behavior when ON received" units="" size=1" min=0" max=2" type="list">
+      <Help>Defines the dim level on command 'ON'. On default he dimmer restores last dim level. This parameter allows configuring the maximum level on second On command (if already On) or to always switch on to maximum level.</Help>
+      <Item value="0" label="Set to last dim level">
+      <Item value="1" label="If on already, set to maximum">
+      <Item value="2" label="Always maximum dim level">
+    </Value>
+    <Value genre="config" instance="1" index=8" value=0" label=Baby dimming time" units="" size=1" min=0" max=99" type="byte">
+      <Help>Time to dim on double click Off button for Baby-Dim function. This function works only if the load is operated by single press and hold button action. If enabled, the device will wait for a click timeout to see if the second click would be pressed. This w</Help>
+    </Value>
+    <Value genre="config" instance="1" index=9" value=0" label=Baby target level" units="" size=1" min=0" max=100" type="byte">
+      <Help>Target percentage level on which to stop while executing Baby Dimming. Can be 0 to completely switch off the light.</Help>
+    </Value>
+    <Value genre="config" instance="1" index=10" value=50" label=Baby target level" units="" size=1" min=0" max=100" type="byte">
+      <Help>Typical time used to differentiate click, hold, double and triple clicks. Set in 10ms steps.</Help>
+    </Value>
+    <Value genre="config" instance="1" index=17" value=1" label=Limit minimum light level" units="" size=1" min=1" max=95" type="byte">
+      <Help>Minimum level should be greater than maximum.</Help>
+    </Value>
+    <Value genre="config" instance="1" index=18" value=1" label=Limit maximum light level" units="" size=1" min=0" max=99" type="byte">
+      <Help>Maximum level should be greater than minimum. Set to 0 to act as a switch.</Help>
+    </Value>
+    <Value genre="config" instance="1" index=19" value=1" label=Dim Level on 'Switch On'" units="" size=1" min=0" max=99" type="byte">
+      <Help>defines how the dimmer hall react on a simple ON Command. Set to 0 to restore last level, otherwise sets dim level.</Help>
+    </Value>
+    <Value genre="config" instance="1" index=51" value=28" label=Pause before pulse" units="" size=1" min=5" max=60" type="byte">
+      <Help>NB: Do not touch these settings if you are not sure what they mean! For dimmable LEDs and CFL with bypass use value 1. For other bulbs use default value.</Help>
+    </Value>
+    <Value genre="config" instance="1" index=52" value=28" label=Pause after pulse" units="" size=1" min=5" max=60" type="byte">
+      <Help>NB: Do not touch these settings if you are not sure what they mean! For dimmable LEDs and CFL with bypass use value 40. For other bulbs use default value.</Help>
+    </Value>
+    <Value genre="config" instance="1" index=53" value=10" label=Pulse width" units="" size=1" min=3" max=20" type="byte">
+      <Help>NB: Do not touch these settings if you are not sure what they mean! For dimmable LEDs and CFL with bypass use value 20. For other bulbs use default value.</Help>
+    </Value>
+    <Value genre="config" instance="1" index=54" value=0" label=Pulse type" units="" size=1" min=0" max=1" type="list">
+      <Help>NB: Do not touch these settings if you are not sure what they mean!</Help>
+      <Item value="0" label="Long">
+      <Item value="1" label="Short">
+    </Value>
+  </CommandClass>
+
+  <!-- Association Groups -->
+  <CommandClass id="133">
+    <Associations num_groups="1">
+      <Group index="1" label="Switch State" max_associations="5" />
+    </Associations>
+  </CommandClass>
+
+</Product>
+
