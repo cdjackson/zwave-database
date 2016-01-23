@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Product xmlns="http://code.google.com/p/open-zwave/">
+
+  <!-- Configuration Parameters -->
+  <CommandClass id="112">
+    <Value genre="config" instance="1" index=1" value=0" label=LED Behavior" units="" size=1" min=0" max=1" type="list">
+      <Help>Defines the behavior of the blue LED</Help>
+      <Item value="0" label="blue indicates off">
+      <Item value="1" label="blue indicates on">
+    </Value>
+  </CommandClass>
+
+</Product>
+
