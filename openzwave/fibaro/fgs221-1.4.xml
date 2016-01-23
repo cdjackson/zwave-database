@@ -3,52 +3,52 @@
 
   <!-- Configuration Parameters -->
   <CommandClass id="112">
-    <Value genre="config" instance="1" index=1" value=255" label=Enable/Disable ALL ON/OFF" units="" size=1" min=0" max=65535" type="list">
+    <Value genre="config" instance="1" index=1" value=255" label=Enable/Disable ALL ON/OFF" units="" size=1" min=0" max=255" type="list">
       <Help>Activate/Deactive ALL ON/OFF</Help>
       <Item value="-1" label="ALL ON active / ALL OFF active">
       <Item value="0" label="ALL ON disabled/ ALL OFF disabled">
       <Item value="1" label="ALL ON disabled/ ALL OFF active">
       <Item value="2" label="ALL ON active / ALL OFF disabled">
     </Value>
-    <Value genre="config" instance="1" index=3" value=0" label=Enable/Disable OFF-delay" units="" size=1" min=0" max=65535" type="list">
+    <Value genre="config" instance="1" index=3" value=0" label=Enable/Disable OFF-delay" units="" size=1" min=0" max=255" type="list">
       <Help>Activate/Deactivate Automatic turning off relay after set time</Help>
       <Item value="0" label="Auto OFF disabled for both relays">
       <Item value="1" label="Auto OFF active only for relay 1">
       <Item value="2" label="Auto OFF active only for relay 2">
       <Item value="3" label="Auto OFF active for both relays">
     </Value>
-    <Value genre="config" instance="1" index=4" value=20" label=Relay 1: OFF-delay time (10ms steps)" units="" size=1" min=0" max=65535" type="byte">
+    <Value genre="config" instance="1" index=4" value=20" label=Relay 1: OFF-delay time (10ms steps)" units="" size=1" min=0" max=255" type="byte">
       <Help>Automatic turning off relay 1 after set time, in 10ms increments (default: 200ms)</Help>
     </Value>
-    <Value genre="config" instance="1" index=5" value=20" label=Relay 2: OFF-delay time (10ms steps)" units="" size=1" min=0" max=65535" type="byte">
+    <Value genre="config" instance="1" index=5" value=20" label=Relay 2: OFF-delay time (10ms steps)" units="" size=1" min=0" max=255" type="byte">
       <Help>Automatic turning off relay 2 after set time, in 10ms increments (default: 200ms)</Help>
     </Value>
-    <Value genre="config" instance="1" index=6" value=0" label=Separation of association sending (key 1)" units="" size=1" min=0" max=65535" type="list">
+    <Value genre="config" instance="1" index=6" value=0" label=Separation of association sending (key 1)" units="" size=1" min=0" max=255" type="list">
       <Help>Activate/Deactivate association sending for group
 				1 - activate param #15 for this to work</Help>
       <Item value="0" label="Map status to all devices in group 1">
       <Item value="1" label="Map OFF status to all devices in group 1, double click on key 1 will s">
       <Item value="2" label="Map OFF status to all devices in group 1, double click on key 1 will s">
     </Value>
-    <Value genre="config" instance="1" index=7" value=0" label=Separation of association sending (key 2)" units="" size=1" min=0" max=65535" type="list">
+    <Value genre="config" instance="1" index=7" value=0" label=Separation of association sending (key 2)" units="" size=1" min=0" max=255" type="list">
       <Help>Activate/Deactivate association sending for group
 				2 - activate param #15 for this to work</Help>
       <Item value="0" label="Map status to all devices in group 2">
       <Item value="1" label="Map OFF status to all devices in group 2, double click on key 2 will s">
       <Item value="2" label="Map OFF status to all devices in group 2, double click on key 2 will s">
     </Value>
-    <Value genre="config" instance="1" index=13" value=0" label=Inputs behaviour" units="" size=1" min=0" max=65535" type="list">
+    <Value genre="config" instance="1" index=13" value=0" label=Inputs behaviour" units="" size=1" min=0" max=255" type="list">
       <Help>In case of bi-stable switches, define their behaviour (toggle
 				or follow)</Help>
       <Item value="0" label="Toggle">
       <Item value="1" label="Follow switch contact (closed=ON, open=OFF)">
     </Value>
-    <Value genre="config" instance="1" index=14" value=1" label=Inputs Button/Switch configuration" units="" size=1" min=0" max=65535" type="list">
+    <Value genre="config" instance="1" index=14" value=1" label=Inputs Button/Switch configuration" units="" size=1" min=0" max=255" type="list">
       <Help>Binary inputs type configuration</Help>
       <Item value="0" label="Mono-stable input (button)">
       <Item value="1" label="Bi-stable input (switch)">
     </Value>
-    <Value genre="config" instance="1" index=15" value=0" label=Dimmer/Roller shutter control" units="" size=1" min=0" max=65535" type="list">
+    <Value genre="config" instance="1" index=15" value=0" label=Dimmer/Roller shutter control" units="" size=1" min=0" max=255" type="list">
       <Help>Enable/Disable operation of dimmer or roller shutter devices
 				associated to group 1.
 				Available only when using mono-stable inputs (buttons) - Hold button 1 or
@@ -56,33 +56,33 @@
       <Item value="0" label="Disable Dimmer/Roller shutter control">
       <Item value="1" label="Enable Dimmer/Roller shutter control">
     </Value>
-    <Value genre="config" instance="1" index=16" value=1" label=Saving state before power failure" units="" size=1" min=0" max=65535" type="list">
+    <Value genre="config" instance="1" index=16" value=1" label=Saving state before power failure" units="" size=1" min=0" max=255" type="list">
       <Help>Saving state before power failure</Help>
       <Item value="0" label="State NOT saved at power failure, all outputs are set to OFF upon powe">
       <Item value="1" label="State saved at power failure, all outputs are set to previous state up">
     </Value>
-    <Value genre="config" instance="1" index=30" value=3" label=Relay 1: Response to General Alarm" units="" size=1" min=0" max=65535" type="list">
+    <Value genre="config" instance="1" index=30" value=3" label=Relay 1: Response to General Alarm" units="" size=1" min=0" max=255" type="list">
       <Help></Help>
       <Item value="0" label="DEACTIVATION - no response to alarm frames">
       <Item value="1" label="ALARM RELAY ON - relay will turn ON upon receipt of alarm frame">
       <Item value="2" label="ALARM RELAY OFF - relay will turn OFF upon receipt of alarm frame">
       <Item value="3" label="ALARM FLASHING - relay will turn ON and OFF periodically (see param.39">
     </Value>
-    <Value genre="config" instance="1" index=31" value=2" label=Relay 1: Response to Water Flood Alarm" units="" size=1" min=0" max=65535" type="list">
+    <Value genre="config" instance="1" index=31" value=2" label=Relay 1: Response to Water Flood Alarm" units="" size=1" min=0" max=255" type="list">
       <Help></Help>
       <Item value="0" label="DEACTIVATION - no response to alarm frames">
       <Item value="1" label="ALARM RELAY ON - relay will turn ON upon receipt of alarm frame">
       <Item value="2" label="ALARM RELAY OFF - relay will turn OFF upon receipt of alarm frame">
       <Item value="3" label="ALARM FLASHING - relay will turn ON and OFF periodically (see param.39">
     </Value>
-    <Value genre="config" instance="1" index=32" value=3" label=Relay 1: Response to Smoke, CO, CO2 Alarm" units="" size=1" min=0" max=65535" type="list">
+    <Value genre="config" instance="1" index=32" value=3" label=Relay 1: Response to Smoke, CO, CO2 Alarm" units="" size=1" min=0" max=255" type="list">
       <Help></Help>
       <Item value="0" label="DEACTIVATION - no response to alarm frames">
       <Item value="1" label="ALARM RELAY ON - relay will turn ON upon receipt of alarm frame">
       <Item value="2" label="ALARM RELAY OFF - relay will turn OFF upon receipt of alarm frame">
       <Item value="3" label="ALARM FLASHING - relay will turn ON and OFF periodically (see param.39">
     </Value>
-    <Value genre="config" instance="1" index=33" value=1" label=Relay 1: Response to Temperature Alarm" units="" size=1" min=0" max=65535" type="list">
+    <Value genre="config" instance="1" index=33" value=1" label=Relay 1: Response to Temperature Alarm" units="" size=1" min=0" max=255" type="list">
       <Help></Help>
       <Item value="0" label="DEACTIVATION - no response to alarm frames">
       <Item value="1" label="ALARM RELAY ON - relay will turn ON upon receipt of alarm frame">
@@ -92,28 +92,28 @@
     <Value genre="config" instance="1" index=39" value=600" label=ALARM FLASHING alarm time" units="" size=2" min=0" max=65535" type="short">
       <Help>Amount of time (ms) the device keeps on flashing after receipt of Alarm Frame</Help>
     </Value>
-    <Value genre="config" instance="1" index=40" value=3" label=Relay 2: Response to General Alarm" units="" size=1" min=0" max=65535" type="list">
+    <Value genre="config" instance="1" index=40" value=3" label=Relay 2: Response to General Alarm" units="" size=1" min=0" max=255" type="list">
       <Help></Help>
       <Item value="0" label="DEACTIVATION - no response to alarm frames">
       <Item value="1" label="ALARM RELAY ON - relay will turn ON upon receipt of alarm frame">
       <Item value="2" label="ALARM RELAY OFF - relay will turn OFF upon receipt of alarm frame">
       <Item value="3" label="ALARM FLASHING - relay will turn ON and OFF periodically (see param.39">
     </Value>
-    <Value genre="config" instance="1" index=41" value=2" label=Relay 2: Response to Water Flood Alarm" units="" size=1" min=0" max=65535" type="list">
+    <Value genre="config" instance="1" index=41" value=2" label=Relay 2: Response to Water Flood Alarm" units="" size=1" min=0" max=255" type="list">
       <Help></Help>
       <Item value="0" label="DEACTIVATION - no response to alarm frames">
       <Item value="1" label="ALARM RELAY ON - relay will turn ON upon receipt of alarm frame">
       <Item value="2" label="ALARM RELAY OFF - relay will turn OFF upon receipt of alarm frame">
       <Item value="3" label="ALARM FLASHING - relay will turn ON and OFF periodically (see param.39">
     </Value>
-    <Value genre="config" instance="1" index=42" value=3" label=Relay 2: Response to Smoke, CO, CO2 Alarm" units="" size=1" min=0" max=65535" type="list">
+    <Value genre="config" instance="1" index=42" value=3" label=Relay 2: Response to Smoke, CO, CO2 Alarm" units="" size=1" min=0" max=255" type="list">
       <Help></Help>
       <Item value="0" label="DEACTIVATION - no response to alarm frames">
       <Item value="1" label="ALARM RELAY ON - relay will turn ON upon receipt of alarm frame">
       <Item value="2" label="ALARM RELAY OFF - relay will turn OFF upon receipt of alarm frame">
       <Item value="3" label="ALARM FLASHING - relay will turn ON and OFF periodically (see param.39">
     </Value>
-    <Value genre="config" instance="1" index=43" value=1" label=Relay 2: Response to Temperature Alarm" units="" size=1" min=0" max=65535" type="list">
+    <Value genre="config" instance="1" index=43" value=1" label=Relay 2: Response to Temperature Alarm" units="" size=1" min=0" max=255" type="list">
       <Help></Help>
       <Item value="0" label="DEACTIVATION - no response to alarm frames">
       <Item value="1" label="ALARM RELAY ON - relay will turn ON upon receipt of alarm frame">
