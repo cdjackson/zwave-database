@@ -301,4 +301,64 @@
 	<field name="genericclass">11</field>
 	<field name="specificclass">22</field>
   </row>
+
+  <row>
+	<field name="id">33</field>
+	<field name="device">105</field>
+	<field name="number">0</field>
+	<field name="label">Endpoint 0</field>
+	<field name="basicclass">5</field>
+	<field name="genericclass">7</field>
+	<field name="specificclass">13</field>
+  </row>
+
+  <row>
+	<field name="id">34</field>
+	<field name="device">143</field>
+	<field name="number">0</field>
+	<field name="label">Endpoint 0</field>
+	<field name="basicclass">5</field>
+	<field name="genericclass">11</field>
+	<field name="specificclass">22</field>
+  </row>
+
+  <row>
+	<field name="id">35</field>
+	<field name="device">157</field>
+	<field name="number">0</field>
+	<field name="label">Endpoint 0</field>
+	<field name="basicclass">5</field>
+	<field name="genericclass">11</field>
+	<field name="specificclass">22</field>
+  </row>
+
+  <row>
+	<field name="id">36</field>
+	<field name="device">115</field>
+	<field name="number">0</field>
+	<field name="label">Endpoint 0</field>
+	<field name="basicclass">5</field>
+	<field name="genericclass">19</field>
+	<field name="specificclass">45</field>
+  </row>
+
+  <row>
+	<field name="id">37</field>
+	<field name="device">158</field>
+	<field name="number">0</field>
+	<field name="label">Endpoint 0</field>
+	<field name="basicclass">5</field>
+	<field name="genericclass">12</field>
+	<field name="specificclass">26</field>
+  </row>
+
+  <row>
+	<field name="id">38</field>
+	<field name="device">232</field>
+	<field name="number">0</field>
+	<field name="label">Endpoint 0</field>
+	<field name="basicclass">5</field>
+	<field name="genericclass">12</field>
+	<field name="specificclass">26</field>
+  </row>
 </resultset>

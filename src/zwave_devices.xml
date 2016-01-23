@@ -1230,7 +1230,7 @@
 	<field name="id">52</field>
 	<field name="manufacturer">11</field>
 	<field name="label">064459</field>
-	<field name="description">Düwi Remote Control</field>
+	<field name="description">DÃ¼wi Remote Control</field>
 	<field name="type_id">5001:0000</field>
 	<field name="versionmin">0.000</field>
 	<field name="versionmax">255.255</field>
@@ -1301,21 +1301,21 @@
   <row>
 	<field name="id">55</field>
 	<field name="manufacturer">11</field>
-	<field name="label">ZME_054313Z</field>
+	<field name="label">Reitz_054313</field>
 	<field name="description">Duewi ZW BJ ES 1000 / Reitz 054313 / ZWave.me 05457 Single button wall switch</field>
 	<field name="type_id">2001:0000</field>
 	<field name="versionmin">0.000</field>
 	<field name="versionmax">255.255</field>
 	<field name="library_type">0</field>
 	<field name="protocol_version">0.000</field>
-	<field name="listening"></field>
-	<field name="beaming"></field>
-	<field name="security"></field>
+	<field name="listening">0</field>
+	<field name="beaming">0</field>
+	<field name="security">0</field>
 	<field name="max_baud">0</field>
 	<field name="basicclass">0</field>
 	<field name="genericclass">0</field>
 	<field name="specificclass">0</field>
-	<field name="thingid">zme_054313z</field>
+	<field name="thingid">reitz_054313</field>
 	<field name="info_overview"></field>
 	<field name="info_inclusion"></field>
 	<field name="info_exclusion"></field>
@@ -2506,15 +2506,15 @@
 	<field name="type_id">2001:0102,2001:0105,2001:0106</field>
 	<field name="versionmin">0.000</field>
 	<field name="versionmax">255.255</field>
-	<field name="library_type">0</field>
-	<field name="protocol_version">0.000</field>
-	<field name="listening"></field>
-	<field name="beaming"></field>
-	<field name="security"></field>
-	<field name="max_baud">0</field>
-	<field name="basicclass">0</field>
-	<field name="genericclass">0</field>
-	<field name="specificclass">0</field>
+	<field name="library_type">3</field>
+	<field name="protocol_version">4.005</field>
+	<field name="listening">0</field>
+	<field name="beaming">1</field>
+	<field name="security">0</field>
+	<field name="max_baud">40000</field>
+	<field name="basicclass">5</field>
+	<field name="genericclass">7</field>
+	<field name="specificclass">13</field>
 	<field name="thingid">zd2102</field>
 	<field name="info_overview"></field>
 	<field name="info_inclusion"></field>
@@ -2746,17 +2746,17 @@
 	<field name="type_id">0800:1001,0800:2001,0800:3001</field>
 	<field name="versionmin">0.000</field>
 	<field name="versionmax">255.255</field>
-	<field name="library_type">0</field>
-	<field name="protocol_version">0.000</field>
-	<field name="listening"></field>
-	<field name="beaming"></field>
-	<field name="security"></field>
-	<field name="max_baud">0</field>
-	<field name="basicclass">0</field>
-	<field name="genericclass">0</field>
-	<field name="specificclass">0</field>
+	<field name="library_type">3</field>
+	<field name="protocol_version">3.067</field>
+	<field name="listening">0</field>
+	<field name="beaming">1</field>
+	<field name="security">0</field>
+	<field name="max_baud">40000</field>
+	<field name="basicclass">5</field>
+	<field name="genericclass">19</field>
+	<field name="specificclass">45</field>
 	<field name="thingid">fgms001</field>
-	<field name="info_overview">Update command classes -:&lt;br /&gt;SENSOR_MULTILEVEL  :: NOGET</field>
+	<field name="info_overview"></field>
 	<field name="info_inclusion"></field>
 	<field name="info_exclusion"></field>
 	<field name="info_wakeup"></field>
@@ -2888,7 +2888,7 @@
 	<field name="label">FGS221</field>
 	<field name="description">Double Relay Switch 2x1.5kW</field>
 	<field name="type_id">0200:0102,0200:0103,0200:0104,0200:0105,0200:0106,0200:0107,0200:0109,0200:100A,0200:300A,0202:3002</field>
-	<field name="versionmin">0.000</field>
+	<field name="versionmin">1.004</field>
 	<field name="versionmax">1.008</field>
 	<field name="library_type">3</field>
 	<field name="protocol_version">3.020</field>
@@ -3418,15 +3418,15 @@
 	<field name="type_id">1000:0001</field>
 	<field name="versionmin">0.000</field>
 	<field name="versionmax">255.255</field>
-	<field name="library_type">0</field>
-	<field name="protocol_version">0.000</field>
-	<field name="listening"></field>
-	<field name="beaming"></field>
-	<field name="security"></field>
-	<field name="max_baud">0</field>
-	<field name="basicclass">0</field>
-	<field name="genericclass">0</field>
-	<field name="specificclass">0</field>
+	<field name="library_type">3</field>
+	<field name="protocol_version">3.042</field>
+	<field name="listening">1</field>
+	<field name="beaming">1</field>
+	<field name="security">0</field>
+	<field name="max_baud">40000</field>
+	<field name="basicclass">5</field>
+	<field name="genericclass">11</field>
+	<field name="specificclass">22</field>
 	<field name="thingid">zme_054313z</field>
 	<field name="info_overview"></field>
 	<field name="info_inclusion"></field>
@@ -3755,15 +3755,15 @@
 	<field name="type_id">0102:1020</field>
 	<field name="versionmin">0.000</field>
 	<field name="versionmax">255.255</field>
-	<field name="library_type">0</field>
-	<field name="protocol_version">0.000</field>
-	<field name="listening"></field>
-	<field name="beaming"></field>
-	<field name="security"></field>
-	<field name="max_baud">0</field>
-	<field name="basicclass">0</field>
-	<field name="genericclass">0</field>
-	<field name="specificclass">0</field>
+	<field name="library_type">7</field>
+	<field name="protocol_version">2.097</field>
+	<field name="listening">1</field>
+	<field name="beaming">1</field>
+	<field name="security">0</field>
+	<field name="max_baud">40000</field>
+	<field name="basicclass">5</field>
+	<field name="genericclass">11</field>
+	<field name="specificclass">22</field>
 	<field name="thingid">tz66d</field>
 	<field name="info_overview"></field>
 	<field name="info_inclusion"></field>
@@ -3779,15 +3779,15 @@
 	<field name="type_id">0202:0611</field>
 	<field name="versionmin">0.000</field>
 	<field name="versionmax">255.255</field>
-	<field name="library_type">0</field>
-	<field name="protocol_version">0.000</field>
-	<field name="listening"></field>
-	<field name="beaming"></field>
-	<field name="security"></field>
-	<field name="max_baud">0</field>
-	<field name="basicclass">0</field>
-	<field name="genericclass">0</field>
-	<field name="specificclass">0</field>
+	<field name="library_type">7</field>
+	<field name="protocol_version">3.040</field>
+	<field name="listening">1</field>
+	<field name="beaming">1</field>
+	<field name="security">0</field>
+	<field name="max_baud">40000</field>
+	<field name="basicclass">5</field>
+	<field name="genericclass">12</field>
+	<field name="specificclass">26</field>
 	<field name="thingid">tz67</field>
 	<field name="info_overview"></field>
 	<field name="info_inclusion"></field>
@@ -5565,15 +5565,15 @@
 	<field name="type_id">1100:0002</field>
 	<field name="versionmin">0.000</field>
 	<field name="versionmax">255.255</field>
-	<field name="library_type">0</field>
-	<field name="protocol_version">0.000</field>
-	<field name="listening"></field>
-	<field name="beaming"></field>
-	<field name="security"></field>
-	<field name="max_baud">0</field>
-	<field name="basicclass">0</field>
-	<field name="genericclass">0</field>
-	<field name="specificclass">0</field>
+	<field name="library_type">7</field>
+	<field name="protocol_version">3.042</field>
+	<field name="listening">1</field>
+	<field name="beaming">1</field>
+	<field name="security">0</field>
+	<field name="max_baud">40000</field>
+	<field name="basicclass">5</field>
+	<field name="genericclass">12</field>
+	<field name="specificclass">26</field>
 	<field name="thingid">123580</field>
 	<field name="info_overview"></field>
 	<field name="info_inclusion"></field>
@@ -6151,17 +6151,17 @@
 	<field name="genericclass">11</field>
 	<field name="specificclass">22</field>
 	<field name="thingid">zw062</field>
-	<field name="info_overview">&lt;p&gt;Aeon Labs Garage Door Controller is a smart and wireless Garage Door Control system, you can control the garage door to open, close, or stop moving via wireless signal on your gateway client or phone application.&lt;/p&gt;
-&lt;p&gt;The Garage Door Controller allows you to configure different alarm sounds to indicate the door ’s action.&lt;/p&gt;
-&lt;p&gt;Each action alarm sound can be customized. To change or update new alarm sounds for the Garage Door Controller, connect the Garage Door Controller to your PC host with a USB cable and download your sound files to the flash memory (128 MB) of the Garage Door Controller.&lt;/p&gt;
-&lt;p&gt;It can be included and operated in any Z-wave network with other Z-wave certified devices from other manufacturers and/or other applications. All non-battery operated nodes within the network will act as repeaters regardless of vendor to increase reliability of the network.&lt;/p&gt;
-&lt;p&gt;It is also a security Z-wave device and supports the Over The Air (OTA) feature for the product’s firmware upgrade.&lt;/p&gt;</field>
+	<field name="info_overview">&lt;p&gt;Aeon Labs Garage Door Controller is a smart and wireless Garage Door Control system, you can controlÂ the garage door to open, close, or stop moving via wireless signal on your gateway client or phoneÂ application.&lt;/p&gt;
+&lt;p&gt;The Garage Door Controller allows you to configure different alarm sounds to indicate the door â€™s action.&lt;/p&gt;
+&lt;p&gt;Each action alarm sound can be customized. To change or update new alarm sounds for the Garage DoorÂ Controller, connect the Garage Door Controller to your PC host with a USB cable and download yourÂ sound files to the flash memory (128 MB) of the Garage Door Controller.&lt;/p&gt;
+&lt;p&gt;It can be included and operated in any Z-wave network with other Z-wave certified devices from otherÂ manufacturers and/or other applications. All non-battery operated nodes within the network will act asÂ repeaters regardless of vendor to increase reliability of the network.&lt;/p&gt;
+&lt;p&gt;It is also a security Z-wave device and supports the Over The Air (OTA) feature for the productâ€™s firmwareÂ upgrade.&lt;/p&gt;</field>
 	<field name="info_inclusion">&lt;p&gt;Add Garage Door Controller into Z-Wave Network:&lt;/p&gt;
-&lt;p&gt;1. Install Garage Door Controller, and connect it to the 5V DC Adapter.&lt;br /&gt;2. Let the primary controller into inclusion mode (If you don’t know how to do this, please refer to its manual).&lt;br /&gt;3. Press the Z-Wave Button.&lt;/p&gt;
-&lt;p&gt; &lt;/p&gt;</field>
+&lt;p&gt;1. Install Garage Door Controller, and connect it to the 5V DC Adapter.&lt;br /&gt;2. Let the primary controller into inclusion mode (If you donâ€™t knowÂ how to do this, please refer to its manual).&lt;br /&gt;3. Press the Z-Wave Button.&lt;/p&gt;
+&lt;p&gt;Â &lt;/p&gt;</field>
 	<field name="info_exclusion">&lt;p&gt;Remove Garage Door Controller from Z-Wave Network:&lt;/p&gt;
-&lt;p&gt;1. Install Garage Door Controller, and connect it to the 5V DC Adapter.&lt;br /&gt;2. Let the primary controller into exclusion mode (If you don’t know how to do this, refer to its manual).&lt;br /&gt;3. Press the Z-Wave Button.&lt;br /&gt;4. If the remove is failed, please repeat the process from step 2.&lt;/p&gt;
-&lt;p&gt;Note: If Garage Door Controller is removed from Z-wave network, it will be reset to factory default.&lt;/p&gt;</field>
+&lt;p&gt;1. Install Garage Door Controller, and connect it to the 5V DC Adapter.&lt;br /&gt;2. Let the primary controller into exclusion mode (If you donâ€™t knowÂ how to do this, refer to its manual).&lt;br /&gt;3. Press the Z-Wave Button.&lt;br /&gt;4. If the remove is failed, please repeat the process from step 2.&lt;/p&gt;
+&lt;p&gt;Note: If Garage Door Controller is removed from Z-wave network, itÂ will be reset to factory default.&lt;/p&gt;</field>
 	<field name="info_wakeup"></field>
   </row>
 

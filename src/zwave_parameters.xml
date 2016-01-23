@@ -84,11 +84,11 @@
 	<field name="description">Restore switch state mode. 1 is default.</field>
 	<field name="size">1</field>
 	<field name="value_min">0</field>
-	<field name="value_max">65535</field>
+	<field name="value_max">255</field>
 	<field name="value_default">1</field>
-	<field name="read_only"></field>
-	<field name="write_only"></field>
-	<field name="limit_options"></field>
+	<field name="read_only">0</field>
+	<field name="write_only">0</field>
+	<field name="limit_options">0</field>
 	<field name="overview"></field>
   </row>
 
@@ -102,11 +102,11 @@
 	<field name="description">Mode of switch off function. 1 is default.</field>
 	<field name="size">1</field>
 	<field name="value_min">0</field>
-	<field name="value_max">65535</field>
+	<field name="value_max">255</field>
 	<field name="value_default">1</field>
-	<field name="read_only"></field>
-	<field name="write_only"></field>
-	<field name="limit_options"></field>
+	<field name="read_only">0</field>
+	<field name="write_only">0</field>
+	<field name="limit_options">0</field>
 	<field name="overview"></field>
   </row>
 
@@ -120,11 +120,11 @@
 	<field name="description">Restore switch state mode. 1 is default.</field>
 	<field name="size">1</field>
 	<field name="value_min">0</field>
-	<field name="value_max">65535</field>
+	<field name="value_max">255</field>
 	<field name="value_default">1</field>
-	<field name="read_only"></field>
-	<field name="write_only"></field>
-	<field name="limit_options"></field>
+	<field name="read_only">0</field>
+	<field name="write_only">0</field>
+	<field name="limit_options">0</field>
 	<field name="overview"></field>
   </row>
 
@@ -138,11 +138,11 @@
 	<field name="description">Auto off timer. 0 will disable the auto off function.</field>
 	<field name="size">1</field>
 	<field name="value_min">0</field>
-	<field name="value_max">32767</field>
+	<field name="value_max">255</field>
 	<field name="value_default">0</field>
-	<field name="read_only"></field>
-	<field name="write_only"></field>
-	<field name="limit_options"></field>
+	<field name="read_only">0</field>
+	<field name="write_only">0</field>
+	<field name="limit_options">0</field>
 	<field name="overview"></field>
   </row>
 
@@ -156,11 +156,11 @@
 	<field name="description">RF off command mode</field>
 	<field name="size">1</field>
 	<field name="value_min">0</field>
-	<field name="value_max">65535</field>
+	<field name="value_max">255</field>
 	<field name="value_default">0</field>
-	<field name="read_only"></field>
-	<field name="write_only"></field>
-	<field name="limit_options"></field>
+	<field name="read_only">0</field>
+	<field name="write_only">0</field>
+	<field name="limit_options">0</field>
 	<field name="overview"></field>
   </row>
 
@@ -451,7 +451,7 @@
 	<field name="bitmask">0</field>
 	<field name="label">Illumination Differential Report</field>
 	<field name="units"></field>
-	<field name="description">The illumination differential to report. The unit is percentage. When enabled, the device will measure every minute. Enabling this functionality will cause some issue. Please check the ìIllumination Reportî section of the Multisensor manual.&lt;br/&gt;
+	<field name="description">The illumination differential to report. The unit is percentage. When enabled, the device will measure every minute. Enabling this functionality will cause some issue. Please check the ‚ÄúIllumination Report‚Äù section of the Multisensor manual.&lt;br/&gt;
 				&lt;ul</field>
 	<field name="size">1</field>
 	<field name="value_min">0</field>
@@ -1793,7 +1793,7 @@ set Parameter 3 to a value of 1.
 	<field name="bitmask">0</field>
 	<field name="label">Delta T</field>
 	<field name="units"></field>
-	<field name="description">Defines the temperature steps of the heating control value is 0.1 ∞?.&lt;BR /&gt;1 0.1 ?C / ?F - 50 0.1 ?C / ?F</field>
+	<field name="description">Defines the temperature steps of the heating control value is 0.1 ¬∞–°.&lt;BR /&gt;1 0.1 ÃäC / ÃäF - 50 0.1 ÃäC / ÃäF</field>
 	<field name="size">1</field>
 	<field name="value_min">0</field>
 	<field name="value_max">65535</field>
@@ -3403,7 +3403,7 @@ set Parameter 3 to a value of 1.
 			 Default is Night Light mode where LED is on when switch is off.</field>
 	<field name="size">1</field>
 	<field name="value_min">0</field>
-	<field name="value_max">65535</field>
+	<field name="value_max">255</field>
 	<field name="value_default">0</field>
 	<field name="read_only"></field>
 	<field name="write_only"></field>
@@ -3424,7 +3424,7 @@ set Parameter 3 to a value of 1.
 			remember the load will now be controlled by the right, not the left switch.</field>
 	<field name="size">1</field>
 	<field name="value_min">0</field>
-	<field name="value_max">65535</field>
+	<field name="value_max">255</field>
 	<field name="value_default">0</field>
 	<field name="read_only"></field>
 	<field name="write_only"></field>
@@ -3443,7 +3443,7 @@ set Parameter 3 to a value of 1.
 			Default is LED on when switch is off.</field>
 	<field name="size">1</field>
 	<field name="value_min">0</field>
-	<field name="value_max">65535</field>
+	<field name="value_max">255</field>
 	<field name="value_default">0</field>
 	<field name="read_only"></field>
 	<field name="write_only"></field>
@@ -3462,7 +3462,7 @@ set Parameter 3 to a value of 1.
 			Default is Night Light mode where LED is on when switch is off.</field>
 	<field name="size">1</field>
 	<field name="value_min">0</field>
-	<field name="value_max">65535</field>
+	<field name="value_max">255</field>
 	<field name="value_default">0</field>
 	<field name="read_only"></field>
 	<field name="write_only"></field>
@@ -3483,7 +3483,7 @@ set Parameter 3 to a value of 1.
 			 be control</field>
 	<field name="size">1</field>
 	<field name="value_min">0</field>
-	<field name="value_max">65535</field>
+	<field name="value_max">255</field>
 	<field name="value_default">0</field>
 	<field name="read_only"></field>
 	<field name="write_only"></field>
@@ -3501,7 +3501,7 @@ set Parameter 3 to a value of 1.
 	<field name="description"></field>
 	<field name="size">1</field>
 	<field name="value_min">0</field>
-	<field name="value_max">65535</field>
+	<field name="value_max">255</field>
 	<field name="value_default">3</field>
 	<field name="read_only"></field>
 	<field name="write_only"></field>
@@ -3537,7 +3537,7 @@ set Parameter 3 to a value of 1.
 	<field name="description">Defines how to interpret RF Off command. Can be used in conjunction with Auto Off function: Ignore - to switch on the light by motion detectors and switch it off after some amount of time: in case of multiple motion detectors each would try to switch the </field>
 	<field name="size">1</field>
 	<field name="value_min">0</field>
-	<field name="value_max">65535</field>
+	<field name="value_max">255</field>
 	<field name="value_default">0</field>
 	<field name="read_only"></field>
 	<field name="write_only"></field>
@@ -3555,7 +3555,7 @@ set Parameter 3 to a value of 1.
 	<field name="description">Defines if the switch should change it state to on/off if it is dimmed by buttons</field>
 	<field name="size">1</field>
 	<field name="value_min">0</field>
-	<field name="value_max">65535</field>
+	<field name="value_max">255</field>
 	<field name="value_default">1</field>
 	<field name="read_only"></field>
 	<field name="write_only"></field>
@@ -3573,7 +3573,7 @@ set Parameter 3 to a value of 1.
 	<field name="description">Defines if the switch should restore switch state to the last state prior to device power off (power cycle).</field>
 	<field name="size">1</field>
 	<field name="value_min">0</field>
-	<field name="value_max">65535</field>
+	<field name="value_max">255</field>
 	<field name="value_default">1</field>
 	<field name="read_only"></field>
 	<field name="write_only"></field>
@@ -3609,7 +3609,7 @@ set Parameter 3 to a value of 1.
 	<field name="description"></field>
 	<field name="size">1</field>
 	<field name="value_min">0</field>
-	<field name="value_max">65535</field>
+	<field name="value_max">255</field>
 	<field name="value_default">0</field>
 	<field name="read_only"></field>
 	<field name="write_only"></field>
@@ -3627,7 +3627,7 @@ set Parameter 3 to a value of 1.
 	<field name="description">If disabled, the local operations by buttons will not switch the load, but only send commands to On/Off association group. In this mode buttons are not linked with the switch anymore. They can be used separately: buttons to control remote device, switch w</field>
 	<field name="size">1</field>
 	<field name="value_min">0</field>
-	<field name="value_max">65535</field>
+	<field name="value_max">255</field>
 	<field name="value_default">1</field>
 	<field name="read_only"></field>
 	<field name="write_only"></field>
@@ -3645,7 +3645,7 @@ set Parameter 3 to a value of 1.
 	<field name="description">Defines which command should be sent on button single press or hold. Basic commands are sent to Association group. Switch All commands are sent broadcast.</field>
 	<field name="size">1</field>
 	<field name="value_min">0</field>
-	<field name="value_max">65535</field>
+	<field name="value_max">255</field>
 	<field name="value_default">4</field>
 	<field name="read_only"></field>
 	<field name="write_only"></field>
@@ -3663,7 +3663,7 @@ set Parameter 3 to a value of 1.
 	<field name="description">Defines which command should be sent on button double press or press-hold. Basic commands are sent to Association group. Switch All commands are sent broadcast. If not disabled, the device will wait for a click timeout to see if the second click would be </field>
 	<field name="size">1</field>
 	<field name="value_min">0</field>
-	<field name="value_max">65535</field>
+	<field name="value_max">255</field>
 	<field name="value_default">0</field>
 	<field name="read_only"></field>
 	<field name="write_only"></field>
@@ -3681,7 +3681,7 @@ set Parameter 3 to a value of 1.
 	<field name="description"></field>
 	<field name="size">1</field>
 	<field name="value_min">0</field>
-	<field name="value_max">65535</field>
+	<field name="value_max">255</field>
 	<field name="value_default">1</field>
 	<field name="read_only"></field>
 	<field name="write_only"></field>
@@ -3699,7 +3699,7 @@ set Parameter 3 to a value of 1.
 	<field name="description"></field>
 	<field name="size">1</field>
 	<field name="value_min">0</field>
-	<field name="value_max">65535</field>
+	<field name="value_max">255</field>
 	<field name="value_default">1</field>
 	<field name="read_only"></field>
 	<field name="write_only"></field>
@@ -4383,7 +4383,7 @@ set Parameter 3 to a value of 1.
 	<field name="bitmask">0</field>
 	<field name="label">Output load after re-power</field>
 	<field name="units"></field>
-	<field name="description">Configure the output load status after re?power on 
+	<field name="description">Configure the output load status after re‚Äêpower on 
                 (0=last status, 1=always on, 2=always off) 
             </field>
 	<field name="size">1</field>
@@ -4404,7 +4404,7 @@ set Parameter 3 to a value of 1.
 	<field name="label">Enable send to associated devices</field>
 	<field name="units"></field>
 	<field name="description">Enable to send notifications to associated devices (Group 1) 
-                when the state of Micro Switchís load changed (0=nothing, 
+                when the state of Micro Switch‚Äôs load changed (0=nothing, 
                 1=hail CC, 2=basic CC report). 
             </field>
 	<field name="size">1</field>
@@ -4426,7 +4426,7 @@ set Parameter 3 to a value of 1.
 	<field name="units"></field>
 	<field name="description">Configure the state of red LED:  
                 0= The LED will follow the status (on/off) of its load (Energy mode). 
-                1= When the state of Switchís load changed, The LED will 
+                1= When the state of Switch‚Äôs load changed, The LED will 
                 follow the status (on/off) of its load, b</field>
 	<field name="size">1</field>
 	<field name="value_min">0</field>
@@ -4490,7 +4490,7 @@ set Parameter 3 to a value of 1.
 	<field name="bitmask">0</field>
 	<field name="label">LED brightness in Energy Mode</field>
 	<field name="units"></field>
-	<field name="description">Configure the brightness level of RGB LED (0%?100%) when 
+	<field name="description">Configure the brightness level of RGB LED (0%‚Äê100%) when 
                 it is in Energy Mode/momentary indicate mode. 
                 Value1: green color value.  
                 Value2: yellow color value. 
@@ -4533,7 +4533,7 @@ set Parameter 3 to a value of 1.
 	<field name="label">Wattage Threshold</field>
 	<field name="units"></field>
 	<field name="description">The value here represents minimum change in wattage (in 
-                terms of wattage) for a REPORT to be sent (Valid values 0?
+                terms of wattage) for a REPORT to be sent (Valid values 0‚Äê
                 60000). 
             </field>
 	<field name="size">2</field>
@@ -4555,7 +4555,7 @@ set Parameter 3 to a value of 1.
 	<field name="units"></field>
 	<field name="description">The value here represents minimum change in wattage 
                 percent (in terms of percentage) for a REPORT to be sent 
-                (Valid values 0?100). 
+                (Valid values 0‚Äê100). 
             </field>
 	<field name="size">1</field>
 	<field name="value_min">0</field>
@@ -4572,9 +4572,9 @@ set Parameter 3 to a value of 1.
 	<field name="device">63</field>
 	<field name="param_id">100</field>
 	<field name="bitmask">0</field>
-	<field name="label">Set 101?103 to default. </field>
+	<field name="label">Set 101‚Äê103 to default. </field>
 	<field name="units"></field>
-	<field name="description">Set 101?103 to default. 
+	<field name="description">Set 101‚Äê103 to default. 
             </field>
 	<field name="size">1</field>
 	<field name="value_min">0</field>
@@ -4756,7 +4756,7 @@ set Parameter 3 to a value of 1.
 	<field name="bitmask">0</field>
 	<field name="label">Output Load Status</field>
 	<field name="units"></field>
-	<field name="description">Configure the output load status after re?power on.</field>
+	<field name="description">Configure the output load status after re‚Äêpower on.</field>
 	<field name="size">1</field>
 	<field name="value_min">0</field>
 	<field name="value_max">65535</field>
@@ -5579,7 +5579,7 @@ set Parameter 3 to a value of 1.
 	<field name="device">72</field>
 	<field name="param_id">40</field>
 	<field name="bitmask">0</field>
-	<field name="label">Enable/disable the selective reporting only when measurements reach a certain threshold or percentage set in 41?44 below. This is used to reduce netwo</field>
+	<field name="label">Enable/disable the selective reporting only when measurements reach a certain threshold or percentage set in 41‚Äê44 below. This is used to reduce netwo</field>
 	<field name="units"></field>
 	<field name="description"></field>
 	<field name="size">1</field>
@@ -5675,7 +5675,7 @@ set Parameter 3 to a value of 1.
 	<field name="device">72</field>
 	<field name="param_id">46</field>
 	<field name="bitmask">0</field>
-	<field name="label">Enable/disable to send the alarm report of low temperature(?15C)</field>
+	<field name="label">Enable/disable to send the alarm report of low temperature(‚Äê15C)</field>
 	<field name="units"></field>
 	<field name="description"></field>
 	<field name="size">1</field>
@@ -6058,7 +6058,7 @@ The unit is UV index scale.</field>
 	<field name="bitmask">0</field>
 	<field name="label">Send Alarm Report if low temperature</field>
 	<field name="units"></field>
-	<field name="description">Send an alarm report if temperature is less than -15 ∞C</field>
+	<field name="description">Send an alarm report if temperature is less than -15 ¬∞C</field>
 	<field name="size">1</field>
 	<field name="value_min">0</field>
 	<field name="value_max">65535</field>
@@ -6267,7 +6267,7 @@ The calibration value = </field>
 	<field name="description"> The range of calibration value is -50 to 50 (percent).&lt;br&gt;
 The calibration value = standard value - measure value.&lt;br&gt;
 Example: if measured value = 80RH and the standard value = 75RH, then calibration&lt;br&gt;
-value = 75 ñ 80 = -5 (0xFB).</field>
+value = 75 ‚Äì 80 = -5 (0xFB).</field>
 	<field name="size">1</field>
 	<field name="value_min">-50</field>
 	<field name="value_max">50</field>
@@ -6288,7 +6288,7 @@ value = 75 ñ 80 = -5 (0xFB).</field>
 	<field name="description"> The range of calibration value is -1000 to 1000 (lux).&lt;br&gt;
 The calibration value = standard value - measure value.&lt;br&gt;
 Example: if measured value = 800 Lux and the standard value = 750 Lux, then&lt;br&gt;
-calibration value= 750 ñ 800 = -50 (0xFFCE).</field>
+calibration value= 750 ‚Äì 800 = -50 (0xFFCE).</field>
 	<field name="size">2</field>
 	<field name="value_min">-1000</field>
 	<field name="value_max">1000</field>
@@ -6309,7 +6309,7 @@ calibration value= 750 ñ 800 = -50 (0xFFCE).</field>
 	<field name="description"> The range of calibration value is -10 to 10 (UV index scale).&lt;br&gt;
 The calibration value = standard value - measure value.&lt;br&gt;
 Example: if measured value = 9 and the standard value = 8, then&lt;br&gt;
-calibration value = 8 ñ 9 = -1 (0xFE).</field>
+calibration value = 8 ‚Äì 9 = -1 (0xFE).</field>
 	<field name="size">1</field>
 	<field name="value_min">-10</field>
 	<field name="value_max">10</field>
@@ -8257,7 +8257,7 @@ calibration value = 8 ñ 9 = -1 (0xFE).</field>
 	<field name="bitmask">0</field>
 	<field name="label">Output Load Status</field>
 	<field name="units"></field>
-	<field name="description">Configure the output load status after re?power on.
+	<field name="description">Configure the output load status after re‚Äêpower on.
 			</field>
 	<field name="size">1</field>
 	<field name="value_min">0</field>
@@ -8369,7 +8369,7 @@ calibration value = 8 ñ 9 = -1 (0xFE).</field>
 	<field name="device">83</field>
 	<field name="param_id">100</field>
 	<field name="bitmask">0</field>
-	<field name="label">Set 101?103 to default</field>
+	<field name="label">Set 101‚Äê103 to default</field>
 	<field name="units"></field>
 	<field name="description">Parameter to Enable/Disable automated sending of a Report &lt;br&gt; 
 			triggered by minimal change of value.</field>
@@ -9790,7 +9790,7 @@ Bit 3:Clamp 3)</field>
 	<field name="bitmask">0</field>
 	<field name="label">Change bulb color</field>
 	<field name="units"></field>
-	<field name="description">Enable/disable the function of using External Switch to changes the bulbís color.
+	<field name="description">Enable/disable the function of using External Switch to changes the bulb‚Äôs color.
             </field>
 	<field name="size">1</field>
 	<field name="value_min">0</field>
@@ -10557,11 +10557,11 @@ Bit 3:Clamp 3)</field>
 	<field name="description">The room color (Corner wheel color) on the GreenWave device</field>
 	<field name="size">1</field>
 	<field name="value_min">0</field>
-	<field name="value_max">65535</field>
+	<field name="value_max">255</field>
 	<field name="value_default">0</field>
-	<field name="read_only"></field>
-	<field name="write_only"></field>
-	<field name="limit_options"></field>
+	<field name="read_only">0</field>
+	<field name="write_only">0</field>
+	<field name="limit_options">0</field>
 	<field name="overview"></field>
   </row>
 
@@ -10719,11 +10719,11 @@ Bit 3:Clamp 3)</field>
 	<field name="description">Determines if external switch can be used.</field>
 	<field name="size">1</field>
 	<field name="value_min">0</field>
-	<field name="value_max">65535</field>
+	<field name="value_max">255</field>
 	<field name="value_default">0</field>
-	<field name="read_only"></field>
-	<field name="write_only"></field>
-	<field name="limit_options"></field>
+	<field name="read_only">0</field>
+	<field name="write_only">0</field>
+	<field name="limit_options">1</field>
 	<field name="overview"></field>
   </row>
 
@@ -10755,7 +10755,7 @@ Bit 3:Clamp 3)</field>
 	<field name="description">Defines the auto time out of the alarm indication</field>
 	<field name="size">1</field>
 	<field name="value_min">0</field>
-	<field name="value_max">65535</field>
+	<field name="value_max">255</field>
 	<field name="value_default">0</field>
 	<field name="read_only"></field>
 	<field name="write_only"></field>
@@ -10773,7 +10773,7 @@ Bit 3:Clamp 3)</field>
 	<field name="description">Defines the reaction of the siren</field>
 	<field name="size">1</field>
 	<field name="value_min">0</field>
-	<field name="value_max">65535</field>
+	<field name="value_max">255</field>
 	<field name="value_default">0</field>
 	<field name="read_only"></field>
 	<field name="write_only"></field>
@@ -10791,7 +10791,7 @@ Bit 3:Clamp 3)</field>
 	<field name="description">Defines the auto time out of the alarm indication</field>
 	<field name="size">1</field>
 	<field name="value_min">0</field>
-	<field name="value_max">65535</field>
+	<field name="value_max">255</field>
 	<field name="value_default">0</field>
 	<field name="read_only"></field>
 	<field name="write_only"></field>
@@ -10809,7 +10809,7 @@ Bit 3:Clamp 3)</field>
 	<field name="description">Defines the reaction of the siren</field>
 	<field name="size">1</field>
 	<field name="value_min">0</field>
-	<field name="value_max">65535</field>
+	<field name="value_max">255</field>
 	<field name="value_default">0</field>
 	<field name="read_only"></field>
 	<field name="write_only"></field>
@@ -10827,7 +10827,7 @@ Bit 3:Clamp 3)</field>
 	<field name="description">Defines the auto time out of the alarm indication</field>
 	<field name="size">1</field>
 	<field name="value_min">0</field>
-	<field name="value_max">65535</field>
+	<field name="value_max">255</field>
 	<field name="value_default">0</field>
 	<field name="read_only"></field>
 	<field name="write_only"></field>
@@ -10845,7 +10845,7 @@ Bit 3:Clamp 3)</field>
 	<field name="description"></field>
 	<field name="size">1</field>
 	<field name="value_min">0</field>
-	<field name="value_max">65535</field>
+	<field name="value_max">255</field>
 	<field name="value_default">1</field>
 	<field name="read_only"></field>
 	<field name="write_only"></field>
@@ -10863,7 +10863,7 @@ Bit 3:Clamp 3)</field>
 	<field name="description">Defines the reaction of the siren</field>
 	<field name="size">1</field>
 	<field name="value_min">0</field>
-	<field name="value_max">65535</field>
+	<field name="value_max">255</field>
 	<field name="value_default">0</field>
 	<field name="read_only"></field>
 	<field name="write_only"></field>
@@ -10881,7 +10881,7 @@ Bit 3:Clamp 3)</field>
 	<field name="description">Defines the auto time out of the alarm indication</field>
 	<field name="size">1</field>
 	<field name="value_min">0</field>
-	<field name="value_max">65535</field>
+	<field name="value_max">255</field>
 	<field name="value_default">0</field>
 	<field name="read_only"></field>
 	<field name="write_only"></field>
@@ -10899,7 +10899,7 @@ Bit 3:Clamp 3)</field>
 	<field name="description">Activate/Deactive ALL ON/OFF</field>
 	<field name="size">1</field>
 	<field name="value_min">0</field>
-	<field name="value_max">65535</field>
+	<field name="value_max">255</field>
 	<field name="value_default">255</field>
 	<field name="read_only"></field>
 	<field name="write_only"></field>
@@ -10917,7 +10917,7 @@ Bit 3:Clamp 3)</field>
 	<field name="description">Activate/Deactivate Automatic turning off relay after set time</field>
 	<field name="size">1</field>
 	<field name="value_min">0</field>
-	<field name="value_max">65535</field>
+	<field name="value_max">255</field>
 	<field name="value_default">0</field>
 	<field name="read_only"></field>
 	<field name="write_only"></field>
@@ -10935,7 +10935,7 @@ Bit 3:Clamp 3)</field>
 	<field name="description">Automatic turning off relay 1 after set time, in 10ms increments (default: 200ms)</field>
 	<field name="size">1</field>
 	<field name="value_min">0</field>
-	<field name="value_max">65535</field>
+	<field name="value_max">255</field>
 	<field name="value_default">20</field>
 	<field name="read_only"></field>
 	<field name="write_only"></field>
@@ -10954,7 +10954,7 @@ Bit 3:Clamp 3)</field>
                 1 - Also see param #16</field>
 	<field name="size">1</field>
 	<field name="value_min">0</field>
-	<field name="value_max">65535</field>
+	<field name="value_max">255</field>
 	<field name="value_default">0</field>
 	<field name="read_only"></field>
 	<field name="write_only"></field>
@@ -10973,7 +10973,7 @@ Bit 3:Clamp 3)</field>
                 or follow)</field>
 	<field name="size">1</field>
 	<field name="value_min">0</field>
-	<field name="value_max">65535</field>
+	<field name="value_max">255</field>
 	<field name="value_default">0</field>
 	<field name="read_only"></field>
 	<field name="write_only"></field>
@@ -10991,7 +10991,7 @@ Bit 3:Clamp 3)</field>
 	<field name="description">Binary inputs type configuration</field>
 	<field name="size">1</field>
 	<field name="value_min">0</field>
-	<field name="value_max">65535</field>
+	<field name="value_max">255</field>
 	<field name="value_default">1</field>
 	<field name="read_only"></field>
 	<field name="write_only"></field>
@@ -11012,7 +11012,7 @@ Bit 3:Clamp 3)</field>
                 double-tap for operation</field>
 	<field name="size">1</field>
 	<field name="value_min">0</field>
-	<field name="value_max">65535</field>
+	<field name="value_max">255</field>
 	<field name="value_default">0</field>
 	<field name="read_only"></field>
 	<field name="write_only"></field>
@@ -11030,7 +11030,7 @@ Bit 3:Clamp 3)</field>
 	<field name="description">Saving state before power failure</field>
 	<field name="size">1</field>
 	<field name="value_min">0</field>
-	<field name="value_max">65535</field>
+	<field name="value_max">255</field>
 	<field name="value_default">1</field>
 	<field name="read_only"></field>
 	<field name="write_only"></field>
@@ -11048,7 +11048,7 @@ Bit 3:Clamp 3)</field>
 	<field name="description"></field>
 	<field name="size">1</field>
 	<field name="value_min">0</field>
-	<field name="value_max">65535</field>
+	<field name="value_max">255</field>
 	<field name="value_default">3</field>
 	<field name="read_only"></field>
 	<field name="write_only"></field>
@@ -11066,7 +11066,7 @@ Bit 3:Clamp 3)</field>
 	<field name="description"></field>
 	<field name="size">1</field>
 	<field name="value_min">0</field>
-	<field name="value_max">65535</field>
+	<field name="value_max">255</field>
 	<field name="value_default">2</field>
 	<field name="read_only"></field>
 	<field name="write_only"></field>
@@ -11084,7 +11084,7 @@ Bit 3:Clamp 3)</field>
 	<field name="description"></field>
 	<field name="size">1</field>
 	<field name="value_min">0</field>
-	<field name="value_max">65535</field>
+	<field name="value_max">255</field>
 	<field name="value_default">3</field>
 	<field name="read_only"></field>
 	<field name="write_only"></field>
@@ -11102,7 +11102,7 @@ Bit 3:Clamp 3)</field>
 	<field name="description"></field>
 	<field name="size">1</field>
 	<field name="value_min">0</field>
-	<field name="value_max">65535</field>
+	<field name="value_max">255</field>
 	<field name="value_default">1</field>
 	<field name="read_only"></field>
 	<field name="write_only"></field>
@@ -11154,7 +11154,7 @@ Bit 3:Clamp 3)</field>
 	<field name="bitmask">0</field>
 	<field name="label">Motion Sensor Blind Time</field>
 	<field name="units"></field>
-	<field name="description">Period of time through which the PIR sensor is ìblindî (insensitive) to motion.&lt;br&gt;
+	<field name="description">Period of time through which the PIR sensor is ‚Äúblind‚Äù (insensitive) to motion.&lt;br&gt;
 After this time period the PIR sensor will be again able to detect motion.&lt;br /&gt;
 The longer the insensitivity period, the longer the battery life. If the sensor is requi</field>
 	<field name="size">1</field>
@@ -11175,7 +11175,7 @@ The longer the insensitivity period, the longer the battery life. If the sensor 
 	<field name="label">PIR Sensor Pulse Time</field>
 	<field name="units"></field>
 	<field name="description">Sets the number of moves required for the PIR sensor to report motion.&lt;br /&gt;
-			The lower the value, the less sensitive the PIR sensor. Itís not recommended to modify this parameter settings.&lt;br /&gt;
+			The lower the value, the less sensitive the PIR sensor. It‚Äôs not recommended to modify this parameter settings.&lt;br /&gt;
 			Available settings: 0 - 3. Formula to calculate the </field>
 	<field name="size">1</field>
 	<field name="value_min">0</field>
@@ -11195,7 +11195,7 @@ The longer the insensitivity period, the longer the battery life. If the sensor 
 	<field name="label">PIR Sensor Window Time</field>
 	<field name="units"></field>
 	<field name="description">Period of time during which the number of moves set in parameter 3 must be detected in order for the PIR sensor to report motion.&lt;br /&gt;
-The higher the value, the more sensitive the PIR sensor. Itís not recommended to modify this parameter setting.&lt;br /&gt;</field>
+The higher the value, the more sensitive the PIR sensor. It‚Äôs not recommended to modify this parameter setting.&lt;br /&gt;</field>
 	<field name="size">1</field>
 	<field name="value_min">0</field>
 	<field name="value_max">3</field>
@@ -11238,7 +11238,7 @@ This parameter influences only the motion reports and associations.&lt;br /&gt;
 Tamper, light intensity and temperature measurements will be still active, regardless of thi</field>
 	<field name="size">1</field>
 	<field name="value_min">0</field>
-	<field name="value_max">65535</field>
+	<field name="value_max">255</field>
 	<field name="value_default">0</field>
 	<field name="read_only"></field>
 	<field name="write_only"></field>
@@ -11277,7 +11277,7 @@ Values of BASIC ON and BASIC OFF command frames may be modified by dedicated par
 			</field>
 	<field name="size">1</field>
 	<field name="value_min">0</field>
-	<field name="value_max">65535</field>
+	<field name="value_max">25</field>
 	<field name="value_default">0</field>
 	<field name="read_only"></field>
 	<field name="write_only"></field>
@@ -11379,7 +11379,7 @@ Available settigs: 0 - 122 (0.08 - 2g; multiply by 0.016g; 0 = tamper inactive)
 			</field>
 	<field name="size">1</field>
 	<field name="value_min">0</field>
-	<field name="value_max">65535</field>
+	<field name="value_max">255</field>
 	<field name="value_default">0</field>
 	<field name="read_only"></field>
 	<field name="write_only"></field>
@@ -11399,7 +11399,7 @@ Alarm frames sent in broadcast mode may be received by all of the devices within
 			</field>
 	<field name="size">1</field>
 	<field name="value_min">0</field>
-	<field name="value_max">65535</field>
+	<field name="value_max">255</field>
 	<field name="value_default">0</field>
 	<field name="read_only"></field>
 	<field name="write_only"></field>
@@ -11538,7 +11538,7 @@ Values from 1 to 9 = single long blink at the moment of reporting motion. No oth
 Values from 10 </field>
 	<field name="size">1</field>
 	<field name="value_min">0</field>
-	<field name="value_max">65535</field>
+	<field name="value_max">255</field>
 	<field name="value_default">10</field>
 	<field name="read_only"></field>
 	<field name="write_only"></field>
@@ -11656,7 +11656,7 @@ Available settings: parameter 82 value to 65535 Default setting: 1 000 (1 000 lu
 			</field>
 	<field name="size">1</field>
 	<field name="value_min">0</field>
-	<field name="value_max">65535</field>
+	<field name="value_max">255</field>
 	<field name="value_default">0</field>
 	<field name="read_only"></field>
 	<field name="write_only"></field>
@@ -11674,7 +11674,7 @@ Available settings: parameter 82 value to 65535 Default setting: 1 000 (1 000 lu
 	<field name="description">Enables/disables local entry. If activated module stops responding to S1 and S2 push buttons, SCENE ID and association commands will not be sent. Only exception is the B-button.</field>
 	<field name="size">1</field>
 	<field name="value_min">0</field>
-	<field name="value_max">65535</field>
+	<field name="value_max">255</field>
 	<field name="value_default">255</field>
 	<field name="read_only"></field>
 	<field name="write_only"></field>
@@ -11692,7 +11692,7 @@ Available settings: parameter 82 value to 65535 Default setting: 1 000 (1 000 lu
 	<field name="description">Enables/disables RF protection. If activated device stops responding to command frames. Configuration and polling still possible.</field>
 	<field name="size">1</field>
 	<field name="value_min">0</field>
-	<field name="value_max">65535</field>
+	<field name="value_max">255</field>
 	<field name="value_default">0</field>
 	<field name="read_only"></field>
 	<field name="write_only"></field>
@@ -12712,7 +12712,7 @@ Type	range</field>
 	<field name="bitmask">0</field>
 	<field name="label">Updating the dimming level without switch.</field>
 	<field name="units"></field>
-	<field name="description">Available settings: from 1 to 99. Parameterís value changes depending on the dimming level.</field>
+	<field name="description">Available settings: from 1 to 99. Parameter‚Äôs value changes depending on the dimming level.</field>
 	<field name="size">1</field>
 	<field name="value_min">0</field>
 	<field name="value_max">65535</field>
@@ -13079,7 +13079,7 @@ Type	range</field>
 	<field name="bitmask">0</field>
 	<field name="label">Updating the dimming level without switch.</field>
 	<field name="units"></field>
-	<field name="description">Available settings: from 1 to 99. Parameterís value changes depending on the dimming level.</field>
+	<field name="description">Available settings: from 1 to 99. Parameter‚Äôs value changes depending on the dimming level.</field>
 	<field name="size">1</field>
 	<field name="value_min">1</field>
 	<field name="value_max">99</field>
@@ -13357,7 +13357,7 @@ Type	range</field>
 	<field name="description">Activate/Deactive ALL ON/OFF</field>
 	<field name="size">1</field>
 	<field name="value_min">0</field>
-	<field name="value_max">65535</field>
+	<field name="value_max">255</field>
 	<field name="value_default">255</field>
 	<field name="read_only"></field>
 	<field name="write_only"></field>
@@ -13375,7 +13375,7 @@ Type	range</field>
 	<field name="description">Activate/Deactivate Automatic turning off relay after set time</field>
 	<field name="size">1</field>
 	<field name="value_min">0</field>
-	<field name="value_max">65535</field>
+	<field name="value_max">255</field>
 	<field name="value_default">0</field>
 	<field name="read_only"></field>
 	<field name="write_only"></field>
@@ -13393,7 +13393,7 @@ Type	range</field>
 	<field name="description">Automatic turning off relay 1 after set time, in 10ms increments (default: 200ms)</field>
 	<field name="size">1</field>
 	<field name="value_min">0</field>
-	<field name="value_max">65535</field>
+	<field name="value_max">255</field>
 	<field name="value_default">20</field>
 	<field name="read_only"></field>
 	<field name="write_only"></field>
@@ -13411,7 +13411,7 @@ Type	range</field>
 	<field name="description">Automatic turning off relay 2 after set time, in 10ms increments (default: 200ms)</field>
 	<field name="size">1</field>
 	<field name="value_min">0</field>
-	<field name="value_max">65535</field>
+	<field name="value_max">255</field>
 	<field name="value_default">20</field>
 	<field name="read_only"></field>
 	<field name="write_only"></field>
@@ -13430,7 +13430,7 @@ Type	range</field>
 				1 - activate param #15 for this to work</field>
 	<field name="size">1</field>
 	<field name="value_min">0</field>
-	<field name="value_max">65535</field>
+	<field name="value_max">255</field>
 	<field name="value_default">0</field>
 	<field name="read_only"></field>
 	<field name="write_only"></field>
@@ -13449,7 +13449,7 @@ Type	range</field>
 				2 - activate param #15 for this to work</field>
 	<field name="size">1</field>
 	<field name="value_min">0</field>
-	<field name="value_max">65535</field>
+	<field name="value_max">255</field>
 	<field name="value_default">0</field>
 	<field name="read_only"></field>
 	<field name="write_only"></field>
@@ -13468,7 +13468,7 @@ Type	range</field>
 				or follow)</field>
 	<field name="size">1</field>
 	<field name="value_min">0</field>
-	<field name="value_max">65535</field>
+	<field name="value_max">255</field>
 	<field name="value_default">0</field>
 	<field name="read_only"></field>
 	<field name="write_only"></field>
@@ -13486,7 +13486,7 @@ Type	range</field>
 	<field name="description">Binary inputs type configuration</field>
 	<field name="size">1</field>
 	<field name="value_min">0</field>
-	<field name="value_max">65535</field>
+	<field name="value_max">255</field>
 	<field name="value_default">1</field>
 	<field name="read_only"></field>
 	<field name="write_only"></field>
@@ -13507,7 +13507,7 @@ Type	range</field>
 				double-tap for operation</field>
 	<field name="size">1</field>
 	<field name="value_min">0</field>
-	<field name="value_max">65535</field>
+	<field name="value_max">255</field>
 	<field name="value_default">0</field>
 	<field name="read_only"></field>
 	<field name="write_only"></field>
@@ -13525,7 +13525,7 @@ Type	range</field>
 	<field name="description">Saving state before power failure</field>
 	<field name="size">1</field>
 	<field name="value_min">0</field>
-	<field name="value_max">65535</field>
+	<field name="value_max">255</field>
 	<field name="value_default">1</field>
 	<field name="read_only"></field>
 	<field name="write_only"></field>
@@ -13543,7 +13543,7 @@ Type	range</field>
 	<field name="description"></field>
 	<field name="size">1</field>
 	<field name="value_min">0</field>
-	<field name="value_max">65535</field>
+	<field name="value_max">255</field>
 	<field name="value_default">3</field>
 	<field name="read_only"></field>
 	<field name="write_only"></field>
@@ -13561,7 +13561,7 @@ Type	range</field>
 	<field name="description"></field>
 	<field name="size">1</field>
 	<field name="value_min">0</field>
-	<field name="value_max">65535</field>
+	<field name="value_max">255</field>
 	<field name="value_default">2</field>
 	<field name="read_only"></field>
 	<field name="write_only"></field>
@@ -13579,7 +13579,7 @@ Type	range</field>
 	<field name="description"></field>
 	<field name="size">1</field>
 	<field name="value_min">0</field>
-	<field name="value_max">65535</field>
+	<field name="value_max">255</field>
 	<field name="value_default">3</field>
 	<field name="read_only"></field>
 	<field name="write_only"></field>
@@ -13597,7 +13597,7 @@ Type	range</field>
 	<field name="description"></field>
 	<field name="size">1</field>
 	<field name="value_min">0</field>
-	<field name="value_max">65535</field>
+	<field name="value_max">255</field>
 	<field name="value_default">1</field>
 	<field name="read_only"></field>
 	<field name="write_only"></field>
@@ -13633,7 +13633,7 @@ Type	range</field>
 	<field name="description"></field>
 	<field name="size">1</field>
 	<field name="value_min">0</field>
-	<field name="value_max">65535</field>
+	<field name="value_max">255</field>
 	<field name="value_default">3</field>
 	<field name="read_only"></field>
 	<field name="write_only"></field>
@@ -13651,7 +13651,7 @@ Type	range</field>
 	<field name="description"></field>
 	<field name="size">1</field>
 	<field name="value_min">0</field>
-	<field name="value_max">65535</field>
+	<field name="value_max">255</field>
 	<field name="value_default">2</field>
 	<field name="read_only"></field>
 	<field name="write_only"></field>
@@ -13669,7 +13669,7 @@ Type	range</field>
 	<field name="description"></field>
 	<field name="size">1</field>
 	<field name="value_min">0</field>
-	<field name="value_max">65535</field>
+	<field name="value_max">255</field>
 	<field name="value_default">3</field>
 	<field name="read_only"></field>
 	<field name="write_only"></field>
@@ -13687,7 +13687,7 @@ Type	range</field>
 	<field name="description"></field>
 	<field name="size">1</field>
 	<field name="value_min">0</field>
-	<field name="value_max">65535</field>
+	<field name="value_max">255</field>
 	<field name="value_default">1</field>
 	<field name="read_only"></field>
 	<field name="write_only"></field>
@@ -13705,7 +13705,7 @@ Type	range</field>
 	<field name="description">Activate/Deactive ALL ON/OFF</field>
 	<field name="size">1</field>
 	<field name="value_min">0</field>
-	<field name="value_max">65535</field>
+	<field name="value_max">255</field>
 	<field name="value_default">255</field>
 	<field name="read_only"></field>
 	<field name="write_only"></field>
@@ -13723,7 +13723,7 @@ Type	range</field>
 	<field name="description">Enable / Disable manual override for relay auto off</field>
 	<field name="size">1</field>
 	<field name="value_min">0</field>
-	<field name="value_max">65535</field>
+	<field name="value_max">255</field>
 	<field name="value_default">0</field>
 	<field name="read_only"></field>
 	<field name="write_only"></field>
@@ -13778,7 +13778,7 @@ Type	range</field>
 				1 - Also see param #16</field>
 	<field name="size">1</field>
 	<field name="value_min">0</field>
-	<field name="value_max">65535</field>
+	<field name="value_max">255</field>
 	<field name="value_default">0</field>
 	<field name="read_only"></field>
 	<field name="write_only"></field>
@@ -13800,7 +13800,7 @@ Type	range</field>
 				from association list one by one and checking their</field>
 	<field name="size">1</field>
 	<field name="value_min">0</field>
-	<field name="value_max">65535</field>
+	<field name="value_max">255</field>
 	<field name="value_default">1</field>
 	<field name="read_only"></field>
 	<field name="write_only"></field>
@@ -13819,7 +13819,7 @@ Type	range</field>
 				or follow)</field>
 	<field name="size">1</field>
 	<field name="value_min">0</field>
-	<field name="value_max">65535</field>
+	<field name="value_max">255</field>
 	<field name="value_default">0</field>
 	<field name="read_only"></field>
 	<field name="write_only"></field>
@@ -13837,7 +13837,7 @@ Type	range</field>
 	<field name="description">Binary inputs type configuration</field>
 	<field name="size">1</field>
 	<field name="value_min">0</field>
-	<field name="value_max">65535</field>
+	<field name="value_max">255</field>
 	<field name="value_default">1</field>
 	<field name="read_only"></field>
 	<field name="write_only"></field>
@@ -13859,7 +13859,7 @@ Type	range</field>
 				double-tap for operation</field>
 	<field name="size">1</field>
 	<field name="value_min">0</field>
-	<field name="value_max">65535</field>
+	<field name="value_max">255</field>
 	<field name="value_default">0</field>
 	<field name="read_only"></field>
 	<field name="write_only"></field>
@@ -13877,7 +13877,7 @@ Type	range</field>
 	<field name="description">Saving state before power failure</field>
 	<field name="size">1</field>
 	<field name="value_min">0</field>
-	<field name="value_max">65535</field>
+	<field name="value_max">255</field>
 	<field name="value_default">1</field>
 	<field name="read_only"></field>
 	<field name="write_only"></field>
@@ -13895,7 +13895,7 @@ Type	range</field>
 	<field name="description"></field>
 	<field name="size">1</field>
 	<field name="value_min">0</field>
-	<field name="value_max">65535</field>
+	<field name="value_max">255</field>
 	<field name="value_default">3</field>
 	<field name="read_only"></field>
 	<field name="write_only"></field>
@@ -13913,7 +13913,7 @@ Type	range</field>
 	<field name="description"></field>
 	<field name="size">1</field>
 	<field name="value_min">0</field>
-	<field name="value_max">65535</field>
+	<field name="value_max">255</field>
 	<field name="value_default">2</field>
 	<field name="read_only"></field>
 	<field name="write_only"></field>
@@ -13931,7 +13931,7 @@ Type	range</field>
 	<field name="description"></field>
 	<field name="size">1</field>
 	<field name="value_min">0</field>
-	<field name="value_max">65535</field>
+	<field name="value_max">255</field>
 	<field name="value_default">3</field>
 	<field name="read_only"></field>
 	<field name="write_only"></field>
@@ -13949,7 +13949,7 @@ Type	range</field>
 	<field name="description"></field>
 	<field name="size">1</field>
 	<field name="value_min">0</field>
-	<field name="value_max">65535</field>
+	<field name="value_max">255</field>
 	<field name="value_default">1</field>
 	<field name="read_only"></field>
 	<field name="write_only"></field>
@@ -13985,7 +13985,7 @@ Type	range</field>
 	<field name="description"></field>
 	<field name="size">1</field>
 	<field name="value_min">0</field>
-	<field name="value_max">65535</field>
+	<field name="value_max">255</field>
 	<field name="value_default">3</field>
 	<field name="read_only"></field>
 	<field name="write_only"></field>
@@ -14003,7 +14003,7 @@ Type	range</field>
 	<field name="description"></field>
 	<field name="size">1</field>
 	<field name="value_min">0</field>
-	<field name="value_max">65535</field>
+	<field name="value_max">255</field>
 	<field name="value_default">2</field>
 	<field name="read_only"></field>
 	<field name="write_only"></field>
@@ -14021,7 +14021,7 @@ Type	range</field>
 	<field name="description"></field>
 	<field name="size">1</field>
 	<field name="value_min">0</field>
-	<field name="value_max">65535</field>
+	<field name="value_max">255</field>
 	<field name="value_default">3</field>
 	<field name="read_only"></field>
 	<field name="write_only"></field>
@@ -14039,7 +14039,7 @@ Type	range</field>
 	<field name="description"></field>
 	<field name="size">1</field>
 	<field name="value_min">0</field>
-	<field name="value_max">65535</field>
+	<field name="value_max">255</field>
 	<field name="value_default">1</field>
 	<field name="read_only"></field>
 	<field name="write_only"></field>
@@ -14057,7 +14057,7 @@ Type	range</field>
 	<field name="description">Activate/Deactive ALL ON/OFF</field>
 	<field name="size">1</field>
 	<field name="value_min">0</field>
-	<field name="value_max">65535</field>
+	<field name="value_max">255</field>
 	<field name="value_default">255</field>
 	<field name="read_only"></field>
 	<field name="write_only"></field>
@@ -14075,7 +14075,7 @@ Type	range</field>
 	<field name="description">Enable / Disable manual override for relay auto off</field>
 	<field name="size">1</field>
 	<field name="value_min">0</field>
-	<field name="value_max">65535</field>
+	<field name="value_max">255</field>
 	<field name="value_default">0</field>
 	<field name="read_only"></field>
 	<field name="write_only"></field>
@@ -14130,7 +14130,7 @@ Type	range</field>
 				1 - Also see param #16</field>
 	<field name="size">1</field>
 	<field name="value_min">0</field>
-	<field name="value_max">65535</field>
+	<field name="value_max">255</field>
 	<field name="value_default">0</field>
 	<field name="read_only"></field>
 	<field name="write_only"></field>
@@ -14152,7 +14152,7 @@ Type	range</field>
 				from association list one by one and checking their</field>
 	<field name="size">1</field>
 	<field name="value_min">0</field>
-	<field name="value_max">65535</field>
+	<field name="value_max">255</field>
 	<field name="value_default">1</field>
 	<field name="read_only"></field>
 	<field name="write_only"></field>
@@ -14171,7 +14171,7 @@ Type	range</field>
 				or follow)</field>
 	<field name="size">1</field>
 	<field name="value_min">0</field>
-	<field name="value_max">65535</field>
+	<field name="value_max">255</field>
 	<field name="value_default">0</field>
 	<field name="read_only"></field>
 	<field name="write_only"></field>
@@ -14189,7 +14189,7 @@ Type	range</field>
 	<field name="description">Binary inputs type configuration</field>
 	<field name="size">1</field>
 	<field name="value_min">0</field>
-	<field name="value_max">65535</field>
+	<field name="value_max">255</field>
 	<field name="value_default">1</field>
 	<field name="read_only"></field>
 	<field name="write_only"></field>
@@ -14210,7 +14210,7 @@ Type	range</field>
 				double-tap for operation</field>
 	<field name="size">1</field>
 	<field name="value_min">0</field>
-	<field name="value_max">65535</field>
+	<field name="value_max">255</field>
 	<field name="value_default">0</field>
 	<field name="read_only"></field>
 	<field name="write_only"></field>
@@ -14228,7 +14228,7 @@ Type	range</field>
 	<field name="description">Saving state before power failure</field>
 	<field name="size">1</field>
 	<field name="value_min">0</field>
-	<field name="value_max">65535</field>
+	<field name="value_max">255</field>
 	<field name="value_default">1</field>
 	<field name="read_only"></field>
 	<field name="write_only"></field>
@@ -14246,7 +14246,7 @@ Type	range</field>
 	<field name="description"></field>
 	<field name="size">1</field>
 	<field name="value_min">0</field>
-	<field name="value_max">65535</field>
+	<field name="value_max">255</field>
 	<field name="value_default">3</field>
 	<field name="read_only"></field>
 	<field name="write_only"></field>
@@ -14264,7 +14264,7 @@ Type	range</field>
 	<field name="description"></field>
 	<field name="size">1</field>
 	<field name="value_min">0</field>
-	<field name="value_max">65535</field>
+	<field name="value_max">255</field>
 	<field name="value_default">2</field>
 	<field name="read_only"></field>
 	<field name="write_only"></field>
@@ -14282,7 +14282,7 @@ Type	range</field>
 	<field name="description"></field>
 	<field name="size">1</field>
 	<field name="value_min">0</field>
-	<field name="value_max">65535</field>
+	<field name="value_max">255</field>
 	<field name="value_default">3</field>
 	<field name="read_only"></field>
 	<field name="write_only"></field>
@@ -14300,7 +14300,7 @@ Type	range</field>
 	<field name="description"></field>
 	<field name="size">1</field>
 	<field name="value_min">0</field>
-	<field name="value_max">65535</field>
+	<field name="value_max">255</field>
 	<field name="value_default">1</field>
 	<field name="read_only"></field>
 	<field name="write_only"></field>
@@ -14336,7 +14336,7 @@ Type	range</field>
 	<field name="description"></field>
 	<field name="size">1</field>
 	<field name="value_min">0</field>
-	<field name="value_max">65535</field>
+	<field name="value_max">255</field>
 	<field name="value_default">3</field>
 	<field name="read_only"></field>
 	<field name="write_only"></field>
@@ -14354,7 +14354,7 @@ Type	range</field>
 	<field name="description"></field>
 	<field name="size">1</field>
 	<field name="value_min">0</field>
-	<field name="value_max">65535</field>
+	<field name="value_max">255</field>
 	<field name="value_default">2</field>
 	<field name="read_only"></field>
 	<field name="write_only"></field>
@@ -14372,7 +14372,7 @@ Type	range</field>
 	<field name="description"></field>
 	<field name="size">1</field>
 	<field name="value_min">0</field>
-	<field name="value_max">65535</field>
+	<field name="value_max">255</field>
 	<field name="value_default">3</field>
 	<field name="read_only"></field>
 	<field name="write_only"></field>
@@ -14390,7 +14390,7 @@ Type	range</field>
 	<field name="description"></field>
 	<field name="size">1</field>
 	<field name="value_min">0</field>
-	<field name="value_max">65535</field>
+	<field name="value_max">255</field>
 	<field name="value_default">1</field>
 	<field name="read_only"></field>
 	<field name="write_only"></field>
@@ -14408,7 +14408,7 @@ Type	range</field>
 	<field name="description">Activate/Deactive ALL ON/OFF</field>
 	<field name="size">1</field>
 	<field name="value_min">0</field>
-	<field name="value_max">65535</field>
+	<field name="value_max">255</field>
 	<field name="value_default">255</field>
 	<field name="read_only"></field>
 	<field name="write_only"></field>
@@ -14426,7 +14426,7 @@ Type	range</field>
 	<field name="description">Activate/Deactivate Automatic turning off relay after set time</field>
 	<field name="size">1</field>
 	<field name="value_min">0</field>
-	<field name="value_max">65535</field>
+	<field name="value_max">255</field>
 	<field name="value_default">0</field>
 	<field name="read_only"></field>
 	<field name="write_only"></field>
@@ -14444,7 +14444,7 @@ Type	range</field>
 	<field name="description">Automatic turning off relay 1 after set time, in 10ms increments (default: 200ms)</field>
 	<field name="size">1</field>
 	<field name="value_min">0</field>
-	<field name="value_max">65535</field>
+	<field name="value_max">255</field>
 	<field name="value_default">20</field>
 	<field name="read_only"></field>
 	<field name="write_only"></field>
@@ -15414,7 +15414,7 @@ In the case of alarm frames the alarm priority is specified. Possible parameter 
 	<field name="bitmask">0</field>
 	<field name="label">Managing a LED indicator under standard operation</field>
 	<field name="units"></field>
-	<field name="description">Parameter determines LED indicatorís operation. Set to 0 turns the indicator off, saving a battery life</field>
+	<field name="description">Parameter determines LED indicator‚Äôs operation. Set to 0 turns the indicator off, saving a battery life</field>
 	<field name="size">1</field>
 	<field name="value_min">0</field>
 	<field name="value_max">65535</field>
@@ -15450,7 +15450,7 @@ In the case of alarm frames the alarm priority is specified. Possible parameter 
 	<field name="bitmask">0</field>
 	<field name="label">Alarm frame sent to 2-nd Association Group activation</field>
 	<field name="units"></field>
-	<field name="description">(MOVEMENT_TAMPER / BUTTON_TAMPER) The device is able to turn on alarms resulting from sensorís vibrations e.g. when the sensor is moved, or the TMP button released. 2-nd Association Group alarms are not cancelled.</field>
+	<field name="description">(MOVEMENT_TAMPER / BUTTON_TAMPER) The device is able to turn on alarms resulting from sensor‚Äôs vibrations e.g. when the sensor is moved, or the TMP button released. 2-nd Association Group alarms are not cancelled.</field>
 	<field name="size">1</field>
 	<field name="value_min">0</field>
 	<field name="value_max">65535</field>
@@ -15468,7 +15468,7 @@ In the case of alarm frames the alarm priority is specified. Possible parameter 
 	<field name="bitmask">0</field>
 	<field name="label">Visual and audible alarms duration</field>
 	<field name="units"></field>
-	<field name="description">The user can silence the Flood Sensor. Because the Sensorís alarm may last for a long time, itís possible to turn off visual and audible alarm signaling to save battery. The parameter determines a time period after which alarm will become ìquietî - still </field>
+	<field name="description">The user can silence the Flood Sensor. Because the Sensor‚Äôs alarm may last for a long time, it‚Äôs possible to turn off visual and audible alarm signaling to save battery. The parameter determines a time period after which alarm will become ‚Äúquiet‚Äù - still </field>
 	<field name="size">2</field>
 	<field name="value_min">0</field>
 	<field name="value_max">65535</field>
@@ -15650,7 +15650,7 @@ In the case of alarm frames the alarm priority is specified. Possible parameter 
 	<field name="label">Temperature measurement compensation</field>
 	<field name="units"></field>
 	<field name="description">Temperature value to be added to or deducted from the current measured temperature&lt;BR/&gt;
-			-1000 0,1∞C - 1000 0,1∞C</field>
+			-1000 0,1¬∞C - 1000 0,1¬∞C</field>
 	<field name="size">2</field>
 	<field name="value_min">-1000</field>
 	<field name="value_max">1000</field>
@@ -15669,7 +15669,7 @@ In the case of alarm frames the alarm priority is specified. Possible parameter 
 	<field name="label">Z-Wave range test interval</field>
 	<field name="units"></field>
 	<field name="description">Time period between the consecutive Z-Wave network range tests.&lt;BR/&gt;
-			0 10min[10min-24h] - 17 10min[10min-24h]	   -&gt;  	0 ñ Z-Wave network range test inactive</field>
+			0 10min[10min-24h] - 17 10min[10min-24h]	   -&gt;  	0 ‚Äì Z-Wave network range test inactive</field>
 	<field name="size">1</field>
 	<field name="value_min">0</field>
 	<field name="value_max">65535</field>
@@ -15687,8 +15687,8 @@ In the case of alarm frames the alarm priority is specified. Possible parameter 
 	<field name="bitmask">0</field>
 	<field name="label">Temperature alarm threshold</field>
 	<field name="units"></field>
-	<field name="description">0	   -&gt;  	0 ñ temperature alarm inactive&lt;BR/&gt;
-			2 ∞C - 100 ∞C	   -&gt;  Temperature</field>
+	<field name="description">0	   -&gt;  	0 ‚Äì temperature alarm inactive&lt;BR/&gt;
+			2 ¬∞C - 100 ¬∞C	   -&gt;  Temperature</field>
 	<field name="size">1</field>
 	<field name="value_min">0</field>
 	<field name="value_max">65535</field>
@@ -15981,7 +15981,7 @@ In the case of alarm frames the alarm priority is specified. Possible parameter 
 	<field name="bitmask">0</field>
 	<field name="label">Alarm broadcast</field>
 	<field name="units"></field>
-	<field name="description">A value other than 0 means that alarms are being sent in broadcast mode, i.e. to all devices within a Fibaro Smoke Sensorís range</field>
+	<field name="description">A value other than 0 means that alarms are being sent in broadcast mode, i.e. to all devices within a Fibaro Smoke Sensor‚Äôs range</field>
 	<field name="size">1</field>
 	<field name="value_min">0</field>
 	<field name="value_max">65535</field>
@@ -16017,7 +16017,7 @@ In the case of alarm frames the alarm priority is specified. Possible parameter 
 	<field name="bitmask">0</field>
 	<field name="label">Temperature report hysteresis</field>
 	<field name="units"></field>
-	<field name="description">The temperature report will only be sent if there is a difference in temperature value from the previous value reported, defined in this parameter (hysteresis). Temperature reports can be also sent as a result of polling. Available settings: 1 ñ 100 (in 0</field>
+	<field name="description">The temperature report will only be sent if there is a difference in temperature value from the previous value reported, defined in this parameter (hysteresis). Temperature reports can be also sent as a result of polling. Available settings: 1 ‚Äì 100 (in 0</field>
 	<field name="size">1</field>
 	<field name="value_min">1</field>
 	<field name="value_max">100</field>
@@ -16471,16 +16471,14 @@ Controlled device can be turned back on via B-button or sen</field>
 	<field name="bitmask">0</field>
 	<field name="label">ALL ON / ALL OFF function activation</field>
 	<field name="units"></field>
-	<field name="description">Activation/deactivation of ALL ON/ALL OFF functions. By default, ALL ON active ALL OFF active.&lt;BR/&gt;
-                             Default setting: ALL ON active ALL OFF active
-			</field>
+	<field name="description">Activation/deactivation of ALL ON/ALL OFF functions. By default, ALL ON active ALL OFF active.                             Default setting: ALL ON active ALL OFF active			</field>
 	<field name="size">1</field>
 	<field name="value_min">0</field>
-	<field name="value_max">65535</field>
+	<field name="value_max">255</field>
 	<field name="value_default">255</field>
-	<field name="read_only"></field>
-	<field name="write_only"></field>
-	<field name="limit_options"></field>
+	<field name="read_only">0</field>
+	<field name="write_only">0</field>
+	<field name="limit_options">0</field>
 	<field name="overview"></field>
   </row>
 
@@ -16491,16 +16489,14 @@ Controlled device can be turned back on via B-button or sen</field>
 	<field name="bitmask">0</field>
 	<field name="label">Associations command class choice</field>
 	<field name="units"></field>
-	<field name="description">Associations command class choice. By default, Normal (Dimmer) - BASIC_SET/SWITCH_MULTILEVEL_START/STOP.&lt;BR/&gt;
-                             Default setting: Normal (Dimmer) - BASIC_SET/SWITCH_MULTILEVEL_START/STOP
-			</field>
+	<field name="description">Associations command class choice. By default, Normal (Dimmer) - BASIC_SET/SWITCH_MULTILEVEL_START/STOP.                             Default setting: Normal (Dimmer) - BASIC_SET/SWITCH_MULTILEVEL_START/STOP			</field>
 	<field name="size">1</field>
 	<field name="value_min">0</field>
-	<field name="value_max">65535</field>
+	<field name="value_max">255</field>
 	<field name="value_default">0</field>
-	<field name="read_only"></field>
-	<field name="write_only"></field>
-	<field name="limit_options"></field>
+	<field name="read_only">0</field>
+	<field name="write_only">0</field>
+	<field name="limit_options">0</field>
 	<field name="overview"></field>
   </row>
 
@@ -16511,18 +16507,14 @@ Controlled device can be turned back on via B-button or sen</field>
 	<field name="bitmask">0</field>
 	<field name="label">Outputs state change mode</field>
 	<field name="units"></field>
-	<field name="description">MODE1, Example: change saturation level from 0% to 99% &lt;BR/&gt; 
-			                 Parameter 9: Step = 5 &lt;BR/&gt; 
-							 Parameter 10: Time between steps: 10ms.&lt;BR/&gt;
-                             Default setting: MODE1
-			</field>
+	<field name="description">MODE1, Example: change saturation level from 0% to 99%  			                 Parameter 9: Step = 5  							 Parameter 10: Time between steps: 10ms.                             Default setting: MODE1			</field>
 	<field name="size">1</field>
 	<field name="value_min">0</field>
-	<field name="value_max">65535</field>
+	<field name="value_max">255</field>
 	<field name="value_default">0</field>
-	<field name="read_only"></field>
-	<field name="write_only"></field>
-	<field name="limit_options"></field>
+	<field name="read_only">0</field>
+	<field name="write_only">0</field>
+	<field name="limit_options">0</field>
 	<field name="overview"></field>
   </row>
 
@@ -16662,17 +16654,14 @@ Controlled device can be turned back on via B-button or sen</field>
 	<field name="bitmask">0</field>
 	<field name="label">Remember device status after power failure</field>
 	<field name="units"></field>
-	<field name="description">Define how will the Plug react after the power supply is back on.&lt;BR/&gt;
-                              Default setting: 1&lt;BR/&gt;
-                              Available settings:&lt;BR/&gt;
-                              0 - Device does not memorize its state aft</field>
+	<field name="description">Define how will the Plug react after the power supply is back on.                              Default setting: 1                              Available settings:                              0 - Device does not memorize its state aft</field>
 	<field name="size">1</field>
 	<field name="value_min">0</field>
-	<field name="value_max">65535</field>
+	<field name="value_max">255</field>
 	<field name="value_default">1</field>
-	<field name="read_only"></field>
-	<field name="write_only"></field>
-	<field name="limit_options"></field>
+	<field name="read_only">0</field>
+	<field name="write_only">0</field>
+	<field name="limit_options">0</field>
 	<field name="overview"></field>
   </row>
 
@@ -16683,16 +16672,14 @@ Controlled device can be turned back on via B-button or sen</field>
 	<field name="bitmask">0</field>
 	<field name="label">Alarm of any type (General alarm, flood alarm, smoke alarm: CO, CO2, temperature alarm.)</field>
 	<field name="units"></field>
-	<field name="description">Alarm of any type (General alarm, flood alarm, smoke alarm: CO, CO2, temperature alarm.)&lt;BR/&gt; 
-                             Default setting: INACTIVE
-			</field>
+	<field name="description">Alarm of any type (General alarm, flood alarm, smoke alarm: CO, CO2, temperature alarm.)                              Default setting: INACTIVE			</field>
 	<field name="size">1</field>
 	<field name="value_min">0</field>
-	<field name="value_max">65535</field>
+	<field name="value_max">255</field>
 	<field name="value_default">0</field>
-	<field name="read_only"></field>
-	<field name="write_only"></field>
-	<field name="limit_options"></field>
+	<field name="read_only">0</field>
+	<field name="write_only">0</field>
+	<field name="limit_options">0</field>
 	<field name="overview"></field>
   </row>
 
@@ -16745,16 +16732,14 @@ Controlled device can be turned back on via B-button or sen</field>
 	<field name="bitmask">0</field>
 	<field name="label">Command class reporting Outputs status change</field>
 	<field name="units"></field>
-	<field name="description">Command class reporting Outputs status change.&lt;BR/&gt;
-                              Default setting: 0
-			</field>
+	<field name="description">Command class reporting Outputs status change.                              Default setting: 0			</field>
 	<field name="size">1</field>
 	<field name="value_min">0</field>
-	<field name="value_max">65535</field>
+	<field name="value_max">255</field>
 	<field name="value_default">0</field>
-	<field name="read_only"></field>
-	<field name="write_only"></field>
-	<field name="limit_options"></field>
+	<field name="read_only">0</field>
+	<field name="write_only">0</field>
+	<field name="limit_options">0</field>
 	<field name="overview"></field>
   </row>
 
@@ -16827,16 +16812,14 @@ Controlled device can be turned back on via B-button or sen</field>
 	<field name="bitmask">0</field>
 	<field name="label">Response to BRIGHTNESS set to 0%</field>
 	<field name="units"></field>
-	<field name="description">Response to BRIGHTNESS set to 0%.&lt;BR/&gt;
-                              Default setting: 1
-			</field>
+	<field name="description">Response to BRIGHTNESS set to 0%.                              Default setting: 1			</field>
 	<field name="size">1</field>
 	<field name="value_min">0</field>
-	<field name="value_max">65535</field>
+	<field name="value_max">255</field>
 	<field name="value_default">1</field>
-	<field name="read_only"></field>
-	<field name="write_only"></field>
-	<field name="limit_options"></field>
+	<field name="read_only">0</field>
+	<field name="write_only">0</field>
+	<field name="limit_options">0</field>
 	<field name="overview"></field>
   </row>
 
@@ -16868,16 +16851,14 @@ Controlled device can be turned back on via B-button or sen</field>
 	<field name="bitmask">0</field>
 	<field name="label">Triple click action</field>
 	<field name="units"></field>
-	<field name="description">Triple click action.&lt;BR/&gt;
-                              Default setting: 0
-			</field>
+	<field name="description">Triple click action.                              Default setting: 0			</field>
 	<field name="size">1</field>
 	<field name="value_min">0</field>
-	<field name="value_max">65535</field>
+	<field name="value_max">255</field>
 	<field name="value_default">0</field>
-	<field name="read_only"></field>
-	<field name="write_only"></field>
-	<field name="limit_options"></field>
+	<field name="read_only">0</field>
+	<field name="write_only">0</field>
+	<field name="limit_options">0</field>
 	<field name="overview"></field>
   </row>
 
@@ -17644,7 +17625,7 @@ Controlled device can be turned back on via B-button or sen</field>
 	<field name="bitmask">0</field>
 	<field name="label">Power limit - OVERLOAD</field>
 	<field name="units"></field>
-	<field name="description">Reaching the defined value will result in turning off the load. Parameter 39 is relevant only in a 3-wire connection i or a 2-wire connection for load of cos? ? 0.99. (1 W - 250 W). 0 disables the function.</field>
+	<field name="description">Reaching the defined value will result in turning off the load. Parameter 39 is relevant only in a 3-wire connection i or a 2-wire connection for load of cosœÜ ‚â• 0.99. (1 W - 250 W). 0 disables the function.</field>
 	<field name="size">2</field>
 	<field name="value_min">0</field>
 	<field name="value_max">250</field>
@@ -18078,7 +18059,7 @@ In the case of alarm frames the alarm priority is specified. Possible parameter 
 	<field name="label">Temperature measurement compensation</field>
 	<field name="units"></field>
 	<field name="description">Temperature value to be added to or deducted from the current measured temperature&lt;BR/&gt;
-			-1000 0,1∞C - 1000 0,1∞C</field>
+			-1000 0,1¬∞C - 1000 0,1¬∞C</field>
 	<field name="size">2</field>
 	<field name="value_min">-1000</field>
 	<field name="value_max">1000</field>
@@ -18097,7 +18078,7 @@ In the case of alarm frames the alarm priority is specified. Possible parameter 
 	<field name="label">Z-Wave range test interval</field>
 	<field name="units"></field>
 	<field name="description">Time period between the consecutive Z-Wave network range tests.&lt;BR/&gt;
-			0 10min[10min-24h] - 17 10min[10min-24h]	   -&gt;  	0 ñ Z-Wave network range test inactive</field>
+			0 10min[10min-24h] - 17 10min[10min-24h]	   -&gt;  	0 ‚Äì Z-Wave network range test inactive</field>
 	<field name="size">1</field>
 	<field name="value_min">0</field>
 	<field name="value_max">65535</field>
@@ -18115,8 +18096,8 @@ In the case of alarm frames the alarm priority is specified. Possible parameter 
 	<field name="bitmask">0</field>
 	<field name="label">Temperature alarm threshold</field>
 	<field name="units"></field>
-	<field name="description">0	   -&gt;  	0 ñ temperature alarm inactive&lt;BR/&gt;
-			2 ∞C - 100 ∞C	   -&gt;  Temperature</field>
+	<field name="description">0	   -&gt;  	0 ‚Äì temperature alarm inactive&lt;BR/&gt;
+			2 ¬∞C - 100 ¬∞C	   -&gt;  Temperature</field>
 	<field name="size">1</field>
 	<field name="value_min">0</field>
 	<field name="value_max">65535</field>
@@ -18796,11 +18777,11 @@ A value of 255 will tur</field>
 	<field name="description"></field>
 	<field name="size">1</field>
 	<field name="value_min">0</field>
-	<field name="value_max">65535</field>
+	<field name="value_max">3</field>
 	<field name="value_default">3</field>
-	<field name="read_only"></field>
-	<field name="write_only"></field>
-	<field name="limit_options"></field>
+	<field name="read_only">0</field>
+	<field name="write_only">0</field>
+	<field name="limit_options">0</field>
 	<field name="overview"></field>
   </row>
 
@@ -18832,11 +18813,11 @@ A value of 255 will tur</field>
 	<field name="description">Defines how to interpret RF Off command. Can be used in conjunction with Auto Off function: Ignore - to switch on the light by motion detectors and switch it off after some amount of time: in case of multiple motion detectors each would try to switch the </field>
 	<field name="size">1</field>
 	<field name="value_min">0</field>
-	<field name="value_max">65535</field>
+	<field name="value_max">3</field>
 	<field name="value_default">0</field>
-	<field name="read_only"></field>
-	<field name="write_only"></field>
-	<field name="limit_options"></field>
+	<field name="read_only">0</field>
+	<field name="write_only">0</field>
+	<field name="limit_options">0</field>
 	<field name="overview"></field>
   </row>
 
@@ -18850,11 +18831,11 @@ A value of 255 will tur</field>
 	<field name="description">Defines if the switch should change it state to on/off if it is dimmed by buttons</field>
 	<field name="size">1</field>
 	<field name="value_min">0</field>
-	<field name="value_max">65535</field>
+	<field name="value_max">1</field>
 	<field name="value_default">1</field>
-	<field name="read_only"></field>
-	<field name="write_only"></field>
-	<field name="limit_options"></field>
+	<field name="read_only">0</field>
+	<field name="write_only">0</field>
+	<field name="limit_options">0</field>
 	<field name="overview"></field>
   </row>
 
@@ -18868,11 +18849,11 @@ A value of 255 will tur</field>
 	<field name="description">Defines if the switch should restore switch state to the last state prior to device power off (power cycle).</field>
 	<field name="size">1</field>
 	<field name="value_min">0</field>
-	<field name="value_max">65535</field>
+	<field name="value_max">1</field>
 	<field name="value_default">1</field>
-	<field name="read_only"></field>
-	<field name="write_only"></field>
-	<field name="limit_options"></field>
+	<field name="read_only">0</field>
+	<field name="write_only">0</field>
+	<field name="limit_options">0</field>
 	<field name="overview"></field>
   </row>
 
@@ -18904,11 +18885,11 @@ A value of 255 will tur</field>
 	<field name="description"></field>
 	<field name="size">1</field>
 	<field name="value_min">0</field>
-	<field name="value_max">65535</field>
+	<field name="value_max">1</field>
 	<field name="value_default">0</field>
-	<field name="read_only"></field>
-	<field name="write_only"></field>
-	<field name="limit_options"></field>
+	<field name="read_only">0</field>
+	<field name="write_only">0</field>
+	<field name="limit_options">0</field>
 	<field name="overview"></field>
   </row>
 
@@ -18922,11 +18903,11 @@ A value of 255 will tur</field>
 	<field name="description">If disabled, the local operations by buttons will not switch the load, but only send commands to On/Off association group. In this mode buttons are not linked with the switch anymore. They can be used separately: buttons to control remote device, switch w</field>
 	<field name="size">1</field>
 	<field name="value_min">0</field>
-	<field name="value_max">65535</field>
+	<field name="value_max">2</field>
 	<field name="value_default">1</field>
-	<field name="read_only"></field>
-	<field name="write_only"></field>
-	<field name="limit_options"></field>
+	<field name="read_only">0</field>
+	<field name="write_only">0</field>
+	<field name="limit_options">0</field>
 	<field name="overview"></field>
   </row>
 
@@ -18940,11 +18921,11 @@ A value of 255 will tur</field>
 	<field name="description">Defines which command should be sent on button single press or hold. Basic commands are sent to Association group. Switch All commands are sent broadcast.</field>
 	<field name="size">1</field>
 	<field name="value_min">0</field>
-	<field name="value_max">65535</field>
+	<field name="value_max">5</field>
 	<field name="value_default">4</field>
-	<field name="read_only"></field>
-	<field name="write_only"></field>
-	<field name="limit_options"></field>
+	<field name="read_only">0</field>
+	<field name="write_only">0</field>
+	<field name="limit_options">0</field>
 	<field name="overview"></field>
   </row>
 
@@ -18958,11 +18939,11 @@ A value of 255 will tur</field>
 	<field name="description">Defines which command should be sent on button double press or press-hold. Basic commands are sent to Association group. Switch All commands are sent broadcast. If not disabled, the device will wait for a click timeout to see if the second click would be </field>
 	<field name="size">1</field>
 	<field name="value_min">0</field>
-	<field name="value_max">65535</field>
+	<field name="value_max">5</field>
 	<field name="value_default">0</field>
-	<field name="read_only"></field>
-	<field name="write_only"></field>
-	<field name="limit_options"></field>
+	<field name="read_only">0</field>
+	<field name="write_only">0</field>
+	<field name="limit_options">0</field>
 	<field name="overview"></field>
   </row>
 
@@ -18976,11 +18957,11 @@ A value of 255 will tur</field>
 	<field name="description"></field>
 	<field name="size">1</field>
 	<field name="value_min">0</field>
-	<field name="value_max">65535</field>
+	<field name="value_max">255</field>
 	<field name="value_default">1</field>
-	<field name="read_only"></field>
-	<field name="write_only"></field>
-	<field name="limit_options"></field>
+	<field name="read_only">0</field>
+	<field name="write_only">0</field>
+	<field name="limit_options">0</field>
 	<field name="overview"></field>
   </row>
 
@@ -18994,11 +18975,11 @@ A value of 255 will tur</field>
 	<field name="description"></field>
 	<field name="size">1</field>
 	<field name="value_min">0</field>
-	<field name="value_max">65535</field>
+	<field name="value_max">2</field>
 	<field name="value_default">1</field>
-	<field name="read_only"></field>
-	<field name="write_only"></field>
-	<field name="limit_options"></field>
+	<field name="read_only">0</field>
+	<field name="write_only">0</field>
+	<field name="limit_options">0</field>
 	<field name="overview"></field>
   </row>
 
@@ -20450,11 +20431,11 @@ A value of 255 will tur</field>
 	<field name="description">Ignore start level when transmitting a dim command to the dimmer</field>
 	<field name="size">1</field>
 	<field name="value_min">0</field>
-	<field name="value_max">65535</field>
+	<field name="value_max">1</field>
 	<field name="value_default">1</field>
-	<field name="read_only"></field>
-	<field name="write_only"></field>
-	<field name="limit_options"></field>
+	<field name="read_only">0</field>
+	<field name="write_only">0</field>
+	<field name="limit_options">0</field>
 	<field name="overview"></field>
   </row>
 
@@ -20468,11 +20449,11 @@ A value of 255 will tur</field>
 	<field name="description">Setting this parameter will disable transmitting commands to devices in association group 4</field>
 	<field name="size">1</field>
 	<field name="value_min">0</field>
-	<field name="value_max">65535</field>
+	<field name="value_max">1</field>
 	<field name="value_default">0</field>
-	<field name="read_only"></field>
-	<field name="write_only"></field>
-	<field name="limit_options"></field>
+	<field name="read_only">0</field>
+	<field name="write_only">0</field>
+	<field name="limit_options">0</field>
 	<field name="overview"></field>
   </row>
 
@@ -20486,11 +20467,11 @@ A value of 255 will tur</field>
 	<field name="description">Defines the behavior of the blue LED. Default is Night Light mode where LED is on when switch is off</field>
 	<field name="size">1</field>
 	<field name="value_min">0</field>
-	<field name="value_max">65535</field>
+	<field name="value_max">1</field>
 	<field name="value_default">0</field>
-	<field name="read_only"></field>
-	<field name="write_only"></field>
-	<field name="limit_options"></field>
+	<field name="read_only">0</field>
+	<field name="write_only">0</field>
+	<field name="limit_options">0</field>
 	<field name="overview"></field>
   </row>
 
@@ -20504,11 +20485,11 @@ A value of 255 will tur</field>
 	<field name="description">To change the top of the switch to off and the botton to on</field>
 	<field name="size">1</field>
 	<field name="value_min">0</field>
-	<field name="value_max">65535</field>
+	<field name="value_max">1</field>
 	<field name="value_default">0</field>
-	<field name="read_only"></field>
-	<field name="write_only"></field>
-	<field name="limit_options"></field>
+	<field name="read_only">0</field>
+	<field name="write_only">0</field>
+	<field name="limit_options">0</field>
 	<field name="overview"></field>
   </row>
 
@@ -20522,11 +20503,11 @@ A value of 255 will tur</field>
 	<field name="description">Enable the control of shade devices in association group 2 when this option is activated</field>
 	<field name="size">1</field>
 	<field name="value_min">0</field>
-	<field name="value_max">65535</field>
+	<field name="value_max">1</field>
 	<field name="value_default">0</field>
-	<field name="read_only"></field>
-	<field name="write_only"></field>
-	<field name="limit_options"></field>
+	<field name="read_only">0</field>
+	<field name="write_only">0</field>
+	<field name="limit_options">0</field>
 	<field name="overview"></field>
   </row>
 
@@ -20540,11 +20521,11 @@ A value of 255 will tur</field>
 	<field name="description">Enable the control of shade devices in association group 3 when this option is activated</field>
 	<field name="size">1</field>
 	<field name="value_min">0</field>
-	<field name="value_max">65535</field>
+	<field name="value_max">1</field>
 	<field name="value_default">0</field>
-	<field name="read_only"></field>
-	<field name="write_only"></field>
-	<field name="limit_options"></field>
+	<field name="read_only">0</field>
+	<field name="write_only">0</field>
+	<field name="limit_options">0</field>
 	<field name="overview"></field>
   </row>
 
@@ -20558,11 +20539,11 @@ A value of 255 will tur</field>
 	<field name="description">Defines the behavior of the blue LED when transmission of data</field>
 	<field name="size">1</field>
 	<field name="value_min">0</field>
-	<field name="value_max">65535</field>
+	<field name="value_max">2</field>
 	<field name="value_default">2</field>
-	<field name="read_only"></field>
-	<field name="write_only"></field>
-	<field name="limit_options"></field>
+	<field name="read_only">0</field>
+	<field name="write_only">0</field>
+	<field name="limit_options">0</field>
 	<field name="overview"></field>
   </row>
 
@@ -20594,11 +20575,11 @@ A value of 255 will tur</field>
 	<field name="description">Defines if the device will poll association Group 2 at the interval defined in parameter 20</field>
 	<field name="size">1</field>
 	<field name="value_min">0</field>
-	<field name="value_max">65535</field>
+	<field name="value_max">1</field>
 	<field name="value_default">1</field>
-	<field name="read_only"></field>
-	<field name="write_only"></field>
-	<field name="limit_options"></field>
+	<field name="read_only">0</field>
+	<field name="write_only">0</field>
+	<field name="limit_options">0</field>
 	<field name="overview"></field>
   </row>
 
@@ -20650,11 +20631,11 @@ A value of 255 will tur</field>
 	<field name="description">Ignore start level when transmitting a dim command to the switch</field>
 	<field name="size">1</field>
 	<field name="value_min">0</field>
-	<field name="value_max">65535</field>
+	<field name="value_max">1</field>
 	<field name="value_default">1</field>
-	<field name="read_only"></field>
-	<field name="write_only"></field>
-	<field name="limit_options"></field>
+	<field name="read_only">0</field>
+	<field name="write_only">0</field>
+	<field name="limit_options">0</field>
 	<field name="overview"></field>
   </row>
 
@@ -20668,11 +20649,11 @@ A value of 255 will tur</field>
 	<field name="description">Setting this parameter will disable transmitting commands to devices in association group 4</field>
 	<field name="size">1</field>
 	<field name="value_min">0</field>
-	<field name="value_max">65535</field>
+	<field name="value_max">1</field>
 	<field name="value_default">0</field>
-	<field name="read_only"></field>
-	<field name="write_only"></field>
-	<field name="limit_options"></field>
+	<field name="read_only">0</field>
+	<field name="write_only">0</field>
+	<field name="limit_options">0</field>
 	<field name="overview"></field>
   </row>
 
@@ -20686,11 +20667,11 @@ A value of 255 will tur</field>
 	<field name="description">Defines the behavior of the blue LED. Default is Night Light mode where LED is on when switch is off</field>
 	<field name="size">1</field>
 	<field name="value_min">0</field>
-	<field name="value_max">65535</field>
+	<field name="value_max">1</field>
 	<field name="value_default">0</field>
-	<field name="read_only"></field>
-	<field name="write_only"></field>
-	<field name="limit_options"></field>
+	<field name="read_only">0</field>
+	<field name="write_only">0</field>
+	<field name="limit_options">0</field>
 	<field name="overview"></field>
   </row>
 
@@ -20704,11 +20685,11 @@ A value of 255 will tur</field>
 	<field name="description">To change the top of the switch to off and the botton to on</field>
 	<field name="size">1</field>
 	<field name="value_min">0</field>
-	<field name="value_max">65535</field>
+	<field name="value_max">1</field>
 	<field name="value_default">0</field>
-	<field name="read_only"></field>
-	<field name="write_only"></field>
-	<field name="limit_options"></field>
+	<field name="read_only">0</field>
+	<field name="write_only">0</field>
+	<field name="limit_options">0</field>
 	<field name="overview"></field>
   </row>
 
@@ -20722,11 +20703,11 @@ A value of 255 will tur</field>
 	<field name="description">Enable the control of shade devices in association group 2 when this option is activated</field>
 	<field name="size">1</field>
 	<field name="value_min">0</field>
-	<field name="value_max">65535</field>
+	<field name="value_max">2</field>
 	<field name="value_default">0</field>
-	<field name="read_only"></field>
-	<field name="write_only"></field>
-	<field name="limit_options"></field>
+	<field name="read_only">0</field>
+	<field name="write_only">0</field>
+	<field name="limit_options">0</field>
 	<field name="overview"></field>
   </row>
 
@@ -20740,11 +20721,11 @@ A value of 255 will tur</field>
 	<field name="description">Enable the control of shade devices in association group 3 when this option is activated</field>
 	<field name="size">1</field>
 	<field name="value_min">0</field>
-	<field name="value_max">65535</field>
+	<field name="value_max">1</field>
 	<field name="value_default">0</field>
-	<field name="read_only"></field>
-	<field name="write_only"></field>
-	<field name="limit_options"></field>
+	<field name="read_only">0</field>
+	<field name="write_only">0</field>
+	<field name="limit_options">0</field>
 	<field name="overview"></field>
   </row>
 
@@ -20758,11 +20739,11 @@ A value of 255 will tur</field>
 	<field name="description">Defines the behavior of the blue LED when transmission of data</field>
 	<field name="size">1</field>
 	<field name="value_min">0</field>
-	<field name="value_max">65535</field>
+	<field name="value_max">2</field>
 	<field name="value_default">2</field>
-	<field name="read_only"></field>
-	<field name="write_only"></field>
-	<field name="limit_options"></field>
+	<field name="read_only">0</field>
+	<field name="write_only">0</field>
+	<field name="limit_options">0</field>
 	<field name="overview"></field>
   </row>
 
@@ -20794,11 +20775,11 @@ A value of 255 will tur</field>
 	<field name="description">Defines if the device will poll association Group 2 at the interval defined in parameter 20</field>
 	<field name="size">1</field>
 	<field name="value_min">0</field>
-	<field name="value_max">65535</field>
+	<field name="value_max">2</field>
 	<field name="value_default">1</field>
-	<field name="read_only"></field>
-	<field name="write_only"></field>
-	<field name="limit_options"></field>
+	<field name="read_only">0</field>
+	<field name="write_only">0</field>
+	<field name="limit_options">0</field>
 	<field name="overview"></field>
   </row>
 
@@ -20812,11 +20793,11 @@ A value of 255 will tur</field>
 	<field name="description">Defines the behavior of the blue LED</field>
 	<field name="size">1</field>
 	<field name="value_min">0</field>
-	<field name="value_max">65535</field>
+	<field name="value_max">1</field>
 	<field name="value_default">0</field>
-	<field name="read_only"></field>
-	<field name="write_only"></field>
-	<field name="limit_options"></field>
+	<field name="read_only">0</field>
+	<field name="write_only">0</field>
+	<field name="limit_options">0</field>
 	<field name="overview"></field>
   </row>
 
@@ -21740,7 +21721,7 @@ A value of 255 will tur</field>
 	<field name="bitmask">0</field>
 	<field name="label">Illumination Differential Report</field>
 	<field name="units"></field>
-	<field name="description">The illumination differential to report. The unit is percentage. When enabled, the device will measure every minute. Enabling this functionality will cause some issue. Please check the ìIllumination Reportî section of the Multisensor manual.&lt;br/&gt;
+	<field name="description">The illumination differential to report. The unit is percentage. When enabled, the device will measure every minute. Enabling this functionality will cause some issue. Please check the ‚ÄúIllumination Report‚Äù section of the Multisensor manual.&lt;br/&gt;
 				&lt;ul</field>
 	<field name="size">1</field>
 	<field name="value_min">0</field>
@@ -22246,7 +22227,7 @@ A value of 255 will tur</field>
 	<field name="bitmask">0</field>
 	<field name="label">Illumination Differential Report</field>
 	<field name="units"></field>
-	<field name="description">The illumination differential to report. The unit is percentage. When enabled, the device will measure every minute. Enabling this functionality will cause some issue. Please check the ìIllumination Reportî section of the Multisensor manual.&lt;br/&gt;
+	<field name="description">The illumination differential to report. The unit is percentage. When enabled, the device will measure every minute. Enabling this functionality will cause some issue. Please check the ‚ÄúIllumination Report‚Äù section of the Multisensor manual.&lt;br/&gt;
 				&lt;ul</field>
 	<field name="size">1</field>
 	<field name="value_min">0</field>
@@ -22529,7 +22510,7 @@ A value of 255 will tur</field>
 	<field name="bitmask">0</field>
 	<field name="label">RF off command mode</field>
 	<field name="units"></field>
-	<field name="description">Whenever a switch off command, BASIC_SET ?BINARY_SWITCH_SET ? SWITCH_ALL_OFF, is received, it could be interpreted as 4 kinds of commands.</field>
+	<field name="description">Whenever a switch off command, BASIC_SET „ÄÅBINARY_SWITCH_SET „ÄÅ SWITCH_ALL_OFF, is received, it could be interpreted as 4 kinds of commands.</field>
 	<field name="size">1</field>
 	<field name="value_min">0</field>
 	<field name="value_max">65535</field>
@@ -23947,7 +23928,7 @@ A value of 255 will tur</field>
 	<field name="units"></field>
 	<field name="description">You may wish to disable transmitting commands to
 				Z-Wave devices that are in
-				Group 4 without ìdisassociatingî those devices from the group.
+				Group 4 without ‚Äúdisassociating‚Äù those devices from the group.
 				Setting parameter 2 to the value of 1 will stop the ZRM230 from
 				transmitting
 				to devices tha</field>
@@ -24793,7 +24774,7 @@ other controller belonging to the system.</field>
 	<field name="label">Automatic turning off relay after set time</field>
 	<field name="units"></field>
 	<field name="description">0 - Auto OFF disabled 
-1 ñ 65535 = 0,01second ñ 655,35 seconds
+1 ‚Äì 65535 = 0,01second ‚Äì 655,35 seconds
 Auto OFF enabled with define time, step is 10mseconds</field>
 	<field name="size">2</field>
 	<field name="value_min">0</field>
@@ -24830,8 +24811,8 @@ Auto OFF enabled with define time, step is 10mseconds</field>
 	<field name="bitmask">0</field>
 	<field name="label">Power reporting in Watts on power change</field>
 	<field name="units"></field>
-	<field name="description">0 ñ Reporting Disabled
-1 ñ 100 = 1% - 100% Reporting enabled
+	<field name="description">0 ‚Äì Reporting Disabled
+1 ‚Äì 100 = 1% - 100% Reporting enabled
 Power report is send (push) only when actual 
 power in Watts in real time change for more than 
 set percentage comparing to previous actual 
@@ -24856,8 +24837,8 @@ NOTE: if power chan</field>
 	<field name="units"></field>
 	<field name="description">default value 300 (power report in Watts is 
 send each 300s)
-0 ñ Reporting Disabled
-1 ñ 65535 = 1second ñ 65535 seconds.
+0 ‚Äì Reporting Disabled
+1 ‚Äì 65535 = 1second ‚Äì 65535 seconds.
 Reporting enabled. Power report is send with time 
 interval set by entered value. </field>
 	<field name="size">2</field>
@@ -24977,7 +24958,7 @@ Timer is reset to zero each time the module receive ON command regardless from w
 Timer is reset to zero each time the module receive OFF command regardless from where it comes
 (push button, associated module, controller,..).
 0 - Auto ON disabled.
-1 ñ </field>
+1 ‚Äì </field>
 	<field name="size">2</field>
 	<field name="value_min">0</field>
 	<field name="value_max">65535</field>
@@ -25031,8 +25012,8 @@ Timer is reset to zero each time the module receive OFF command regardless from 
 	<field name="bitmask">0</field>
 	<field name="label">Power reporting in Watts on power change</field>
 	<field name="units"></field>
-	<field name="description">0 ñ Reporting Disabled
-1 ñ 100 = 1% - 100% Reporting enabled
+	<field name="description">0 ‚Äì Reporting Disabled
+1 ‚Äì 100 = 1% - 100% Reporting enabled
 Power report is send (push) only when actual 
 power in Watts in real time change for more than 
 set percentage comparing to previous actual 
@@ -25055,10 +25036,10 @@ NOTE: If power chan</field>
 	<field name="bitmask">0</field>
 	<field name="label">Power reporting in Watts on power change</field>
 	<field name="units"></field>
-	<field name="description">Set value means time interval (0 ñ 32535) in seconds, when power report is send.
+	<field name="description">Set value means time interval (0 ‚Äì 32535) in seconds, when power report is send.
 Default value 300 (power report in Watts is send each 300s)
-0 ñ Reporting Disabled
-1 ñ 32535 = 1second ñ 32535 seconds. Reporting enabled. Power report is send with time </field>
+0 ‚Äì Reporting Disabled
+1 ‚Äì 32535 = 1second ‚Äì 32535 seconds. Reporting enabled. Power report is send with time </field>
 	<field name="size">2</field>
 	<field name="value_min">0</field>
 	<field name="value_max">65535</field>
@@ -25138,9 +25119,9 @@ Endpoint device type selec</field>
 	<field name="label">Temperature sensor offset settings</field>
 	<field name="units"></field>
 	<field name="description">Set value is added or subtracted to actual measured value by sensor.
-32536 ñ offset is 0.0C
-From 1 to 100ñvalue from 0.1∞C to 10.0∞C is added to actual measured temperature.
-From 1001 to 1100 ñ value from -0.1 ∞C to -10.0 ∞C is subtracted to actual mea</field>
+32536 ‚Äì offset is 0.0C
+From 1 to 100‚Äìvalue from 0.1¬∞C to 10.0¬∞C is added to actual measured temperature.
+From 1001 to 1100 ‚Äì value from -0.1 ¬∞C to -10.0 ¬∞C is subtracted to actual mea</field>
 	<field name="size">2</field>
 	<field name="value_min">0</field>
 	<field name="value_max">65535</field>
@@ -25160,8 +25141,8 @@ From 1001 to 1100 ñ value from -0.1 ∞C to -10.0 ∞C is subtracted to actual mea</
 	<field name="units"></field>
 	<field name="description">If digital temperature sensor is connected, module reports measured temperature 
 on temperature change defined by this parameter.
-0 ñ Reporting disabled
-1- 127 = 0,1∞C ñ 12,7∞C, step is 0,1∞C</field>
+0 ‚Äì Reporting disabled
+1- 127 = 0,1¬∞C ‚Äì 12,7¬∞C, step is 0,1¬∞C</field>
 	<field name="size">1</field>
 	<field name="value_min">0</field>
 	<field name="value_max">65535</field>
@@ -25261,7 +25242,7 @@ Timer is reset to zero each time the module receive ON command regardless from w
 Timer is reset to zero each time the module receive OFF command regardless from where it comes
 (push button, associated module, controller,..).
 0 - Auto ON disabled.
-1 ñ </field>
+1 ‚Äì </field>
 	<field name="size">2</field>
 	<field name="value_min">0</field>
 	<field name="value_max">65535</field>
@@ -25356,9 +25337,9 @@ Endpoint device type selec</field>
 	<field name="label">Temperature sensor offset settings</field>
 	<field name="units"></field>
 	<field name="description">Set value is added or subtracted to actual measured value by sensor.
-32536 ñ offset is 0.0C
-From 1 to 100ñvalue from 0.1∞C to 10.0∞C is added to actual measured temperature.
-From 1001 to 1100 ñ value from -0.1 ∞C to -10.0 ∞C is subtracted to actual mea</field>
+32536 ‚Äì offset is 0.0C
+From 1 to 100‚Äìvalue from 0.1¬∞C to 10.0¬∞C is added to actual measured temperature.
+From 1001 to 1100 ‚Äì value from -0.1 ¬∞C to -10.0 ¬∞C is subtracted to actual mea</field>
 	<field name="size">2</field>
 	<field name="value_min">0</field>
 	<field name="value_max">65535</field>
@@ -25378,8 +25359,8 @@ From 1001 to 1100 ñ value from -0.1 ∞C to -10.0 ∞C is subtracted to actual mea</
 	<field name="units"></field>
 	<field name="description">If digital temperature sensor is connected, module reports measured temperature 
 on temperature change defined by this parameter.
-0 ñ Reporting disabled
-1- 127 = 0,1∞C ñ 12,7∞C, step is 0,1∞C</field>
+0 ‚Äì Reporting disabled
+1- 127 = 0,1¬∞C ‚Äì 12,7¬∞C, step is 0,1¬∞C</field>
 	<field name="size">1</field>
 	<field name="value_min">0</field>
 	<field name="value_max">65535</field>
@@ -25454,7 +25435,7 @@ on temperature change defined by this parameter.
 	<field name="units"></field>
 	<field name="description">Auto OFF enabled with define time, step is 10 mseconds&lt;br/&gt;
 				&lt;ul&gt;&lt;li&gt;0 = Auto OFF disabled&lt;/li&gt; 
-				&lt;li&gt;1ñ65535 = 0,01 second ñ 655,35 seconds&lt;/li&gt;&lt;/ul&gt;</field>
+				&lt;li&gt;1‚Äì65535 = 0,01 second ‚Äì 655,35 seconds&lt;/li&gt;&lt;/ul&gt;</field>
 	<field name="size">2</field>
 	<field name="value_min">0</field>
 	<field name="value_max">65535</field>
@@ -25474,7 +25455,7 @@ on temperature change defined by this parameter.
 	<field name="units"></field>
 	<field name="description">Auto OFF enabled with define time, step is 10 mseconds&lt;br/&gt;
 				&lt;ul&gt;&lt;li&gt;0 = Auto OFF disabled&lt;/li&gt; 
-				&lt;li&gt;1ñ65535 = 0,01 second ñ 655,35 seconds&lt;/li&gt;&lt;/ul&gt;</field>
+				&lt;li&gt;1‚Äì65535 = 0,01 second ‚Äì 655,35 seconds&lt;/li&gt;&lt;/ul&gt;</field>
 	<field name="size">2</field>
 	<field name="value_min">0</field>
 	<field name="value_max">65535</field>
@@ -25513,7 +25494,7 @@ on temperature change defined by this parameter.
 	<field name="description">Power report is sent (pushed) only when actual power in Watts in real time changed for more than 
 				set percentage comparing to previous actual power in Watts, step is 1%.&lt;br/&gt;
 				&lt;ul&gt;&lt;li&gt;0 = Reporting Disabled&lt;/li&gt;
-				&lt;li&gt;1ñ100 = 1% - 100% Reporti</field>
+				&lt;li&gt;1‚Äì100 = 1% - 100% Reporti</field>
 	<field name="size">1</field>
 	<field name="value_min">0</field>
 	<field name="value_max">65535</field>
@@ -25534,7 +25515,7 @@ on temperature change defined by this parameter.
 	<field name="description">Power report is sent (pushed) only when actual power in Watts in real time changed for more than 
 				set percentage comparing to previous actual power in Watts, step is 1%.&lt;br/&gt;
 				&lt;ul&gt;&lt;li&gt;0 = Reporting Disabled&lt;/li&gt;
-				&lt;li&gt;1ñ100 = 1% - 100% Reporti</field>
+				&lt;li&gt;1‚Äì100 = 1% - 100% Reporti</field>
 	<field name="size">1</field>
 	<field name="value_min">0</field>
 	<field name="value_max">65535</field>
@@ -25554,7 +25535,7 @@ on temperature change defined by this parameter.
 	<field name="units"></field>
 	<field name="description">default value is 300 (power report in Watts is sent each 300s)&lt;br/&gt;
 				&lt;ul&gt;&lt;li&gt;0 = Reporting Disabled&lt;/li&gt;
-				&lt;li&gt;1ñ65535 = 1 second ñ 65535 seconds. Reporting enabled. 
+				&lt;li&gt;1‚Äì65535 = 1 second ‚Äì 65535 seconds. Reporting enabled. 
 				Power report is sent with time interval set by entered value.&lt;/li&gt;&lt;/ul&gt;</field>
 	<field name="size">2</field>
 	<field name="value_min">0</field>
@@ -25576,7 +25557,7 @@ on temperature change defined by this parameter.
 	<field name="description">default value is 300 (power report in Watts is sent each 300s)&lt;br/&gt;
 				&lt;ul&gt;&lt;li&gt;0 = Reporting Disabled&lt;/li&gt;
 
-				&lt;li&gt;1ñ65535 = 1 second ñ 65535 seconds. Reporting enabled. 
+				&lt;li&gt;1‚Äì65535 = 1 second ‚Äì 65535 seconds. Reporting enabled. 
 				Power report is sent with time interval set by entered value.&lt;/li&gt;&lt;/ul&gt;</field>
 	<field name="size">2</field>
 	<field name="value_min">0</field>
@@ -25707,10 +25688,10 @@ on temperature change defined by this parameter.
 	<field name="bitmask">0</field>
 	<field name="label">Power reporting in Watts by time interval</field>
 	<field name="units"></field>
-	<field name="description">Set value means time interval (0 ñ 65535) in seconds, when power report is sent. 
+	<field name="description">Set value means time interval (0 ‚Äì 65535) in seconds, when power report is sent. 
 				Default value is 300 (power report in Watts is sent each 300s)&lt;br/&gt;
 				&lt;ul&gt;&lt;li&gt;0 = Reporting Disabled&lt;/li&gt;
-				&lt;li&gt;1ñ65535 = 1 second ñ 65535 seconds. Reporting enab</field>
+				&lt;li&gt;1‚Äì65535 = 1 second ‚Äì 65535 seconds. Reporting enab</field>
 	<field name="size">2</field>
 	<field name="value_min">0</field>
 	<field name="value_max">65535</field>
@@ -25728,7 +25709,7 @@ on temperature change defined by this parameter.
 	<field name="bitmask">0</field>
 	<field name="label">Minimum dimming value</field>
 	<field name="units"></field>
-	<field name="description">Range is 1% ñ 98%, step is 1%.&lt;br/&gt;
+	<field name="description">Range is 1% ‚Äì 98%, step is 1%.&lt;br/&gt;
 				Default value is 1 (Minimum dimming value is 1%)&lt;br/&gt;
 				NOTE: The maximum level may not be lower than the minimum level!&lt;br/&gt; 
 				1% min. dimming value is defined by Z-Wave multilevel device class.</field>
@@ -25749,7 +25730,7 @@ on temperature change defined by this parameter.
 	<field name="bitmask">0</field>
 	<field name="label">Maximum dimming value</field>
 	<field name="units"></field>
-	<field name="description">Range is 2% ñ 99%, step is 1%.&lt;br/&gt;
+	<field name="description">Range is 2% ‚Äì 99%, step is 1%.&lt;br/&gt;
 				Default value 99 (Maximum dimming value is 99 %)&lt;br/&gt;
 				NOTE: The maximum level may not be lower than the minimum level!&lt;br/&gt; 
 				99% max. dimming value is defined by Z-Wave multilevel device class.</field>
@@ -25907,7 +25888,7 @@ on temperature change defined by this parameter.
 	<field name="units"></field>
 	<field name="description">
 				&lt;ul&gt;&lt;li&gt;0 - Auto OFF disabled&lt;/li&gt;
-				&lt;li&gt;1 ñ 32536 = 1 second ñ 32536 seconds Auto OFF enabled with defined time, step is 1 second.&lt;/li&gt;&lt;/ul&gt;
+				&lt;li&gt;1 ‚Äì 32536 = 1 second ‚Äì 32536 seconds Auto OFF enabled with defined time, step is 1 second.&lt;/li&gt;&lt;/ul&gt;
 			</field>
 	<field name="size">2</field>
 	<field name="value_min">0</field>
@@ -25928,7 +25909,7 @@ on temperature change defined by this parameter.
 	<field name="units"></field>
 	<field name="description">
 				&lt;ul&gt;&lt;li&gt;0 - Auto ON disabled&lt;/li&gt;
-				&lt;li&gt;1 ñ 32536 = 1 second ñ 32536 seconds Auto ON enabled with defined time, step is 1 second.&lt;/li&gt;&lt;/ul&gt;
+				&lt;li&gt;1 ‚Äì 32536 = 1 second ‚Äì 32536 seconds Auto ON enabled with defined time, step is 1 second.&lt;/li&gt;&lt;/ul&gt;
 			</field>
 	<field name="size">2</field>
 	<field name="value_min">0</field>
@@ -26015,8 +25996,8 @@ on temperature change defined by this parameter.
 	<field name="description">
 				Set value means percentage, set value from 0 - 100 = 0% - 100%.
 				Default value is 5.
-				&lt;ul&gt;&lt;li&gt;0 ñ Reporting Disabled&lt;/li&gt;
-				&lt;li&gt;1 ñ 100 = 1% - 100% Reporting enabled. Power report is sent (push) only when
+				&lt;ul&gt;&lt;li&gt;0 ‚Äì Reporting Disabled&lt;/li&gt;
+				&lt;li&gt;1 ‚Äì 100 = 1% - 100% Reporting enabled. Power report is sent (push) only when
 				actual power in Watts in rea</field>
 	<field name="size">1</field>
 	<field name="value_min">0</field>
@@ -26036,10 +26017,10 @@ on temperature change defined by this parameter.
 	<field name="label">Power reporting in Watts by time interval</field>
 	<field name="units"></field>
 	<field name="description">
-				Set value means time interval (0 ñ 32767) in seconds, when power report is
+				Set value means time interval (0 ‚Äì 32767) in seconds, when power report is
 				sent.
-				&lt;ul&gt;&lt;li&gt;0 ñ reporting disabled&lt;/li&gt;
-				&lt;li&gt;1 ñ 32767 = 1 second ñ 32767 seconds. Reporting enabled. Power report is sent
+				&lt;ul&gt;&lt;li&gt;0 ‚Äì reporting disabled&lt;/li&gt;
+				&lt;li&gt;1 ‚Äì 32767 = 1 second ‚Äì 32767 seconds. Reporting enabled. Power report is sent
 				with time interval set by ente</field>
 	<field name="size">2</field>
 	<field name="value_min">0</field>
@@ -26059,7 +26040,7 @@ on temperature change defined by this parameter.
 	<field name="label">Minimum dimming value</field>
 	<field name="units"></field>
 	<field name="description">
-				&lt;ul&gt;&lt;li&gt;1-98 = 1% ñ 98%, step is 1%. Minimum dimming value is set by entered value.&lt;/li&gt;&lt;/ul&gt;
+				&lt;ul&gt;&lt;li&gt;1-98 = 1% ‚Äì 98%, step is 1%. Minimum dimming value is set by entered value.&lt;/li&gt;&lt;/ul&gt;
 				NOTE: The minimum level may not be higher than the maximum level!
 				1% min. dimming value is defined by Z- Wave multilevel device class.
 			</field>
@@ -26081,7 +26062,7 @@ on temperature change defined by this parameter.
 	<field name="label">Maximum dimming value</field>
 	<field name="units"></field>
 	<field name="description">
-				&lt;ul&gt;&lt;li&gt;2-99 = 2% ñ 99%, step is 1%. Maximum dimming value is set by entered value.&lt;/li&gt;&lt;/ul&gt;
+				&lt;ul&gt;&lt;li&gt;2-99 = 2% ‚Äì 99%, step is 1%. Maximum dimming value is set by entered value.&lt;/li&gt;&lt;/ul&gt;
 				NOTE: The maximum level may not be lower than the minimum level!
 				99% max. dimming value is defined by Z- Wave multilevel device class.
 			</field>
@@ -26106,7 +26087,7 @@ on temperature change defined by this parameter.
 				Set value means time of moving the Dimmer between min. and max. dimming
 				values by short press of push button I1 or controlled through UI (BasicSet).
 				&lt;ul&gt;&lt;li&gt;default value 100 = 1s&lt;/li&gt;
-				&lt;li&gt;1 - 255 = 100 mseconds ñ 25500 mseconds (25.5</field>
+				&lt;li&gt;1 - 255 = 100 mseconds ‚Äì 25500 mseconds (25.5</field>
 	<field name="size">2</field>
 	<field name="value_min">1</field>
 	<field name="value_max">255</field>
@@ -26128,7 +26109,7 @@ on temperature change defined by this parameter.
 				Time of moving the Dimmer between min. and max dimming values by continuous
 				hold of push button I1 or associated device.
 				&lt;ul&gt;&lt;li&gt;default value 3 = 3s&lt;/li&gt;
-				&lt;li&gt;1- 255 = 1 second ñ 255 seconds.&lt;/li&gt;&lt;/ul&gt;
+				&lt;li&gt;1- 255 = 1 second ‚Äì 255 seconds.&lt;/li&gt;&lt;/ul&gt;
 			</field>
 	<field name="size">2</field>
 	<field name="value_min">1</field>
@@ -26239,8 +26220,8 @@ on temperature change defined by this parameter.
 	<field name="description">Set value is added or subtracted to actual measured
 				value by sensor. Available configuration parameters:
 				&lt;ul&gt;&lt;li&gt;default value 32536&lt;/li&gt;
-				&lt;li&gt;32536 ñ offset is 0.0C&lt;/li&gt;
-				&lt;li&gt;From 1 to 100 ñ value from 0.1 ∞C to 10.0 ∞C is
+				&lt;li&gt;32536 ‚Äì offset is 0.0C&lt;/li&gt;
+				&lt;li&gt;From 1 to 100 ‚Äì value from 0.1 ¬∞C to 10.0 ¬∞C is
 				added to</field>
 	<field name="size">2</field>
 	<field name="value_min">1</field>
@@ -26262,8 +26243,8 @@ on temperature change defined by this parameter.
 	<field name="description">If digital temperature sensor is connected, module
 				reports measured temperature on temperature change defined
 				by this parameter. Available configuration parameters:
-				&lt;ul&gt;&lt;li&gt;default value 5 = 0.5∞C&lt;/li&gt;
-				&lt;li&gt;0 ñ Reporting disabled&lt;/li&gt;
+				&lt;ul&gt;&lt;li&gt;default value 5 = 0.5¬∞C&lt;/li&gt;
+				&lt;li&gt;0 ‚Äì Reporting disabled&lt;/li&gt;
 </field>
 	<field name="size">1</field>
 	<field name="value_min">0</field>
@@ -26391,9 +26372,9 @@ on temperature change defined by this parameter.
 	<field name="bitmask">0</field>
 	<field name="label">Set point set by I2</field>
 	<field name="units"></field>
-	<field name="description">65535 ñ input I2 does not influence on the set point&lt;BR/&gt;
-			From 0 to 990 set point from 0.0 ∞C to 99.0 ∞C&lt;BR/&gt;
-			From 1001 to 1150 ñ set point from -0.1 ∞C to -15.0 ∞C</field>
+	<field name="description">65535 ‚Äì input I2 does not influence on the set point&lt;BR/&gt;
+			From 0 to 990 set point from 0.0 ¬∞C to 99.0 ¬∞C&lt;BR/&gt;
+			From 1001 to 1150 ‚Äì set point from -0.1 ¬∞C to -15.0 ¬∞C</field>
 	<field name="size">2</field>
 	<field name="value_min">0</field>
 	<field name="value_max">65535</field>
@@ -26411,9 +26392,9 @@ on temperature change defined by this parameter.
 	<field name="bitmask">0</field>
 	<field name="label">Set point set by I3</field>
 	<field name="units"></field>
-	<field name="description">65535 ñ input I3 does not influence on the set point&lt;BR/&gt;
-			From 0 to 990 set point from 0.0 ∞C to 99.0 ∞C&lt;BR/&gt;
-			From 1001 to 1150 ñ set point from -0.1 ∞C to -15.0 ∞C</field>
+	<field name="description">65535 ‚Äì input I3 does not influence on the set point&lt;BR/&gt;
+			From 0 to 990 set point from 0.0 ¬∞C to 99.0 ¬∞C&lt;BR/&gt;
+			From 1001 to 1150 ‚Äì set point from -0.1 ¬∞C to -15.0 ¬∞C</field>
 	<field name="size">2</field>
 	<field name="value_min">0</field>
 	<field name="value_max">65535</field>
@@ -26452,7 +26433,7 @@ on temperature change defined by this parameter.
 	<field name="description">Power report is sent (pushed) only when actual power in Watts in real time changed for more than 
 				set percentage comparing to previous actual power in Watts, step is 1%.&lt;br/&gt;
 				&lt;ul&gt;&lt;li&gt;0 = Reporting Disabled&lt;/li&gt;
-				&lt;li&gt;1ñ100 = 1% - 100% Reporti</field>
+				&lt;li&gt;1‚Äì100 = 1% - 100% Reporti</field>
 	<field name="size">1</field>
 	<field name="value_min">0</field>
 	<field name="value_max">65535</field>
@@ -26472,7 +26453,7 @@ on temperature change defined by this parameter.
 	<field name="units"></field>
 	<field name="description">default value is 300 (power report in Watts is sent each 300s)&lt;br/&gt;
 				&lt;ul&gt;&lt;li&gt;0 = Reporting Disabled&lt;/li&gt;
-				&lt;li&gt;1ñ65535 = 1 second ñ 65535 seconds. Reporting enabled. 
+				&lt;li&gt;1‚Äì65535 = 1 second ‚Äì 65535 seconds. Reporting enabled. 
 				Power report is sent with time interval set by entered value.&lt;/li&gt;&lt;/ul&gt;</field>
 	<field name="size">2</field>
 	<field name="value_min">0</field>
@@ -26491,7 +26472,7 @@ on temperature change defined by this parameter.
 	<field name="bitmask">0</field>
 	<field name="label">Hysteresis On</field>
 	<field name="units"></field>
-	<field name="description">This parameter defines temperature min difference between real measured temperature and set-point temperature to turn device on. Parameter can be set from 0 to 255 where 0 to 127 means from 0.0 ∞C to 12.7 ∞C and from 128 to 255 means from - 0.1 ∞C to -12.</field>
+	<field name="description">This parameter defines temperature min difference between real measured temperature and set-point temperature to turn device on. Parameter can be set from 0 to 255 where 0 to 127 means from 0.0 ¬∞C to 12.7 ¬∞C and from 128 to 255 means from - 0.1 ¬∞C to -12.</field>
 	<field name="size">1</field>
 	<field name="value_min">0</field>
 	<field name="value_max">65535</field>
@@ -26509,7 +26490,7 @@ on temperature change defined by this parameter.
 	<field name="bitmask">0</field>
 	<field name="label">Hysteresis Off</field>
 	<field name="units"></field>
-	<field name="description">This parameter defines temperature min difference between real measured temperature and set-point temperature to turn device on. Parameter can be set from 0 to 255 where 0 to 127 means from 0.0 ∞C to 12.7 ∞C and from 128 to 255 means from - 0.1 ∞C to -12.</field>
+	<field name="description">This parameter defines temperature min difference between real measured temperature and set-point temperature to turn device on. Parameter can be set from 0 to 255 where 0 to 127 means from 0.0 ¬∞C to 12.7 ¬∞C and from 128 to 255 means from - 0.1 ¬∞C to -12.</field>
 	<field name="size">1</field>
 	<field name="value_min">0</field>
 	<field name="value_max">65535</field>
@@ -26527,7 +26508,7 @@ on temperature change defined by this parameter.
 	<field name="bitmask">0</field>
 	<field name="label">Antifreeze</field>
 	<field name="units"></field>
-	<field name="description">Set value means at which temperature the device will be turned on even if the thermostat was manually set to off. Parameter can be set from 0 to 255 where 0 to 127 means from 0.0 ∞C to 12.7 ∞C and from 128 to 254 means from - 0.1 ∞C to -12.6 ∞C. 255 is di</field>
+	<field name="description">Set value means at which temperature the device will be turned on even if the thermostat was manually set to off. Parameter can be set from 0 to 255 where 0 to 127 means from 0.0 ¬∞C to 12.7 ¬∞C and from 128 to 254 means from - 0.1 ¬∞C to -12.6 ¬∞C. 255 is di</field>
 	<field name="size">1</field>
 	<field name="value_min">0</field>
 	<field name="value_max">65535</field>
@@ -26545,7 +26526,7 @@ on temperature change defined by this parameter.
 	<field name="bitmask">0</field>
 	<field name="label">Too low temperature limit</field>
 	<field name="units"></field>
-	<field name="description">1 - 1000 = 0.1∞C ñ 100.0∞C, step is 0.1∞C. Too low temperature limit is set by entered value. In case is set value out of this range, module is changing set value automatically to default value.</field>
+	<field name="description">1 - 1000 = 0.1¬∞C ‚Äì 100.0¬∞C, step is 0.1¬∞C. Too low temperature limit is set by entered value. In case is set value out of this range, module is changing set value automatically to default value.</field>
 	<field name="size">2</field>
 	<field name="value_min">0</field>
 	<field name="value_max">65535</field>
@@ -26563,7 +26544,7 @@ on temperature change defined by this parameter.
 	<field name="bitmask">0</field>
 	<field name="label">Too high temperature limit</field>
 	<field name="units"></field>
-	<field name="description">1 - 1000 = 0.1∞C ñ 100.0∞C, step is 0.1∞C. Too low temperature limit is set by entered value. In case is set value out of this range, module is changing set value automatically to default value.</field>
+	<field name="description">1 - 1000 = 0.1¬∞C ‚Äì 100.0¬∞C, step is 0.1¬∞C. Too low temperature limit is set by entered value. In case is set value out of this range, module is changing set value automatically to default value.</field>
 	<field name="size">2</field>
 	<field name="value_min">0</field>
 	<field name="value_max">65535</field>
@@ -26583,8 +26564,8 @@ on temperature change defined by this parameter.
 	<field name="units"></field>
 	<field name="description">Set value means the type of the device that is connected to the relay output. The device type can be normally open (NO) or normally close (NC).
 Available configuration parameters (data type is 1 Byte DEC):
-ï default value 0
-ï 0 - When system is turned </field>
+‚Ä¢ default value 0
+‚Ä¢ 0 - When system is turned </field>
 	<field name="size">2</field>
 	<field name="value_min">0</field>
 	<field name="value_max">65535</field>
@@ -26734,7 +26715,7 @@ Available configuration parameters (data type is 1 Byte DEC):
 	<field name="bitmask">0</field>
 	<field name="label">I1 Functionality Selection</field>
 	<field name="units"></field>
-	<field name="description">Default Value = 1. 65535 ñ Input I1 does not
+	<field name="description">Default Value = 1. 65535 ‚Äì Input I1 does not
 				influence
 				on the heat/cool process. 1 - Input I1 changes the mode of
 				the thermostat between OFF and AUTO.
@@ -26781,7 +26762,7 @@ Available configuration parameters (data type is 1 Byte DEC):
 	<field name="bitmask">0</field>
 	<field name="label">I3 Functionality Selection</field>
 	<field name="units"></field>
-	<field name="description">Default Value = 65535. 65535 ñ Input I3 does not
+	<field name="description">Default Value = 65535. 65535 ‚Äì Input I3 does not
 				influence
 				on the heat/cool process. 1 - Input I3 changes the mode of
 				the thermostat between OFF and AUTO.
@@ -26805,7 +26786,7 @@ Available configuration parameters (data type is 1 Byte DEC):
 	<field name="bitmask">0</field>
 	<field name="label">Power reporting in Watts on power change</field>
 	<field name="units"></field>
-	<field name="description">Default Value = 0. 0 ñ Reporting Disabled
+	<field name="description">Default Value = 0. 0 ‚Äì Reporting Disabled
 				1 - 100 = 1% - 100% Reporting enabled. Power report is sent (pushed)
 				only when actual power
 				in Watts in real time changes for more than
@@ -26828,7 +26809,7 @@ Available configuration parameters (data type is 1 Byte DEC):
 	<field name="bitmask">0</field>
 	<field name="label">Power reporting in Watts by timer interval</field>
 	<field name="units"></field>
-	<field name="description">Default Value = 300. 0 ñ Reporting Disabled
+	<field name="description">Default Value = 300. 0 ‚Äì Reporting Disabled
 				1 - 32767 = 1 second - 32767 seconds Reporting enabled. Power report
 				is sent with time interval
 				set by entered value.
@@ -27303,8 +27284,8 @@ Available configuration parameters (data type is 1 Byte DEC):
 				change for Q1 or
 				Q2
 				default value 1
-				0 ñ reporting disabled
-				1 ñ 100 = 1% - 100% Reporting
+				0 ‚Äì reporting disabled
+				1 ‚Äì 100 = 1% - 100% Reporting
 				enabled. Power
 				report is send (push) only when actual power (in
 				Watts) in real time changes </field>
@@ -27328,13 +27309,13 @@ Available configuration parameters (data type is 1 Byte DEC):
 	<field name="description">- Power reporting in Watts by time
 				interval for Q1 or
 				Q2
-				Set value means time interval (0 ñ 32767) in seconds,
+				Set value means time interval (0 ‚Äì 32767) in seconds,
 				Available
 				configuration parameters:
 				default value 300 = 300s
-				0 ñ Reporting
+				0 ‚Äì Reporting
 				Disabled
-				1 ñ 32767 = 1 s</field>
+				1 ‚Äì 32767 = 1 s</field>
 	<field name="size">2</field>
 	<field name="value_min">0</field>
 	<field name="value_max">32767</field>
@@ -27354,7 +27335,7 @@ Available configuration parameters (data type is 1 Byte DEC):
 	<field name="units"></field>
 	<field name="description">This parameter defines selection between two
 				available
-				operating modes. default value 0, 0 ñ Shutter mode, 1 ñ
+				operating modes. default value 0, 0 ‚Äì Shutter mode, 1 ‚Äì
 				Venetian mode
 				(up/down and slate rotation)
 				NOTE: When setting
@@ -27382,9 +27363,9 @@ Available configuration parameters (data type is 1 Byte DEC):
 				make full turn (180 degrees). Available configuration
 				parameters:
 				default value 150 = 150 seconds
-				0 ñ Tilting time disabled
-				1 ñ 32767 =
-				1 second ñ 32767 seconds
+				0 ‚Äì Tilting time disabled
+				1 ‚Äì 32767 =
+				1 second ‚Äì 32767 seconds
 			</field>
 	<field name="size">2</field>
 	<field name="value_min">0</field>
@@ -27401,7 +27382,7 @@ Available configuration parameters (data type is 1 Byte DEC):
 	<field name="device">213</field>
 	<field name="param_id">73</field>
 	<field name="bitmask">0</field>
-	<field name="label">ñ Slats position</field>
+	<field name="label">‚Äì Slats position</field>
 	<field name="units"></field>
 	<field name="description">This parameter defines slats position after up/down
 				movement through UI or push-buttons. Available
@@ -27434,10 +27415,10 @@ Available configuration parameters (data type is 1 Byte DEC):
 				configuration
 				parameters:
 				default value 0
-				0 ñ moving time disabled (working with
+				0 ‚Äì moving time disabled (working with
 				limit
 				switches)
-				1 ñ 32767 = 1 seco</field>
+				1 ‚Äì 32767 = 1 seco</field>
 	<field name="size">2</field>
 	<field name="value_min">0</field>
 	<field name="value_max">32767</field>
@@ -27505,7 +27486,7 @@ Available configuration parameters (data type is 1 Byte DEC):
 	<field name="units"></field>
 	<field name="description">This parameter defines if reporting regarding power
 				level,
-				multilevel, etc,Öis reported to controller or not. Available
+				multilevel, etc,‚Ä¶is reported to controller or not. Available
 				configuration parameters:
 				default value 1
 				0 reporting to controller is disabled
@@ -27577,7 +27558,7 @@ Available configuration parameters (data type is 1 Byte DEC):
 				relay switching (time between switching up/down and
 				vice versa). Available configuration parameters :
 				default value 5 = 500ms
-				1 ñ 30 = 0.1 seconds ñ 3 seconds (100ms resolution)
+				1 ‚Äì 30 = 0.1 seconds ‚Äì 3 seconds (100ms resolution)
 			</field>
 	<field name="size">1</field>
 	<field name="value_min">1</field>
@@ -27599,8 +27580,8 @@ Available configuration parameters (data type is 1 Byte DEC):
 	<field name="description">Set value is added or subtracted to actual measured
 				value by sensor. Available configuration parameters:
 				default value 32536
-				32536 ñ offset is 0.0C
-				From 1 to 100 ñ value from 0.1 ∞C to 10.0 ∞C is
+				32536 ‚Äì offset is 0.0C
+				From 1 to 100 ‚Äì value from 0.1 ¬∞C to 10.0 ¬∞C is
 				added to actual measured temperatu</field>
 	<field name="size">2</field>
 	<field name="value_min">1</field>
@@ -27623,10 +27604,10 @@ Available configuration parameters (data type is 1 Byte DEC):
 				reports
 				measured temperature on temperature change defined
 				by this parameter. Available configuration parameters:
-				default value 5 = 0.5∞C
+				default value 5 = 0.5¬∞C
 
-				0 ñ Reporting disabled
-				1-127 = 0.1∞C</field>
+				0 ‚Äì Reporting disabled
+				1-127 = 0.1¬∞C</field>
 	<field name="size">1</field>
 	<field name="value_min">0</field>
 	<field name="value_max">127</field>
@@ -27665,10 +27646,10 @@ Available configuration parameters (data type is 1 Byte DEC):
 	<field name="bitmask">0</field>
 	<field name="label">Power reporting in Watts on power change for Q1 or Q2</field>
 	<field name="units"></field>
-	<field name="description">Set value 0 ñ 100 as percentage. &lt;br&gt;
+	<field name="description">Set value 0 ‚Äì 100 as percentage. &lt;br&gt;
 			 Available configuration parameters. &lt;br&gt;
 			 &lt;ul&gt;&lt;li&gt;0 = Reporting Disabled&lt;/li&gt;
-			 &lt;li&gt;1ñ100 = 1% - 100% Reporting enabled&lt;/li&gt;&lt;/ul&gt;
+			 &lt;li&gt;1‚Äì100 = 1% - 100% Reporting enabled&lt;/li&gt;&lt;/ul&gt;
 			  Power report is sent only when actual power (in
 			  Watts) in real </field>
 	<field name="size">1</field>
@@ -27691,8 +27672,8 @@ Available configuration parameters (data type is 1 Byte DEC):
 	<field name="description">Set value determines interval in seconds, when power report is send. &lt;br&gt;
 			 Available configuration parameters. &lt;br&gt;
 			 &lt;ul&gt;&lt;li&gt;default value 300 = 300s&lt;/li&gt;
-			 &lt;li&gt;0 ñ Reporting Disabled&lt;/li&gt;
-			 &lt;li&gt;1 ñ 32767 = 1 second ñ 32767 seconds&lt;/li&gt;&lt;/ul&gt;</field>
+			 &lt;li&gt;0 ‚Äì Reporting Disabled&lt;/li&gt;
+			 &lt;li&gt;1 ‚Äì 32767 = 1 second ‚Äì 32767 seconds&lt;/li&gt;&lt;/ul&gt;</field>
 	<field name="size">2</field>
 	<field name="value_min">0</field>
 	<field name="value_max">32767</field>
@@ -27882,7 +27863,7 @@ Available configuration parameters (data type is 1 Byte DEC):
 	<field name="description">This parameter defines the minimum time delay between next motor movemen.&lt;br&gt; 
 			(minimum time between switching motor off and on again)
 			 &lt;ul&gt;&lt;li&gt;default value  5 = 500ms&lt;/li&gt;
-			 &lt;li&gt; 1 ñ 30 = 0,1seconds ñ 3seconds (100ms resolution)&lt;/li&gt;&lt;/ul&gt; </field>
+			 &lt;li&gt; 1 ‚Äì 30 = 0,1seconds ‚Äì 3seconds (100ms resolution)&lt;/li&gt;&lt;/ul&gt; </field>
 	<field name="size">1</field>
 	<field name="value_min">1</field>
 	<field name="value_max">30</field>
@@ -27902,8 +27883,8 @@ Available configuration parameters (data type is 1 Byte DEC):
 	<field name="units"></field>
 	<field name="description">Set value is added or subtracted to actual measured value by sensor. 
 			 &lt;ul&gt;&lt;li&gt;default value 32536&lt;/li&gt;
-			 &lt;li&gt; 32536 ñ offset is 0.0C&lt;/li&gt;
-			 &lt;li&gt;From 1 to 100 ñ value from 0.1 ∞C to 10.0 ∞C is added to actual measured temperature.&lt;/li&gt;
+			 &lt;li&gt; 32536 ‚Äì offset is 0.0C&lt;/li&gt;
+			 &lt;li&gt;From 1 to 100 ‚Äì value from 0.1 ¬∞C to 10.0 ¬∞C is added to actual measured temperature.&lt;/li&gt;
 			 &lt;li&gt;</field>
 	<field name="size">2</field>
 	<field name="value_min">1</field>
@@ -27924,9 +27905,9 @@ Available configuration parameters (data type is 1 Byte DEC):
 	<field name="units"></field>
 	<field name="description">If digital temperature sensor is connected, module reports measured 
 			temperature on temperature change defined by this parameter. 
-			 &lt;ul&gt;&lt;li&gt;Default value 5 = 0,5∞C&lt;/li&gt;
-			 &lt;li&gt; 32536 ñ offset is 0.0C&lt;/li&gt;
-			 &lt;li&gt;0 ñ Reporting disabled&lt;/li&gt;
+			 &lt;ul&gt;&lt;li&gt;Default value 5 = 0,5¬∞C&lt;/li&gt;
+			 &lt;li&gt; 32536 ‚Äì offset is 0.0C&lt;/li&gt;
+			 &lt;li&gt;0 ‚Äì Reporting disabled&lt;/li&gt;
 		</field>
 	<field name="size">1</field>
 	<field name="value_min">0</field>
@@ -28085,8 +28066,8 @@ Available configuration parameters (data type is 1 Byte DEC):
 	<field name="label">Automatic turning off / on seconds or milliseconds selection</field>
 	<field name="units"></field>
 	<field name="description">Available configuration parameters:&lt;br/&gt;
-				&lt;ul&gt;&lt;li&gt;0 ñ seconds selected&lt;/li&gt; 
-				&lt;li&gt;1 ñ milliseconds selected&lt;/li&gt;&lt;/ul&gt;&lt;br/&gt;
+				&lt;ul&gt;&lt;li&gt;0 ‚Äì seconds selected&lt;/li&gt; 
+				&lt;li&gt;1 ‚Äì milliseconds selected&lt;/li&gt;&lt;/ul&gt;&lt;br/&gt;
 				NOTE: Parameter is valid for both outputs Q1, Q2 and is the same for turning off or on.</field>
 	<field name="size">1</field>
 	<field name="value_min">0</field>
@@ -28126,7 +28107,7 @@ Available configuration parameters (data type is 1 Byte DEC):
 	<field name="description">Power report is sent (pushed) only when actual power in Watts in real time changed for more than 
 				set percentage comparing to previous actual power in Watts, step is 1%.&lt;br/&gt;
 				&lt;ul&gt;&lt;li&gt;0 = Reporting Disabled&lt;/li&gt;
-				&lt;li&gt;1ñ100 = 1% - 100% Reporti</field>
+				&lt;li&gt;1‚Äì100 = 1% - 100% Reporti</field>
 	<field name="size">1</field>
 	<field name="value_min">0</field>
 	<field name="value_max">65535</field>
@@ -28147,7 +28128,7 @@ Available configuration parameters (data type is 1 Byte DEC):
 	<field name="description">Power report is sent (pushed) only when actual power in Watts in real time changed for more than 
 				set percentage comparing to previous actual power in Watts, step is 1%.&lt;br/&gt;
 				&lt;ul&gt;&lt;li&gt;0 = Reporting Disabled&lt;/li&gt;
-				&lt;li&gt;1ñ100 = 1% - 100% Reporti</field>
+				&lt;li&gt;1‚Äì100 = 1% - 100% Reporti</field>
 	<field name="size">1</field>
 	<field name="value_min">0</field>
 	<field name="value_max">65535</field>
@@ -28167,7 +28148,7 @@ Available configuration parameters (data type is 1 Byte DEC):
 	<field name="units"></field>
 	<field name="description">default value is 300 (power report in Watts is sent each 300s)&lt;br/&gt;
 				&lt;ul&gt;&lt;li&gt;0 = Reporting Disabled&lt;/li&gt;
-				&lt;li&gt;1ñ32535 = 1 second ñ 32535 seconds. Reporting enabled. 
+				&lt;li&gt;1‚Äì32535 = 1 second ‚Äì 32535 seconds. Reporting enabled. 
 				Power report is sent with time interval set by entered value.&lt;/li&gt;&lt;/ul&gt;</field>
 	<field name="size">2</field>
 	<field name="value_min">0</field>
@@ -28188,7 +28169,7 @@ Available configuration parameters (data type is 1 Byte DEC):
 	<field name="units"></field>
 	<field name="description">default value is 300 (power report in Watts is sent each 300s)&lt;br/&gt;
 				&lt;ul&gt;&lt;li&gt;0 = Reporting Disabled&lt;/li&gt;
-				&lt;li&gt;1ñ32535 = 1 second ñ 32535 seconds. Reporting enabled. 
+				&lt;li&gt;1‚Äì32535 = 1 second ‚Äì 32535 seconds. Reporting enabled. 
 				Power report is sent with time interval set by entered value.&lt;/li&gt;&lt;/ul&gt;</field>
 	<field name="size">2</field>
 	<field name="value_min">0</field>
@@ -28244,8 +28225,8 @@ Available configuration parameters (data type is 1 Byte DEC):
 	<field name="label">Temperature sensor offset settings</field>
 	<field name="units"></field>
 	<field name="description">Set value result in adding or subtracting that value to actual measured value by sensor&lt;br/&gt;
-				&lt;ul&gt;&lt;li&gt;32536 ñ offset is 0.0 ∞C&lt;/li&gt;
-				&lt;li&gt;From 1 to 1000 ñ value from 0.1 ∞C to 10.0 ∞C is added to actual measured temperature.&lt;/li&gt;&lt;/ul&gt;</field>
+				&lt;ul&gt;&lt;li&gt;32536 ‚Äì offset is 0.0 ¬∞C&lt;/li&gt;
+				&lt;li&gt;From 1 to 1000 ‚Äì value from 0.1 ¬∞C to 10.0 ¬∞C is added to actual measured temperature.&lt;/li&gt;&lt;/ul&gt;</field>
 	<field name="size">2</field>
 	<field name="value_min">0</field>
 	<field name="value_max">65535</field>
@@ -28264,8 +28245,8 @@ Available configuration parameters (data type is 1 Byte DEC):
 	<field name="label">Digital temperature sensor reporting</field>
 	<field name="units"></field>
 	<field name="description">If digital temperature sensor is connected, module reports measured temperature on temperature change defined by this parameter.&lt;br/&gt;
-				&lt;ul&gt;&lt;li&gt;0 ñ Reporting disabled&lt;/li&gt;
-				&lt;li&gt;1-127 = 0,1∞C ñ 12,7∞C, step is 0,1∞C&lt;/li&gt;&lt;/ul&gt;</field>
+				&lt;ul&gt;&lt;li&gt;0 ‚Äì Reporting disabled&lt;/li&gt;
+				&lt;li&gt;1-127 = 0,1¬∞C ‚Äì 12,7¬∞C, step is 0,1¬∞C&lt;/li&gt;&lt;/ul&gt;</field>
 	<field name="size">1</field>
 	<field name="value_min">0</field>
 	<field name="value_max">65535</field>
@@ -29618,11 +29599,11 @@ Available configuration parameters (data type is 1 Byte DEC):
 	<field name="description"></field>
 	<field name="size">1</field>
 	<field name="value_min">0</field>
-	<field name="value_max">65535</field>
+	<field name="value_max">3</field>
 	<field name="value_default">1</field>
-	<field name="read_only"></field>
-	<field name="write_only"></field>
-	<field name="limit_options"></field>
+	<field name="read_only">0</field>
+	<field name="write_only">0</field>
+	<field name="limit_options">0</field>
 	<field name="overview"></field>
   </row>
 
@@ -29654,11 +29635,11 @@ Available configuration parameters (data type is 1 Byte DEC):
 	<field name="description">Defines how to interpret RF Off command. Can be used in conjunction with Auto Off function: Ignore - to switch on the light by motion detectors and switch it off after some amount of time: in case of multiple motion detectors each would try to switch the </field>
 	<field name="size">1</field>
 	<field name="value_min">0</field>
-	<field name="value_max">65535</field>
+	<field name="value_max">3</field>
 	<field name="value_default">0</field>
-	<field name="read_only"></field>
-	<field name="write_only"></field>
-	<field name="limit_options"></field>
+	<field name="read_only">0</field>
+	<field name="write_only">0</field>
+	<field name="limit_options">0</field>
 	<field name="overview"></field>
   </row>
 
@@ -29672,11 +29653,11 @@ Available configuration parameters (data type is 1 Byte DEC):
 	<field name="description"></field>
 	<field name="size">1</field>
 	<field name="value_min">0</field>
-	<field name="value_max">65535</field>
+	<field name="value_max">1</field>
 	<field name="value_default">1</field>
-	<field name="read_only"></field>
-	<field name="write_only"></field>
-	<field name="limit_options"></field>
+	<field name="read_only">0</field>
+	<field name="write_only">0</field>
+	<field name="limit_options">0</field>
 	<field name="overview"></field>
   </row>
 
@@ -29726,11 +29707,11 @@ Available configuration parameters (data type is 1 Byte DEC):
 	<field name="description">Defines the dim level on command 'ON'. On default he dimmer restores last dim level. This parameter allows configuring the maximum level on second On command (if already On) or to always switch on to maximum level.</field>
 	<field name="size">1</field>
 	<field name="value_min">0</field>
-	<field name="value_max">65535</field>
+	<field name="value_max">2</field>
 	<field name="value_default">0</field>
-	<field name="read_only"></field>
-	<field name="write_only"></field>
-	<field name="limit_options"></field>
+	<field name="read_only">0</field>
+	<field name="write_only">0</field>
+	<field name="limit_options">0</field>
 	<field name="overview"></field>
   </row>
 
@@ -29906,11 +29887,11 @@ Available configuration parameters (data type is 1 Byte DEC):
 	<field name="description">NB: Do not touch these settings if you are not sure what they mean!</field>
 	<field name="size">1</field>
 	<field name="value_min">0</field>
-	<field name="value_max">65535</field>
+	<field name="value_max">1</field>
 	<field name="value_default">0</field>
-	<field name="read_only"></field>
-	<field name="write_only"></field>
-	<field name="limit_options"></field>
+	<field name="read_only">0</field>
+	<field name="write_only">0</field>
+	<field name="limit_options">0</field>
 	<field name="overview"></field>
   </row>
 
@@ -31821,7 +31802,7 @@ Privacy Mode - all user codes disabled and RF Lock/Unlock disabled</field>
 	<field name="bitmask">0</field>
 	<field name="label">Illumination Differential Report</field>
 	<field name="units"></field>
-	<field name="description">The illumination differential to report. The unit is percentage. When enabled, the device will measure every minute. Enabling this functionality will cause some issue. Please check the ìIllumination Reportî section of the Multisensor manual.&lt;br/&gt;
+	<field name="description">The illumination differential to report. The unit is percentage. When enabled, the device will measure every minute. Enabling this functionality will cause some issue. Please check the ‚ÄúIllumination Report‚Äù section of the Multisensor manual.&lt;br/&gt;
 				&lt;ul</field>
 	<field name="size">1</field>
 	<field name="value_min">0</field>
@@ -31980,12 +31961,12 @@ Privacy Mode - all user codes disabled and RF Lock/Unlock disabled</field>
 	<field name="overview">&lt;p&gt;Sensor Calibration.&lt;br /&gt;Calibration Steps:&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;Let the garage door move to full close position.&lt;/li&gt;
-&lt;li&gt;Send this parameter (0x22) with ìvalue=1î to Garage Door†Controller.&lt;/li&gt;
+&lt;li&gt;Send this parameter (0x22) with ‚Äúvalue=1‚Äù to Garage Door¬†Controller.&lt;/li&gt;
 &lt;li&gt;Let the garage door move to full open position.&lt;/li&gt;
-&lt;li&gt;Let the garage door move to full close position after the†step 3 is completed.&lt;/li&gt;
+&lt;li&gt;Let the garage door move to full close position after the¬†step 3 is completed.&lt;/li&gt;
 &lt;/ol&gt;
-&lt;p&gt;After the step 4 is completed, all calibration steps are†complete.&lt;/p&gt;
-&lt;p&gt;Note: This process should be implemented when the Garage†Door Controller just only has one Sensor is installed on the†garage door.&lt;/p&gt;</field>
+&lt;p&gt;After the step 4 is completed, all calibration steps are¬†complete.&lt;/p&gt;
+&lt;p&gt;Note: This process should be implemented when the Garage¬†Door Controller just only has one Sensor is installed on the¬†garage door.&lt;/p&gt;</field>
   </row>
 
   <row>
@@ -32041,10 +32022,10 @@ Privacy Mode - all user codes disabled and RF Lock/Unlock disabled</field>
 	<field name="limit_options"></field>
 	<field name="overview">&lt;p&gt;Configure the alarm mode for when the garage door is opening.&lt;/p&gt;
 &lt;ol&gt;
-&lt;li&gt;Value1: configure the frequency of blinking for the Alarm†LED , there are 10 levels that 1 to10 level, the minimum†frequency is level 1 and the max frequency is level 10.&lt;/li&gt;
-&lt;li&gt;Value2: configure the alarm sound (there are 4 types sound†saved in EEPROM and user also can update it).&lt;/li&gt;
-&lt;li&gt;Value3: configure the volume of alarm sound (there are 10†levels, the min volume is 1 level and the max volume is 10†levels).&lt;/li&gt;
-&lt;li&gt;Value4=0, disable the alarm prompt. Value4=1, enable the†alarm prompt.†&lt;/li&gt;
+&lt;li&gt;Value1: configure the frequency of blinking for the Alarm¬†LED , there are 10 levels that 1 to10 level, the minimum¬†frequency is level 1 and the max frequency is level 10.&lt;/li&gt;
+&lt;li&gt;Value2: configure the alarm sound (there are 4 types sound¬†saved in EEPROM and user also can update it).&lt;/li&gt;
+&lt;li&gt;Value3: configure the volume of alarm sound (there are 10¬†levels, the min volume is 1 level and the max volume is 10¬†levels).&lt;/li&gt;
+&lt;li&gt;Value4=0, disable the alarm prompt. Value4=1, enable the¬†alarm prompt.¬†&lt;/li&gt;
 &lt;/ol&gt;
 &lt;p&gt;defaults:&lt;/p&gt;
 &lt;ol&gt;
@@ -32070,7 +32051,7 @@ Privacy Mode - all user codes disabled and RF Lock/Unlock disabled</field>
 	<field name="write_only">0</field>
 	<field name="limit_options"></field>
 	<field name="overview">&lt;p&gt;Configure the alarm mode when the garage door is closing.&lt;br /&gt;1, Value1: configure the frequency of blinking for the Alarm&lt;br /&gt;LED , there are 10 levels that 1 to10 level, the minimum&lt;br /&gt;frequency is level 1 and the max frequency is level 10.&lt;br /&gt;2, Value2: configure the alarm sound (there are 4 types sound&lt;br /&gt;saved in EEPROM and user also can update it).&lt;br /&gt;3, Value3: configure the volume of alarm sound (there are 10&lt;br /&gt;levels, the min volume is 1 level and the max volume is 10&lt;br /&gt;levels).&lt;br /&gt;4, Value4=0, disable the alarm prompt. Value4=1, enable the&lt;br /&gt;alarm prompt.&lt;/p&gt;
-&lt;p&gt;†&lt;/p&gt;
+&lt;p&gt;¬†&lt;/p&gt;
 &lt;p&gt;default values:&lt;/p&gt;
 &lt;p&gt;Value1=6&lt;br /&gt;Value2=2&lt;br /&gt;Value3=8&lt;/p&gt;</field>
   </row>
@@ -32092,7 +32073,7 @@ Privacy Mode - all user codes disabled and RF Lock/Unlock disabled</field>
 	<field name="limit_options"></field>
 	<field name="overview">&lt;p&gt;Configuration alarm mode when the garage door is in&lt;br /&gt;&quot;unknown&quot; state:&lt;br /&gt;1, Value1: configure the frequency of blinking for the Alarm&lt;br /&gt;LED , there are 10 levels that 1 to10 level, the minimum&lt;br /&gt;frequency is level 1 and the max frequency is level 10.&lt;br /&gt;2, Value2: configure the alarm sound (there are 4 types sound&lt;br /&gt;saved in EEPROM and user also can update it).&lt;br /&gt;3, Value3: configure the volume of alarm sound (there are 10&lt;br /&gt;levels, the min volume is 1 level and the max volume is 10&lt;/p&gt;
 &lt;p&gt;levels).&lt;br /&gt;4, Value4=0, disable the alarm prompt. Value4=1, enable the&lt;br /&gt;alarm prompt.&lt;/p&gt;
-&lt;p&gt;†&lt;/p&gt;
+&lt;p&gt;¬†&lt;/p&gt;
 &lt;p&gt;default values:&lt;/p&gt;
 &lt;p&gt;Value1=4&lt;br /&gt;Value2=3&lt;br /&gt;Value3=8&lt;br /&gt;Value4=0&lt;/p&gt;</field>
   </row>
@@ -32113,7 +32094,7 @@ Privacy Mode - all user codes disabled and RF Lock/Unlock disabled</field>
 	<field name="write_only">0</field>
 	<field name="limit_options"></field>
 	<field name="overview">&lt;p&gt;Configuration alarm mode when the garage door is in&lt;br /&gt;&quot;closed&quot; state:&lt;br /&gt;1, Value1: configure the frequency of blinking for the Alarm&lt;br /&gt;LED , there are 10 levels that 1 to10 level, the minimum&lt;br /&gt;frequency is level 1 and the max frequency is level 10.&lt;br /&gt;2, Value2: configure the alarm sound (there are 4 types sound&lt;br /&gt;saved in EEPROM and user also can update it).&lt;br /&gt;3, Value3: configure the volume of alarm sound (there are 10&lt;br /&gt;levels, the min volume is 1 level and the max volume is 10 levels).&lt;br /&gt;4, Value4=0, disable the alarm prompt. Value4=1, enable the&lt;br /&gt;alarm prompt.&lt;/p&gt;
-&lt;p&gt;†&lt;/p&gt;
+&lt;p&gt;¬†&lt;/p&gt;
 &lt;p&gt;default values:&lt;/p&gt;
 &lt;p&gt;Value1=2&lt;br /&gt;Value2=4&lt;br /&gt;Value3=8&lt;br /&gt;Value4=0&lt;/p&gt;</field>
   </row>
@@ -32205,7 +32186,7 @@ Privacy Mode - all user codes disabled and RF Lock/Unlock disabled</field>
 	<field name="read_only">0</field>
 	<field name="write_only">0</field>
 	<field name="limit_options"></field>
-	<field name="overview">&lt;p&gt;Get the environment temperature:&lt;br /&gt;The temperature value contains one decimal point.&lt;br /&gt;E.g. If the report value=252(0x00FC), the temperature is&lt;br /&gt;25.2 ∞C .&lt;br /&gt;Rang is 0 to 500 (0 to 50.0 ∞C ).&lt;/p&gt;</field>
+	<field name="overview">&lt;p&gt;Get the environment temperature:&lt;br /&gt;The temperature value contains one decimal point.&lt;br /&gt;E.g. If the report value=252(0x00FC), the temperature is&lt;br /&gt;25.2 ¬∞C .&lt;br /&gt;Rang is 0 to 500 (0 to 50.0 ¬∞C ).&lt;/p&gt;</field>
   </row>
 
   <row>
@@ -32223,7 +32204,7 @@ Privacy Mode - all user codes disabled and RF Lock/Unlock disabled</field>
 	<field name="read_only">0</field>
 	<field name="write_only">0</field>
 	<field name="limit_options"></field>
-	<field name="overview">&lt;p&gt;Define the function of Button- or Button+.&lt;br /&gt;Value=0, short pressing the ìButton +/-î will be used to adjust&lt;br /&gt;the volume of sound. Long pressing the ìButton +/-î will be&lt;br /&gt;used to switch the sound to the next.&lt;br /&gt;Value=1, short pressing the ìButton +/-î will be used to switch&lt;br /&gt;the sound to the next. Long pressing the ìButton +/-î will be&lt;br /&gt;used to adjust the volume of sound.&lt;/p&gt;</field>
+	<field name="overview">&lt;p&gt;Define the function of Button- or Button+.&lt;br /&gt;Value=0, short pressing the ‚ÄúButton +/-‚Äù will be used to adjust&lt;br /&gt;the volume of sound. Long pressing the ‚ÄúButton +/-‚Äù will be&lt;br /&gt;used to switch the sound to the next.&lt;br /&gt;Value=1, short pressing the ‚ÄúButton +/-‚Äù will be used to switch&lt;br /&gt;the sound to the next. Long pressing the ‚ÄúButton +/-‚Äù will be&lt;br /&gt;used to adjust the volume of sound.&lt;/p&gt;</field>
   </row>
 
   <row>
@@ -32243,7 +32224,7 @@ Privacy Mode - all user codes disabled and RF Lock/Unlock disabled</field>
 	<field name="limit_options"></field>
 	<field name="overview">&lt;p&gt;It will send the Hail CC/configuration report CC when the state&lt;br /&gt;of garage door is changed:&lt;br /&gt;1, Value=0 , reserved.&lt;br /&gt;2, Value=1 , send Hail CC&lt;/p&gt;
 &lt;p&gt;3, Value=2 , send Barrier operator report CC&lt;/p&gt;
-&lt;p&gt;†&lt;/p&gt;</field>
+&lt;p&gt;¬†&lt;/p&gt;</field>
   </row>
 
   <row>
@@ -32401,10 +32382,10 @@ Privacy Mode - all user codes disabled and RF Lock/Unlock disabled</field>
 	<field name="bitmask">0</field>
 	<field name="label">Power reporting in Watts by time interval</field>
 	<field name="units"></field>
-	<field name="description">Set value means time interval (0 ñ 65535) in seconds, when power report is sent. 
+	<field name="description">Set value means time interval (0 ‚Äì 65535) in seconds, when power report is sent. 
 				Default value is 300 (power report in Watts is sent each 300s)&lt;br/&gt;
 				&lt;ul&gt;&lt;li&gt;0 = Reporting Disabled&lt;/li&gt;
-				&lt;li&gt;1ñ65535 = 1 second ñ 65535 seconds. Reporting enabled</field>
+				&lt;li&gt;1‚Äì65535 = 1 second ‚Äì 65535 seconds. Reporting enabled</field>
 	<field name="size">2</field>
 	<field name="value_min">0</field>
 	<field name="value_max">0</field>
@@ -32422,7 +32403,7 @@ Privacy Mode - all user codes disabled and RF Lock/Unlock disabled</field>
 	<field name="bitmask">0</field>
 	<field name="label">Minimum dimming value</field>
 	<field name="units"></field>
-	<field name="description">Range is 1% ñ 98%, step is 1%.&lt;br/&gt;
+	<field name="description">Range is 1% ‚Äì 98%, step is 1%.&lt;br/&gt;
 				Default value is 1 (Minimum dimming value is 1%)&lt;br/&gt;
 				NOTE: The maximum level may not be lower than the minimum level!&lt;br/&gt; 
 				1% min. dimming value is defined by Z-Wave multilevel device class.</field>
@@ -32443,7 +32424,7 @@ Privacy Mode - all user codes disabled and RF Lock/Unlock disabled</field>
 	<field name="bitmask">0</field>
 	<field name="label">Maximum dimming value</field>
 	<field name="units"></field>
-	<field name="description">Range is 2% ñ 99%, step is 1%.&lt;br/&gt;
+	<field name="description">Range is 2% ‚Äì 99%, step is 1%.&lt;br/&gt;
 				Default value 99 (Maximum dimming value is 99 %)&lt;br/&gt;
 				NOTE: The maximum level may not be lower than the minimum level!&lt;br/&gt; 
 				99% max. dimming value is defined by Z-Wave multilevel device class.</field>
@@ -32551,7 +32532,7 @@ Privacy Mode - all user codes disabled and RF Lock/Unlock disabled</field>
 	<field name="read_only">0</field>
 	<field name="write_only">0</field>
 	<field name="limit_options"></field>
-	<field name="overview">&lt;p&gt;If the switch is accidentally installed upside down with ìOnî at the bottom and ìOffî at the top, the default On/Off rocker settings can be reversed by changing parameter 4ís value to ì1î.&lt;/p&gt;</field>
+	<field name="overview">&lt;p&gt;If the switch is accidentally installed upside down with ‚ÄúOn‚Äù at the bottom and ‚ÄúOff‚Äù at the top, the default On/Off rocker settings can be reversed by changing parameter 4‚Äôs value to ‚Äú1‚Äù.&lt;/p&gt;</field>
   </row>
 
   <row>
