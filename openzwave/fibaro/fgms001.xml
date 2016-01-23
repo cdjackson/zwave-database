@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Product xmlns="http://code.google.com/p/open-zwave/">
+
+  <!-- Configuration Parameters -->
+  <CommandClass id="112">
+    <Value genre="config" instance="1" index=1" value=10" label=Motion Sensor Sensitivity" units="" size=1" min=8" max=255" type="byte">
+      <Help>The lower the value, the more sensitive the PIR sensor. Available settings: 8 - 255.
+			</Help>
+    </Value>
+    <Value genre="config" instance="1" index=2" value=15" label=Motion Sensor Blind Time" units="" size=1" min=0" max=15" type="byte">
+      <Help>Period of time through which the PIR sensor is “blind” (insensitive) to motion.<br>
+After this time period the PIR sensor will be again able to detect motion.<br />
+The longer the insensitivity period, the longer the battery life. If the sensor is requi</Help>
+    </Value>
+    <Value genre="config" instance="1" index=3" value=1" label=PIR Sensor Pulse Time" units="" size=1" min=0" max=3" type="byte">
+      <Help>Sets the number of moves required for the PIR sensor to report motion.<br />
+			The lower the value, the less sensitive the PIR sensor. It’s not recommended to modify this parameter settings.<br />
+			Available settings: 0 - 3. Formula to calculate the </Help>
+    </Value>
+    <Value genre="config" instance="1" index=4" value=2" label=PIR Sensor Window Time" units="" size=1" min=0" max=3" type="byte">
+      <Help>Period of time during which the number of moves set in parameter 3 must be detected in order for the PIR sensor to report motion.<br />
+The higher the value, the more sensitive the PIR sensor. It’s not recommended to modify this parameter setting.<br /></Help>
+    </Value>
+    <Value genre="config" instance="1" index=6" value=30" label=Motion Alarm Cancellation Delay" units="" size=2" min=1" max=65535" type="short">
+      <Help>Motion alarm will be cancelled in the main controller and the associated devices after the period of time set in this parameter.<br />
+Any motion detected during the cancellation delay time countdown will result in the countdown being restarted.<br />
+I</Help>
+    </Value>
+    <Value genre="config" instance="1" index=8" value=0" label=PIR Sensor Operating Mode" units="" size=1" min=0" max=255" type="list">
+      <Help>The parameter determines the part of day in which the PIR sensor will be active.<br />
+This parameter influences only the motion reports and associations.<br />
+Tamper, light intensity and temperature measurements will be still active, regardless of thi</Help>
+      <Item value="0" label="PIR sensor always active">
+      <Item value="1" label="PIR sensor active during the day only">
+      <Item value="2" label="PIR sensor active during the night only">
+    </Value>
+    <Value genre="config" instance="1" index=9" value=200" label=NIGHT / DAY" units="" size=2" min=1" max=65535" type="short">
+      <Help>The parameter defines the difference between night and day, in terms of light intensity, used in parameter 8.
+			</Help>
+    </Value>
+    <Value genre="config" instance="1" index=12" value=0" label=BASIC COMMAND CLASS FRAMES CONFIGURATION" units="" size=1" min=0" max=25" type="list">
+      <Help>The parameter determines the command frames sent in 1-st association group, assigned to PIR sensor.<br>
+Values of BASIC ON and BASIC OFF command frames may be modified by dedicated parameters.
+			</Help>
+      <Item value="0" label="BASIC ON and BASIC OFF command frames sent in Basic Command Class.">
+      <Item value="1" label="Only the BASIC ON command frame sent in Basic Command Class.">
+      <Item value="2" label="only the BASIC OFF command frame sent in Basic Command Class.">
+    </Value>
+    <Value genre="config" instance="1" index=14" value=0" label=BASIC ON command frame value" units="" size=1" min=0" max=255" type="byte">
+      <Help>The value of 255 allows to turn ON a device.<br />
+In case of the Dimmer, the value of 255 means turning ON at the last memorized state,<br />
+e.g. the Dimmer turned ON at 30% and turned OFF using the value of 255, and then turned OFF,<br />
+will be tu</Help>
+    </Value>
+    <Value genre="config" instance="1" index=16" value=0" label=BASIC OFF command frame value" units="" size=1" min=0" max=255" type="byte">
+      <Help>The command frame sent at the moment of motion alarm cancellation,<br />
+after the cancellation delay time, specified in parameter 6, has passed.<br />
+The value of 0 allows to turn a device OFF while the value of 255 allows to turn ON a device.<br />
+</Help>
+    </Value>
+    <Value genre="config" instance="1" index=20" value=15" label=TAMPER SENSITIVITY" units="" size=1" min=0" max=122" type="byte">
+      <Help>The parameter determines the changes in forces acting on the Fibaro Motion Sensor<br />
+resulting in tamper alarm beig reported - g-force acceleration.<br />
+Available settigs: 0 - 122 (0.08 - 2g; multiply by 0.016g; 0 = tamper inactive) 
+			</Help>
+    </Value>
+    <Value genre="config" instance="1" index=22" value=30" label=TAMPER ALARM CANCELLATION DELAY" units="" size=2" min=0" max=65535" type="short">
+      <Help>Time period after which a tamper alarm will be cacelled.<br />
+			Another tampering detected durig the countdown to cancellation will not extend the delay.  
+			</Help>
+    </Value>
+    <Value genre="config" instance="1" index=24" value=0" label=TAMPER OPERATING MODES" units="" size=1" min=0" max=255" type="list">
+      <Help>The parameter determines the behaviour of tamper and how it reports.
+			</Help>
+      <Item value="0" label="Tamper alarm is reported in Sensor Alarm command class / Cancellation ">
+      <Item value="1" label="Tamper alarm is reported in Sensor Alarm command class / Cancellation ">
+      <Item value="2" label="Tamper alarm is reported in Sensor Alarm command class / Cancellation ">
+      <Item value="3" label="Tamper alarm is reported in Sensor Alarm command class / Cancellation ">
+      <Item value="4" label="The maximum level of vibrations recorded in the time period set in par">
+    </Value>
+    <Value genre="config" instance="1" index=26" value=0" label=TAMPER ALARM BROADCAST MODE" units="" size=1" min=0" max=255" type="list">
+      <Help>The parameter determines whether the tamper alarm frame will or will not be sent in broadcast mode.<br />
+Alarm frames sent in broadcast mode may be received by all of the devices within communication range (if they accept such frames). 
+			</Help>
+      <Item value="0" label="Tamper alarm is not sent in broadcast mode.">
+      <Item value="1" label="Tamper alarm sent in broadcast mode.">
+    </Value>
+    <Value genre="config" instance="1" index=40" value=200" label=ILLUMINATION REPORT THRESHOLD" units="" size=2" min=0" max=65535" type="short">
+      <Help>The parameter determines the change in light intensity level resulting in illumination report being sent to the main controller. 
+			</Help>
+    </Value>
+    <Value genre="config" instance="1" index=42" value=0" label=ILLUMINATION REPORTS INTERVAL" units="" size=2" min=0" max=65535" type="short">
+      <Help>Time interval between consecutive illumination reports.<br />
+The reports are sent even if there are no changes in the light intensity.
+			</Help>
+    </Value>
+    <Value genre="config" instance="1" index=60" value=10" label=TEMPERATURE REPORT THRESHOLD" units="" size=1" min=0" max=255" type="byte">
+      <Help>The parameter determines the change in level of temperature resulting in temperature report being sent to the main controller.<br />
+Available settings: 0 - 255 (0.1 - 25.5oC; 0 = reports are not sent) 
+			</Help>
+    </Value>
+    <Value genre="config" instance="1" index=62" value=900" label=INTERVAL OF TEMPERATURE MEASURING" units="" size=2" min=0" max=65535" type="short">
+      <Help>The parameter determines how often the temperature will be measured.<br />
+The shorter the time, the more frequently the temperature will be measured, but the battery life will shorten.<br />
+Available settings: 0 - 65535 (1 - 65535 seconds; 0 = tempera</Help>
+    </Value>
+    <Value genre="config" instance="1" index=64" value=0" label=TEMPERATURE REPORTS INTERVAL" units="" size=2" min=0" max=65535" type="short">
+      <Help>The parameter determines how often the temperature reports will be sent to the main controller.<br />
+Available settings: 0 - 65535 (1 - 65535 sekund; 0 = reports are not sent) 
+			</Help>
+    </Value>
+    <Value genre="config" instance="1" index=66" value=0" label=TEMPERATURE OFFSET" units="" size=2" min=0" max=65535" type="short">
+      <Help>The value to be added to the actual temperature, measured by the sensor (temperature compensation).<br />
+Available settings: 0 - 100 (0 to 100oC) or 64536 - 65535 (-100 to -0.10oC) 
+			</Help>
+    </Value>
+    <Value genre="config" instance="1" index=80" value=10" label=LED SIGNALING MODE" units="" size=1" min=0" max=255" type="list">
+      <Help>The parameter determines the way in which LED diode behaves after motion has been detected.<br />
+Values from 1 to 9 = single long blink at the moment of reporting motion. No other motion will be indicated until alarm is cancelled.<br />
+Values from 10 </Help>
+      <Item value="0" label="LED inactive.">
+      <Item value="1" label="LED colour depends on the temperature. Set by parameters 86 and 87.">
+      <Item value="2" label="Flashlight mode - LED glows in white for 10 seconds.">
+      <Item value="3" label="White.">
+      <Item value="4" label="Red.">
+      <Item value="5" label="Green.">
+      <Item value="6" label="Blue.">
+      <Item value="7" label="Yellow.">
+      <Item value="8" label="Cyan.">
+      <Item value="9" label="Magenta.">
+      <Item value="10" label="LED colour depends on the temperature. Set by parameters 86 and 87.">
+      <Item value="11" label="Flashlight mode - LED glows in white through 10 seconds. Each next det">
+      <Item value="12" label="White.">
+      <Item value="13" label="Red.">
+      <Item value="14" label="Green.">
+      <Item value="15" label="Blue.">
+      <Item value="16" label="Yellow.">
+      <Item value="17" label="Cyan.">
+      <Item value="18" label="Magenta.">
+      <Item value="19" label="LED colour depends on the temperature. Set by parameters 86 and 87.">
+      <Item value="20" label="White.">
+      <Item value="21" label="Red.">
+      <Item value="22" label="Green.">
+      <Item value="23" label="Blue.">
+      <Item value="24" label="Yellow.">
+      <Item value="25" label="Cyan.">
+      <Item value="26" label="Magenta.">
+    </Value>
+    <Value genre="config" instance="1" index=81" value=50" label=LED BRIGHTNESS" units="" size=1" min=0" max=100" type="byte">
+      <Help>The parameter determines the brightness of LED when indicating motion.<BR />
+Available settings: 0 - 100 (1 - 100%; 0 = brightness determined by the ambient lighting - see parameters 82 and 83) 
+			</Help>
+    </Value>
+    <Value genre="config" instance="1" index=82" value=100" label=AMBIENT ILLUMINATION LEVEL BELOW WHICH LED BRIGHTNESS IS SET TO 1%" units="" size=2" min=0" max=100" type="short">
+      <Help>The parameter is relevant only when the parameter 81 is set to 0.<BR />
+Available settings:  0 to  parameter 83 value
+			</Help>
+    </Value>
+    <Value genre="config" instance="1" index=83" value=1000" label=AMBIENT ILLUMINATION LEVEL ABOVE WHICH LED BRIGHTNESS IS SET TO 100%" units="" size=2" min=0" max=100" type="short">
+      <Help>The parameter is relevant only when the parameter 81 is set to 0.<BR />
+Available settings: parameter 82 value to 65535 Default setting: 1 000 (1 000 lux)
+			</Help>
+    </Value>
+    <Value genre="config" instance="1" index=86" value=18" label=MINIMUM TEMPERATURE RESULTING IN BLUE LED ILLUMINATION" units="" size=1" min=0" max=87" type="byte">
+      <Help>This parameter is relevant only when parameter 80 has been properly configured.<BR />Available settings: 0 to parameter 87 value (degrees celsius)<BR/>Default setting: 18 (18oC)
+			</Help>
+    </Value>
+    <Value genre="config" instance="1" index=87" value=28" label=MAXIMUM TEMPERATURE RESULTING IN RED LED ILLUMINATION" units="" size=1" min=86" max=255" type="byte">
+      <Help>This parameter is relevant only when parameter 80 has been properly configured.<BR />
+			Available settings: parameter 86 value to 255 (degrees celsius)<BR/>Default setting: 28 (28oC) 
+			</Help>
+    </Value>
+    <Value genre="config" instance="1" index=89" value=0" label=LED INDICATING TAMPER ALARM" units="" size=1" min=0" max=255" type="list">
+      <Help>Indicating mode resembles a police car (white, red and blue 
+			</Help>
+      <Item value="0" label="LED does not indicate tamper alarm.">
+      <Item value="1" label="LED indicates tamper alarm.">
+    </Value>
+  </CommandClass>
+
+  <!-- Association Groups -->
+  <CommandClass id="133">
+    <Associations num_groups="3">
+      <Group index="1" label="Device Status" max_associations="16" />
+      <Group index="2" label="Tamper Alarm" max_associations="16" />
+      <Group index="3" label="Controller Updates" max_associations="1" auto="true" />
+    </Associations>
+  </CommandClass>
+
+</Product>
+
