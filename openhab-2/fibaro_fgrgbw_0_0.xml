@@ -98,12 +98,10 @@
       </parameter-group>
 
       <parameter name="config_1_1" type="integer" groupName="configuration"
-                 min="0" max="65535">
+                 min="0" max="255">
         <label>1: ALL ON / ALL OFF function activation</label>
         <description><![CDATA[
-Activation/deactivation of ALL ON/ALL OFF functions. By default, ALL ON active ALL OFF active.<BR/>
-                             Default setting: ALL ON active ALL OFF active
-			    !]]></description>
+Activation/deactivation of ALL ON/ALL OFF functions. By default, ALL ON active ALL OFF active.                             Default setting: ALL ON active ALL OFF active			    !]]></description>
         <default>255</default>
         <options>
           <option value="-1">ALL ON active ALL OFF active</option>
@@ -114,12 +112,10 @@ Activation/deactivation of ALL ON/ALL OFF functions. By default, ALL ON active A
       </parameter>
 
       <parameter name="config_6_1" type="integer" groupName="configuration"
-                 min="0" max="65535">
+                 min="0" max="255">
         <label>6: Associations command class choice</label>
         <description><![CDATA[
-Associations command class choice. By default, Normal (Dimmer) - BASIC_SET/SWITCH_MULTILEVEL_START/STOP.<BR/>
-                             Default setting: Normal (Dimmer) - BASIC_SET/SWITCH_MULTILEVEL_START/STOP
-			    !]]></description>
+Associations command class choice. By default, Normal (Dimmer) - BASIC_SET/SWITCH_MULTILEVEL_START/STOP.                             Default setting: Normal (Dimmer) - BASIC_SET/SWITCH_MULTILEVEL_START/STOP			    !]]></description>
         <default>0</default>
         <options>
           <option value="0">Normal (Dimmer) - BASIC_SET/SWITCH_MULTILEVEL_START/STOP</option>
@@ -131,14 +127,10 @@ Associations command class choice. By default, Normal (Dimmer) - BASIC_SET/SWITC
       </parameter>
 
       <parameter name="config_8_1" type="integer" groupName="configuration"
-                 min="0" max="65535">
+                 min="0" max="255">
         <label>8: Outputs state change mode</label>
         <description><![CDATA[
-MODE1, Example: change saturation level from 0% to 99% <BR/> 
-			                 Parameter 9: Step = 5 <BR/> 
-							 Parameter 10: Time between steps: 10ms.<BR/>
-                             Default setting: MODE1
-			    !]]></description>
+MODE1, Example: change saturation level from 0% to 99%  			                 Parameter 9: Step = 5  							 Parameter 10: Time between steps: 10ms.                             Default setting: MODE1			    !]]></description>
         <default>0</default>
         <options>
           <option value="0">MODE1 (related parameters: 9-step value, 10-time between steps)</option>
@@ -216,13 +208,10 @@ Inputs/Outputs configuration - relevant for main controllers other than Home Cen
       </parameter>
 
       <parameter name="config_16_1" type="integer" groupName="configuration"
-                 min="0" max="65535">
+                 min="0" max="255">
         <label>16: Remember device status after power failure</label>
         <description><![CDATA[
-Define how will the Plug react after the power supply is back on.<BR/>
-                              Default setting: 1<BR/>
-                              Available settings:<BR/>
-                              0 - Device does not memorize its state aft    !]]></description>
+Define how will the Plug react after the power supply is back on.                              Default setting: 1                              Available settings:                              0 - Device does not memorize its state aft    !]]></description>
         <default>1</default>
         <options>
           <option value="0">Do not remember state</option>
@@ -231,12 +220,10 @@ Define how will the Plug react after the power supply is back on.<BR/>
       </parameter>
 
       <parameter name="config_30_1" type="integer" groupName="configuration"
-                 min="0" max="65535">
+                 min="0" max="255">
         <label>30: Alarm of any type (General alarm, flood alarm, smoke alarm: CO, CO2, temperature alarm.)</label>
         <description><![CDATA[
-Alarm of any type (General alarm, flood alarm, smoke alarm: CO, CO2, temperature alarm.)<BR/> 
-                             Default setting: INACTIVE
-			    !]]></description>
+Alarm of any type (General alarm, flood alarm, smoke alarm: CO, CO2, temperature alarm.)                              Default setting: INACTIVE			    !]]></description>
         <default>0</default>
         <options>
           <option value="0">INACTIVE - the device doesn't respond to alarm frames</option>
@@ -269,12 +256,10 @@ IActive PROGRAM alarm time.<BR/>
       </parameter>
 
       <parameter name="config_42_1" type="integer" groupName="configuration"
-                 min="0" max="65535">
+                 min="0" max="255">
         <label>42: Command class reporting Outputs status change</label>
         <description><![CDATA[
-Command class reporting Outputs status change.<BR/>
-                              Default setting: 0
-			    !]]></description>
+Command class reporting Outputs status change.                              Default setting: 0			    !]]></description>
         <default>0</default>
         <options>
           <option value="0">Reporting as a result of inputs and controllers actions (SWITCH MULTIL</option>
@@ -316,12 +301,10 @@ Defines the required change in power to generate an unsolicited power report.<BR
       </parameter>
 
       <parameter name="config_71_1" type="integer" groupName="configuration"
-                 min="0" max="65535">
+                 min="0" max="255">
         <label>71: Response to BRIGHTNESS set to 0%</label>
         <description><![CDATA[
-Response to BRIGHTNESS set to 0%.<BR/>
-                              Default setting: 1
-			    !]]></description>
+Response to BRIGHTNESS set to 0%.                              Default setting: 1			    !]]></description>
         <default>1</default>
         <options>
           <option value="0">illumination colour set to white (all channels controlled together)</option>
@@ -341,12 +324,10 @@ Starting animation programm.<BR/>
       </parameter>
 
       <parameter name="config_73_1" type="integer" groupName="configuration"
-                 min="0" max="65535">
+                 min="0" max="255">
         <label>73: Triple click action</label>
         <description><![CDATA[
-Triple click action.<BR/>
-                              Default setting: 0
-			    !]]></description>
+Triple click action.                              Default setting: 0			    !]]></description>
         <default>0</default>
         <options>
           <option value="0">NODE INFO control frame is sent</option>

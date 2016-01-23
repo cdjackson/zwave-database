@@ -3,31 +3,23 @@
 
   <!-- Configuration Parameters -->
   <CommandClass id="112">
-    <Value genre="config" instance="1" index=1" value=255" label=ALL ON / ALL OFF function activation" units="" size=1" min=0" max=65535" type="list">
-      <Help>Activation/deactivation of ALL ON/ALL OFF functions. By default, ALL ON active ALL OFF active.<BR/>
-                             Default setting: ALL ON active ALL OFF active
-			</Help>
+    <Value genre="config" instance="1" index=1" value=255" label=ALL ON / ALL OFF function activation" units="" size=1" min=0" max=255" type="list">
+      <Help>Activation/deactivation of ALL ON/ALL OFF functions. By default, ALL ON active ALL OFF active.                             Default setting: ALL ON active ALL OFF active			</Help>
       <Item value="-1" label="ALL ON active ALL OFF active">
       <Item value="0" label="ALL ON inactive ALL OFF inactive">
       <Item value="1" label="ALL ON inactive ALL OFF active">
       <Item value="2" label="ALL ON active ALL OFF inactive">
     </Value>
-    <Value genre="config" instance="1" index=6" value=0" label=Associations command class choice" units="" size=1" min=0" max=65535" type="list">
-      <Help>Associations command class choice. By default, Normal (Dimmer) - BASIC_SET/SWITCH_MULTILEVEL_START/STOP.<BR/>
-                             Default setting: Normal (Dimmer) - BASIC_SET/SWITCH_MULTILEVEL_START/STOP
-			</Help>
+    <Value genre="config" instance="1" index=6" value=0" label=Associations command class choice" units="" size=1" min=0" max=255" type="list">
+      <Help>Associations command class choice. By default, Normal (Dimmer) - BASIC_SET/SWITCH_MULTILEVEL_START/STOP.                             Default setting: Normal (Dimmer) - BASIC_SET/SWITCH_MULTILEVEL_START/STOP			</Help>
       <Item value="0" label="Normal (Dimmer) - BASIC_SET/SWITCH_MULTILEVEL_START/STOP">
       <Item value="1" label="Normal (RGBW) - COLOR_CONTROL_SET/START/STOP_STATE_CHANGE">
       <Item value="2" label="Normal (RGBW) - COLOR_CONTROL_SET">
       <Item value="3" label="Brightness - BASIC_SET/SWITCH_MULTILEVEL_START/STOP">
       <Item value="4" label="Rainbow (RGBW) - COLOR_CONTROL_SET">
     </Value>
-    <Value genre="config" instance="1" index=8" value=0" label=Outputs state change mode" units="" size=1" min=0" max=65535" type="list">
-      <Help>MODE1, Example: change saturation level from 0% to 99% <BR/> 
-			                 Parameter 9: Step = 5 <BR/> 
-							 Parameter 10: Time between steps: 10ms.<BR/>
-                             Default setting: MODE1
-			</Help>
+    <Value genre="config" instance="1" index=8" value=0" label=Outputs state change mode" units="" size=1" min=0" max=255" type="list">
+      <Help>MODE1, Example: change saturation level from 0% to 99%  			                 Parameter 9: Step = 5  							 Parameter 10: Time between steps: 10ms.                             Default setting: MODE1			</Help>
       <Item value="0" label="MODE1 (related parameters: 9-step value, 10-time between steps)">
       <Item value="1" label="MODE2 (related parameters: 11-time to change value, relevant for RGB/R">
     </Value>
@@ -70,18 +62,13 @@
 			                 Controlled device: RGBW, toggle switch inputs (NORMAL MODE).<BR/>
                       </Help>
     </Value>
-    <Value genre="config" instance="1" index=16" value=1" label=Remember device status after power failure" units="" size=1" min=0" max=65535" type="list">
-      <Help>Define how will the Plug react after the power supply is back on.<BR/>
-                              Default setting: 1<BR/>
-                              Available settings:<BR/>
-                              0 - Device does not memorize its state aft</Help>
+    <Value genre="config" instance="1" index=16" value=1" label=Remember device status after power failure" units="" size=1" min=0" max=255" type="list">
+      <Help>Define how will the Plug react after the power supply is back on.                              Default setting: 1                              Available settings:                              0 - Device does not memorize its state aft</Help>
       <Item value="0" label="Do not remember state">
       <Item value="1" label="Remember state before power failure">
     </Value>
-    <Value genre="config" instance="1" index=30" value=0" label=Alarm of any type (General alarm, flood alarm, smoke alarm: CO, CO2, temperature alarm.)" units="" size=1" min=0" max=65535" type="list">
-      <Help>Alarm of any type (General alarm, flood alarm, smoke alarm: CO, CO2, temperature alarm.)<BR/> 
-                             Default setting: INACTIVE
-			</Help>
+    <Value genre="config" instance="1" index=30" value=0" label=Alarm of any type (General alarm, flood alarm, smoke alarm: CO, CO2, temperature alarm.)" units="" size=1" min=0" max=255" type="list">
+      <Help>Alarm of any type (General alarm, flood alarm, smoke alarm: CO, CO2, temperature alarm.)                              Default setting: INACTIVE			</Help>
       <Item value="0" label="INACTIVE - the device doesn't respond to alarm frames">
       <Item value="1" label="ALARM ON - the device turns on once alarm is detected (all channels se">
       <Item value="2" label="ALARM OFF - the device turns off once alarm is detected (all channels ">
@@ -99,10 +86,8 @@
                              1-65534 specifies alarm time in seconds.
 			</Help>
     </Value>
-    <Value genre="config" instance="1" index=42" value=0" label=Command class reporting Outputs status change" units="" size=1" min=0" max=65535" type="list">
-      <Help>Command class reporting Outputs status change.<BR/>
-                              Default setting: 0
-			</Help>
+    <Value genre="config" instance="1" index=42" value=0" label=Command class reporting Outputs status change" units="" size=1" min=0" max=255" type="list">
+      <Help>Command class reporting Outputs status change.                              Default setting: 0			</Help>
       <Item value="0" label="Reporting as a result of inputs and controllers actions (SWITCH MULTIL">
       <Item value="1" label="Reporting as a result of inputs actions (SWITCH MULTILEVEL)">
       <Item value="2" label="Reporting as a result of inputs actions (COLOR CONTROL)">
@@ -124,10 +109,8 @@
 							 Default setting: 10 (0,1 kWh).<BR/>
                              </Help>
     </Value>
-    <Value genre="config" instance="1" index=71" value=1" label=Response to BRIGHTNESS set to 0%" units="" size=1" min=0" max=65535" type="list">
-      <Help>Response to BRIGHTNESS set to 0%.<BR/>
-                              Default setting: 1
-			</Help>
+    <Value genre="config" instance="1" index=71" value=1" label=Response to BRIGHTNESS set to 0%" units="" size=1" min=0" max=255" type="list">
+      <Help>Response to BRIGHTNESS set to 0%.                              Default setting: 1			</Help>
       <Item value="0" label="illumination colour set to white (all channels controlled together)">
       <Item value="1" label="last set colour is memorized">
     </Value>
@@ -137,10 +120,8 @@
 			                 Default setting: 1<BR/>
   </Help>
     </Value>
-    <Value genre="config" instance="1" index=73" value=0" label=Triple click action" units="" size=1" min=0" max=65535" type="list">
-      <Help>Triple click action.<BR/>
-                              Default setting: 0
-			</Help>
+    <Value genre="config" instance="1" index=73" value=0" label=Triple click action" units="" size=1" min=0" max=255" type="list">
+      <Help>Triple click action.                              Default setting: 0			</Help>
       <Item value="0" label="NODE INFO control frame is sent">
       <Item value="1" label="starting favourite program">
     </Value>
