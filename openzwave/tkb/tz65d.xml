@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Product xmlns="http://code.google.com/p/open-zwave/">
+
+  <!-- Configuration Parameters -->
+  <CommandClass id="112">
+    <Value genre="config" instance="1" index=1" value=1" label=Ignore start level" units="" size=1" min=0" max=1" type="list">
+      <Help>Ignore start level when transmitting a dim command to the dimmer</Help>
+      <Item value="0" label="Ignore">
+      <Item value="1" label="Don't ignore">
+    </Value>
+    <Value genre="config" instance="1" index=2" value=0" label=Suspend Group 4" units="" size=1" min=0" max=1" type="list">
+      <Help>Setting this parameter will disable transmitting commands to devices in association group 4</Help>
+      <Item value="0" label="Transmit to group 4">
+      <Item value="1" label="Disable transmitting to group 4">
+    </Value>
+    <Value genre="config" instance="1" index=3" value=0" label=Blue LED light Behavior" units="" size=1" min=0" max=1" type="list">
+      <Help>Defines the behavior of the blue LED. Default is Night Light mode where LED is on when switch is off</Help>
+      <Item value="0" label="Led on when switch on">
+      <Item value="1" label="Night light">
+    </Value>
+    <Value genre="config" instance="1" index=4" value=0" label=Invert Switch" units="" size=1" min=0" max=1" type="list">
+      <Help>To change the top of the switch to off and the botton to on</Help>
+      <Item value="0" label="ON on top">
+      <Item value="1" label="OFF on top">
+    </Value>
+    <Value genre="config" instance="1" index=14" value=0" label=Enable Shade Control Group 2" units="" size=1" min=0" max=1" type="list">
+      <Help>Enable the control of shade devices in association group 2 when this option is activated</Help>
+      <Item value="0" label="Inactive">
+      <Item value="1" label="Shade Control">
+    </Value>
+    <Value genre="config" instance="1" index=15" value=0" label=Enable Shade Control Group 3" units="" size=1" min=0" max=1" type="list">
+      <Help>Enable the control of shade devices in association group 3 when this option is activated</Help>
+      <Item value="0" label="Inactive">
+      <Item value="1" label="Shade Control">
+    </Value>
+    <Value genre="config" instance="1" index=19" value=2" label=Blue LED light behavior on transmission" units="" size=1" min=0" max=2" type="list">
+      <Help>Defines the behavior of the blue LED when transmission of data</Help>
+      <Item value="0" label="LED does not blinks on activity">
+      <Item value="1" label="LED blinks on activity all the time">
+      <Item value="2" label="LED blinks on activity 1 second">
+    </Value>
+    <Value genre="config" instance="1" index=20" value=2" label=Poll Group 2 Interval (minutes)" units="" size=1" min=1" max=255" type="byte">
+      <Help>Polling Interval in minutes (default 2)</Help>
+    </Value>
+    <Value genre="config" instance="1" index=22" value=1" label=Poll Group 2" units="" size=1" min=0" max=1" type="list">
+      <Help>Defines if the device will poll association Group 2 at the interval defined in parameter 20</Help>
+      <Item value="0" label="Disabled">
+      <Item value="1" label="Enabled">
+    </Value>
+  </CommandClass>
+
+  <!-- Association Groups -->
+  <CommandClass id="133">
+    <Associations num_groups="4">
+      <Group index="1" label="Group 1" max_associations="5" />
+      <Group index="2" label="Group 2" max_associations="5" />
+      <Group index="3" label="Group 3" max_associations="5" />
+      <Group index="4" label="Group 4" max_associations="5" auto="true" />
+    </Associations>
+  </CommandClass>
+
+</Product>
+
