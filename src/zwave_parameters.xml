@@ -7983,9 +7983,9 @@ calibration value = 8 – 9 = -1 (0xFE).</field>
 	<field name="value_min">0</field>
 	<field name="value_max">65535</field>
 	<field name="value_default">0</field>
-	<field name="read_only"></field>
-	<field name="write_only"></field>
-	<field name="limit_options"></field>
+	<field name="read_only">0</field>
+	<field name="write_only">0</field>
+	<field name="limit_options">0</field>
 	<field name="overview"></field>
   </row>
 
@@ -8001,9 +8001,9 @@ calibration value = 8 – 9 = -1 (0xFE).</field>
 	<field name="value_min">0</field>
 	<field name="value_max">65535</field>
 	<field name="value_default">0</field>
-	<field name="read_only"></field>
-	<field name="write_only"></field>
-	<field name="limit_options"></field>
+	<field name="read_only">0</field>
+	<field name="write_only">0</field>
+	<field name="limit_options">0</field>
 	<field name="overview"></field>
   </row>
 

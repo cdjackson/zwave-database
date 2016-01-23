@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Product xmlns="http://code.google.com/p/open-zwave/">
+
+  <!-- Configuration Parameters -->
+  <CommandClass id="112">
+    <Value genre="config" instance="1" index=1" value=2" label=No communication light" units="" size=1" min=0" max=65535" type="byte">
+      <Help>After how many minutes the GreenWave device should start flashing if the controller didn't communicate with this device</Help>
+    </Value>
+    <Value genre="config" instance="1" index=2" value=0" label=Room color" units="" size=1" min=0" max=65535" type="list">
+      <Help>The room color (Corner wheel color) on the GreenWave device</Help>
+      <Item value="128" label="Black">
+      <Item value="129" label="Green">
+      <Item value="130" label="Dark Blue">
+      <Item value="131" label="Red">
+      <Item value="132" label="Yellow">
+      <Item value="133" label="Purple">
+      <Item value="134" label="Orange">
+      <Item value="135" label="Light Blue">
+      <Item value="136" label="Pink">
+      <Item value="137" label="Locked">
+    </Value>
+  </CommandClass>
+
+</Product>
+

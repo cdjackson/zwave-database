@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Product>
+  <Model>NP210</Model>
+  <Label lang="en">Smart PowerNode</Label>
+
+  <Configuration>
+
+    <Parameter>
+      <Index>1</Index>
+      <Label lang="en">No communication light</Label>
+      <Type>short</Type>
+      <Default>2</Default>
+      <Minimum>0</Minimum>
+      <Maximum>65535</Maximum>
+      <Size>1</Size>
+    </Parameter>
+
+    <Parameter>
+      <Index>2</Index>
+      <Label lang="en">Room color</Label>
+      <Type>list</Type>
+      <Default>0</Default>
+      <Minimum>0</Minimum>
+      <Maximum>65535</Maximum>
+      <Size>1</Size>
+      <Item>
+        <Value>128</Value>
+        <Label lang="en">Black</Label>
+      </Item>
+      <Item>
+        <Value>129</Value>
+        <Label lang="en">Green</Label>
+      </Item>
+      <Item>
+        <Value>130</Value>
+        <Label lang="en">Dark Blue</Label>
+      </Item>
+      <Item>
+        <Value>131</Value>
+        <Label lang="en">Red</Label>
+      </Item>
+      <Item>
+        <Value>132</Value>
+        <Label lang="en">Yellow</Label>
+      </Item>
+      <Item>
+        <Value>133</Value>
+        <Label lang="en">Purple</Label>
+      </Item>
+      <Item>
+        <Value>134</Value>
+        <Label lang="en">Orange</Label>
+      </Item>
+      <Item>
+        <Value>135</Value>
+        <Label lang="en">Light Blue</Label>
+      </Item>
+      <Item>
+        <Value>136</Value>
+        <Label lang="en">Pink</Label>
+      </Item>
+      <Item>
+        <Value>137</Value>
+        <Label lang="en">Locked</Label>
+      </Item>
+    </Parameter>
+
+  </Configuration>
+
+  <Associations>
+
+  </Associations>
+
+</Product>
+
