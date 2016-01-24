@@ -5,9 +5,50 @@
 
     <CommandClasses>
         <Class>
+            <id>0x72</id>             <!-- MANUFACTURER_SPECIFIC -->
+        </Class>
+        <Class>
+            <id>0x30</id>             <!-- SENSOR_BINARY -->
+        </Class>
+        <Class>
+            <id>0x70</id>             <!-- CONFIGURATION -->
+        </Class>
+        <Class>
+            <id>0x9C</id>             <!-- SENSOR_ALARM -->
+        </Class>
+        <Class>
+            <id>0x8F</id>             <!-- MULTI_CMD -->
+        </Class>
+        <Class>
+            <id>0x80</id>             <!-- BATTERY -->
+        </Class>
+        <Class>
+            <id>0x84</id>             <!-- WAKE_UP -->
+        </Class>
+        <Class>
+            <id>0x20</id>             <!-- BASIC -->
+        </Class>
+        <Class>
+            <id>0x00</id>             <!-- NO_OPERATION -->
+        </Class>
+        <Class>
+            <id>0x86</id>             <!-- VERSION -->
+        </Class>
+        <Class>
+            <id>0x56</id>             <!-- CRC_16_ENCAP -->
+        </Class>
+        <Class>
+            <id>0x85</id>             <!-- ASSOCIATION -->
+        </Class>
+        <Class>
             <id>0x31</id>             <!-- SENSOR_MULTILEVEL -->
-            <endpoint>0</endpoint>
             <isGetSupported>false</isGetSupported>
+        </Class>
+        <Class>
+            <id>0x8E</id>             <!-- MULTI_INSTANCE_ASSOCIATION -->
+        </Class>
+        <Class>
+            <id>0xEF</id>             <!-- MARK -->
         </Class>
     </CommandClasses>
 
