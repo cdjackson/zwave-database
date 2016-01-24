@@ -451,4 +451,34 @@
 	<field name="genericclass">19</field>
 	<field name="specificclass">45</field>
   </row>
+
+  <row>
+	<field name="id">48</field>
+	<field name="device">83</field>
+	<field name="number">0</field>
+	<field name="label">Endpoint 0</field>
+	<field name="basicclass">5</field>
+	<field name="genericclass">11</field>
+	<field name="specificclass">22</field>
+  </row>
+
+  <row>
+	<field name="id">49</field>
+	<field name="device">26</field>
+	<field name="number">0</field>
+	<field name="label">Endpoint 0</field>
+	<field name="basicclass">4</field>
+	<field name="genericclass">11</field>
+	<field name="specificclass">22</field>
+  </row>
+
+  <row>
+	<field name="id">50</field>
+	<field name="device">33</field>
+	<field name="number">0</field>
+	<field name="label">Endpoint 0</field>
+	<field name="basicclass">5</field>
+	<field name="genericclass">26</field>
+	<field name="specificclass">59</field>
+  </row>
 </resultset>

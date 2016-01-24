@@ -266,7 +266,7 @@
   <row>
 	<field name="id">30</field>
 	<field name="commandclass">104</field>
-	<field name="name"></field>
+	<field name="name">alarm_flood</field>
 	<field name="config">sensorType=FLOOD</field>
 	<field name="label">Alarm (water)</field>
 	<field name="overview"></field>
@@ -275,16 +275,16 @@
   <row>
 	<field name="id">31</field>
 	<field name="commandclass">104</field>
-	<field name="name"></field>
+	<field name="name">alarm_co</field>
 	<field name="config">sensorType=CARBON_MONOXIDE</field>
-	<field name="label">Alarm (CO2)</field>
+	<field name="label">Alarm (CO)</field>
 	<field name="overview"></field>
   </row>
 
   <row>
 	<field name="id">32</field>
 	<field name="commandclass">104</field>
-	<field name="name"></field>
+	<field name="name">alarm_smoke</field>
 	<field name="config">sensorType=SMOKE</field>
 	<field name="label">Alarm (smoke)</field>
 	<field name="overview"></field>
@@ -293,16 +293,16 @@
   <row>
 	<field name="id">33</field>
 	<field name="commandclass">104</field>
-	<field name="name"></field>
+	<field name="name">alarm_co2</field>
 	<field name="config">sensorType=CARBON_DIOXIDE</field>
-	<field name="label">Alarm (CO)</field>
+	<field name="label">Alarm (CO2)</field>
 	<field name="overview"></field>
   </row>
 
   <row>
 	<field name="id">34</field>
 	<field name="commandclass">104</field>
-	<field name="name"></field>
+	<field name="name">alarm_general</field>
 	<field name="config">sensorType=GENERAL</field>
 	<field name="label">Alarm (general)</field>
 	<field name="overview"></field>
@@ -311,9 +311,9 @@
   <row>
 	<field name="id">35</field>
 	<field name="commandclass">104</field>
-	<field name="name"></field>
+	<field name="name">alarm_heat</field>
 	<field name="config">sensorType=HEAT</field>
-	<field name="label">Alarm (volts)</field>
+	<field name="label">Alarm (heat)</field>
 	<field name="overview"></field>
   </row>
 
@@ -509,7 +509,7 @@
   <row>
 	<field name="id">57</field>
 	<field name="commandclass">141</field>
-	<field name="name"></field>
+	<field name="name">alarm_smoke</field>
 	<field name="config">sensorType=SMOKE</field>
 	<field name="label">Alarm (smoke)</field>
 	<field name="overview"></field>
@@ -518,7 +518,7 @@
   <row>
 	<field name="id">58</field>
 	<field name="commandclass">141</field>
-	<field name="name"></field>
+	<field name="name">alarm_general</field>
 	<field name="config">sensorType=GENERAL</field>
 	<field name="label">Alarm (general)</field>
 	<field name="overview"></field>
@@ -527,9 +527,9 @@
   <row>
 	<field name="id">59</field>
 	<field name="commandclass">141</field>
-	<field name="name"></field>
+	<field name="name">alarm_heat</field>
 	<field name="config">sensorType=HEAT</field>
-	<field name="label">Alarm (volts)</field>
+	<field name="label">Alarm (heat)</field>
 	<field name="overview"></field>
   </row>
 
@@ -689,7 +689,7 @@
   <row>
 	<field name="id">77</field>
 	<field name="commandclass">236</field>
-	<field name="name"></field>
+	<field name="name">alarm_general</field>
 	<field name="config">sensorType=GENERAL</field>
 	<field name="label">Alarm (general)</field>
 	<field name="overview"></field>
@@ -935,6 +935,114 @@
 	<field name="name">binary_sensor</field>
 	<field name="config"></field>
 	<field name="label">Binary Sensor</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">105</field>
+	<field name="commandclass">348</field>
+	<field name="name">binary_sensor</field>
+	<field name="config"></field>
+	<field name="label">Binary Sensor</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">106</field>
+	<field name="commandclass">350</field>
+	<field name="name">electric_powerfactor</field>
+	<field name="config">meterScale=E_Power_Factor</field>
+	<field name="label">Electric meter (power factor)</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">107</field>
+	<field name="commandclass">350</field>
+	<field name="name">electric_current</field>
+	<field name="config">meterScale=E_A</field>
+	<field name="label">Electric meter (amps)</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">108</field>
+	<field name="commandclass">350</field>
+	<field name="name">w_gallons</field>
+	<field name="config">meterScale=W_Gallons</field>
+	<field name="label">Electric meter (W_Gallons)</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">109</field>
+	<field name="commandclass">350</field>
+	<field name="name">electric_pulse</field>
+	<field name="config">meterScale=E_Pulses</field>
+	<field name="label">Electric meter (pulses)</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">110</field>
+	<field name="commandclass">350</field>
+	<field name="name">power_voltage</field>
+	<field name="config">meterScale=E_V</field>
+	<field name="label">Electric meter (volts)</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">111</field>
+	<field name="commandclass">350</field>
+	<field name="name">electric_watts</field>
+	<field name="config">meterScale=E_W</field>
+	<field name="label">Electric meter (watts)</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">112</field>
+	<field name="commandclass">350</field>
+	<field name="name">electric_kwh</field>
+	<field name="config">meterScale=E_KWh</field>
+	<field name="label">Electric meter (kWh)</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">113</field>
+	<field name="commandclass">353</field>
+	<field name="name">switch</field>
+	<field name="config"></field>
+	<field name="label">Switch</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">114</field>
+	<field name="commandclass">365</field>
+	<field name="name">switch</field>
+	<field name="config"></field>
+	<field name="label">Switch</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">115</field>
+	<field name="commandclass">367</field>
+	<field name="name">alarm_smoke</field>
+	<field name="config">sensorType=SMOKE</field>
+	<field name="label">Alarm (smoke)</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">116</field>
+	<field name="commandclass">370</field>
+	<field name="name">alarm_smoke</field>
+	<field name="config">sensorType=SMOKE</field>
+	<field name="label">Alarm (smoke)</field>
 	<field name="overview"></field>
   </row>
 </resultset>
