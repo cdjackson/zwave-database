@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Product xmlns="http://code.google.com/p/open-zwave/">
+
+  <!-- Configuration Parameters -->
+  <CommandClass id="112">
+    <Value genre="config" instance="1" index=1" value=0" label=Multilevel Sensor Report Content" units="" size=1" min=0" max=1" type="list">
+      <Help></Help>
+      <Item value="0" label="Power">
+      <Item value="1" label="Voltage">
+    </Value>
+    <Value genre="config" instance="1" index=2" value=0" label=Make SES blink" units="" size=2" min=0" max=65535" type="short">
+      <Help></Help>
+    </Value>
+    <Value genre="config" instance="1" index=80" value=0" label=Automatic Notifications" units="" size=1" min=0" max=2" type="list">
+      <Help>Enables automatic notifications to associated devices whenever there is a state change</Help>
+      <Item value="0" label="Nothing">
+      <Item value="1" label="Hail">
+      <Item value="2" label="Basic CC Report">
+    </Value>
+    <Value genre="config" instance="1" index=90" value=0" label=Enable/disable Parameter 91 and 92" units="" size=1" min=0" max=2" type="list">
+      <Help>Enables/disables parameter 91 and 92 below</Help>
+      <Item value="0" label="Disable">
+      <Item value="1" label="Enable">
+    </Value>
+    <Value genre="config" instance="1" index=91" value=50" label=Minimum change in wattage" units="" size=2" min=0" max=65535" type="short">
+      <Help>The value here represents minimum change in wattage (in terms of wattage) for a REPORT to be sent.</Help>
+    </Value>
+    <Value genre="config" instance="1" index=92" value=10" label=Minimum change in wattage %" units="" size=1" min=0" max=100" type="byte">
+      <Help>The value here represents minimum change in wattage percent (in terms of percentage) for a REPORT to be sent.</Help>
+    </Value>
+    <Value genre="config" instance="1" index=100" value=0" label=Set 100 to 103 to default" units="" size=1" min=0" max=1" type="list">
+      <Help></Help>
+      <Item value="0" label="Reset">
+    </Value>
+    <Value genre="config" instance="1" index=101" value=8" label=Group 1 report" units="" size=4" min=0" max=65535" type="list">
+      <Help></Help>
+      <Item value="2" label="Multisensor Report">
+      <Item value="4" label="Meter Report (Watts)">
+      <Item value="8" label="Meter Report (kWh)">
+    </Value>
+    <Value genre="config" instance="1" index=102" value=0" label=Group 2 report" units="" size=4" min=0" max=65535" type="list">
+      <Help></Help>
+      <Item value="2" label="Multisensor Report">
+      <Item value="4" label="Meter Report (Watts)">
+      <Item value="8" label="Meter Report (kWh)">
+    </Value>
+    <Value genre="config" instance="1" index=103" value=0" label=Group 3 report" units="" size=4" min=0" max=65535" type="list">
+      <Help></Help>
+      <Item value="2" label="Multisensor Report">
+      <Item value="4" label="Meter Report (Watts)">
+      <Item value="8" label="Meter Report (kWh)">
+    </Value>
+    <Value genre="config" instance="1" index=110" value=0" label=Set 111 to 113 to default" units="" size=1" min=0" max=1" type="list">
+      <Help></Help>
+      <Item value="0" label="Reset">
+    </Value>
+    <Value genre="config" instance="1" index=111" value=600" label=Interval Group 1" units="" size=4" min=0" max=65535" type="int">
+      <Help>The time interval (in seconds) for sending report to Group 1</Help>
+    </Value>
+    <Value genre="config" instance="1" index=112" value=600" label=Interval Group 2" units="" size=4" min=0" max=65535" type="int">
+      <Help>The time interval (in seconds) for sending report to Group 2</Help>
+    </Value>
+    <Value genre="config" instance="1" index=113" value=600" label=Interval Group 3" units="" size=4" min=0" max=65535" type="int">
+      <Help>The time interval (in seconds) for sending report to Group 3</Help>
+    </Value>
+    <Value genre="config" instance="1" index=254" value=0" label=Device Tag" units="" size=2" min=0" max=65535" type="short">
+      <Help></Help>
+    </Value>
+    <Value genre="config" instance="1" index=255" value=0" label=Device Reset" units="" size=1" min=0" max=1" type="list">
+      <Help></Help>
+      <Item value="0" label="Reset">
+    </Value>
+  </CommandClass>
+
+  <!-- Association Groups -->
+  <CommandClass id="133">
+    <Associations num_groups="1">
+      <Group index="1" label="Status Reports" max_associations="5" />
+    </Associations>
+  </CommandClass>
+
+</Product>
+
