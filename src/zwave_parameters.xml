@@ -32742,4 +32742,112 @@ Privacy Mode - all user codes disabled and RF Lock/Unlock disabled</field>
 	<field name="limit_options"></field>
 	<field name="overview"></field>
   </row>
+
+  <row>
+	<field name="id">1739</field>
+	<field name="device">263</field>
+	<field name="param_id">0</field>
+	<field name="bitmask">0</field>
+	<field name="label">Repetitions of ringtone</field>
+	<field name="units"></field>
+	<field name="description">If the time of playing doorbell ringtone is more than 20s, the volume of ringtone will reduce to silence no matter how many repetitions of doorbell ringtone are set. Default=2</field>
+	<field name="size">1</field>
+	<field name="value_min">0</field>
+	<field name="value_max">100</field>
+	<field name="value_default">2</field>
+	<field name="read_only"></field>
+	<field name="write_only"></field>
+	<field name="limit_options"></field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">1740</field>
+	<field name="device">263</field>
+	<field name="param_id">5</field>
+	<field name="bitmask">0</field>
+	<field name="label">Default ringtone</field>
+	<field name="units"></field>
+	<field name="description">Set the default doorbell ringtone. Default=1</field>
+	<field name="size">1</field>
+	<field name="value_min">1</field>
+	<field name="value_max">100</field>
+	<field name="value_default">1</field>
+	<field name="read_only"></field>
+	<field name="write_only"></field>
+	<field name="limit_options"></field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">1741</field>
+	<field name="device">263</field>
+	<field name="param_id">6</field>
+	<field name="bitmask">0</field>
+	<field name="label">Ringtone to play</field>
+	<field name="units"></field>
+	<field name="description">Set a ringtone to play. Default=0</field>
+	<field name="size">1</field>
+	<field name="value_min">0</field>
+	<field name="value_max">100</field>
+	<field name="value_default">0</field>
+	<field name="read_only"></field>
+	<field name="write_only"></field>
+	<field name="limit_options"></field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">1742</field>
+	<field name="device">263</field>
+	<field name="param_id">7</field>
+	<field name="bitmask">0</field>
+	<field name="label">Send Basic Set on open/close event</field>
+	<field name="units"></field>
+	<field name="description">Default=0</field>
+	<field name="size">1</field>
+	<field name="value_min">0</field>
+	<field name="value_max">0</field>
+	<field name="value_default">0</field>
+	<field name="read_only"></field>
+	<field name="write_only"></field>
+	<field name="limit_options"></field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">1743</field>
+	<field name="device">263</field>
+	<field name="param_id">8</field>
+	<field name="bitmask">0</field>
+	<field name="label">Ringtone volume</field>
+	<field name="units"></field>
+	<field name="description">Default=10</field>
+	<field name="size">1</field>
+	<field name="value_min">0</field>
+	<field name="value_max">10</field>
+	<field name="value_default">10</field>
+	<field name="read_only"></field>
+	<field name="write_only"></field>
+	<field name="limit_options"></field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">1744</field>
+	<field name="device">263</field>
+	<field name="param_id">80</field>
+	<field name="bitmask">0</field>
+	<field name="label">Enable Notifications</field>
+	<field name="units"></field>
+	<field name="description">Enable to send notifications to associated devices (Group1) when the state of Siren changed (0=nothing,1=hailCC,2=basic CC report).</field>
+	<field name="size">1</field>
+	<field name="value_min">0</field>
+	<field name="value_max">60000</field>
+	<field name="value_default">25</field>
+	<field name="read_only"></field>
+	<field name="write_only"></field>
+	<field name="limit_options"></field>
+	<field name="overview"></field>
+  </row>
 </resultset>

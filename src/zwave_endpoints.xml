@@ -481,4 +481,14 @@
 	<field name="genericclass">26</field>
 	<field name="specificclass">59</field>
   </row>
+
+  <row>
+	<field name="id">51</field>
+	<field name="device">163</field>
+	<field name="number">0</field>
+	<field name="label">Endpoint 0</field>
+	<field name="basicclass">5</field>
+	<field name="genericclass">8</field>
+	<field name="specificclass">17</field>
+  </row>
 </resultset>

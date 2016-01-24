@@ -948,38 +948,11 @@
   </row>
 
   <row>
-	<field name="id">106</field>
-	<field name="commandclass">350</field>
-	<field name="name">electric_powerfactor</field>
-	<field name="config">meterScale=E_Power_Factor</field>
-	<field name="label">Electric meter (power factor)</field>
-	<field name="overview"></field>
-  </row>
-
-  <row>
 	<field name="id">107</field>
 	<field name="commandclass">350</field>
 	<field name="name">electric_current</field>
 	<field name="config">meterScale=E_A</field>
 	<field name="label">Electric meter (amps)</field>
-	<field name="overview"></field>
-  </row>
-
-  <row>
-	<field name="id">108</field>
-	<field name="commandclass">350</field>
-	<field name="name">w_gallons</field>
-	<field name="config">meterScale=W_Gallons</field>
-	<field name="label">Electric meter (W_Gallons)</field>
-	<field name="overview"></field>
-  </row>
-
-  <row>
-	<field name="id">109</field>
-	<field name="commandclass">350</field>
-	<field name="name">electric_pulse</field>
-	<field name="config">meterScale=E_Pulses</field>
-	<field name="label">Electric meter (pulses)</field>
 	<field name="overview"></field>
   </row>
 
@@ -1043,6 +1016,15 @@
 	<field name="name">alarm_smoke</field>
 	<field name="config">sensorType=SMOKE</field>
 	<field name="label">Alarm (smoke)</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">117</field>
+	<field name="commandclass">377</field>
+	<field name="name">setpoint</field>
+	<field name="config">setpointType=HEATING</field>
+	<field name="label">Setpoint (heating)</field>
 	<field name="overview"></field>
   </row>
 </resultset>

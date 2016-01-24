@@ -5576,4 +5576,15 @@ state and reflect</field>
 	<field name="controller">0</field>
 	<field name="overview"></field>
   </row>
+
+  <row>
+	<field name="id">506</field>
+	<field name="device">263</field>
+	<field name="group_id">1</field>
+	<field name="label">Group 1</field>
+	<field name="description"></field>
+	<field name="max">5</field>
+	<field name="controller">1</field>
+	<field name="overview"></field>
+  </row>
 </resultset>

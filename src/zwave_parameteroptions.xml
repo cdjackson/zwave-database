@@ -20252,4 +20252,52 @@
 	<field name="label">Inverted switch</field>
 	<field name="overview"></field>
   </row>
+
+  <row>
+	<field name="id">2530</field>
+	<field name="parameter">1742</field>
+	<field name="value">0</field>
+	<field name="label">Ignore</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">2531</field>
+	<field name="parameter">1742</field>
+	<field name="value">1</field>
+	<field name="label">Play</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">2532</field>
+	<field name="parameter">1742</field>
+	<field name="value">2</field>
+	<field name="label">Stop</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">2533</field>
+	<field name="parameter">1742</field>
+	<field name="value">3</field>
+	<field name="label">Pause</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">2534</field>
+	<field name="parameter">1742</field>
+	<field name="value">4</field>
+	<field name="label">Next</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">2535</field>
+	<field name="parameter">1742</field>
+	<field name="value">5</field>
+	<field name="label">Previous</field>
+	<field name="overview"></field>
+  </row>
 </resultset>

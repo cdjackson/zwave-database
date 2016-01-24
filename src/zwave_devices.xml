@@ -3911,15 +3911,15 @@
 	<field name="type_id">0005:0003</field>
 	<field name="versionmin">0.000</field>
 	<field name="versionmax">255.255</field>
-	<field name="library_type">0</field>
-	<field name="protocol_version">0.000</field>
-	<field name="listening"></field>
-	<field name="beaming"></field>
-	<field name="security"></field>
+	<field name="library_type">7</field>
+	<field name="protocol_version">2.067</field>
+	<field name="listening">0</field>
+	<field name="beaming">0</field>
+	<field name="security">0</field>
 	<field name="max_baud">0</field>
-	<field name="basicclass">0</field>
-	<field name="genericclass">0</field>
-	<field name="specificclass">0</field>
+	<field name="basicclass">5</field>
+	<field name="genericclass">8</field>
+	<field name="specificclass">17</field>
 	<field name="thingid">lcz251</field>
 	<field name="info_overview"></field>
 	<field name="info_inclusion"></field>
@@ -6318,6 +6318,30 @@
 	<field name="genericclass">8</field>
 	<field name="specificclass">0</field>
 	<field name="thingid">secure-ssr302</field>
+	<field name="info_overview"></field>
+	<field name="info_inclusion"></field>
+	<field name="info_exclusion"></field>
+	<field name="info_wakeup"></field>
+  </row>
+
+  <row>
+	<field name="id">263</field>
+	<field name="manufacturer">14</field>
+	<field name="label">ZW056</field>
+	<field name="description">Doorbell</field>
+	<field name="type_id">0104:0038</field>
+	<field name="versionmin">0.000</field>
+	<field name="versionmax">255.255</field>
+	<field name="library_type">0</field>
+	<field name="protocol_version">0.000</field>
+	<field name="listening">0</field>
+	<field name="beaming">0</field>
+	<field name="security">0</field>
+	<field name="max_baud">0</field>
+	<field name="basicclass">0</field>
+	<field name="genericclass">0</field>
+	<field name="specificclass">0</field>
+	<field name="thingid">zw056</field>
 	<field name="info_overview"></field>
 	<field name="info_inclusion"></field>
 	<field name="info_exclusion"></field>
