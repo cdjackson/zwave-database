@@ -3,6 +3,9 @@
     <Model>MT02646</Model>
     <Label lang="en">Home Control Metering Plug</Label>
 
+    <CommandClasses>
+    </CommandClasses>
+
     <Configuration>
 
         <Parameter>

@@ -29,7 +29,7 @@
             <endpoint>5</endpoint>
             <isGetSupported>false</isGetSupported>
         </Class>
-    <CommandClasses>
+    </CommandClasses>
 
     <Configuration>
 

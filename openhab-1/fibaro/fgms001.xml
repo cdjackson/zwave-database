@@ -9,7 +9,7 @@
             <endpoint>0</endpoint>
             <isGetSupported>false</isGetSupported>
         </Class>
-    <CommandClasses>
+    </CommandClasses>
 
     <Configuration>
 

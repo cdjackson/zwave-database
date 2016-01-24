@@ -3,6 +3,9 @@
     <Model>NP210</Model>
     <Label lang="en">Smart PowerNode</Label>
 
+    <CommandClasses>
+    </CommandClasses>
+
     <Configuration>
 
         <Parameter>
