@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Product xmlns="http://code.google.com/p/open-zwave/">
+
+  <!-- Configuration Parameters -->
+  <CommandClass id="112">
+    <Value genre="config" instance="1" index=1" value=0" label=Sensor Binary Report" units="" size=1" min=0" max=1" type="list">
+      <Help>Toggle the sensor binary report value 				when the Magnet switch is opened /closed.</Help>
+      <Item value="0" label="Open: 00, Close: FF">
+      <Item value="1" label="Open: FF, Close: 00">
+    </Value>
+    <Value genre="config" instance="1" index=2" value=0" label=Wake up" units="" size=1" min=0" max=1" type="list">
+      <Help>Enable wake up 10 minutes when the power is switched on.</Help>
+      <Item value="0" label="Disable">
+      <Item value="1" label="Enable">
+    </Value>
+    <Value genre="config" instance="1" index=3" value=0" label=Basic set value" units="" size=1" min=0" max=1" type="list">
+      <Help>Toggle the basic set value when the Magnet switch is opened /closed.</Help>
+      <Item value="0" label="Open: 00, Close: FF">
+      <Item value="1" label="Open: FF, Close: 00">
+    </Value>
+    <Value genre="config" instance="1" index=121" value=4" label=Reports that will be sent" units="" size=1" min=1" max=31" type="byte">
+      <Help>0 - Batttery: determines whether the Water Sensor 
+			sends the battery Report when the probe touches the water. <br>
+			1 - 3 RESERVED  <br>
+			4  - Sensor Binary: determines whether the Water Sensor sends the Sensor Binary 
+			Report when the probe </Help>
+    </Value>
+  </CommandClass>
+
+  <!-- Association Groups -->
+  <CommandClass id="133">
+    <Associations num_groups="1">
+      <Group index="1" label="Group 1" max_associations="5" auto="true" />
+    </Associations>
+  </CommandClass>
+
+</Product>
+
