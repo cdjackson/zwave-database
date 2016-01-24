@@ -489,4 +489,12 @@
 	<field name="thingid">lscontrol</field>
 	<field name="url"></field>
   </row>
+
+  <row>
+	<field name="id">62</field>
+	<field name="label">Teldus</field>
+	<field name="reference">374</field>
+	<field name="thingid">teldus</field>
+	<field name="url"></field>
+  </row>
 </resultset>

@@ -4362,18 +4362,15 @@ set Parameter 3 to a value of 1.
 	<field name="bitmask">0</field>
 	<field name="label">Current overload protection enable</field>
 	<field name="units"></field>
-	<field name="description">Current Overload Protection. Load will be closed when the 
-                Current overrun (US: 15.5A, other country: 16.2A) and the 
-                time more than 2 minutes (0=disabled, 1=enabled).
-            </field>
+	<field name="description">Current Overload Protection. Load will be closed when the                 Current overrun (US: 15.5A, other country: 16.2A) and the                 time more than 2 minutes (0=disabled, 1=enabled).            </field>
 	<field name="size">1</field>
 	<field name="value_min">0</field>
-	<field name="value_max">65535</field>
+	<field name="value_max">1</field>
 	<field name="value_default">0</field>
-	<field name="read_only"></field>
-	<field name="write_only"></field>
-	<field name="limit_options"></field>
-	<field name="overview"></field>
+	<field name="read_only">0</field>
+	<field name="write_only">0</field>
+	<field name="limit_options">0</field>
+	<field name="overview">&lt;p&gt;Current Overload Protection. Load will be closed when the&lt;br /&gt;Current overrun (US: 15.5A, other country: 16.2A) and the&lt;br /&gt;time more than 2 minutes (0=disabled, 1=enabled).&lt;/p&gt;</field>
   </row>
 
   <row>
@@ -4383,17 +4380,15 @@ set Parameter 3 to a value of 1.
 	<field name="bitmask">0</field>
 	<field name="label">Output load after re-power</field>
 	<field name="units"></field>
-	<field name="description">Configure the output load status after re‐power on 
-                (0=last status, 1=always on, 2=always off) 
-            </field>
+	<field name="description">Configure the output load status after re‐power on                 (0=last status, 1=always on, 2=always off)             </field>
 	<field name="size">1</field>
 	<field name="value_min">0</field>
-	<field name="value_max">65535</field>
+	<field name="value_max">2</field>
 	<field name="value_default">0</field>
-	<field name="read_only"></field>
-	<field name="write_only"></field>
-	<field name="limit_options"></field>
-	<field name="overview"></field>
+	<field name="read_only">0</field>
+	<field name="write_only">0</field>
+	<field name="limit_options">0</field>
+	<field name="overview">&lt;p&gt;Configure the output load status after re-power on&lt;br /&gt;(0=last status, 1=always on, 2=always off)&lt;/p&gt;</field>
   </row>
 
   <row>
@@ -4403,18 +4398,15 @@ set Parameter 3 to a value of 1.
 	<field name="bitmask">0</field>
 	<field name="label">Enable send to associated devices</field>
 	<field name="units"></field>
-	<field name="description">Enable to send notifications to associated devices (Group 1) 
-                when the state of Micro Switch’s load changed (0=nothing, 
-                1=hail CC, 2=basic CC report). 
-            </field>
+	<field name="description">Enable to send notifications to associated devices (Group 1)                 when the state of Micro Switch’s load changed (0=nothing,                 1=hail CC, 2=basic CC report).             </field>
 	<field name="size">1</field>
 	<field name="value_min">0</field>
-	<field name="value_max">65535</field>
+	<field name="value_max">2</field>
 	<field name="value_default">0</field>
-	<field name="read_only"></field>
-	<field name="write_only"></field>
-	<field name="limit_options"></field>
-	<field name="overview"></field>
+	<field name="read_only">0</field>
+	<field name="write_only">0</field>
+	<field name="limit_options">0</field>
+	<field name="overview">&lt;p&gt;Enable to send notifications to associated devices (Group 1)&lt;br /&gt;when the state of Micro Switch’s load changed (0=nothing,&lt;br /&gt;1=hail CC, 2=basic CC report).&lt;/p&gt;</field>
   </row>
 
   <row>
@@ -4424,18 +4416,15 @@ set Parameter 3 to a value of 1.
 	<field name="bitmask">0</field>
 	<field name="label">Configure LED</field>
 	<field name="units"></field>
-	<field name="description">Configure the state of red LED:  
-                0= The LED will follow the status (on/off) of its load (Energy mode). 
-                1= When the state of Switch’s load changed, The LED will 
-                follow the status (on/off) of its load, b</field>
+	<field name="description">Configure the state of red LED:                  0= The LED will follow the status (on/off) of its load (Energy mode).                 1= When the state of Switch’s load changed, The LED will                 follow the status (on/off) of its load, b</field>
 	<field name="size">1</field>
 	<field name="value_min">0</field>
-	<field name="value_max">65535</field>
+	<field name="value_max">2</field>
 	<field name="value_default">0</field>
-	<field name="read_only"></field>
-	<field name="write_only"></field>
-	<field name="limit_options"></field>
-	<field name="overview"></field>
+	<field name="read_only">0</field>
+	<field name="write_only">0</field>
+	<field name="limit_options">0</field>
+	<field name="overview">&lt;p&gt;Configure the state of LED when it is in 3 modes below:&lt;br /&gt;0= The LED will follow the status (on/off) of its load (Energy&lt;br /&gt;mode).&lt;br /&gt;1= When the state of Switch’s load changed, The LED will&lt;br /&gt;follow the status (on/off) of its load, but the red LED will&lt;br /&gt;turn off after 5 seconds if there is no any switch action&lt;br /&gt;(momentary indicate mode).&lt;br /&gt;2= Night light mode.&lt;/p&gt;</field>
   </row>
 
   <row>
@@ -4512,17 +4501,15 @@ set Parameter 3 to a value of 1.
 	<field name="bitmask">0</field>
 	<field name="label">Enable items 91 and 92</field>
 	<field name="units"></field>
-	<field name="description">Enables/disables parameter 91 and 92 below (1=enabled, 
-                0=disabled). 
-            </field>
+	<field name="description">Enables/disables parameter 91 and 92 below (1=enabled,                 0=disabled).             </field>
 	<field name="size">1</field>
 	<field name="value_min">0</field>
-	<field name="value_max">65535</field>
+	<field name="value_max">1</field>
 	<field name="value_default">1</field>
-	<field name="read_only"></field>
-	<field name="write_only"></field>
-	<field name="limit_options"></field>
-	<field name="overview"></field>
+	<field name="read_only">0</field>
+	<field name="write_only">0</field>
+	<field name="limit_options">0</field>
+	<field name="overview">&lt;p&gt;Enables/disables parameter 91 and 92 below (1=enabled,&lt;br /&gt;0=disabled).&lt;/p&gt;</field>
   </row>
 
   <row>
@@ -4593,16 +4580,15 @@ set Parameter 3 to a value of 1.
 	<field name="bitmask">0</field>
 	<field name="label">Configuration Locked</field>
 	<field name="units"></field>
-	<field name="description">Enable/disable Configuration Locked (0 =disable, 1 = enable). 
-            </field>
+	<field name="description">Enable/disable Configuration Locked (0 =disable, 1 = enable).             </field>
 	<field name="size">1</field>
 	<field name="value_min">0</field>
-	<field name="value_max">65535</field>
+	<field name="value_max">1</field>
 	<field name="value_default">0</field>
-	<field name="read_only"></field>
-	<field name="write_only"></field>
-	<field name="limit_options"></field>
-	<field name="overview"></field>
+	<field name="read_only">0</field>
+	<field name="write_only">0</field>
+	<field name="limit_options">0</field>
+	<field name="overview">&lt;p&gt;Enable/disable Configuration Locked (0 =disable, 1 =&lt;br /&gt;enable).&lt;/p&gt;</field>
   </row>
 
   <row>
@@ -4615,11 +4601,11 @@ set Parameter 3 to a value of 1.
 	<field name="description"></field>
 	<field name="size">1</field>
 	<field name="value_min">0</field>
-	<field name="value_max">65535</field>
+	<field name="value_max">1</field>
 	<field name="value_default">0</field>
-	<field name="read_only"></field>
-	<field name="write_only"></field>
-	<field name="limit_options"></field>
+	<field name="read_only">0</field>
+	<field name="write_only">0</field>
+	<field name="limit_options">0</field>
 	<field name="overview"></field>
   </row>
 
@@ -4633,11 +4619,11 @@ set Parameter 3 to a value of 1.
 	<field name="description"></field>
 	<field name="size">1</field>
 	<field name="value_min">0</field>
-	<field name="value_max">65535</field>
+	<field name="value_max">1</field>
 	<field name="value_default">0</field>
-	<field name="read_only"></field>
-	<field name="write_only"></field>
-	<field name="limit_options"></field>
+	<field name="read_only">0</field>
+	<field name="write_only">0</field>
+	<field name="limit_options">0</field>
 	<field name="overview"></field>
   </row>
 
@@ -4651,11 +4637,11 @@ set Parameter 3 to a value of 1.
 	<field name="description">parameter defines, if battery check function is possible, when battery is below warning voltage</field>
 	<field name="size">1</field>
 	<field name="value_min">0</field>
-	<field name="value_max">65535</field>
+	<field name="value_max">1</field>
 	<field name="value_default">0</field>
-	<field name="read_only"></field>
-	<field name="write_only"></field>
-	<field name="limit_options"></field>
+	<field name="read_only">0</field>
+	<field name="write_only">0</field>
+	<field name="limit_options">0</field>
 	<field name="overview"></field>
   </row>
 
@@ -4705,11 +4691,11 @@ set Parameter 3 to a value of 1.
 	<field name="description">Lock or Unlock other configuration set function</field>
 	<field name="size">1</field>
 	<field name="value_min">0</field>
-	<field name="value_max">65535</field>
+	<field name="value_max">1</field>
 	<field name="value_default">0</field>
-	<field name="read_only"></field>
-	<field name="write_only"></field>
-	<field name="limit_options"></field>
+	<field name="read_only">0</field>
+	<field name="write_only">0</field>
+	<field name="limit_options">0</field>
 	<field name="overview"></field>
   </row>
 
@@ -5107,12 +5093,12 @@ set Parameter 3 to a value of 1.
 	<field name="description"></field>
 	<field name="size">1</field>
 	<field name="value_min">0</field>
-	<field name="value_max">65535</field>
+	<field name="value_max">1</field>
 	<field name="value_default">0</field>
-	<field name="read_only"></field>
-	<field name="write_only"></field>
-	<field name="limit_options"></field>
-	<field name="overview"></field>
+	<field name="read_only">0</field>
+	<field name="write_only">0</field>
+	<field name="limit_options">0</field>
+	<field name="overview">&lt;p&gt;Which value of the Sensor Binary Report will be sent when &lt;br /&gt;the magnet switch to open/close.  &lt;br /&gt;1, Value=0, Open=Sensor Binary Report 0xFF, Close=Sensor &lt;br /&gt;Binary Report 0x00.  &lt;br /&gt;2, Value=1, Open= Sensor Binary Report 0x00, Close= &lt;br /&gt;Sensor Binary Report 0xFF.&lt;/p&gt;</field>
   </row>
 
   <row>
@@ -5125,12 +5111,12 @@ set Parameter 3 to a value of 1.
 	<field name="description"></field>
 	<field name="size">1</field>
 	<field name="value_min">0</field>
-	<field name="value_max">65535</field>
+	<field name="value_max">1</field>
 	<field name="value_default">0</field>
-	<field name="read_only"></field>
-	<field name="write_only"></field>
-	<field name="limit_options"></field>
-	<field name="overview"></field>
+	<field name="read_only">0</field>
+	<field name="write_only">0</field>
+	<field name="limit_options">0</field>
+	<field name="overview">&lt;p&gt;Which value of the Basic Set will be sent when the magnet &lt;br /&gt;switch to open/close.  &lt;br /&gt;1, Value=0, Open= Basic Set 0xFF, Close=Basic Set 0x00.  &lt;br /&gt;2, Value=1, Basic Set 0x00, Close= Basic Set 0xFF.&lt;/p&gt;</field>
   </row>
 
   <row>
@@ -5143,12 +5129,12 @@ set Parameter 3 to a value of 1.
 	<field name="description">parameter defines, if battery check function is possible, when battery is below warning voltage</field>
 	<field name="size">1</field>
 	<field name="value_min">0</field>
-	<field name="value_max">65535</field>
+	<field name="value_max">1</field>
 	<field name="value_default">0</field>
-	<field name="read_only"></field>
-	<field name="write_only"></field>
-	<field name="limit_options"></field>
-	<field name="overview"></field>
+	<field name="read_only">0</field>
+	<field name="write_only">0</field>
+	<field name="limit_options">0</field>
+	<field name="overview">&lt;p&gt;Enable/disable the function of low battery checking, when &lt;br /&gt;the current voltage is less than the warning voltage, it will &lt;br /&gt;send the Battery Low Warning Report. (00==Disable, &lt;br /&gt;1==Enable).&lt;/p&gt;</field>
   </row>
 
   <row>
@@ -5197,12 +5183,13 @@ set Parameter 3 to a value of 1.
 	<field name="description">Lock or Unlock other configuration set function</field>
 	<field name="size">1</field>
 	<field name="value_min">0</field>
-	<field name="value_max">65535</field>
+	<field name="value_max">1</field>
 	<field name="value_default">0</field>
-	<field name="read_only"></field>
-	<field name="write_only"></field>
-	<field name="limit_options"></field>
-	<field name="overview"></field>
+	<field name="read_only">0</field>
+	<field name="write_only">0</field>
+	<field name="limit_options">0</field>
+	<field name="overview">&lt;p&gt;Lock/ unlock all configuration parameters.&lt;/p&gt;
+&lt;p&gt;(0==Unlock, 1==Lock).&lt;/p&gt;</field>
   </row>
 
   <row>
@@ -6529,11 +6516,11 @@ calibration value = 8 – 9 = -1 (0xFE).</field>
 	<field name="description"></field>
 	<field name="size">1</field>
 	<field name="value_min">0</field>
-	<field name="value_max">65535</field>
+	<field name="value_max">1</field>
 	<field name="value_default">0</field>
-	<field name="read_only"></field>
-	<field name="write_only"></field>
-	<field name="limit_options"></field>
+	<field name="read_only">0</field>
+	<field name="write_only">0</field>
+	<field name="limit_options">0</field>
 	<field name="overview"></field>
   </row>
 
@@ -6565,11 +6552,11 @@ calibration value = 8 – 9 = -1 (0xFE).</field>
 	<field name="description">Enables automatic notifications to associated devices whenever there is a state change</field>
 	<field name="size">1</field>
 	<field name="value_min">0</field>
-	<field name="value_max">65535</field>
+	<field name="value_max">2</field>
 	<field name="value_default">0</field>
-	<field name="read_only"></field>
-	<field name="write_only"></field>
-	<field name="limit_options"></field>
+	<field name="read_only">0</field>
+	<field name="write_only">0</field>
+	<field name="limit_options">0</field>
 	<field name="overview"></field>
   </row>
 
@@ -6583,11 +6570,11 @@ calibration value = 8 – 9 = -1 (0xFE).</field>
 	<field name="description">Enables/disables parameter 91 and 92 below</field>
 	<field name="size">1</field>
 	<field name="value_min">0</field>
-	<field name="value_max">65535</field>
+	<field name="value_max">2</field>
 	<field name="value_default">0</field>
-	<field name="read_only"></field>
-	<field name="write_only"></field>
-	<field name="limit_options"></field>
+	<field name="read_only">0</field>
+	<field name="write_only">0</field>
+	<field name="limit_options">0</field>
 	<field name="overview"></field>
   </row>
 
@@ -6619,11 +6606,11 @@ calibration value = 8 – 9 = -1 (0xFE).</field>
 	<field name="description">The value here represents minimum change in wattage percent (in terms of percentage) for a REPORT to be sent.</field>
 	<field name="size">1</field>
 	<field name="value_min">0</field>
-	<field name="value_max">65535</field>
+	<field name="value_max">100</field>
 	<field name="value_default">10</field>
-	<field name="read_only"></field>
-	<field name="write_only"></field>
-	<field name="limit_options"></field>
+	<field name="read_only">0</field>
+	<field name="write_only">0</field>
+	<field name="limit_options">0</field>
 	<field name="overview"></field>
   </row>
 
@@ -6637,11 +6624,11 @@ calibration value = 8 – 9 = -1 (0xFE).</field>
 	<field name="description"></field>
 	<field name="size">1</field>
 	<field name="value_min">0</field>
-	<field name="value_max">65535</field>
+	<field name="value_max">1</field>
 	<field name="value_default">0</field>
-	<field name="read_only"></field>
-	<field name="write_only"></field>
-	<field name="limit_options"></field>
+	<field name="read_only">0</field>
+	<field name="write_only">0</field>
+	<field name="limit_options">0</field>
 	<field name="overview"></field>
   </row>
 
@@ -6709,11 +6696,11 @@ calibration value = 8 – 9 = -1 (0xFE).</field>
 	<field name="description"></field>
 	<field name="size">1</field>
 	<field name="value_min">0</field>
-	<field name="value_max">65535</field>
+	<field name="value_max">1</field>
 	<field name="value_default">0</field>
-	<field name="read_only"></field>
-	<field name="write_only"></field>
-	<field name="limit_options"></field>
+	<field name="read_only">0</field>
+	<field name="write_only">0</field>
+	<field name="limit_options">0</field>
 	<field name="overview"></field>
   </row>
 
@@ -6799,11 +6786,11 @@ calibration value = 8 – 9 = -1 (0xFE).</field>
 	<field name="description"></field>
 	<field name="size">1</field>
 	<field name="value_min">0</field>
-	<field name="value_max">65535</field>
+	<field name="value_max">1</field>
 	<field name="value_default">0</field>
-	<field name="read_only"></field>
-	<field name="write_only"></field>
-	<field name="limit_options"></field>
+	<field name="read_only">0</field>
+	<field name="write_only">0</field>
+	<field name="limit_options">0</field>
 	<field name="overview"></field>
   </row>
 
@@ -9847,15 +9834,14 @@ Bit 3:Clamp 3)</field>
 	<field name="bitmask">0</field>
 	<field name="label">Sensor Binary Report</field>
 	<field name="units"></field>
-	<field name="description">Toggle the sensor binary report value 
-				when the Magnet switch is opened /closed.</field>
+	<field name="description">Toggle the sensor binary report value 				when the Magnet switch is opened /closed.</field>
 	<field name="size">1</field>
 	<field name="value_min">0</field>
-	<field name="value_max">65535</field>
+	<field name="value_max">1</field>
 	<field name="value_default">0</field>
-	<field name="read_only"></field>
-	<field name="write_only"></field>
-	<field name="limit_options"></field>
+	<field name="read_only">0</field>
+	<field name="write_only">0</field>
+	<field name="limit_options">0</field>
 	<field name="overview"></field>
   </row>
 
@@ -9869,11 +9855,11 @@ Bit 3:Clamp 3)</field>
 	<field name="description">Enable wake up 10 minutes when the power is switched on.</field>
 	<field name="size">1</field>
 	<field name="value_min">0</field>
-	<field name="value_max">65535</field>
+	<field name="value_max">1</field>
 	<field name="value_default">0</field>
-	<field name="read_only"></field>
-	<field name="write_only"></field>
-	<field name="limit_options"></field>
+	<field name="read_only">0</field>
+	<field name="write_only">0</field>
+	<field name="limit_options">0</field>
 	<field name="overview"></field>
   </row>
 
@@ -9887,11 +9873,11 @@ Bit 3:Clamp 3)</field>
 	<field name="description">Toggle the basic set value when the Magnet switch is opened /closed.</field>
 	<field name="size">1</field>
 	<field name="value_min">0</field>
-	<field name="value_max">65535</field>
+	<field name="value_max">1</field>
 	<field name="value_default">0</field>
-	<field name="read_only"></field>
-	<field name="write_only"></field>
-	<field name="limit_options"></field>
+	<field name="read_only">0</field>
+	<field name="write_only">0</field>
+	<field name="limit_options">0</field>
 	<field name="overview"></field>
   </row>
 
@@ -23871,11 +23857,11 @@ A value of 255 will tur</field>
 	<field name="description">Set to 1 for LED to be in sync with switch.</field>
 	<field name="size">1</field>
 	<field name="value_min">0</field>
-	<field name="value_max">65535</field>
+	<field name="value_max">1</field>
 	<field name="value_default">0</field>
-	<field name="read_only"></field>
-	<field name="write_only"></field>
-	<field name="limit_options"></field>
+	<field name="read_only">0</field>
+	<field name="write_only">0</field>
+	<field name="limit_options">0</field>
 	<field name="overview"></field>
   </row>
 
@@ -29249,11 +29235,11 @@ Available configuration parameters (data type is 1 Byte DEC):
 	<field name="description"></field>
 	<field name="size">1</field>
 	<field name="value_min">0</field>
-	<field name="value_max">65535</field>
+	<field name="value_max">255</field>
 	<field name="value_default">1</field>
-	<field name="read_only"></field>
-	<field name="write_only"></field>
-	<field name="limit_options"></field>
+	<field name="read_only">0</field>
+	<field name="write_only">0</field>
+	<field name="limit_options">0</field>
 	<field name="overview"></field>
   </row>
 
@@ -29267,11 +29253,11 @@ Available configuration parameters (data type is 1 Byte DEC):
 	<field name="description"></field>
 	<field name="size">1</field>
 	<field name="value_min">0</field>
-	<field name="value_max">65535</field>
+	<field name="value_max">255</field>
 	<field name="value_default">1</field>
-	<field name="read_only"></field>
-	<field name="write_only"></field>
-	<field name="limit_options"></field>
+	<field name="read_only">0</field>
+	<field name="write_only">0</field>
+	<field name="limit_options">0</field>
 	<field name="overview"></field>
   </row>
 
