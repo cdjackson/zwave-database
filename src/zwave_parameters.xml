@@ -17231,13 +17231,13 @@ Controlled device can be turned back on via B-button or sen</field>
 	<field name="label">Auto-calibration status (read-only parameter)</field>
 	<field name="units"></field>
 	<field name="description">This parameter determines operating mode of the Dimmer (automatic/manual settings).</field>
-	<field name="size">0</field>
+	<field name="size">1</field>
 	<field name="value_min">0</field>
-	<field name="value_max">65535</field>
+	<field name="value_max">1</field>
 	<field name="value_default">0</field>
-	<field name="read_only"></field>
-	<field name="write_only"></field>
-	<field name="limit_options"></field>
+	<field name="read_only">1</field>
+	<field name="write_only">0</field>
+	<field name="limit_options">0</field>
 	<field name="overview"></field>
   </row>
 
@@ -17501,13 +17501,13 @@ Controlled device can be turned back on via B-button or sen</field>
 	<field name="label">Load control mode recognized during auto-calibration</field>
 	<field name="units"></field>
 	<field name="description">Load control mode recognized during auto-calibration</field>
-	<field name="size">0</field>
+	<field name="size">1</field>
 	<field name="value_min">0</field>
-	<field name="value_max">65535</field>
+	<field name="value_max">1</field>
 	<field name="value_default">0</field>
-	<field name="read_only"></field>
-	<field name="write_only"></field>
-	<field name="limit_options"></field>
+	<field name="read_only">1</field>
+	<field name="write_only">0</field>
+	<field name="limit_options">0</field>
 	<field name="overview"></field>
   </row>
 
@@ -17537,13 +17537,13 @@ Controlled device can be turned back on via B-button or sen</field>
 	<field name="label">Dimmability of the load (read only)</field>
 	<field name="units"></field>
 	<field name="description">Dimmability of the load (read only)</field>
-	<field name="size">0</field>
+	<field name="size">1</field>
 	<field name="value_min">0</field>
-	<field name="value_max">65535</field>
+	<field name="value_max">1</field>
 	<field name="value_default">0</field>
-	<field name="read_only"></field>
-	<field name="write_only"></field>
-	<field name="limit_options"></field>
+	<field name="read_only">1</field>
+	<field name="write_only">0</field>
+	<field name="limit_options">0</field>
 	<field name="overview"></field>
   </row>
 
@@ -32746,7 +32746,7 @@ Privacy Mode - all user codes disabled and RF Lock/Unlock disabled</field>
   <row>
 	<field name="id">1739</field>
 	<field name="device">263</field>
-	<field name="param_id">0</field>
+	<field name="param_id">2</field>
 	<field name="bitmask">0</field>
 	<field name="label">Repetitions of ringtone</field>
 	<field name="units"></field>
@@ -32755,9 +32755,9 @@ Privacy Mode - all user codes disabled and RF Lock/Unlock disabled</field>
 	<field name="value_min">0</field>
 	<field name="value_max">100</field>
 	<field name="value_default">2</field>
-	<field name="read_only"></field>
-	<field name="write_only"></field>
-	<field name="limit_options"></field>
+	<field name="read_only">0</field>
+	<field name="write_only">0</field>
+	<field name="limit_options">0</field>
 	<field name="overview"></field>
   </row>
 
@@ -32843,11 +32843,15 @@ Privacy Mode - all user codes disabled and RF Lock/Unlock disabled</field>
 	<field name="description">Enable to send notifications to associated devices (Group1) when the state of Siren changed (0=nothing,1=hailCC,2=basic CC report).</field>
 	<field name="size">1</field>
 	<field name="value_min">0</field>
-	<field name="value_max">60000</field>
-	<field name="value_default">25</field>
-	<field name="read_only"></field>
-	<field name="write_only"></field>
-	<field name="limit_options"></field>
-	<field name="overview"></field>
+	<field name="value_max">2</field>
+	<field name="value_default">0</field>
+	<field name="read_only">0</field>
+	<field name="write_only">0</field>
+	<field name="limit_options">0</field>
+	<field name="overview">&lt;div style=&quot;left: 229.2px; top: 473.416px; font-size: 16.157px; font-family: sans-serif; transform: scaleX(0.855749);&quot; data-canvas-width=&quot;330.31902245976374&quot;&gt;Enable/disable to send notifications to associated&lt;/div&gt;
+&lt;div style=&quot;left: 559.399px; top: 473.416px; font-size: 16.157px; font-family: sans-serif; transform: scaleX(0.806424);&quot; data-canvas-width=&quot;99.19010674106613&quot;&gt;devices (Group&lt;/div&gt;
+&lt;div style=&quot;left: 229.2px; top: 495.616px; font-size: 16.157px; font-family: sans-serif; transform: scaleX(0.836223);&quot; data-canvas-width=&quot;350.3774208108478&quot;&gt;1) when the state of Doorbell is changed (0=nothing,&lt;/div&gt;
+&lt;div style=&quot;left: 579.599px; top: 495.616px; font-size: 16.157px; font-family: sans-serif; transform: scaleX(0.764453);&quot; data-canvas-width=&quot;64.97850367746388&quot;&gt;1=hail CC,&lt;/div&gt;
+&lt;div style=&quot;left: 229.2px; top: 517.816px; font-size: 16.157px; font-family: sans-serif; transform: scaleX(0.803909);&quot; data-canvas-width=&quot;128.6255025896802&quot;&gt;2=basic CC report)&lt;/div&gt;</field>
   </row>
 </resultset>

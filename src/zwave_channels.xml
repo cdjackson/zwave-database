@@ -5,7 +5,7 @@
   <row>
 	<field name="id">1</field>
 	<field name="commandclass">19</field>
-	<field name="name">switch</field>
+	<field name="name">switch_binary</field>
 	<field name="config"></field>
 	<field name="label">Switch 1</field>
 	<field name="overview"></field>
@@ -14,7 +14,7 @@
   <row>
 	<field name="id">2</field>
 	<field name="commandclass">21</field>
-	<field name="name">switch</field>
+	<field name="name">switch_binary</field>
 	<field name="config"></field>
 	<field name="label">Switch 2</field>
 	<field name="overview"></field>
@@ -23,7 +23,7 @@
   <row>
 	<field name="id">3</field>
 	<field name="commandclass">22</field>
-	<field name="name">switch</field>
+	<field name="name">switch_binary</field>
 	<field name="config"></field>
 	<field name="label">Switch</field>
 	<field name="overview"></field>
@@ -32,7 +32,7 @@
   <row>
 	<field name="id">4</field>
 	<field name="commandclass">33</field>
-	<field name="name">electric_powerfactor</field>
+	<field name="name">meter_powerfactor</field>
 	<field name="config">meterScale=E_Power_Factor</field>
 	<field name="label">Electric meter (power factor)</field>
 	<field name="overview"></field>
@@ -41,7 +41,7 @@
   <row>
 	<field name="id">5</field>
 	<field name="commandclass">33</field>
-	<field name="name">electric_current</field>
+	<field name="name">meter_current</field>
 	<field name="config">meterScale=E_A</field>
 	<field name="label">Electric meter (amps)</field>
 	<field name="overview"></field>
@@ -50,7 +50,7 @@
   <row>
 	<field name="id">6</field>
 	<field name="commandclass">33</field>
-	<field name="name">electric_watts</field>
+	<field name="name">meter_watts</field>
 	<field name="config">meterScale=E_W</field>
 	<field name="label">Electric meter (watts)</field>
 	<field name="overview"></field>
@@ -59,7 +59,7 @@
   <row>
 	<field name="id">7</field>
 	<field name="commandclass">33</field>
-	<field name="name">electric_kwh</field>
+	<field name="name">meter_kwh</field>
 	<field name="config">meterScale=E_KWh</field>
 	<field name="label">Electric meter (kWh)</field>
 	<field name="overview"></field>
@@ -68,7 +68,7 @@
   <row>
 	<field name="id">8</field>
 	<field name="commandclass">33</field>
-	<field name="name">power_voltage</field>
+	<field name="name">meter_voltage</field>
 	<field name="config">meterScale=E_V</field>
 	<field name="label">Electric meter (volts)</field>
 	<field name="overview"></field>
@@ -77,7 +77,7 @@
   <row>
 	<field name="id">9</field>
 	<field name="commandclass">34</field>
-	<field name="name">switch</field>
+	<field name="name">switch_binary</field>
 	<field name="config"></field>
 	<field name="label">Switch</field>
 	<field name="overview"></field>
@@ -86,7 +86,7 @@
   <row>
 	<field name="id">10</field>
 	<field name="commandclass">41</field>
-	<field name="name">switch</field>
+	<field name="name">switch_binary</field>
 	<field name="config"></field>
 	<field name="label">Switch</field>
 	<field name="overview"></field>
@@ -104,7 +104,7 @@
   <row>
 	<field name="id">12</field>
 	<field name="commandclass">49</field>
-	<field name="name">switch</field>
+	<field name="name">switch_binary</field>
 	<field name="config"></field>
 	<field name="label">Switch</field>
 	<field name="overview"></field>
@@ -113,7 +113,7 @@
   <row>
 	<field name="id">13</field>
 	<field name="commandclass">57</field>
-	<field name="name">switch</field>
+	<field name="name">switch_binary</field>
 	<field name="config"></field>
 	<field name="label">Switch</field>
 	<field name="overview"></field>
@@ -149,7 +149,7 @@
   <row>
 	<field name="id">17</field>
 	<field name="commandclass">72</field>
-	<field name="name">temperature</field>
+	<field name="name">sensor_temperature</field>
 	<field name="config">sensorType=TEMPERATURE</field>
 	<field name="label">Sensor (temperature)</field>
 	<field name="overview"></field>
@@ -158,7 +158,7 @@
   <row>
 	<field name="id">18</field>
 	<field name="commandclass">75</field>
-	<field name="name">setpoint</field>
+	<field name="name">thermostat_setpoint</field>
 	<field name="config">setpointType=COOLING</field>
 	<field name="label">Setpoint (cooling)</field>
 	<field name="overview"></field>
@@ -167,7 +167,7 @@
   <row>
 	<field name="id">19</field>
 	<field name="commandclass">75</field>
-	<field name="name">setpoint</field>
+	<field name="name">thermostat_setpoint</field>
 	<field name="config">setpointType=HEATING</field>
 	<field name="label">Setpoint (heating)</field>
 	<field name="overview"></field>
@@ -185,7 +185,7 @@
   <row>
 	<field name="id">21</field>
 	<field name="commandclass">80</field>
-	<field name="name">switch</field>
+	<field name="name">switch_binary</field>
 	<field name="config"></field>
 	<field name="label">Switch</field>
 	<field name="overview"></field>
@@ -203,7 +203,7 @@
   <row>
 	<field name="id">23</field>
 	<field name="commandclass">85</field>
-	<field name="name">switch</field>
+	<field name="name">switch_binary</field>
 	<field name="config"></field>
 	<field name="label">Switch 1</field>
 	<field name="overview"></field>
@@ -221,7 +221,7 @@
   <row>
 	<field name="id">25</field>
 	<field name="commandclass">88</field>
-	<field name="name">switch</field>
+	<field name="name">switch_binary</field>
 	<field name="config"></field>
 	<field name="label">Switch 2</field>
 	<field name="overview"></field>
@@ -230,7 +230,7 @@
   <row>
 	<field name="id">26</field>
 	<field name="commandclass">94</field>
-	<field name="name">binary_sensor</field>
+	<field name="name">sensor_binary</field>
 	<field name="config"></field>
 	<field name="label">Binary Sensor</field>
 	<field name="overview"></field>
@@ -248,7 +248,7 @@
   <row>
 	<field name="id">28</field>
 	<field name="commandclass">99</field>
-	<field name="name">luminance</field>
+	<field name="name">sensor_luminance</field>
 	<field name="config">sensorType=LUMINANCE</field>
 	<field name="label">Sensor (luminance)</field>
 	<field name="overview"></field>
@@ -257,7 +257,7 @@
   <row>
 	<field name="id">29</field>
 	<field name="commandclass">99</field>
-	<field name="name">temperature</field>
+	<field name="name">sensor_temperature</field>
 	<field name="config">sensorType=TEMPERATURE</field>
 	<field name="label">Sensor (temperature)</field>
 	<field name="overview"></field>
@@ -320,7 +320,7 @@
   <row>
 	<field name="id">36</field>
 	<field name="commandclass">110</field>
-	<field name="name">binary_sensor</field>
+	<field name="name">sensor_binary</field>
 	<field name="config"></field>
 	<field name="label">Binary Sensor</field>
 	<field name="overview"></field>
@@ -329,7 +329,7 @@
   <row>
 	<field name="id">37</field>
 	<field name="commandclass">111</field>
-	<field name="name">switch</field>
+	<field name="name">switch_binary</field>
 	<field name="config"></field>
 	<field name="label">Switch</field>
 	<field name="overview"></field>
@@ -338,7 +338,7 @@
   <row>
 	<field name="id">38</field>
 	<field name="commandclass">112</field>
-	<field name="name">electric_watts</field>
+	<field name="name">meter_watts</field>
 	<field name="config">meterScale=E_W</field>
 	<field name="label">Electric meter (watts)</field>
 	<field name="overview"></field>
@@ -347,7 +347,7 @@
   <row>
 	<field name="id">39</field>
 	<field name="commandclass">112</field>
-	<field name="name">electric_kwh</field>
+	<field name="name">meter_kwh</field>
 	<field name="config">meterScale=E_KWh</field>
 	<field name="label">Electric meter (kWh)</field>
 	<field name="overview"></field>
@@ -365,7 +365,7 @@
   <row>
 	<field name="id">41</field>
 	<field name="commandclass">123</field>
-	<field name="name">switch</field>
+	<field name="name">switch_binary</field>
 	<field name="config"></field>
 	<field name="label">Switch 1</field>
 	<field name="overview"></field>
@@ -374,7 +374,7 @@
   <row>
 	<field name="id">42</field>
 	<field name="commandclass">124</field>
-	<field name="name">electric_watts</field>
+	<field name="name">meter_watts</field>
 	<field name="config">meterScale=E_W</field>
 	<field name="label">Electric meter (watts) 1</field>
 	<field name="overview"></field>
@@ -383,7 +383,7 @@
   <row>
 	<field name="id">43</field>
 	<field name="commandclass">124</field>
-	<field name="name">electric_kwh</field>
+	<field name="name">meter_kwh</field>
 	<field name="config">meterScale=E_KWh</field>
 	<field name="label">Electric meter (kWh) 1</field>
 	<field name="overview"></field>
@@ -392,7 +392,7 @@
   <row>
 	<field name="id">44</field>
 	<field name="commandclass">126</field>
-	<field name="name">switch</field>
+	<field name="name">switch_binary</field>
 	<field name="config"></field>
 	<field name="label">Switch 2</field>
 	<field name="overview"></field>
@@ -401,7 +401,7 @@
   <row>
 	<field name="id">45</field>
 	<field name="commandclass">127</field>
-	<field name="name">electric_watts</field>
+	<field name="name">meter_watts</field>
 	<field name="config">meterScale=E_W</field>
 	<field name="label">Electric meter (watts) 2</field>
 	<field name="overview"></field>
@@ -410,7 +410,7 @@
   <row>
 	<field name="id">46</field>
 	<field name="commandclass">127</field>
-	<field name="name">electric_kwh</field>
+	<field name="name">meter_kwh</field>
 	<field name="config">meterScale=E_KWh</field>
 	<field name="label">Electric meter (kWh) 2</field>
 	<field name="overview"></field>
@@ -419,7 +419,7 @@
   <row>
 	<field name="id">47</field>
 	<field name="commandclass">129</field>
-	<field name="name">switch</field>
+	<field name="name">switch_binary</field>
 	<field name="config"></field>
 	<field name="label">Switch 3</field>
 	<field name="overview"></field>
@@ -428,7 +428,7 @@
   <row>
 	<field name="id">48</field>
 	<field name="commandclass">130</field>
-	<field name="name">electric_watts</field>
+	<field name="name">meter_watts</field>
 	<field name="config">meterScale=E_W</field>
 	<field name="label">Electric meter (watts) 3</field>
 	<field name="overview"></field>
@@ -437,7 +437,7 @@
   <row>
 	<field name="id">49</field>
 	<field name="commandclass">130</field>
-	<field name="name">electric_kwh</field>
+	<field name="name">meter_kwh</field>
 	<field name="config">meterScale=E_KWh</field>
 	<field name="label">Electric meter (kWh) 3</field>
 	<field name="overview"></field>
@@ -446,7 +446,7 @@
   <row>
 	<field name="id">50</field>
 	<field name="commandclass">132</field>
-	<field name="name">switch</field>
+	<field name="name">switch_binary</field>
 	<field name="config"></field>
 	<field name="label">Switch 4</field>
 	<field name="overview"></field>
@@ -455,7 +455,7 @@
   <row>
 	<field name="id">51</field>
 	<field name="commandclass">133</field>
-	<field name="name">electric_watts</field>
+	<field name="name">meter_watts</field>
 	<field name="config">meterScale=E_W</field>
 	<field name="label">Electric meter (watts) 4</field>
 	<field name="overview"></field>
@@ -464,7 +464,7 @@
   <row>
 	<field name="id">52</field>
 	<field name="commandclass">133</field>
-	<field name="name">electric_kwh</field>
+	<field name="name">meter_kwh</field>
 	<field name="config">meterScale=E_KWh</field>
 	<field name="label">Electric meter (kWh) 4</field>
 	<field name="overview"></field>
@@ -473,7 +473,7 @@
   <row>
 	<field name="id">53</field>
 	<field name="commandclass">135</field>
-	<field name="name">switch</field>
+	<field name="name">switch_binary</field>
 	<field name="config"></field>
 	<field name="label">Switch 5</field>
 	<field name="overview"></field>
@@ -482,7 +482,7 @@
   <row>
 	<field name="id">54</field>
 	<field name="commandclass">136</field>
-	<field name="name">electric_watts</field>
+	<field name="name">meter_watts</field>
 	<field name="config">meterScale=E_W</field>
 	<field name="label">Electric meter (watts) 5</field>
 	<field name="overview"></field>
@@ -491,7 +491,7 @@
   <row>
 	<field name="id">55</field>
 	<field name="commandclass">136</field>
-	<field name="name">electric_kwh</field>
+	<field name="name">meter_kwh</field>
 	<field name="config">meterScale=E_KWh</field>
 	<field name="label">Electric meter (kWh) 5</field>
 	<field name="overview"></field>
@@ -500,7 +500,7 @@
   <row>
 	<field name="id">56</field>
 	<field name="commandclass">140</field>
-	<field name="name">temperature</field>
+	<field name="name">sensor_temperature</field>
 	<field name="config">sensorType=TEMPERATURE</field>
 	<field name="label">Sensor (temperature)</field>
 	<field name="overview"></field>
@@ -545,7 +545,7 @@
   <row>
 	<field name="id">61</field>
 	<field name="commandclass">156</field>
-	<field name="name">binary_sensor</field>
+	<field name="name">sensor_binary</field>
 	<field name="config"></field>
 	<field name="label">Binary Sensor</field>
 	<field name="overview"></field>
@@ -554,7 +554,7 @@
   <row>
 	<field name="id">62</field>
 	<field name="commandclass">176</field>
-	<field name="name">setpoint</field>
+	<field name="name">thermostat_setpoint</field>
 	<field name="config">setpointType=HEATING</field>
 	<field name="label">Setpoint (heating)</field>
 	<field name="overview"></field>
@@ -563,7 +563,7 @@
   <row>
 	<field name="id">63</field>
 	<field name="commandclass">177</field>
-	<field name="name">electric_watts</field>
+	<field name="name">meter_watts</field>
 	<field name="config">meterScale=E_W</field>
 	<field name="label">Electric meter (watts)</field>
 	<field name="overview"></field>
@@ -572,7 +572,7 @@
   <row>
 	<field name="id">64</field>
 	<field name="commandclass">177</field>
-	<field name="name">electric_kwh</field>
+	<field name="name">meter_kwh</field>
 	<field name="config">meterScale=E_KWh</field>
 	<field name="label">Electric meter (kWh)</field>
 	<field name="overview"></field>
@@ -599,7 +599,7 @@
   <row>
 	<field name="id">67</field>
 	<field name="commandclass">197</field>
-	<field name="name">switch</field>
+	<field name="name">switch_binary</field>
 	<field name="config"></field>
 	<field name="label">Switch</field>
 	<field name="overview"></field>
@@ -608,7 +608,7 @@
   <row>
 	<field name="id">68</field>
 	<field name="commandclass">198</field>
-	<field name="name">electric_watts</field>
+	<field name="name">meter_watts</field>
 	<field name="config">meterScale=E_W</field>
 	<field name="label">Electric meter (watts)</field>
 	<field name="overview"></field>
@@ -617,7 +617,7 @@
   <row>
 	<field name="id">69</field>
 	<field name="commandclass">198</field>
-	<field name="name">electric_powerfactor</field>
+	<field name="name">meter_powerfactor</field>
 	<field name="config">meterScale=E_Power_Factor</field>
 	<field name="label">Electric meter (power factor)</field>
 	<field name="overview"></field>
@@ -626,7 +626,7 @@
   <row>
 	<field name="id">70</field>
 	<field name="commandclass">198</field>
-	<field name="name">electric_kwh</field>
+	<field name="name">meter_kwh</field>
 	<field name="config">meterScale=E_KWh</field>
 	<field name="label">Electric meter (kWh)</field>
 	<field name="overview"></field>
@@ -635,7 +635,7 @@
   <row>
 	<field name="id">71</field>
 	<field name="commandclass">198</field>
-	<field name="name">electric_current</field>
+	<field name="name">meter_current</field>
 	<field name="config">meterScale=E_A</field>
 	<field name="label">Electric meter (amps)</field>
 	<field name="overview"></field>
@@ -644,7 +644,7 @@
   <row>
 	<field name="id">72</field>
 	<field name="commandclass">198</field>
-	<field name="name">power_voltage</field>
+	<field name="name">meter_voltage</field>
 	<field name="config">meterScale=E_V</field>
 	<field name="label">Electric meter (volts)</field>
 	<field name="overview"></field>
@@ -662,7 +662,7 @@
   <row>
 	<field name="id">74</field>
 	<field name="commandclass">214</field>
-	<field name="name">switch</field>
+	<field name="name">switch_binary</field>
 	<field name="config"></field>
 	<field name="label">Switch</field>
 	<field name="overview"></field>
@@ -671,7 +671,7 @@
   <row>
 	<field name="id">75</field>
 	<field name="commandclass">229</field>
-	<field name="name">switch</field>
+	<field name="name">switch_binary</field>
 	<field name="config"></field>
 	<field name="label">Switch</field>
 	<field name="overview"></field>
@@ -680,7 +680,7 @@
   <row>
 	<field name="id">76</field>
 	<field name="commandclass">234</field>
-	<field name="name">binary_sensor</field>
+	<field name="name">sensor_binary</field>
 	<field name="config"></field>
 	<field name="label">Binary Sensor</field>
 	<field name="overview"></field>
@@ -698,7 +698,7 @@
   <row>
 	<field name="id">78</field>
 	<field name="commandclass">245</field>
-	<field name="name">temperature</field>
+	<field name="name">sensor_temperature</field>
 	<field name="config">sensorType=TEMPERATURE</field>
 	<field name="label">Sensor (temperature)</field>
 	<field name="overview"></field>
@@ -707,7 +707,7 @@
   <row>
 	<field name="id">79</field>
 	<field name="commandclass">245</field>
-	<field name="name">luminance</field>
+	<field name="name">sensor_luminance</field>
 	<field name="config">sensorType=LUMINANCE</field>
 	<field name="label">Sensor (luminance)</field>
 	<field name="overview"></field>
@@ -716,7 +716,7 @@
   <row>
 	<field name="id">80</field>
 	<field name="commandclass">272</field>
-	<field name="name">electric_kwh</field>
+	<field name="name">meter_kwh</field>
 	<field name="config">meterScale=E_KWh</field>
 	<field name="label">Electric meter (kWh)</field>
 	<field name="overview"></field>
@@ -725,7 +725,7 @@
   <row>
 	<field name="id">81</field>
 	<field name="commandclass">272</field>
-	<field name="name">electric_current</field>
+	<field name="name">meter_current</field>
 	<field name="config">meterScale=E_A</field>
 	<field name="label">Electric meter (amps)</field>
 	<field name="overview"></field>
@@ -734,7 +734,7 @@
   <row>
 	<field name="id">82</field>
 	<field name="commandclass">272</field>
-	<field name="name">power_voltage</field>
+	<field name="name">meter_voltage</field>
 	<field name="config">meterScale=E_V</field>
 	<field name="label">Electric meter (volts)</field>
 	<field name="overview"></field>
@@ -743,7 +743,7 @@
   <row>
 	<field name="id">83</field>
 	<field name="commandclass">272</field>
-	<field name="name">electric_watts</field>
+	<field name="name">meter_watts</field>
 	<field name="config">meterScale=E_W</field>
 	<field name="label">Electric meter (watts)</field>
 	<field name="overview"></field>
@@ -752,7 +752,7 @@
   <row>
 	<field name="id">84</field>
 	<field name="commandclass">273</field>
-	<field name="name">switch</field>
+	<field name="name">switch_binary</field>
 	<field name="config"></field>
 	<field name="label">Switch</field>
 	<field name="overview"></field>
@@ -761,7 +761,7 @@
   <row>
 	<field name="id">85</field>
 	<field name="commandclass">281</field>
-	<field name="name">electric_kwh</field>
+	<field name="name">meter_kwh</field>
 	<field name="config">meterScale=E_KWh</field>
 	<field name="label">Electric meter (kWh)</field>
 	<field name="overview"></field>
@@ -770,7 +770,7 @@
   <row>
 	<field name="id">86</field>
 	<field name="commandclass">281</field>
-	<field name="name">electric_watts</field>
+	<field name="name">meter_watts</field>
 	<field name="config">meterScale=E_W</field>
 	<field name="label">Electric meter (watts)</field>
 	<field name="overview"></field>
@@ -788,7 +788,7 @@
   <row>
 	<field name="id">88</field>
 	<field name="commandclass">283</field>
-	<field name="name">switch</field>
+	<field name="name">switch_binary</field>
 	<field name="config"></field>
 	<field name="label">Switch</field>
 	<field name="overview"></field>
@@ -797,7 +797,7 @@
   <row>
 	<field name="id">89</field>
 	<field name="commandclass">290</field>
-	<field name="name">binary_sensor</field>
+	<field name="name">sensor_binary</field>
 	<field name="config"></field>
 	<field name="label">Binary Sensor</field>
 	<field name="overview"></field>
@@ -815,7 +815,7 @@
   <row>
 	<field name="id">91</field>
 	<field name="commandclass">298</field>
-	<field name="name">setpoint</field>
+	<field name="name">thermostat_setpoint</field>
 	<field name="config">setpointType=HEATING</field>
 	<field name="label">Setpoint (heating)</field>
 	<field name="overview"></field>
@@ -824,7 +824,7 @@
   <row>
 	<field name="id">92</field>
 	<field name="commandclass">298</field>
-	<field name="name">setpoint</field>
+	<field name="name">thermostat_setpoint</field>
 	<field name="config">setpointType=COOLING</field>
 	<field name="label">Setpoint (cooling)</field>
 	<field name="overview"></field>
@@ -851,7 +851,7 @@
   <row>
 	<field name="id">95</field>
 	<field name="commandclass">309</field>
-	<field name="name">temperature</field>
+	<field name="name">sensor_temperature</field>
 	<field name="config">sensorType=TEMPERATURE</field>
 	<field name="label">Sensor (temperature) 1</field>
 	<field name="overview"></field>
@@ -860,7 +860,7 @@
   <row>
 	<field name="id">96</field>
 	<field name="commandclass">312</field>
-	<field name="name">relhumidity</field>
+	<field name="name">sensor_relhumidity</field>
 	<field name="config">sensorType=RELATIVE_HUMIDITY</field>
 	<field name="label">Sensor (relative humidity) 2</field>
 	<field name="overview"></field>
@@ -869,7 +869,7 @@
   <row>
 	<field name="id">97</field>
 	<field name="commandclass">315</field>
-	<field name="name">temperature</field>
+	<field name="name">sensor_temperature</field>
 	<field name="config">sensorType=TEMPERATURE</field>
 	<field name="label">Sensor (temperature)</field>
 	<field name="overview"></field>
@@ -887,7 +887,7 @@
   <row>
 	<field name="id">99</field>
 	<field name="commandclass">322</field>
-	<field name="name">switch</field>
+	<field name="name">switch_binary</field>
 	<field name="config"></field>
 	<field name="label">Switch</field>
 	<field name="overview"></field>
@@ -905,7 +905,7 @@
   <row>
 	<field name="id">101</field>
 	<field name="commandclass">331</field>
-	<field name="name">temperature</field>
+	<field name="name">sensor_temperature</field>
 	<field name="config">sensorType=TEMPERATURE</field>
 	<field name="label">Sensor (temperature)</field>
 	<field name="overview"></field>
@@ -914,7 +914,7 @@
   <row>
 	<field name="id">102</field>
 	<field name="commandclass">333</field>
-	<field name="name">binary_sensor</field>
+	<field name="name">sensor_binary</field>
 	<field name="config"></field>
 	<field name="label">Binary Sensor</field>
 	<field name="overview"></field>
@@ -932,7 +932,7 @@
   <row>
 	<field name="id">104</field>
 	<field name="commandclass">343</field>
-	<field name="name">binary_sensor</field>
+	<field name="name">sensor_binary</field>
 	<field name="config"></field>
 	<field name="label">Binary Sensor</field>
 	<field name="overview"></field>
@@ -941,7 +941,7 @@
   <row>
 	<field name="id">105</field>
 	<field name="commandclass">348</field>
-	<field name="name">binary_sensor</field>
+	<field name="name">sensor_binary</field>
 	<field name="config"></field>
 	<field name="label">Binary Sensor</field>
 	<field name="overview"></field>
@@ -950,7 +950,7 @@
   <row>
 	<field name="id">107</field>
 	<field name="commandclass">350</field>
-	<field name="name">electric_current</field>
+	<field name="name">meter_current</field>
 	<field name="config">meterScale=E_A</field>
 	<field name="label">Electric meter (amps)</field>
 	<field name="overview"></field>
@@ -959,7 +959,7 @@
   <row>
 	<field name="id">110</field>
 	<field name="commandclass">350</field>
-	<field name="name">power_voltage</field>
+	<field name="name">meter_voltage</field>
 	<field name="config">meterScale=E_V</field>
 	<field name="label">Electric meter (volts)</field>
 	<field name="overview"></field>
@@ -968,7 +968,7 @@
   <row>
 	<field name="id">111</field>
 	<field name="commandclass">350</field>
-	<field name="name">electric_watts</field>
+	<field name="name">meter_watts</field>
 	<field name="config">meterScale=E_W</field>
 	<field name="label">Electric meter (watts)</field>
 	<field name="overview"></field>
@@ -977,7 +977,7 @@
   <row>
 	<field name="id">112</field>
 	<field name="commandclass">350</field>
-	<field name="name">electric_kwh</field>
+	<field name="name">meter_kwh</field>
 	<field name="config">meterScale=E_KWh</field>
 	<field name="label">Electric meter (kWh)</field>
 	<field name="overview"></field>
@@ -986,7 +986,7 @@
   <row>
 	<field name="id">113</field>
 	<field name="commandclass">353</field>
-	<field name="name">switch</field>
+	<field name="name">switch_binary</field>
 	<field name="config"></field>
 	<field name="label">Switch</field>
 	<field name="overview"></field>
@@ -995,7 +995,7 @@
   <row>
 	<field name="id">114</field>
 	<field name="commandclass">365</field>
-	<field name="name">switch</field>
+	<field name="name">switch_binary</field>
 	<field name="config"></field>
 	<field name="label">Switch</field>
 	<field name="overview"></field>
@@ -1022,9 +1022,396 @@
   <row>
 	<field name="id">117</field>
 	<field name="commandclass">377</field>
-	<field name="name">setpoint</field>
+	<field name="name">thermostat_setpoint</field>
 	<field name="config">setpointType=HEATING</field>
 	<field name="label">Setpoint (heating)</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">118</field>
+	<field name="commandclass">385</field>
+	<field name="name">alarm_general</field>
+	<field name="config">sensorType=GENERAL</field>
+	<field name="label">Alarm (general)</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">119</field>
+	<field name="commandclass">391</field>
+	<field name="name">thermostat_setpoint</field>
+	<field name="config">setpointType=HEATING</field>
+	<field name="label">Setpoint (heating)</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">120</field>
+	<field name="commandclass">394</field>
+	<field name="name">alarm_general</field>
+	<field name="config">sensorType=GENERAL</field>
+	<field name="label">Alarm (general)</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">121</field>
+	<field name="commandclass">395</field>
+	<field name="name">sensor_relhumidity</field>
+	<field name="config">sensorType=RELATIVE_HUMIDITY</field>
+	<field name="label">Sensor (relative humidity)</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">122</field>
+	<field name="commandclass">395</field>
+	<field name="name">sensor_ultraviolet</field>
+	<field name="config">sensorType=ULTRAVIOLET</field>
+	<field name="label">Sensor (ultraviolet)</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">123</field>
+	<field name="commandclass">395</field>
+	<field name="name">sensor_temperature</field>
+	<field name="config">sensorType=TEMPERATURE</field>
+	<field name="label">Sensor (temperature)</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">124</field>
+	<field name="commandclass">395</field>
+	<field name="name">sensor_luminance</field>
+	<field name="config">sensorType=LUMINANCE</field>
+	<field name="label">Sensor (luminance)</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">125</field>
+	<field name="commandclass">397</field>
+	<field name="name">sensor_binary</field>
+	<field name="config"></field>
+	<field name="label">Binary Sensor</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">126</field>
+	<field name="commandclass">406</field>
+	<field name="name">sensor_temperature</field>
+	<field name="config">sensorType=TEMPERATURE</field>
+	<field name="label">Sensor (temperature) 1</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">127</field>
+	<field name="commandclass">408</field>
+	<field name="name">sensor_relhumidity</field>
+	<field name="config">sensorType=RELATIVE_HUMIDITY</field>
+	<field name="label">Sensor (relative humidity) 2</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">128</field>
+	<field name="commandclass">410</field>
+	<field name="name">alarm_co2</field>
+	<field name="config">sensorType=CARBON_MONOXIDE</field>
+	<field name="label">Alarm (CO2)</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">129</field>
+	<field name="commandclass">410</field>
+	<field name="name">alarm_smoke</field>
+	<field name="config">sensorType=SMOKE</field>
+	<field name="label">Alarm (smoke)</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">130</field>
+	<field name="commandclass">411</field>
+	<field name="name">sensor_relhumidity</field>
+	<field name="config">sensorType=RELATIVE_HUMIDITY</field>
+	<field name="label">Sensor (relative humidity)</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">131</field>
+	<field name="commandclass">411</field>
+	<field name="name">sensor_power</field>
+	<field name="config">sensorType=POWER</field>
+	<field name="label">Sensor (power)</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">132</field>
+	<field name="commandclass">411</field>
+	<field name="name">sensor_temperature</field>
+	<field name="config">sensorType=TEMPERATURE</field>
+	<field name="label">Sensor (temperature)</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">133</field>
+	<field name="commandclass">421</field>
+	<field name="name">switch_binary</field>
+	<field name="config"></field>
+	<field name="label">Switch 1</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">134</field>
+	<field name="commandclass">423</field>
+	<field name="name">switch_binary</field>
+	<field name="config"></field>
+	<field name="label">Switch 2</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">135</field>
+	<field name="commandclass">429</field>
+	<field name="name">switch_binary</field>
+	<field name="config"></field>
+	<field name="label">Switch</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">136</field>
+	<field name="commandclass">436</field>
+	<field name="name">sensor_binary</field>
+	<field name="config"></field>
+	<field name="label">Binary Sensor 1</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">137</field>
+	<field name="commandclass">437</field>
+	<field name="name">alarm_general</field>
+	<field name="config"></field>
+	<field name="label">Alarm 1</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">138</field>
+	<field name="commandclass">439</field>
+	<field name="name">sensor_binary</field>
+	<field name="config"></field>
+	<field name="label">Binary Sensor 2</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">139</field>
+	<field name="commandclass">440</field>
+	<field name="name">alarm_general</field>
+	<field name="config"></field>
+	<field name="label">Alarm 2</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">140</field>
+	<field name="commandclass">443</field>
+	<field name="name">sensor_binary</field>
+	<field name="config"></field>
+	<field name="label">Binary Sensor</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">141</field>
+	<field name="commandclass">450</field>
+	<field name="name">sensor_binary</field>
+	<field name="config"></field>
+	<field name="label">Binary Sensor 1</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">142</field>
+	<field name="commandclass">452</field>
+	<field name="name">sensor_temperature</field>
+	<field name="config">sensorType=TEMPERATURE</field>
+	<field name="label">Sensor (temperature) 2</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">143</field>
+	<field name="commandclass">455</field>
+	<field name="name">sensor_binary</field>
+	<field name="config"></field>
+	<field name="label">Binary Sensor</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">144</field>
+	<field name="commandclass">456</field>
+	<field name="name">alarm_general</field>
+	<field name="config">sensorType=GENERAL</field>
+	<field name="label">Alarm (general)</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">145</field>
+	<field name="commandclass">456</field>
+	<field name="name">sensor_flood</field>
+	<field name="config">sensorType=FLOOD</field>
+	<field name="label">Alarm (water)</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">146</field>
+	<field name="commandclass">463</field>
+	<field name="name">sensor_power</field>
+	<field name="config">sensorType=POWER</field>
+	<field name="label">Sensor (power)</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">147</field>
+	<field name="commandclass">466</field>
+	<field name="name">switch_binary</field>
+	<field name="config"></field>
+	<field name="label">Switch</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">148</field>
+	<field name="commandclass">469</field>
+	<field name="name">meter_kwh</field>
+	<field name="config">meterScale=E_KWh</field>
+	<field name="label">Electric meter (kWh)</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">149</field>
+	<field name="commandclass">469</field>
+	<field name="name">meter_watts</field>
+	<field name="config">meterScale=E_W</field>
+	<field name="label">Electric meter (watts)</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">150</field>
+	<field name="commandclass">470</field>
+	<field name="name">alarm_general</field>
+	<field name="config"></field>
+	<field name="label">Alarm</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">151</field>
+	<field name="commandclass">482</field>
+	<field name="name">alarm_general</field>
+	<field name="config"></field>
+	<field name="label">Alarm 1</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">152</field>
+	<field name="commandclass">483</field>
+	<field name="name">sensor_power</field>
+	<field name="config">sensorType=POWER</field>
+	<field name="label">Sensor (power) 1</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">153</field>
+	<field name="commandclass">487</field>
+	<field name="name">meter_kwh</field>
+	<field name="config">meterScale=E_KWh</field>
+	<field name="label">Electric meter (kWh) 1</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">154</field>
+	<field name="commandclass">487</field>
+	<field name="name">meter_watts</field>
+	<field name="config">meterScale=E_W</field>
+	<field name="label">Electric meter (watts) 1</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">155</field>
+	<field name="commandclass">492</field>
+	<field name="name">sensor_power</field>
+	<field name="config">sensorType=POWER</field>
+	<field name="label">Sensor (power)</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">156</field>
+	<field name="commandclass">494</field>
+	<field name="name">meter_kwh</field>
+	<field name="config">meterScale=E_KWh</field>
+	<field name="label">Electric meter (kWh)</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">157</field>
+	<field name="commandclass">494</field>
+	<field name="name">meter_watts</field>
+	<field name="config">meterScale=E_W</field>
+	<field name="label">Electric meter (watts)</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">158</field>
+	<field name="commandclass">489</field>
+	<field name="name">switch_dimmer</field>
+	<field name="config"></field>
+	<field name="label">Dimmer</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">159</field>
+	<field name="commandclass">484</field>
+	<field name="name">switch_dimmer</field>
+	<field name="config"></field>
+	<field name="label">Dimmer</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">160</field>
+	<field name="commandclass">472</field>
+	<field name="name">switch_dimmer</field>
+	<field name="config"></field>
+	<field name="label">Dimmer</field>
 	<field name="overview"></field>
   </row>
 </resultset>
