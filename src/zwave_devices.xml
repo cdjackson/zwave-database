@@ -874,15 +874,15 @@
 	<field name="type_id">000B:0001</field>
 	<field name="versionmin">0.000</field>
 	<field name="versionmax">255.255</field>
-	<field name="library_type">0</field>
-	<field name="protocol_version">0.000</field>
-	<field name="listening"></field>
-	<field name="beaming"></field>
-	<field name="security"></field>
-	<field name="max_baud">0</field>
-	<field name="basicclass">0</field>
-	<field name="genericclass">0</field>
-	<field name="specificclass">0</field>
+	<field name="library_type">3</field>
+	<field name="protocol_version">3.052</field>
+	<field name="listening">0</field>
+	<field name="beaming">1</field>
+	<field name="security">0</field>
+	<field name="max_baud">40000</field>
+	<field name="basicclass">5</field>
+	<field name="genericclass">26</field>
+	<field name="specificclass">54</field>
 	<field name="thingid">st812</field>
 	<field name="info_overview"></field>
 	<field name="info_inclusion"></field>
@@ -1230,7 +1230,7 @@
 	<field name="id">52</field>
 	<field name="manufacturer">11</field>
 	<field name="label">064459</field>
-	<field name="description">D√ºwi Remote Control</field>
+	<field name="description">D¸wi Remote Control</field>
 	<field name="type_id">5001:0000</field>
 	<field name="versionmin">0.000</field>
 	<field name="versionmax">255.255</field>
@@ -1509,12 +1509,12 @@
 	<field name="specificclass">22</field>
 	<field name="thingid">zw096</field>
 	<field name="info_overview">&lt;p&gt;Update command classes -:&lt;br /&gt;METER:5 :: ADD&lt;br /&gt;METER:6 :: ADD&lt;/p&gt;
-&lt;p&gt;¬†&lt;/p&gt;
-&lt;p&gt;Aeon Labs Smart Switch is a Z-Wave power binary switch device based on Z-Wave enhanced 232 slave library&lt;br /&gt;V6.51.06.&lt;br /&gt;Its surface has the Smart RGB LEDs on, which can be used for indicating the output load status, the strength of&lt;br /&gt;wireless signal. You can also configure its indication colour according to your favour.&lt;br /&gt;It can be included and operated in any Z-wave network with other Z-wave certified devices from other&lt;br /&gt;manufacturers and/or other applications. All non-battery operated nodes within the network will act as repeaters&lt;br /&gt;regardless of vendor to increase reliability of the network.&lt;br /&gt;It is also a security Z-wave device and supports the Over The Air (OTA) feature for the product‚Äôs firmware upgrade.&lt;br /&gt;As soon as Smart Switch is removed from a z-wave network it will be restored into default factory setting.&lt;/p&gt;
-&lt;p&gt;¬†&lt;/p&gt;
+&lt;p&gt;†&lt;/p&gt;
+&lt;p&gt;Aeon Labs Smart Switch is a Z-Wave power binary switch device based on Z-Wave enhanced 232 slave library&lt;br /&gt;V6.51.06.&lt;br /&gt;Its surface has the Smart RGB LEDs on, which can be used for indicating the output load status, the strength of&lt;br /&gt;wireless signal. You can also configure its indication colour according to your favour.&lt;br /&gt;It can be included and operated in any Z-wave network with other Z-wave certified devices from other&lt;br /&gt;manufacturers and/or other applications. All non-battery operated nodes within the network will act as repeaters&lt;br /&gt;regardless of vendor to increase reliability of the network.&lt;br /&gt;It is also a security Z-wave device and supports the Over The Air (OTA) feature for the productís firmware upgrade.&lt;br /&gt;As soon as Smart Switch is removed from a z-wave network it will be restored into default factory setting.&lt;/p&gt;
+&lt;p&gt;†&lt;/p&gt;
 &lt;p&gt;Reset Smart Switch to factory Default:&lt;br /&gt;1 . Make sure the Smart Switch has been connected to the power supply.&lt;br /&gt;2. Press and hold the Z-wave button for 20 seconds.&lt;br /&gt;3. I f holding time more than one second, the LED will blink faster and faster. If holding time&lt;br /&gt;more than 20seconds, the green LED will be on for 2 seconds and then remain colorful&lt;br /&gt;gradient status, it indicates reset success, otherwise please repeat step 2.&lt;br /&gt;Note:&lt;br /&gt;1, This procedure should only be used when the primary controller is inoperable.&lt;br /&gt;2, Reset Smart Switch to factory default settings will: sets the Smart Switch to not in Z-&lt;br /&gt;Wave network state; delete the Association setting, power measure value, Scene&lt;br /&gt;Configuration Settings and restore the Configuration setting to the default&lt;/p&gt;</field>
-	<field name="info_inclusion">&lt;p&gt;Add Smart Switch into a z-wave network:&lt;br /&gt;1. Insert the Smart Switch to power socket, The purple LED will be colorful gradient status.&lt;br /&gt;2. Let the primary controller into inclusion mode (If you don‚Äôt know how to do this, refer to&lt;br /&gt;its manual).&lt;br /&gt;3. Press the Action button.&lt;br /&gt;4. If the inclusion success, Smart Switch LED will be solid. Otherwise, the LED will remain&lt;br /&gt;colorful gradient status, in which you need to repeat the process from step 2.&lt;/p&gt;</field>
-	<field name="info_exclusion">&lt;p&gt;Remove Smart Switch from a z-wave network:&lt;br /&gt;1. Insert the Smart Switch to power socket, The Smart Switch LED will be solid.&lt;br /&gt;2. Let the primary controller into remove mode (If you don‚Äôt know how to do this, refer to its manual).&lt;br /&gt;3. Press the Action button.&lt;br /&gt;4. If the remove is successful, Smart Switch LED will blink slowly. If Smart Switch LED still be&lt;br /&gt;solid, please repeat the process from step 2.&lt;/p&gt;</field>
+	<field name="info_inclusion">&lt;p&gt;Add Smart Switch into a z-wave network:&lt;br /&gt;1. Insert the Smart Switch to power socket, The purple LED will be colorful gradient status.&lt;br /&gt;2. Let the primary controller into inclusion mode (If you donít know how to do this, refer to&lt;br /&gt;its manual).&lt;br /&gt;3. Press the Action button.&lt;br /&gt;4. If the inclusion success, Smart Switch LED will be solid. Otherwise, the LED will remain&lt;br /&gt;colorful gradient status, in which you need to repeat the process from step 2.&lt;/p&gt;</field>
+	<field name="info_exclusion">&lt;p&gt;Remove Smart Switch from a z-wave network:&lt;br /&gt;1. Insert the Smart Switch to power socket, The Smart Switch LED will be solid.&lt;br /&gt;2. Let the primary controller into remove mode (If you donít know how to do this, refer to its manual).&lt;br /&gt;3. Press the Action button.&lt;br /&gt;4. If the remove is successful, Smart Switch LED will blink slowly. If Smart Switch LED still be&lt;br /&gt;solid, please repeat the process from step 2.&lt;/p&gt;</field>
 	<field name="info_wakeup">&lt;p&gt;mains device&lt;/p&gt;</field>
   </row>
 
@@ -1576,14 +1576,14 @@
 	<field name="versionmax">255.255</field>
 	<field name="library_type">0</field>
 	<field name="protocol_version">0.000</field>
-	<field name="listening"></field>
-	<field name="beaming"></field>
-	<field name="security"></field>
+	<field name="listening">0</field>
+	<field name="beaming">0</field>
+	<field name="security">0</field>
 	<field name="max_baud">0</field>
 	<field name="basicclass">0</field>
 	<field name="genericclass">0</field>
 	<field name="specificclass">0</field>
-	<field name="thingid">dsd37-zw</field>
+	<field name="thingid">dsd37zw</field>
 	<field name="info_overview"></field>
 	<field name="info_inclusion"></field>
 	<field name="info_exclusion"></field>
@@ -1600,14 +1600,14 @@
 	<field name="versionmax">255.255</field>
 	<field name="library_type">0</field>
 	<field name="protocol_version">0.000</field>
-	<field name="listening"></field>
-	<field name="beaming"></field>
-	<field name="security"></field>
-	<field name="max_baud">0</field>
-	<field name="basicclass">0</field>
-	<field name="genericclass">0</field>
-	<field name="specificclass">0</field>
-	<field name="thingid">z-sticks2</field>
+	<field name="listening">1</field>
+	<field name="beaming">1</field>
+	<field name="security">0</field>
+	<field name="max_baud">40000</field>
+	<field name="basicclass">3</field>
+	<field name="genericclass">4</field>
+	<field name="specificclass">6</field>
+	<field name="thingid">zsticks2</field>
 	<field name="info_overview"></field>
 	<field name="info_inclusion"></field>
 	<field name="info_exclusion"></field>
@@ -1656,36 +1656,36 @@
 	<field name="genericclass">7</field>
 	<field name="specificclass">13</field>
 	<field name="thingid">dsb54</field>
-	<field name="info_overview">&lt;p&gt;¬†Aeon Labs Recessed Door Sensor Gen5 is a door detector that can detect the state of the door's &lt;br /&gt;open/close.¬† It is a notification sensor device based on Z‚Äêwave routing slave library V6.51.01&lt;br /&gt;The Recessed Door Sensor can be included and operated in any Z‚Äêwave network with other Z‚Äêwave &lt;br /&gt;certified devices from other manufacturers and/or other applications. All non‚Äêbattery operated nodes &lt;br /&gt;within the network will act as repeaters regardless of vendor to increase reliability of the network.¬†&lt;/p&gt;
-&lt;p&gt;¬†&lt;/p&gt;
+	<field name="info_overview">&lt;p&gt;†Aeon Labs Recessed Door Sensor Gen5 is a door detector that can detect the state of the door's &lt;br /&gt;open/close.† It is a notification sensor device based on Z?wave routing slave library V6.51.01&lt;br /&gt;The Recessed Door Sensor can be included and operated in any Z?wave network with other Z?wave &lt;br /&gt;certified devices from other manufacturers and/or other applications. All non?battery operated nodes &lt;br /&gt;within the network will act as repeaters regardless of vendor to increase reliability of the network.†&lt;/p&gt;
+&lt;p&gt;†&lt;/p&gt;
 &lt;p&gt;Reset:&lt;/p&gt;
-&lt;p&gt;Press and hold the Z‚Äêwave Button for 20 seconds&lt;/p&gt;
+&lt;p&gt;Press and hold the Z?wave Button for 20 seconds&lt;/p&gt;
 &lt;p&gt;Recessed Door Sensor will be reset and send Device Reset Locally CC to controller.&lt;/p&gt;
-&lt;p&gt;Note:¬† This procedure should only be used when the primary cont&lt;br /&gt;roller is inoperable or missing.&lt;/p&gt;
-&lt;p&gt;¬†&lt;/p&gt;</field>
-	<field name="info_inclusion">&lt;p&gt;Add Recessed Door Sensor Gen5 into z‚Äêwave network:¬† &lt;br /&gt;1. Power on the Recessed Door Sensor Gen5.¬†¬† &lt;br /&gt;2. Let the primary controller into inclusion mode (If you don‚Äôt &lt;br /&gt;know how to do this, refer to its manual).¬† &lt;br /&gt;3. Press the Z‚ÄêWave button.¬† &lt;br /&gt;4. If the inclusion is success, Recessed Door Sensor Gen5‚Äôs LED &lt;br /&gt;will be kept turning on for 10 minutes. If the LED still blinks &lt;br /&gt;slowly, in which you need to repeat the process from step 2.¬†&lt;/p&gt;</field>
-	<field name="info_exclusion">&lt;p&gt;Remove Recessed Door Sensor Gen5¬† from z‚Äêwave network:¬† &lt;br /&gt;1. Power on the Recessed Door Sensor Gen5.¬†¬† &lt;br /&gt;2. Let the primary controller into exclusion mode (If you don‚Äôt &lt;br /&gt;know how to do this, refer to its manual).¬† &lt;br /&gt;3. Press the Z‚ÄêWave button.¬† &lt;br /&gt;4. If the exclusion is success, Recessed Door Sensor Gen5‚Äôs LED &lt;br /&gt;will blink slowly. If LED still be solid status for 3 seconds after you &lt;br /&gt;short press the Z‚ÄêWave button, in which you need to repeat the &lt;br /&gt;process from step 2&lt;/p&gt;</field>
-	<field name="info_wakeup">&lt;p&gt;Press and hold the Z‚Äêwave Button for 6 seconds &lt;br /&gt;1, It will be wake up and send Wake Up Notification with broadcast.¬†¬† &lt;br /&gt;2, It will sleep after you released the z‚Äêwave button for 10 &lt;br /&gt;seconds, or sleep right away when received the Wake Up No &lt;br /&gt;More Information and then the led will turn off.¬†&lt;/p&gt;</field>
+&lt;p&gt;Note:† This procedure should only be used when the primary cont&lt;br /&gt;roller is inoperable or missing.&lt;/p&gt;
+&lt;p&gt;†&lt;/p&gt;</field>
+	<field name="info_inclusion">&lt;p&gt;Add Recessed Door Sensor Gen5 into z?wave network:† &lt;br /&gt;1. Power on the Recessed Door Sensor Gen5.†† &lt;br /&gt;2. Let the primary controller into inclusion mode (If you donít &lt;br /&gt;know how to do this, refer to its manual).† &lt;br /&gt;3. Press the Z?Wave button.† &lt;br /&gt;4. If the inclusion is success, Recessed Door Sensor Gen5ís LED &lt;br /&gt;will be kept turning on for 10 minutes. If the LED still blinks &lt;br /&gt;slowly, in which you need to repeat the process from step 2.†&lt;/p&gt;</field>
+	<field name="info_exclusion">&lt;p&gt;Remove Recessed Door Sensor Gen5† from z?wave network:† &lt;br /&gt;1. Power on the Recessed Door Sensor Gen5.†† &lt;br /&gt;2. Let the primary controller into exclusion mode (If you donít &lt;br /&gt;know how to do this, refer to its manual).† &lt;br /&gt;3. Press the Z?Wave button.† &lt;br /&gt;4. If the exclusion is success, Recessed Door Sensor Gen5ís LED &lt;br /&gt;will blink slowly. If LED still be solid status for 3 seconds after you &lt;br /&gt;short press the Z?Wave button, in which you need to repeat the &lt;br /&gt;process from step 2&lt;/p&gt;</field>
+	<field name="info_wakeup">&lt;p&gt;Press and hold the Z?wave Button for 6 seconds &lt;br /&gt;1, It will be wake up and send Wake Up Notification with broadcast.†† &lt;br /&gt;2, It will sleep after you released the z?wave button for 10 &lt;br /&gt;seconds, or sleep right away when received the Wake Up No &lt;br /&gt;More Information and then the led will turn off.†&lt;/p&gt;</field>
   </row>
 
   <row>
 	<field name="id">70</field>
 	<field name="manufacturer">14</field>
-	<field name="label">DoorSensor</field>
-	<field name="description">Door/Window sensor</field>
+	<field name="label">DSB29ZWUS</field>
+	<field name="description">Door/Window sensor Gen2</field>
 	<field name="type_id">0002:0004,0002:001D</field>
 	<field name="versionmin">0.000</field>
 	<field name="versionmax">255.255</field>
-	<field name="library_type">0</field>
-	<field name="protocol_version">0.000</field>
-	<field name="listening"></field>
-	<field name="beaming"></field>
-	<field name="security"></field>
-	<field name="max_baud">0</field>
-	<field name="basicclass">0</field>
-	<field name="genericclass">0</field>
-	<field name="specificclass">0</field>
-	<field name="thingid">doorsensor</field>
+	<field name="library_type">3</field>
+	<field name="protocol_version">3.067</field>
+	<field name="listening">0</field>
+	<field name="beaming">1</field>
+	<field name="security">0</field>
+	<field name="max_baud">40000</field>
+	<field name="basicclass">5</field>
+	<field name="genericclass">19</field>
+	<field name="specificclass">45</field>
+	<field name="thingid">dsb29zwus</field>
 	<field name="info_overview"></field>
 	<field name="info_inclusion"></field>
 	<field name="info_exclusion"></field>
@@ -1726,14 +1726,14 @@
 	<field name="versionmax">255.255</field>
 	<field name="library_type">0</field>
 	<field name="protocol_version">0.000</field>
-	<field name="listening"></field>
-	<field name="beaming"></field>
-	<field name="security"></field>
+	<field name="listening">0</field>
+	<field name="beaming">0</field>
+	<field name="security">0</field>
 	<field name="max_baud">0</field>
 	<field name="basicclass">0</field>
 	<field name="genericclass">0</field>
 	<field name="specificclass">0</field>
-	<field name="thingid">4in1ms-g5</field>
+	<field name="thingid">4in1msg5</field>
 	<field name="info_overview"></field>
 	<field name="info_inclusion"></field>
 	<field name="info_exclusion"></field>
@@ -2038,14 +2038,14 @@
 	<field name="versionmax">255.255</field>
 	<field name="library_type">0</field>
 	<field name="protocol_version">0.000</field>
-	<field name="listening"></field>
-	<field name="beaming"></field>
-	<field name="security"></field>
+	<field name="listening">0</field>
+	<field name="beaming">0</field>
+	<field name="security">0</field>
 	<field name="max_baud">0</field>
 	<field name="basicclass">0</field>
 	<field name="genericclass">0</field>
 	<field name="specificclass">0</field>
-	<field name="thingid">hem-g2</field>
+	<field name="thingid">hemg2</field>
 	<field name="info_overview"></field>
 	<field name="info_inclusion"></field>
 	<field name="info_exclusion"></field>
@@ -2132,15 +2132,15 @@
 	<field name="type_id">0003:000B</field>
 	<field name="versionmin">0.000</field>
 	<field name="versionmax">255.255</field>
-	<field name="library_type">0</field>
-	<field name="protocol_version">0.000</field>
-	<field name="listening"></field>
-	<field name="beaming"></field>
-	<field name="security"></field>
-	<field name="max_baud">0</field>
-	<field name="basicclass">0</field>
-	<field name="genericclass">0</field>
-	<field name="specificclass">0</field>
+	<field name="library_type">3</field>
+	<field name="protocol_version">3.067</field>
+	<field name="listening">1</field>
+	<field name="beaming">1</field>
+	<field name="security">0</field>
+	<field name="max_baud">40000</field>
+	<field name="basicclass">5</field>
+	<field name="genericclass">11</field>
+	<field name="specificclass">22</field>
 	<field name="thingid">smartstrip</field>
 	<field name="info_overview">Update command classes -:&lt;br /&gt;METER:5  :: ADD&lt;br /&gt;METER:6  :: ADD</field>
 	<field name="info_inclusion"></field>
@@ -2158,15 +2158,15 @@
 	<field name="versionmax">255.255</field>
 	<field name="library_type">0</field>
 	<field name="protocol_version">0.000</field>
-	<field name="listening"></field>
-	<field name="beaming"></field>
-	<field name="security"></field>
+	<field name="listening">0</field>
+	<field name="beaming">0</field>
+	<field name="security">0</field>
 	<field name="max_baud">0</field>
 	<field name="basicclass">0</field>
 	<field name="genericclass">0</field>
 	<field name="specificclass">0</field>
-	<field name="thingid">zw080-a17</field>
-	<field name="info_overview">Update command classes -:&lt;br /&gt;METER:5  :: ADD&lt;br /&gt;METER:6  :: ADD</field>
+	<field name="thingid">zw080a17</field>
+	<field name="info_overview">&lt;p&gt;Update command classes -:&lt;br /&gt;METER:5 :: ADD&lt;br /&gt;METER:6 :: ADD&lt;/p&gt;</field>
 	<field name="info_inclusion"></field>
 	<field name="info_exclusion"></field>
 	<field name="info_wakeup"></field>
@@ -2182,15 +2182,15 @@
 	<field name="versionmax">255.255</field>
 	<field name="library_type">0</field>
 	<field name="protocol_version">0.000</field>
-	<field name="listening"></field>
-	<field name="beaming"></field>
-	<field name="security"></field>
+	<field name="listening">0</field>
+	<field name="beaming">0</field>
+	<field name="security">0</field>
 	<field name="max_baud">0</field>
 	<field name="basicclass">0</field>
 	<field name="genericclass">0</field>
 	<field name="specificclass">0</field>
-	<field name="thingid">zw098-c55</field>
-	<field name="info_overview">Update command classes -:&lt;br /&gt;METER:5  :: ADD&lt;br /&gt;METER:6  :: ADD</field>
+	<field name="thingid">zw098c55</field>
+	<field name="info_overview">&lt;p&gt;Update command classes -:&lt;br /&gt;METER:5 :: ADD&lt;br /&gt;METER:6 :: ADD&lt;/p&gt;</field>
 	<field name="info_inclusion"></field>
 	<field name="info_exclusion"></field>
 	<field name="info_wakeup"></field>
@@ -2218,8 +2218,8 @@
 	<field name="info_inclusion"></field>
 	<field name="info_exclusion"></field>
 	<field name="info_wakeup">&lt;p&gt;Press WakeUp button or hold z-wave button&lt;/p&gt;
-&lt;p&gt;¬†&lt;/p&gt;
-&lt;p&gt;The Water Sensor will keep waking up for 8 seconds after sending the wake up notification command.&lt;br /&gt;The Water Sensor will keep waking up for 8 seconds to waiting for the next command after receiving a&lt;br /&gt;command.&lt;br /&gt;The Water Sensor will be woken up for 10 minutes when power is on (configurable).&lt;br /&gt;There are 3 ways to exit the Wake up 10 minutes state:&lt;br /&gt;1. Triple click the tamper switch, and the Water Sensor will sleep immediately&lt;br /&gt;2. Receive the ‚ÄúWake up no more information CC‚Äù command , sleep right now;&lt;br /&gt;3. Receive the other command except ‚ÄúWake up no more information CC‚Äù , the Water Sensor will wake&lt;br /&gt;up for 8 seconds and then go to sleep.&lt;/p&gt;</field>
+&lt;p&gt;†&lt;/p&gt;
+&lt;p&gt;The Water Sensor will keep waking up for 8 seconds after sending the wake up notification command.&lt;br /&gt;The Water Sensor will keep waking up for 8 seconds to waiting for the next command after receiving a&lt;br /&gt;command.&lt;br /&gt;The Water Sensor will be woken up for 10 minutes when power is on (configurable).&lt;br /&gt;There are 3 ways to exit the Wake up 10 minutes state:&lt;br /&gt;1. Triple click the tamper switch, and the Water Sensor will sleep immediately&lt;br /&gt;2. Receive the ìWake up no more information CCî command , sleep right now;&lt;br /&gt;3. Receive the other command except ìWake up no more information CCî , the Water Sensor will wake&lt;br /&gt;up for 8 seconds and then go to sleep.&lt;/p&gt;</field>
   </row>
 
   <row>
@@ -2393,9 +2393,9 @@
   <row>
 	<field name="id">100</field>
 	<field name="manufacturer">16</field>
-	<field name="label">NP210</field>
-	<field name="description">Smart PowerNode</field>
-	<field name="type_id">0003:0004,0003:0003</field>
+	<field name="label">GWPN6</field>
+	<field name="description">Multi-socket PowerNode (6-plug)</field>
+	<field name="type_id">0003:0004</field>
 	<field name="versionmin">0.000</field>
 	<field name="versionmax">255.255</field>
 	<field name="library_type">3</field>
@@ -2407,8 +2407,9 @@
 	<field name="basicclass">5</field>
 	<field name="genericclass">11</field>
 	<field name="specificclass">22</field>
-	<field name="thingid">np210</field>
-	<field name="info_overview"></field>
+	<field name="thingid">gwpn6</field>
+	<field name="info_overview">&lt;p&gt;This Configuration is for the 6 plug version of the PowerNode.&lt;/p&gt;
+&lt;p&gt;†&lt;/p&gt;</field>
 	<field name="info_inclusion"></field>
 	<field name="info_exclusion"></field>
 	<field name="info_wakeup"></field>
@@ -2417,11 +2418,11 @@
   <row>
 	<field name="id">101</field>
 	<field name="manufacturer">16</field>
-	<field name="label">NS210</field>
-	<field name="description">Smart PowerNode</field>
-	<field name="type_id">0003:0004,0003:0003</field>
-	<field name="versionmin">0.000</field>
-	<field name="versionmax">255.255</field>
+	<field name="label">GWPN1</field>
+	<field name="description">Single-socket PowerNode</field>
+	<field name="type_id">0002:0002</field>
+	<field name="versionmin">1.000</field>
+	<field name="versionmax">3.000</field>
 	<field name="library_type">3</field>
 	<field name="protocol_version">3.041</field>
 	<field name="listening">1</field>
@@ -2431,7 +2432,7 @@
 	<field name="basicclass">5</field>
 	<field name="genericclass">11</field>
 	<field name="specificclass">22</field>
-	<field name="thingid">ns210</field>
+	<field name="thingid">gwpn1</field>
 	<field name="info_overview"></field>
 	<field name="info_inclusion"></field>
 	<field name="info_exclusion"></field>
@@ -2441,21 +2442,21 @@
   <row>
 	<field name="id">102</field>
 	<field name="manufacturer">16</field>
-	<field name="label">NS210</field>
-	<field name="description">Smart PowerNode</field>
+	<field name="label">GWPN1</field>
+	<field name="description">Single-socket PowerNode</field>
 	<field name="type_id">0002:0002</field>
 	<field name="versionmin">4.000</field>
-	<field name="versionmax">255.255</field>
+	<field name="versionmax">4.000</field>
 	<field name="library_type">0</field>
 	<field name="protocol_version">0.000</field>
-	<field name="listening"></field>
-	<field name="beaming"></field>
-	<field name="security"></field>
+	<field name="listening">0</field>
+	<field name="beaming">0</field>
+	<field name="security">0</field>
 	<field name="max_baud">0</field>
 	<field name="basicclass">0</field>
 	<field name="genericclass">0</field>
 	<field name="specificclass">0</field>
-	<field name="thingid">ns210</field>
+	<field name="thingid">gwpn1</field>
 	<field name="info_overview"></field>
 	<field name="info_inclusion"></field>
 	<field name="info_exclusion"></field>
@@ -5721,15 +5722,15 @@
 	<field name="type_id">0001:0002</field>
 	<field name="versionmin">0.000</field>
 	<field name="versionmax">255.255</field>
-	<field name="library_type">0</field>
-	<field name="protocol_version">0.000</field>
-	<field name="listening"></field>
-	<field name="beaming"></field>
-	<field name="security"></field>
-	<field name="max_baud">0</field>
-	<field name="basicclass">0</field>
-	<field name="genericclass">0</field>
-	<field name="specificclass">0</field>
+	<field name="library_type">7</field>
+	<field name="protocol_version">3.052</field>
+	<field name="listening">0</field>
+	<field name="beaming">1</field>
+	<field name="security">0</field>
+	<field name="max_baud">40000</field>
+	<field name="basicclass">5</field>
+	<field name="genericclass">26</field>
+	<field name="specificclass">2</field>
 	<field name="thingid">zcombo</field>
 	<field name="info_overview"></field>
 	<field name="info_inclusion"></field>
@@ -6163,17 +6164,17 @@
 	<field name="genericclass">11</field>
 	<field name="specificclass">22</field>
 	<field name="thingid">zw062</field>
-	<field name="info_overview">&lt;p&gt;Aeon Labs Garage Door Controller is a smart and wireless Garage Door Control system, you can control¬†the garage door to open, close, or stop moving via wireless signal on your gateway client or phone¬†application.&lt;/p&gt;
-&lt;p&gt;The Garage Door Controller allows you to configure different alarm sounds to indicate the door ‚Äôs action.&lt;/p&gt;
-&lt;p&gt;Each action alarm sound can be customized. To change or update new alarm sounds for the Garage Door¬†Controller, connect the Garage Door Controller to your PC host with a USB cable and download your¬†sound files to the flash memory (128 MB) of the Garage Door Controller.&lt;/p&gt;
-&lt;p&gt;It can be included and operated in any Z-wave network with other Z-wave certified devices from other¬†manufacturers and/or other applications. All non-battery operated nodes within the network will act as¬†repeaters regardless of vendor to increase reliability of the network.&lt;/p&gt;
-&lt;p&gt;It is also a security Z-wave device and supports the Over The Air (OTA) feature for the product‚Äôs firmware¬†upgrade.&lt;/p&gt;</field>
+	<field name="info_overview">&lt;p&gt;Aeon Labs Garage Door Controller is a smart and wireless Garage Door Control system, you can control†the garage door to open, close, or stop moving via wireless signal on your gateway client or phone†application.&lt;/p&gt;
+&lt;p&gt;The Garage Door Controller allows you to configure different alarm sounds to indicate the door ís action.&lt;/p&gt;
+&lt;p&gt;Each action alarm sound can be customized. To change or update new alarm sounds for the Garage Door†Controller, connect the Garage Door Controller to your PC host with a USB cable and download your†sound files to the flash memory (128 MB) of the Garage Door Controller.&lt;/p&gt;
+&lt;p&gt;It can be included and operated in any Z-wave network with other Z-wave certified devices from other†manufacturers and/or other applications. All non-battery operated nodes within the network will act as†repeaters regardless of vendor to increase reliability of the network.&lt;/p&gt;
+&lt;p&gt;It is also a security Z-wave device and supports the Over The Air (OTA) feature for the productís firmware†upgrade.&lt;/p&gt;</field>
 	<field name="info_inclusion">&lt;p&gt;Add Garage Door Controller into Z-Wave Network:&lt;/p&gt;
-&lt;p&gt;1. Install Garage Door Controller, and connect it to the 5V DC Adapter.&lt;br /&gt;2. Let the primary controller into inclusion mode (If you don‚Äôt know¬†how to do this, please refer to its manual).&lt;br /&gt;3. Press the Z-Wave Button.&lt;/p&gt;
-&lt;p&gt;¬†&lt;/p&gt;</field>
+&lt;p&gt;1. Install Garage Door Controller, and connect it to the 5V DC Adapter.&lt;br /&gt;2. Let the primary controller into inclusion mode (If you donít know†how to do this, please refer to its manual).&lt;br /&gt;3. Press the Z-Wave Button.&lt;/p&gt;
+&lt;p&gt;†&lt;/p&gt;</field>
 	<field name="info_exclusion">&lt;p&gt;Remove Garage Door Controller from Z-Wave Network:&lt;/p&gt;
-&lt;p&gt;1. Install Garage Door Controller, and connect it to the 5V DC Adapter.&lt;br /&gt;2. Let the primary controller into exclusion mode (If you don‚Äôt know¬†how to do this, refer to its manual).&lt;br /&gt;3. Press the Z-Wave Button.&lt;br /&gt;4. If the remove is failed, please repeat the process from step 2.&lt;/p&gt;
-&lt;p&gt;Note: If Garage Door Controller is removed from Z-wave network, it¬†will be reset to factory default.&lt;/p&gt;</field>
+&lt;p&gt;1. Install Garage Door Controller, and connect it to the 5V DC Adapter.&lt;br /&gt;2. Let the primary controller into exclusion mode (If you donít know†how to do this, refer to its manual).&lt;br /&gt;3. Press the Z-Wave Button.&lt;br /&gt;4. If the remove is failed, please repeat the process from step 2.&lt;/p&gt;
+&lt;p&gt;Note: If Garage Door Controller is removed from Z-wave network, it†will be reset to factory default.&lt;/p&gt;</field>
 	<field name="info_wakeup"></field>
   </row>
 
@@ -6345,6 +6346,54 @@
 	<field name="info_overview"></field>
 	<field name="info_inclusion"></field>
 	<field name="info_exclusion"></field>
+	<field name="info_wakeup"></field>
+  </row>
+
+  <row>
+	<field name="id">264</field>
+	<field name="manufacturer">16</field>
+	<field name="label">GWPN5</field>
+	<field name="description">Multi-socket PowerNode (5-plug)</field>
+	<field name="type_id">0003:0003</field>
+	<field name="versionmin">0.000</field>
+	<field name="versionmax">255.255</field>
+	<field name="library_type">3</field>
+	<field name="protocol_version">3.041</field>
+	<field name="listening">1</field>
+	<field name="beaming">1</field>
+	<field name="security">0</field>
+	<field name="max_baud">40000</field>
+	<field name="basicclass">5</field>
+	<field name="genericclass">11</field>
+	<field name="specificclass">22</field>
+	<field name="thingid">gwpn5</field>
+	<field name="info_overview"></field>
+	<field name="info_inclusion"></field>
+	<field name="info_exclusion"></field>
+	<field name="info_wakeup"></field>
+  </row>
+
+  <row>
+	<field name="id">265</field>
+	<field name="manufacturer">14</field>
+	<field name="label">Z stick Gen5</field>
+	<field name="description">Aeon Labs Z ? Stick Gen5</field>
+	<field name="type_id">0101:005A</field>
+	<field name="versionmin">0.000</field>
+	<field name="versionmax">255.255</field>
+	<field name="library_type">0</field>
+	<field name="protocol_version">0.000</field>
+	<field name="listening">1</field>
+	<field name="beaming">1</field>
+	<field name="security">0</field>
+	<field name="max_baud">40000</field>
+	<field name="basicclass">3</field>
+	<field name="genericclass">4</field>
+	<field name="specificclass">6</field>
+	<field name="thingid">zstickgen5</field>
+	<field name="info_overview">&lt;p&gt;Aeon Labs Z?Stick Gen5 is a self?powered Z?Wave USB adapter with remote network creation capabilities &lt;br /&gt;(independent from external power and host microprocessor).† By being able to remotely include/remove Z?&lt;br /&gt;Wave devices, this greatly simplifies Z?Wave network installation.† When connected to a host controller (via &lt;br /&gt;USB), it enables the host controller to take part in the Z?Wave Network. &lt;br /&gt;It can be included and operated in any Z?wave network with other Z?wave certified devices from other &lt;br /&gt;manufacturers and/or other applications. All non?battery operated nodes within the network will act as &lt;br /&gt;repeaters regardless of vendor to increase reliability of the network.†&lt;/p&gt;</field>
+	<field name="info_inclusion">&lt;p&gt;Push the include button.† Controller will blink slowly.† It is in include mode.† Press again to cancel.&lt;/p&gt;</field>
+	<field name="info_exclusion">&lt;p&gt;1. Unplug the Z?Stick from the USB connector. Then press and hold the Action Button for &lt;br /&gt;approximately 2 seconds. (The orange LED will blinking fast.) &lt;br /&gt;2. To remove a Z?Wave device from the network, simply go to the device with the Z?Stick &lt;br /&gt;and press the Action Button on the device you wish to remove. (The LED on the Z?Stick will &lt;br /&gt;become blue and Immediately stay solid for 2 seconds to indicate successful removal from &lt;br /&gt;the network.) &lt;br /&gt;3.†† The orange LED will then return to blinking fast, indicating readiness for further device &lt;br /&gt;exclusions. Repeat step 1 for each device as you wish to exclude&lt;/p&gt;</field>
 	<field name="info_wakeup"></field>
   </row>
 </resultset>

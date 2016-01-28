@@ -857,22 +857,22 @@
 	<field name="id">78</field>
 	<field name="device">63</field>
 	<field name="group_id">1</field>
-	<field name="label">Lifeline</field>
-	<field name="description"></field>
+	<field name="label">Group 1</field>
+	<field name="description">load notification type</field>
 	<field name="max">5</field>
 	<field name="controller">1</field>
-	<field name="overview"></field>
+	<field name="overview">&lt;p&gt;When the state of Smart Switch (turn on/off the load ) is changed:&lt;br /&gt;1, Set Configuration parameter 80 to 0 Reserved (Default).&lt;br /&gt;2, Set Configuration parameter 80 to 1 Send Hail CC.&lt;br /&gt;3. Set Configuration parameter 80 to 2: Send the Basic Report.&lt;/p&gt;</field>
   </row>
 
   <row>
 	<field name="id">79</field>
 	<field name="device">63</field>
 	<field name="group_id">2</field>
-	<field name="label">Retransmit</field>
-	<field name="description"></field>
+	<field name="label">Group 2</field>
+	<field name="description">forwarding basic set</field>
 	<field name="max">5</field>
 	<field name="controller">1</field>
-	<field name="overview"></field>
+	<field name="overview">&lt;p&gt;Forward the Basic Set, Switch Binary Set to associated nodes in&lt;br /&gt;Group 2 when the Smart Switch receives the Basic Set, Switch&lt;br /&gt;Binary Set commands from main controller.&lt;/p&gt;</field>
   </row>
 
   <row>
@@ -5382,7 +5382,7 @@ state and reflect</field>
 	<field name="id">488</field>
 	<field name="device">253</field>
 	<field name="group_id">1</field>
-	<field name="label">ZB22UK supports Group 1 with up to Ô¨Åve devices for lifeline communicat</field>
+	<field name="label">ZB22UK supports Group 1 with up to ?ve devices for lifeline communicat</field>
 	<field name="description"></field>
 	<field name="max">5</field>
 	<field name="controller">1</field>
@@ -5431,7 +5431,7 @@ state and reflect</field>
 	<field name="description">Forward the Basic Set</field>
 	<field name="max">5</field>
 	<field name="controller">0</field>
-	<field name="overview">&lt;p&gt;Forward the Basic Set, Switch Binary Set commands to associated¬†nodes in Group 2 when the Garage Door Controller receives the¬†Basic Set, Switch Binary Set commands from main controller.&lt;/p&gt;</field>
+	<field name="overview">&lt;p&gt;Forward the Basic Set, Switch Binary Set commands to associated†nodes in Group 2 when the Garage Door Controller receives the†Basic Set, Switch Binary Set commands from main controller.&lt;/p&gt;</field>
   </row>
 
   <row>
@@ -5585,6 +5585,61 @@ state and reflect</field>
 	<field name="description"></field>
 	<field name="max">5</field>
 	<field name="controller">1</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">507</field>
+	<field name="device">100</field>
+	<field name="group_id">1</field>
+	<field name="label">Group 1</field>
+	<field name="description">Wheel group</field>
+	<field name="max">1</field>
+	<field name="controller">0</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">508</field>
+	<field name="device">100</field>
+	<field name="group_id">2</field>
+	<field name="label">Group 2</field>
+	<field name="description">Current leakage on relay</field>
+	<field name="max">1</field>
+	<field name="controller">0</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">509</field>
+	<field name="device">100</field>
+	<field name="group_id">3</field>
+	<field name="label">Group 3</field>
+	<field name="description">Power level change</field>
+	<field name="max">1</field>
+	<field name="controller">0</field>
+	<field name="overview">&lt;p&gt;The new power reading is sent if the delta of the change is greater than the defined minimum variation.&lt;/p&gt;</field>
+  </row>
+
+  <row>
+	<field name="id">510</field>
+	<field name="device">100</field>
+	<field name="group_id">4</field>
+	<field name="label">Group 4</field>
+	<field name="description">Over-current detection</field>
+	<field name="max">1</field>
+	<field name="controller">0</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">511</field>
+	<field name="device">37</field>
+	<field name="group_id">3</field>
+	<field name="label">Low battery</field>
+	<field name="description">Low battery association group</field>
+	<field name="max">3</field>
+	<field name="controller">0</field>
 	<field name="overview"></field>
   </row>
 </resultset>

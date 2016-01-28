@@ -4399,7 +4399,7 @@
 	<field name="id">550</field>
 	<field name="parameter">537</field>
 	<field name="value">1</field>
-	<field name="label">0.5 ÔøΩF</field>
+	<field name="label">0.5 ?F</field>
 	<field name="overview"></field>
   </row>
 
@@ -4407,7 +4407,7 @@
 	<field name="id">551</field>
 	<field name="parameter">537</field>
 	<field name="value">2</field>
-	<field name="label">1.0 ÔøΩF</field>
+	<field name="label">1.0 ?F</field>
 	<field name="overview"></field>
   </row>
 
@@ -4415,7 +4415,7 @@
 	<field name="id">552</field>
 	<field name="parameter">537</field>
 	<field name="value">3</field>
-	<field name="label">1.5 ÔøΩF</field>
+	<field name="label">1.5 ?F</field>
 	<field name="overview"></field>
   </row>
 
@@ -4423,7 +4423,7 @@
 	<field name="id">553</field>
 	<field name="parameter">537</field>
 	<field name="value">4</field>
-	<field name="label">2.0 ÔøΩF</field>
+	<field name="label">2.0 ?F</field>
 	<field name="overview"></field>
   </row>
 
@@ -4551,7 +4551,7 @@
 	<field name="id">569</field>
 	<field name="parameter">543</field>
 	<field name="value">1</field>
-	<field name="label">0.5 ÔøΩF</field>
+	<field name="label">0.5 ?F</field>
 	<field name="overview"></field>
   </row>
 
@@ -4559,7 +4559,7 @@
 	<field name="id">570</field>
 	<field name="parameter">543</field>
 	<field name="value">2</field>
-	<field name="label">1.0 ÔøΩF</field>
+	<field name="label">1.0 ?F</field>
 	<field name="overview"></field>
   </row>
 
@@ -4567,7 +4567,7 @@
 	<field name="id">571</field>
 	<field name="parameter">543</field>
 	<field name="value">3</field>
-	<field name="label">1.5 ÔøΩF</field>
+	<field name="label">1.5 ?F</field>
 	<field name="overview"></field>
   </row>
 
@@ -4575,7 +4575,7 @@
 	<field name="id">572</field>
 	<field name="parameter">543</field>
 	<field name="value">4</field>
-	<field name="label">2.0 ÔøΩF</field>
+	<field name="label">2.0 ?F</field>
 	<field name="overview"></field>
   </row>
 
@@ -4703,7 +4703,7 @@
 	<field name="id">588</field>
 	<field name="parameter">549</field>
 	<field name="value">1</field>
-	<field name="label">0.5 ÔøΩF</field>
+	<field name="label">0.5 ?F</field>
 	<field name="overview"></field>
   </row>
 
@@ -4711,7 +4711,7 @@
 	<field name="id">589</field>
 	<field name="parameter">549</field>
 	<field name="value">2</field>
-	<field name="label">1.0 ÔøΩF</field>
+	<field name="label">1.0 ?F</field>
 	<field name="overview"></field>
   </row>
 
@@ -4719,7 +4719,7 @@
 	<field name="id">590</field>
 	<field name="parameter">549</field>
 	<field name="value">3</field>
-	<field name="label">1.5 ÔøΩF</field>
+	<field name="label">1.5 ?F</field>
 	<field name="overview"></field>
   </row>
 
@@ -4727,7 +4727,7 @@
 	<field name="id">591</field>
 	<field name="parameter">549</field>
 	<field name="value">4</field>
-	<field name="label">2.0 ÔøΩF</field>
+	<field name="label">2.0 ?F</field>
 	<field name="overview"></field>
   </row>
 
@@ -9605,7 +9605,7 @@
 	<field name="id">1200</field>
 	<field name="parameter">827</field>
 	<field name="value">0</field>
-	<field name="label">LED indicator doesn‚Äôt indicate the temperature</field>
+	<field name="label">LED indicator doesnít indicate the temperature</field>
 	<field name="overview"></field>
   </row>
 
@@ -9669,7 +9669,7 @@
 	<field name="id">1208</field>
 	<field name="parameter">832</field>
 	<field name="value">1</field>
-	<field name="label">Built in flood sensor TURNED OFF (doesn‚Äôt change its state in the main</field>
+	<field name="label">Built in flood sensor TURNED OFF (doesnít change its state in the main</field>
 	<field name="overview"></field>
   </row>
 
@@ -17069,7 +17069,7 @@
 	<field name="id">2133</field>
 	<field name="parameter">1400</field>
 	<field name="value">0</field>
-	<field name="label">0 ‚Äì Endpoint, I2 disabled</field>
+	<field name="label">0 ñ Endpoint, I2 disabled</field>
 	<field name="overview"></field>
   </row>
 
@@ -17077,7 +17077,7 @@
 	<field name="id">2134</field>
 	<field name="parameter">1400</field>
 	<field name="value">1</field>
-	<field name="label">1 ‚Äì Home Security; Motion Detection, unknown loc.</field>
+	<field name="label">1 ñ Home Security; Motion Detection, unknown loc.</field>
 	<field name="overview"></field>
   </row>
 
@@ -17085,7 +17085,7 @@
 	<field name="id">2135</field>
 	<field name="parameter">1400</field>
 	<field name="value">2</field>
-	<field name="label">2 ‚Äì Carbon Monoxide; Carbon Monoxide detected, unknown location.</field>
+	<field name="label">2 ñ Carbon Monoxide; Carbon Monoxide detected, unknown location.</field>
 	<field name="overview"></field>
   </row>
 
@@ -17093,7 +17093,7 @@
 	<field name="id">2136</field>
 	<field name="parameter">1400</field>
 	<field name="value">3</field>
-	<field name="label">3 ‚Äì Carbon Dioxide; Carbon Dioxide detected, unknown loc.</field>
+	<field name="label">3 ñ Carbon Dioxide; Carbon Dioxide detected, unknown loc.</field>
 	<field name="overview"></field>
   </row>
 
@@ -17101,7 +17101,7 @@
 	<field name="id">2137</field>
 	<field name="parameter">1400</field>
 	<field name="value">4</field>
-	<field name="label">4 ‚Äì Water Alarm; Water Leak detected, unknown loc.</field>
+	<field name="label">4 ñ Water Alarm; Water Leak detected, unknown loc.</field>
 	<field name="overview"></field>
   </row>
 
@@ -17109,7 +17109,7 @@
 	<field name="id">2138</field>
 	<field name="parameter">1400</field>
 	<field name="value">5</field>
-	<field name="label">5 ‚Äì Heat Alarm; Overheat detected, unknown loc.</field>
+	<field name="label">5 ñ Heat Alarm; Overheat detected, unknown loc.</field>
 	<field name="overview"></field>
   </row>
 
@@ -17125,7 +17125,7 @@
 	<field name="id">2140</field>
 	<field name="parameter">1400</field>
 	<field name="value">9</field>
-	<field name="label">9 ‚Äì Sensor binary</field>
+	<field name="label">9 ñ Sensor binary</field>
 	<field name="overview"></field>
   </row>
 
@@ -17133,7 +17133,7 @@
 	<field name="id">2141</field>
 	<field name="parameter">1401</field>
 	<field name="value">0</field>
-	<field name="label">0 ‚Äì Endpoint, I3 disabled</field>
+	<field name="label">0 ñ Endpoint, I3 disabled</field>
 	<field name="overview"></field>
   </row>
 
@@ -17141,7 +17141,7 @@
 	<field name="id">2142</field>
 	<field name="parameter">1401</field>
 	<field name="value">1</field>
-	<field name="label">1 ‚Äì Home Security; Motion Detection, unknown loc.</field>
+	<field name="label">1 ñ Home Security; Motion Detection, unknown loc.</field>
 	<field name="overview"></field>
   </row>
 
@@ -17149,7 +17149,7 @@
 	<field name="id">2143</field>
 	<field name="parameter">1401</field>
 	<field name="value">2</field>
-	<field name="label">2 ‚Äì Carbon Monoxide; Carbon Monoxide detected, unknown location.</field>
+	<field name="label">2 ñ Carbon Monoxide; Carbon Monoxide detected, unknown location.</field>
 	<field name="overview"></field>
   </row>
 
@@ -17157,7 +17157,7 @@
 	<field name="id">2144</field>
 	<field name="parameter">1401</field>
 	<field name="value">3</field>
-	<field name="label">3 ‚Äì Carbon Dioxide; Carbon Dioxide detected, unknown loc.</field>
+	<field name="label">3 ñ Carbon Dioxide; Carbon Dioxide detected, unknown loc.</field>
 	<field name="overview"></field>
   </row>
 
@@ -17165,7 +17165,7 @@
 	<field name="id">2145</field>
 	<field name="parameter">1401</field>
 	<field name="value">4</field>
-	<field name="label">4 ‚Äì Water Alarm; Water Leak detected, unknown loc.</field>
+	<field name="label">4 ñ Water Alarm; Water Leak detected, unknown loc.</field>
 	<field name="overview"></field>
   </row>
 
@@ -17173,7 +17173,7 @@
 	<field name="id">2146</field>
 	<field name="parameter">1401</field>
 	<field name="value">5</field>
-	<field name="label">5 ‚Äì Heat Alarm; Overheat detected, unknown loc.</field>
+	<field name="label">5 ñ Heat Alarm; Overheat detected, unknown loc.</field>
 	<field name="overview"></field>
   </row>
 
@@ -17189,7 +17189,7 @@
 	<field name="id">2148</field>
 	<field name="parameter">1401</field>
 	<field name="value">9</field>
-	<field name="label">9 ‚Äì Sensor binary</field>
+	<field name="label">9 ñ Sensor binary</field>
 	<field name="overview"></field>
   </row>
 
@@ -17535,7 +17535,7 @@
 	<field name="id">2191</field>
 	<field name="parameter">1456</field>
 	<field name="value">0</field>
-	<field name="label">0 ‚Äì Shutter mode</field>
+	<field name="label">0 ñ Shutter mode</field>
 	<field name="overview"></field>
   </row>
 
@@ -17543,7 +17543,7 @@
 	<field name="id">2192</field>
 	<field name="parameter">1456</field>
 	<field name="value">1</field>
-	<field name="label">1 ‚Äì Venetian mode (up/down and slate rotation)</field>
+	<field name="label">1 ñ Venetian mode (up/down and slate rotation)</field>
 	<field name="overview"></field>
   </row>
 
@@ -17567,7 +17567,7 @@
 	<field name="id">2195</field>
 	<field name="parameter">1458</field>
 	<field name="value">2</field>
-	<field name="label">1 - Slats return UI control, push button, limit, switch or a ‚ÄúSTOP‚Äù fr</field>
+	<field name="label">1 - Slats return UI control, push button, limit, switch or a ìSTOPî fr</field>
 	<field name="overview"></field>
   </row>
 
@@ -19361,7 +19361,7 @@
 	<field name="id">2418</field>
 	<field name="parameter">1630</field>
 	<field name="value">1</field>
-	<field name="label">Greater than 0 ‚Äì IGNORE (The meter will not be reset.)</field>
+	<field name="label">Greater than 0 ñ IGNORE (The meter will not be reset.)</field>
 	<field name="overview"></field>
   </row>
 
@@ -20298,6 +20298,102 @@
 	<field name="parameter">1742</field>
 	<field name="value">5</field>
 	<field name="label">Previous</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">2536</field>
+	<field name="parameter">1749</field>
+	<field name="value">0</field>
+	<field name="label">disable</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">2537</field>
+	<field name="parameter">1749</field>
+	<field name="value">1</field>
+	<field name="label">enabled</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">2538</field>
+	<field name="parameter">1749</field>
+	<field name="value">2</field>
+	<field name="label">ignore</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">2539</field>
+	<field name="parameter">1750</field>
+	<field name="value">0</field>
+	<field name="label">disable</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">2540</field>
+	<field name="parameter">1750</field>
+	<field name="value">1</field>
+	<field name="label">enable</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">2541</field>
+	<field name="parameter">1753</field>
+	<field name="value">0</field>
+	<field name="label">disable</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">2542</field>
+	<field name="parameter">1753</field>
+	<field name="value">1</field>
+	<field name="label">enable</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">2543</field>
+	<field name="parameter">1754</field>
+	<field name="value">0</field>
+	<field name="label">All OFF</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">2544</field>
+	<field name="parameter">1754</field>
+	<field name="value">1</field>
+	<field name="label">Remember last state</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">2545</field>
+	<field name="parameter">1754</field>
+	<field name="value">2</field>
+	<field name="label">All ON</field>
+	<field name="overview">&lt;p&gt;This is the 1st boot up default&lt;/p&gt;</field>
+  </row>
+
+  <row>
+	<field name="id">2546</field>
+	<field name="parameter">1756</field>
+	<field name="value">0</field>
+	<field name="label">Disable the LED for network error</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">2547</field>
+	<field name="parameter">1756</field>
+	<field name="value">1</field>
+	<field name="label">Enable the LED for network error</field>
 	<field name="overview"></field>
   </row>
 </resultset>
