@@ -10885,7 +10885,7 @@
 	<field name="id">1360</field>
 	<field name="parameter">923</field>
 	<field name="value">1</field>
-	<field name="label">force auto-calibration of the load using advanced parameter</field>
+	<field name="label">force auto-calibration of the load without Fibaro Bypass</field>
 	<field name="overview"></field>
   </row>
 
@@ -20394,6 +20394,246 @@
 	<field name="parameter">1756</field>
 	<field name="value">1</field>
 	<field name="label">Enable the LED for network error</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">2548</field>
+	<field name="parameter">923</field>
+	<field name="value">2</field>
+	<field name="label">force auto-calibration of the load with Fibaro Bypass</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">2549</field>
+	<field name="parameter">1757</field>
+	<field name="value">0</field>
+	<field name="label">On for opened, Off for closed</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">2550</field>
+	<field name="parameter">1757</field>
+	<field name="value">1</field>
+	<field name="label">Off for opened, On for closed</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">2551</field>
+	<field name="parameter">1758</field>
+	<field name="value">0</field>
+	<field name="label">No</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">2552</field>
+	<field name="parameter">1758</field>
+	<field name="value">1</field>
+	<field name="label">Yes</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">2553</field>
+	<field name="parameter">1759</field>
+	<field name="value">0</field>
+	<field name="label">On for opened, Off for closed</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">2554</field>
+	<field name="parameter">1759</field>
+	<field name="value">1</field>
+	<field name="label">Off for opened, On for closed</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">2555</field>
+	<field name="parameter">1763</field>
+	<field name="value">1</field>
+	<field name="label">Smoke alarm</field>
+	<field name="overview">&lt;p&gt;ON = &lt;span style=&quot;font-size: 12.16px; line-height: 1.3em;&quot;&gt;Smoke detected, Unknown Location&lt;/span&gt;&lt;/p&gt;</field>
+  </row>
+
+  <row>
+	<field name="id">2556</field>
+	<field name="parameter">1763</field>
+	<field name="value">2</field>
+	<field name="label">CO alarm</field>
+	<field name="overview">&lt;p&gt;ON = &lt;span style=&quot;font-size: 12.16px; line-height: 1.3em;&quot;&gt;Carbon monoxide detected, Unknown Location&lt;/span&gt;&lt;/p&gt;</field>
+  </row>
+
+  <row>
+	<field name="id">2557</field>
+	<field name="parameter">1763</field>
+	<field name="value">3</field>
+	<field name="label">CO2 alarm</field>
+	<field name="overview">&lt;p&gt;ON = &lt;span style=&quot;font-size: 12.16px; line-height: 1.3em;&quot;&gt;Carbon dioxide detected, Unknown Location&lt;/span&gt;&lt;/p&gt;</field>
+  </row>
+
+  <row>
+	<field name="id">2558</field>
+	<field name="parameter">1763</field>
+	<field name="value">4</field>
+	<field name="label">Heat alarm</field>
+	<field name="overview">&lt;p&gt;ON = &lt;span style=&quot;font-size: 12.16px; line-height: 1.3em;&quot;&gt;Overheat detected, Unknown Location&lt;/span&gt;&lt;/p&gt;</field>
+  </row>
+
+  <row>
+	<field name="id">2559</field>
+	<field name="parameter">1763</field>
+	<field name="value">5</field>
+	<field name="label">Water alarm</field>
+	<field name="overview">&lt;p&gt;ON = &lt;span style=&quot;font-size: 12.16px; line-height: 1.3em;&quot;&gt;Water Leak detected, Unknown Location&lt;br /&gt;OFF = &lt;/span&gt;&lt;span style=&quot;font-size: 12.16px; line-height: 1.3em;&quot;&gt;Water Level Dropped, Unknown Location&lt;/span&gt;&lt;/p&gt;</field>
+  </row>
+
+  <row>
+	<field name="id">2560</field>
+	<field name="parameter">1763</field>
+	<field name="value">6</field>
+	<field name="label">Access control</field>
+	<field name="overview">&lt;p&gt;OFF = Window/Door is open&lt;br /&gt;ON = Window/Door is closed&lt;/p&gt;</field>
+  </row>
+
+  <row>
+	<field name="id">2561</field>
+	<field name="parameter">1763</field>
+	<field name="value">7</field>
+	<field name="label">Home security</field>
+	<field name="overview">&lt;p&gt;ON = &lt;span style=&quot;font-size: 12.16px; line-height: 1.3em;&quot;&gt;Intrusion, Unknown Location&lt;/span&gt;&lt;/p&gt;</field>
+  </row>
+
+  <row>
+	<field name="id">2562</field>
+	<field name="parameter">1763</field>
+	<field name="value">8</field>
+	<field name="label">Power management</field>
+	<field name="overview">&lt;p&gt;OFF = &lt;span style=&quot;font-size: 12.16px; line-height: 1.3em;&quot;&gt;AC mains disconnected&lt;br /&gt;&lt;/span&gt;&lt;span style=&quot;font-size: 12.16px; line-height: 1.3em;&quot;&gt;ON = &lt;/span&gt;&lt;span style=&quot;font-size: 12.16px; line-height: 1.3em;&quot;&gt;AC mains re-connected&lt;/span&gt;&lt;/p&gt;</field>
+  </row>
+
+  <row>
+	<field name="id">2563</field>
+	<field name="parameter">1763</field>
+	<field name="value">9</field>
+	<field name="label">System</field>
+	<field name="overview">&lt;p&gt;ON = &lt;span style=&quot;font-size: 12.16px; line-height: 1.3em;&quot;&gt;System hardware failure&lt;/span&gt;&lt;/p&gt;</field>
+  </row>
+
+  <row>
+	<field name="id">2564</field>
+	<field name="parameter">1763</field>
+	<field name="value">10</field>
+	<field name="label">Emergency alarm</field>
+	<field name="overview">&lt;p&gt;ON = &lt;span style=&quot;font-size: 12.16px; line-height: 1.3em;&quot;&gt;Contact Fire Service&lt;/span&gt;&lt;/p&gt;</field>
+  </row>
+
+  <row>
+	<field name="id">2565</field>
+	<field name="parameter">1763</field>
+	<field name="value">11</field>
+	<field name="label">Timer ended</field>
+	<field name="overview">&lt;p&gt;ON = &lt;span style=&quot;font-size: 12.16px; line-height: 1.3em;&quot;&gt;Timer Ended&lt;/span&gt;&lt;/p&gt;</field>
+  </row>
+
+  <row>
+	<field name="id">2566</field>
+	<field name="parameter">1765</field>
+	<field name="value">0</field>
+	<field name="label">Setting of configuration parameters is allowed</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">2567</field>
+	<field name="parameter">1765</field>
+	<field name="value">1</field>
+	<field name="label">All configuration parameters cannot be set (Locked)</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">2568</field>
+	<field name="parameter">520</field>
+	<field name="value">0</field>
+	<field name="label">Do not change the current Siren sound</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">2569</field>
+	<field name="parameter">520</field>
+	<field name="value">1</field>
+	<field name="label">Siren sound 1 is selected</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">2570</field>
+	<field name="parameter">520</field>
+	<field name="value">2</field>
+	<field name="label">Siren sound 2 is selected</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">2571</field>
+	<field name="parameter">520</field>
+	<field name="value">3</field>
+	<field name="label">Siren sound 3 is selected</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">2572</field>
+	<field name="parameter">520</field>
+	<field name="value">4</field>
+	<field name="label">Siren sound 4 is selected</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">2573</field>
+	<field name="parameter">520</field>
+	<field name="value">5</field>
+	<field name="label">Siren sound 5 is selected</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">2574</field>
+	<field name="parameter">1766</field>
+	<field name="value">0</field>
+	<field name="label">Do not change the current volume</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">2575</field>
+	<field name="parameter">1766</field>
+	<field name="value">1</field>
+	<field name="label">Set the volume to 88 dB</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">2576</field>
+	<field name="parameter">1766</field>
+	<field name="value">2</field>
+	<field name="label">Set the volume to 100 dB</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">2577</field>
+	<field name="parameter">1766</field>
+	<field name="value">3</field>
+	<field name="label">Set the volume to 105 dB</field>
 	<field name="overview"></field>
   </row>
 </resultset>

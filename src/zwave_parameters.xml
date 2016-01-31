@@ -32,9 +32,9 @@
 	<field name="value_min">0</field>
 	<field name="value_max">32767</field>
 	<field name="value_default">6</field>
-	<field name="read_only"></field>
-	<field name="write_only"></field>
-	<field name="limit_options"></field>
+	<field name="read_only">0</field>
+	<field name="write_only">0</field>
+	<field name="limit_options">0</field>
 	<field name="overview"></field>
   </row>
 
@@ -4457,7 +4457,7 @@ set Parameter 3 to a value of 1.
 	<field name="label">Red night light color value</field>
 	<field name="units"></field>
 	<field name="description">Configure the RGB value when it is in Night light mode.                 Value1: Red color value                 Value2: Green color value                 Value3: Blue color value             </field>
-	<field name="size">1</field>
+	<field name="size">3</field>
 	<field name="value_min">0</field>
 	<field name="value_max">255</field>
 	<field name="value_default">221</field>
@@ -4477,7 +4477,7 @@ set Parameter 3 to a value of 1.
 	<field name="label">Green brightness in energy mode (%)</field>
 	<field name="units">percent</field>
 	<field name="description">Green brightness in energy mode (%)</field>
-	<field name="size">1</field>
+	<field name="size">3</field>
 	<field name="value_min">0</field>
 	<field name="value_max">100</field>
 	<field name="value_default">50</field>
@@ -9705,22 +9705,17 @@ Bit 3:Clamp 3)</field>
 	<field name="id">520</field>
 	<field name="device">90</field>
 	<field name="param_id">37</field>
-	<field name="bitmask">0</field>
+	<field name="bitmask">255</field>
 	<field name="label">Siren Sound</field>
 	<field name="units"></field>
-	<field name="description">1,The value1 (low byte) is used to select the Siren sound&lt;/br&gt;
-			Value1=0,do not change the current Siren sound.&lt;/br&gt;
-			Value1=1,Siren sound1 is selected.&lt;/br&gt;
-			Value1=2,Siren sound2 is selected.&lt;/br&gt;
-			Value1=3,Siren sound3 is selected.&lt;/br&gt;
-		</field>
+	<field name="description"></field>
 	<field name="size">2</field>
 	<field name="value_min">0</field>
-	<field name="value_max">65535</field>
+	<field name="value_max">5</field>
 	<field name="value_default">1</field>
-	<field name="read_only"></field>
-	<field name="write_only"></field>
-	<field name="limit_options"></field>
+	<field name="read_only">0</field>
+	<field name="write_only">0</field>
+	<field name="limit_options">1</field>
 	<field name="overview"></field>
   </row>
 
@@ -32846,7 +32841,7 @@ Privacy Mode - all user codes disabled and RF Lock/Unlock disabled</field>
 	<field name="label">Green night light color value</field>
 	<field name="units"></field>
 	<field name="description">Green night light color value</field>
-	<field name="size">1</field>
+	<field name="size">3</field>
 	<field name="value_min">0</field>
 	<field name="value_max">255</field>
 	<field name="value_default">160</field>
@@ -32864,7 +32859,7 @@ Privacy Mode - all user codes disabled and RF Lock/Unlock disabled</field>
 	<field name="label">Blue night light color value</field>
 	<field name="units"></field>
 	<field name="description">Blue night light color value</field>
-	<field name="size">1</field>
+	<field name="size">3</field>
 	<field name="value_min">0</field>
 	<field name="value_max">255</field>
 	<field name="value_default">221</field>
@@ -32882,7 +32877,7 @@ Privacy Mode - all user codes disabled and RF Lock/Unlock disabled</field>
 	<field name="label">Yellow brightness in energy mode (%)</field>
 	<field name="units">percent</field>
 	<field name="description">Yellow brightness in energy mode (%)</field>
-	<field name="size">1</field>
+	<field name="size">3</field>
 	<field name="value_min">0</field>
 	<field name="value_max">100</field>
 	<field name="value_default">50</field>
@@ -32900,7 +32895,7 @@ Privacy Mode - all user codes disabled and RF Lock/Unlock disabled</field>
 	<field name="label">Red brightness in energy mode (%)</field>
 	<field name="units">percent</field>
 	<field name="description">Red brightness in energy mode (%)</field>
-	<field name="size">1</field>
+	<field name="size">3</field>
 	<field name="value_min">0</field>
 	<field name="value_max">100</field>
 	<field name="value_default">50</field>
@@ -33053,6 +33048,188 @@ Privacy Mode - all user codes disabled and RF Lock/Unlock disabled</field>
 	<field name="read_only">0</field>
 	<field name="write_only">0</field>
 	<field name="limit_options">0</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">1757</field>
+	<field name="device">267</field>
+	<field name="param_id">1</field>
+	<field name="bitmask">0</field>
+	<field name="label">Send Sensor binary report on open/close events</field>
+	<field name="units"></field>
+	<field name="description"></field>
+	<field name="size">1</field>
+	<field name="value_min">0</field>
+	<field name="value_max">0</field>
+	<field name="value_default">0</field>
+	<field name="read_only"></field>
+	<field name="write_only"></field>
+	<field name="limit_options"></field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">1758</field>
+	<field name="device">267</field>
+	<field name="param_id">2</field>
+	<field name="bitmask">0</field>
+	<field name="label">Enable wake up 10 minutes when power on</field>
+	<field name="units"></field>
+	<field name="description"></field>
+	<field name="size">1</field>
+	<field name="value_min">0</field>
+	<field name="value_max">0</field>
+	<field name="value_default">0</field>
+	<field name="read_only"></field>
+	<field name="write_only"></field>
+	<field name="limit_options"></field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">1759</field>
+	<field name="device">267</field>
+	<field name="param_id">3</field>
+	<field name="bitmask">0</field>
+	<field name="label">Send Basic Set on open/close event</field>
+	<field name="units"></field>
+	<field name="description"></field>
+	<field name="size">1</field>
+	<field name="value_min">0</field>
+	<field name="value_max">0</field>
+	<field name="value_default">0</field>
+	<field name="read_only"></field>
+	<field name="write_only"></field>
+	<field name="limit_options"></field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">1760</field>
+	<field name="device">267</field>
+	<field name="param_id">39</field>
+	<field name="bitmask">0</field>
+	<field name="label">Send battery report when less than percentage</field>
+	<field name="units"></field>
+	<field name="description"></field>
+	<field name="size">1</field>
+	<field name="value_min">10</field>
+	<field name="value_max">50</field>
+	<field name="value_default">10</field>
+	<field name="read_only"></field>
+	<field name="write_only"></field>
+	<field name="limit_options"></field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">1761</field>
+	<field name="device">267</field>
+	<field name="param_id">111</field>
+	<field name="bitmask">0</field>
+	<field name="label">Set the interval time of battery report</field>
+	<field name="units"></field>
+	<field name="description">Value is specified in number of seconds. Values greater than 10 will be rounded up to the nearest 4 minutes (10 through 240 = 4 minutes, 241 through 480 = 8 minutes, etc.)</field>
+	<field name="size">4</field>
+	<field name="value_min">0</field>
+	<field name="value_max">2147483647</field>
+	<field name="value_default">0</field>
+	<field name="read_only"></field>
+	<field name="write_only"></field>
+	<field name="limit_options"></field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">1762</field>
+	<field name="device">267</field>
+	<field name="param_id">121</field>
+	<field name="bitmask">0</field>
+	<field name="label">Send those commands to associated devices on open/close/tamper events</field>
+	<field name="units"></field>
+	<field name="description">Available Configurations&lt;br&gt;
+				16 -&gt; Sensor binary report&lt;br&gt;
+				256 -&gt; Basic Set  </field>
+	<field name="size">4</field>
+	<field name="value_min">0</field>
+	<field name="value_max">0</field>
+	<field name="value_default">256</field>
+	<field name="read_only"></field>
+	<field name="write_only"></field>
+	<field name="limit_options"></field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">1763</field>
+	<field name="device">267</field>
+	<field name="param_id">122</field>
+	<field name="bitmask">0</field>
+	<field name="label">Notification type to send</field>
+	<field name="units"></field>
+	<field name="description"></field>
+	<field name="size">1</field>
+	<field name="value_min">1</field>
+	<field name="value_max">11</field>
+	<field name="value_default">6</field>
+	<field name="read_only">0</field>
+	<field name="write_only">0</field>
+	<field name="limit_options">0</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">1764</field>
+	<field name="device">90</field>
+	<field name="param_id">200</field>
+	<field name="bitmask">0</field>
+	<field name="label">Partner ID</field>
+	<field name="units"></field>
+	<field name="description"></field>
+	<field name="size">1</field>
+	<field name="value_min">0</field>
+	<field name="value_max">255</field>
+	<field name="value_default">0</field>
+	<field name="read_only">0</field>
+	<field name="write_only">0</field>
+	<field name="limit_options">0</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">1765</field>
+	<field name="device">90</field>
+	<field name="param_id">252</field>
+	<field name="bitmask">0</field>
+	<field name="label">Enable/disable Lock Configuration</field>
+	<field name="units"></field>
+	<field name="description"></field>
+	<field name="size">1</field>
+	<field name="value_min">0</field>
+	<field name="value_max">1</field>
+	<field name="value_default">0</field>
+	<field name="read_only">0</field>
+	<field name="write_only">0</field>
+	<field name="limit_options">1</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">1766</field>
+	<field name="device">90</field>
+	<field name="param_id">37</field>
+	<field name="bitmask">65280</field>
+	<field name="label">Siren Volume</field>
+	<field name="units"></field>
+	<field name="description"></field>
+	<field name="size">2</field>
+	<field name="value_min">0</field>
+	<field name="value_max">3</field>
+	<field name="value_default">3</field>
+	<field name="read_only">0</field>
+	<field name="write_only">0</field>
+	<field name="limit_options">1</field>
 	<field name="overview"></field>
   </row>
 </resultset>

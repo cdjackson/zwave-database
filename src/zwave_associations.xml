@@ -5634,12 +5634,12 @@ state and reflect</field>
 
   <row>
 	<field name="id">511</field>
-	<field name="device">37</field>
-	<field name="group_id">3</field>
-	<field name="label">Low battery</field>
-	<field name="description">Low battery association group</field>
-	<field name="max">3</field>
-	<field name="controller">0</field>
+	<field name="device">267</field>
+	<field name="group_id">1</field>
+	<field name="label">Group 1</field>
+	<field name="description"></field>
+	<field name="max">5</field>
+	<field name="controller">1</field>
 	<field name="overview"></field>
   </row>
 </resultset>

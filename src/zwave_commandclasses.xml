@@ -204,12 +204,12 @@
 
   <row>
 	<field name="id">52</field>
-	<field name="name">ZIP_ADV_SERVER</field>
+	<field name="name">COLOR</field>
 	<field name="label">COLOR</field>
 	<field name="class_ref">51</field>
-	<field name="support_oh1"></field>
-	<field name="support_oh2"></field>
-	<field name="support_ozw"></field>
+	<field name="support_oh1">0</field>
+	<field name="support_oh2">0</field>
+	<field name="support_ozw">0</field>
   </row>
 
   <row>
