@@ -1510,11 +1510,28 @@
 	<field name="thingid">zw096</field>
 	<field name="info_overview">&lt;p&gt;Update command classes -:&lt;br /&gt;METER:5 :: ADD&lt;br /&gt;METER:6 :: ADD&lt;/p&gt;
 &lt;p&gt; &lt;/p&gt;
-&lt;p&gt;Aeon Labs Smart Switch is a Z-Wave power binary switch device based on Z-Wave enhanced 232 slave library&lt;br /&gt;V6.51.06.&lt;br /&gt;Its surface has the Smart RGB LEDs on, which can be used for indicating the output load status, the strength of&lt;br /&gt;wireless signal. You can also configure its indication colour according to your favour.&lt;br /&gt;It can be included and operated in any Z-wave network with other Z-wave certified devices from other&lt;br /&gt;manufacturers and/or other applications. All non-battery operated nodes within the network will act as repeaters&lt;br /&gt;regardless of vendor to increase reliability of the network.&lt;br /&gt;It is also a security Z-wave device and supports the Over The Air (OTA) feature for the product’s firmware upgrade.&lt;br /&gt;As soon as Smart Switch is removed from a z-wave network it will be restored into default factory setting.&lt;/p&gt;
+&lt;p&gt;Aeon Labs Smart Switch is a Z-Wave power binary switch device based on Z-Wave enhanced 232 slave library V6.51.06.&lt;br /&gt;Its surface has the Smart RGB LEDs on, which can be used for indicating the output load status, the strength of wireless signal. You can also configure its indication colour according to your favour.&lt;br /&gt;It can be included and operated in any Z-wave network with other Z-wave certified devices from other manufacturers and/or other applications. All non-battery operated nodes within the network will act as repeaters regardless of vendor to increase reliability of the network.&lt;br /&gt;It is also a security Z-wave device and supports the Over The Air (OTA) feature for the product’s firmware upgrade.&lt;br /&gt;As soon as Smart Switch is removed from a z-wave network it will be restored into default factory setting.&lt;/p&gt;
 &lt;p&gt; &lt;/p&gt;
-&lt;p&gt;Reset Smart Switch to factory Default:&lt;br /&gt;1 . Make sure the Smart Switch has been connected to the power supply.&lt;br /&gt;2. Press and hold the Z-wave button for 20 seconds.&lt;br /&gt;3. I f holding time more than one second, the LED will blink faster and faster. If holding time&lt;br /&gt;more than 20seconds, the green LED will be on for 2 seconds and then remain colorful&lt;br /&gt;gradient status, it indicates reset success, otherwise please repeat step 2.&lt;br /&gt;Note:&lt;br /&gt;1, This procedure should only be used when the primary controller is inoperable.&lt;br /&gt;2, Reset Smart Switch to factory default settings will: sets the Smart Switch to not in Z-&lt;br /&gt;Wave network state; delete the Association setting, power measure value, Scene&lt;br /&gt;Configuration Settings and restore the Configuration setting to the default&lt;/p&gt;</field>
-	<field name="info_inclusion">&lt;p&gt;Add Smart Switch into a z-wave network:&lt;br /&gt;1. Insert the Smart Switch to power socket, The purple LED will be colorful gradient status.&lt;br /&gt;2. Let the primary controller into inclusion mode (If you don’t know how to do this, refer to&lt;br /&gt;its manual).&lt;br /&gt;3. Press the Action button.&lt;br /&gt;4. If the inclusion success, Smart Switch LED will be solid. Otherwise, the LED will remain&lt;br /&gt;colorful gradient status, in which you need to repeat the process from step 2.&lt;/p&gt;</field>
-	<field name="info_exclusion">&lt;p&gt;Remove Smart Switch from a z-wave network:&lt;br /&gt;1. Insert the Smart Switch to power socket, The Smart Switch LED will be solid.&lt;br /&gt;2. Let the primary controller into remove mode (If you don’t know how to do this, refer to its manual).&lt;br /&gt;3. Press the Action button.&lt;br /&gt;4. If the remove is successful, Smart Switch LED will blink slowly. If Smart Switch LED still be&lt;br /&gt;solid, please repeat the process from step 2.&lt;/p&gt;</field>
+&lt;p&gt;Reset Smart Switch to factory Default:&lt;/p&gt;
+&lt;ol&gt;&lt;li&gt;Make sure the Smart Switch has been connected to the power supply.&lt;/li&gt;
+&lt;li&gt;Press and hold the Z-wave button for 20 seconds.&lt;/li&gt;
+&lt;li&gt;If holding time more than one second, the LED will blink faster and faster. If holding time more than 20seconds, the green LED will be on for 2 seconds and then remain colorful gradient status, it indicates reset success, otherwise please repeat step 2.&lt;/li&gt;
+&lt;/ol&gt;&lt;p&gt;Note:&lt;/p&gt;
+&lt;ol&gt;&lt;li&gt;This procedure should only be used when the primary controller is inoperable.&lt;/li&gt;
+&lt;li&gt;Reset Smart Switch to factory default settings will: sets the Smart Switch to not in Z-Wave network state; delete the Association setting, power measure value, Scene Configuration Settings and restore the Configuration setting to the default&lt;/li&gt;
+&lt;/ol&gt;</field>
+	<field name="info_inclusion">&lt;p&gt;Add Smart Switch into a z-wave network:&lt;/p&gt;
+&lt;ol&gt;&lt;li&gt;Insert the Smart Switch to power socket, The purple LED will be colorful gradient status.&lt;/li&gt;
+&lt;li&gt;Let the primary controller into inclusion mode (If you don’t know how to do this, refer to its manual).&lt;/li&gt;
+&lt;li&gt;Press the Action button.&lt;/li&gt;
+&lt;li&gt;If the inclusion success, Smart Switch LED will be solid. Otherwise, the LED will remain colorful gradient status, in which you need to repeat the process from step 2.&lt;/li&gt;
+&lt;/ol&gt;</field>
+	<field name="info_exclusion">&lt;p&gt;Remove Smart Switch from a z-wave network:&lt;/p&gt;
+&lt;ol&gt;&lt;li&gt;Insert the Smart Switch to power socket, The Smart Switch LED will be solid.&lt;/li&gt;
+&lt;li&gt;Let the primary controller into remove mode (If you don’t know how to do this, refer to its manual).&lt;/li&gt;
+&lt;li&gt;Press the Action button.&lt;/li&gt;
+&lt;li&gt;If the remove is successful, Smart Switch LED will blink slowly. If Smart Switch LED still be solid, please repeat the process from step 2.&lt;/li&gt;
+&lt;/ol&gt;</field>
 	<field name="info_wakeup">&lt;p&gt;mains device&lt;/p&gt;</field>
   </row>
 
@@ -3011,7 +3028,7 @@
 	<field name="manufacturer">18</field>
 	<field name="label">FGK101</field>
 	<field name="description">Door Opening Sensor</field>
-	<field name="type_id">0700:1000,0700:3000</field>
+	<field name="type_id">0700:1000,0700:2000,0700:3000</field>
 	<field name="versionmin">0.000</field>
 	<field name="versionmax">255.255</field>
 	<field name="library_type">3</field>
@@ -6450,6 +6467,30 @@
 	<field name="genericclass">7</field>
 	<field name="specificclass">13</field>
 	<field name="thingid">zw097</field>
+	<field name="info_overview"></field>
+	<field name="info_inclusion"></field>
+	<field name="info_exclusion"></field>
+	<field name="info_wakeup"></field>
+  </row>
+
+  <row>
+	<field name="id">268</field>
+	<field name="manufacturer">21</field>
+	<field name="label">EZMultiPli</field>
+	<field name="description">Multi Sensor</field>
+	<field name="type_id">0004:0001</field>
+	<field name="versionmin">0.000</field>
+	<field name="versionmax">0.000</field>
+	<field name="library_type">3</field>
+	<field name="protocol_version">3.099</field>
+	<field name="listening">1</field>
+	<field name="beaming">1</field>
+	<field name="security">0</field>
+	<field name="max_baud">40000</field>
+	<field name="basicclass">5</field>
+	<field name="genericclass">7</field>
+	<field name="specificclass">13</field>
+	<field name="thingid">EZMultiPli</field>
 	<field name="info_overview"></field>
 	<field name="info_inclusion"></field>
 	<field name="info_exclusion"></field>

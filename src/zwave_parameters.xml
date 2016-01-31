@@ -33232,4 +33232,105 @@ Privacy Mode - all user codes disabled and RF Lock/Unlock disabled</field>
 	<field name="limit_options">1</field>
 	<field name="overview"></field>
   </row>
+
+  <row>
+	<field name="id">1767</field>
+	<field name="device">268</field>
+	<field name="param_id">1</field>
+	<field name="bitmask">0</field>
+	<field name="label">OnTime</field>
+	<field name="units">Minutes</field>
+	<field name="description">OnTime sets the number of minutes that the lights stay on when motion has not been detected.</field>
+	<field name="size">1</field>
+	<field name="value_min">0</field>
+	<field name="value_max">127</field>
+	<field name="value_default">10</field>
+	<field name="read_only">0</field>
+	<field name="write_only">0</field>
+	<field name="limit_options">0</field>
+	<field name="overview">&lt;p&gt;OnTime sets the number of minutes that the lights stay on when motion has not been detected.&lt;/p&gt;
+&lt;p&gt;A value of 0 is a special mode where the lights are constantly sent a command to turn them on whenever motion is detected. EZMultiPli will NOT turn the lights off in this mode.&lt;/p&gt;
+&lt;p&gt;Recommended values:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;5 min for hallways&lt;/li&gt;
+&lt;li&gt;20 min for an office environment&lt;/li&gt;
+&lt;li&gt;60 min for a library, office or other room where someone may be sitting still for a long time&lt;/li&gt;
+&lt;/ul&gt;</field>
+  </row>
+
+  <row>
+	<field name="id">1768</field>
+	<field name="device">268</field>
+	<field name="param_id">2</field>
+	<field name="bitmask">0</field>
+	<field name="label">OnLevel</field>
+	<field name="units">Percent</field>
+	<field name="description">OnLevel is the value sent by the Z-Wave BASIC_SET command to all Association Group 2 nodes when motion is detected. </field>
+	<field name="size">1</field>
+	<field name="value_min">-1</field>
+	<field name="value_max">99</field>
+	<field name="value_default">-1</field>
+	<field name="read_only">0</field>
+	<field name="write_only">0</field>
+	<field name="limit_options">0</field>
+	<field name="overview">&lt;p&gt;OnLevel is the value sent by the Z-Wave BASIC_SET command to all Association Group 2 nodes when motion is detected.&lt;/p&gt;
+&lt;p&gt;A value of 0 will turn the lights off (not recommended). A value between 1 and 99 will set the dim level to between 1% and 99% (99% is full on).&lt;/p&gt;
+&lt;p&gt;A value of -1 will turn the light “on” which depends on the device but most will set the dim level to the last dim setting.&lt;/p&gt;</field>
+  </row>
+
+  <row>
+	<field name="id">1769</field>
+	<field name="device">268</field>
+	<field name="param_id">3</field>
+	<field name="bitmask">0</field>
+	<field name="label">LiteMin</field>
+	<field name="units">Minutes</field>
+	<field name="description">A Luminance report is sent to the system controller every LiteMin minutes.</field>
+	<field name="size">1</field>
+	<field name="value_min">0</field>
+	<field name="value_max">127</field>
+	<field name="value_default">60</field>
+	<field name="read_only">0</field>
+	<field name="write_only">0</field>
+	<field name="limit_options">0</field>
+	<field name="overview">&lt;p&gt;A Luminance report is sent to the system controller every LiteMin minutes.&lt;/p&gt;
+&lt;p&gt;A value of zero turns this mode off. Luminance values can still be obtained at any time by the home control application in this mode&lt;/p&gt;</field>
+  </row>
+
+  <row>
+	<field name="id">1770</field>
+	<field name="device">268</field>
+	<field name="param_id">4</field>
+	<field name="bitmask">0</field>
+	<field name="label">TempMin</field>
+	<field name="units">Minutes</field>
+	<field name="description">A Temperature report is sent to the controller every TempMin minutes.</field>
+	<field name="size">1</field>
+	<field name="value_min">0</field>
+	<field name="value_max">127</field>
+	<field name="value_default">60</field>
+	<field name="read_only">0</field>
+	<field name="write_only">0</field>
+	<field name="limit_options">0</field>
+	<field name="overview">&lt;p&gt;A Temperature report is sent to the controller every TempMin minutes.&lt;/p&gt;
+&lt;p&gt;A value of zero turns this mode off. Temperature values can still be obtained at any time by polling the status of the temperature sensor.&lt;/p&gt;</field>
+  </row>
+
+  <row>
+	<field name="id">1771</field>
+	<field name="device">268</field>
+	<field name="param_id">5</field>
+	<field name="bitmask">0</field>
+	<field name="label">TempAdj</field>
+	<field name="units"></field>
+	<field name="description">TempAdj is a twos-complement number that is used to adjust the temperature reading to make it more accurate.</field>
+	<field name="size">1</field>
+	<field name="value_min">-127</field>
+	<field name="value_max">128</field>
+	<field name="value_default">0</field>
+	<field name="read_only">0</field>
+	<field name="write_only">0</field>
+	<field name="limit_options">0</field>
+	<field name="overview">&lt;p&gt;TempAdj is a twos-complement number that is used to adjust the temperature reading to make it more accurate. The value is in tenths of degree Fahrenheit. The temperature reading can be adjusted by +12.7F to -12.8F. A value of 1 will adjust the temperature reading by +0.1F. A value of -1 will adjust the temperature by -0.1F. A value of 123 will adjust the temperature by +12.3F. &lt;/p&gt;</field>
+  </row>
 </resultset>
