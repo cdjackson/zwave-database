@@ -5222,7 +5222,7 @@
   <row>
 	<field name="id">653</field>
 	<field name="parameter">570</field>
-	<field name="value">-128</field>
+	<field name="value">128</field>
 	<field name="label">Black</field>
 	<field name="overview"></field>
   </row>
@@ -5230,71 +5230,71 @@
   <row>
 	<field name="id">654</field>
 	<field name="parameter">570</field>
-	<field name="value">-127</field>
-	<field name="label">Green (1)</field>
+	<field name="value">129</field>
+	<field name="label">Green</field>
 	<field name="overview"></field>
   </row>
 
   <row>
 	<field name="id">655</field>
 	<field name="parameter">570</field>
-	<field name="value">-126</field>
-	<field name="label">Dark Blue (2)</field>
+	<field name="value">130</field>
+	<field name="label">Dark Blue</field>
 	<field name="overview"></field>
   </row>
 
   <row>
 	<field name="id">656</field>
 	<field name="parameter">570</field>
-	<field name="value">-125</field>
-	<field name="label">Red (3)</field>
+	<field name="value">131</field>
+	<field name="label">Red</field>
 	<field name="overview"></field>
   </row>
 
   <row>
 	<field name="id">657</field>
 	<field name="parameter">570</field>
-	<field name="value">-124</field>
-	<field name="label">Yellow (4)</field>
+	<field name="value">132</field>
+	<field name="label">Yellow</field>
 	<field name="overview"></field>
   </row>
 
   <row>
 	<field name="id">658</field>
 	<field name="parameter">570</field>
-	<field name="value">-123</field>
-	<field name="label">Purple (5)</field>
+	<field name="value">133</field>
+	<field name="label">Purple</field>
 	<field name="overview"></field>
   </row>
 
   <row>
 	<field name="id">659</field>
 	<field name="parameter">570</field>
-	<field name="value">-122</field>
-	<field name="label">Orange (6)</field>
+	<field name="value">134</field>
+	<field name="label">Orange</field>
 	<field name="overview"></field>
   </row>
 
   <row>
 	<field name="id">660</field>
 	<field name="parameter">570</field>
-	<field name="value">-121</field>
-	<field name="label">Light Blue (7)</field>
+	<field name="value">135</field>
+	<field name="label">Light Blue</field>
 	<field name="overview"></field>
   </row>
 
   <row>
 	<field name="id">661</field>
 	<field name="parameter">570</field>
-	<field name="value">-120</field>
-	<field name="label">Pink (8)</field>
+	<field name="value">136</field>
+	<field name="label">Pink</field>
 	<field name="overview"></field>
   </row>
 
   <row>
 	<field name="id">662</field>
 	<field name="parameter">570</field>
-	<field name="value">-119</field>
+	<field name="value">137</field>
 	<field name="label">Locked</field>
 	<field name="overview"></field>
   </row>
@@ -5303,7 +5303,7 @@
 	<field name="id">663</field>
 	<field name="parameter">571</field>
 	<field name="value">0</field>
-	<field name="label">Off</field>
+	<field name="label">All OFF</field>
 	<field name="overview"></field>
   </row>
 
@@ -5311,7 +5311,7 @@
 	<field name="id">664</field>
 	<field name="parameter">571</field>
 	<field name="value">1</field>
-	<field name="label">Last state</field>
+	<field name="label">Remember last state</field>
 	<field name="overview"></field>
   </row>
 
@@ -5319,15 +5319,15 @@
 	<field name="id">665</field>
 	<field name="parameter">571</field>
 	<field name="value">2</field>
-	<field name="label">On</field>
-	<field name="overview"></field>
+	<field name="label">All ON</field>
+	<field name="overview">&lt;p&gt;This is the 1st boot up default.&lt;/p&gt;</field>
   </row>
 
   <row>
 	<field name="id">666</field>
 	<field name="parameter">572</field>
 	<field name="value">0</field>
-	<field name="label">LED flash on</field>
+	<field name="label">Disable the LED for network error</field>
 	<field name="overview"></field>
   </row>
 
@@ -5335,7 +5335,7 @@
 	<field name="id">667</field>
 	<field name="parameter">572</field>
 	<field name="value">1</field>
-	<field name="label">LED flash off</field>
+	<field name="label">Enable the LED for network error</field>
 	<field name="overview"></field>
   </row>
 
@@ -20634,6 +20634,126 @@
 	<field name="parameter">1766</field>
 	<field name="value">3</field>
 	<field name="label">Set the volume to 105 dB</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">2578</field>
+	<field name="parameter">1776</field>
+	<field name="value">128</field>
+	<field name="label">Black</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">2579</field>
+	<field name="parameter">1776</field>
+	<field name="value">129</field>
+	<field name="label">Green</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">2580</field>
+	<field name="parameter">1776</field>
+	<field name="value">130</field>
+	<field name="label">Dark Blue</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">2581</field>
+	<field name="parameter">1776</field>
+	<field name="value">131</field>
+	<field name="label">Red</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">2582</field>
+	<field name="parameter">1776</field>
+	<field name="value">132</field>
+	<field name="label">Yellow</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">2583</field>
+	<field name="parameter">1776</field>
+	<field name="value">133</field>
+	<field name="label">Purple</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">2584</field>
+	<field name="parameter">1776</field>
+	<field name="value">134</field>
+	<field name="label">Orange</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">2585</field>
+	<field name="parameter">1776</field>
+	<field name="value">135</field>
+	<field name="label">Light Blue</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">2586</field>
+	<field name="parameter">1776</field>
+	<field name="value">136</field>
+	<field name="label">Pink</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">2587</field>
+	<field name="parameter">1776</field>
+	<field name="value">137</field>
+	<field name="label">Locked</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">2588</field>
+	<field name="parameter">1777</field>
+	<field name="value">0</field>
+	<field name="label">All OFF</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">2589</field>
+	<field name="parameter">1777</field>
+	<field name="value">1</field>
+	<field name="label">Remember last state</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">2590</field>
+	<field name="parameter">1777</field>
+	<field name="value">2</field>
+	<field name="label">All ON</field>
+	<field name="overview">&lt;p&gt;This is the 1st boot up default&lt;/p&gt;</field>
+  </row>
+
+  <row>
+	<field name="id">2591</field>
+	<field name="parameter">1778</field>
+	<field name="value">0</field>
+	<field name="label">Disable the LED for network error</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">2592</field>
+	<field name="parameter">1778</field>
+	<field name="value">1</field>
+	<field name="label">Enable the LED for network error</field>
 	<field name="overview"></field>
   </row>
 </resultset>

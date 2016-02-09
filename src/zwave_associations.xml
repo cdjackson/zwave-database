@@ -1631,7 +1631,7 @@
 	<field name="description"></field>
 	<field name="max">1</field>
 	<field name="controller">0</field>
-	<field name="overview"></field>
+	<field name="overview">&lt;p&gt;The new power reading is sent if the delta of the change is greater than the defined minimum variation.&lt;/p&gt;</field>
   </row>
 
   <row>
@@ -5592,8 +5592,8 @@ state and reflect</field>
 	<field name="id">507</field>
 	<field name="device">100</field>
 	<field name="group_id">1</field>
-	<field name="label">Group 1</field>
-	<field name="description">Wheel group</field>
+	<field name="label">Wheel position change</field>
+	<field name="description"></field>
 	<field name="max">1</field>
 	<field name="controller">0</field>
 	<field name="overview"></field>
@@ -5603,8 +5603,8 @@ state and reflect</field>
 	<field name="id">508</field>
 	<field name="device">100</field>
 	<field name="group_id">2</field>
-	<field name="label">Group 2</field>
-	<field name="description">Current leakage on relay</field>
+	<field name="label">Current leakage on relay</field>
+	<field name="description"></field>
 	<field name="max">1</field>
 	<field name="controller">0</field>
 	<field name="overview"></field>
@@ -5614,8 +5614,8 @@ state and reflect</field>
 	<field name="id">509</field>
 	<field name="device">100</field>
 	<field name="group_id">3</field>
-	<field name="label">Group 3</field>
-	<field name="description">Power level change</field>
+	<field name="label">Power level change</field>
+	<field name="description"></field>
 	<field name="max">1</field>
 	<field name="controller">0</field>
 	<field name="overview">&lt;p&gt;The new power reading is sent if the delta of the change is greater than the defined minimum variation.&lt;/p&gt;</field>
@@ -5625,8 +5625,8 @@ state and reflect</field>
 	<field name="id">510</field>
 	<field name="device">100</field>
 	<field name="group_id">4</field>
-	<field name="label">Group 4</field>
-	<field name="description">Over-current detection</field>
+	<field name="label">Over-current detection</field>
+	<field name="description"></field>
 	<field name="max">1</field>
 	<field name="controller">0</field>
 	<field name="overview"></field>
@@ -5663,5 +5663,107 @@ state and reflect</field>
 	<field name="max">4</field>
 	<field name="controller">1</field>
 	<field name="overview">&lt;p&gt;This group is used to directly turn lights on or off when motion is detected. Up to four (4) Z-Wave devices can be associated in this group. EZMultiPli will send a BASIC ON command to all devices that are associated in this group. Note that the Z-Wave devices in this group must be within direct range (about 30’) of EZMultiPli. Control of nodes that are further away or blocked by metal or concrete walls should rely on the Z-Wave system controller and the home-control application for reliable operation. Note that including the NodeID of EZMultiPli in this group will control the LED which will come on when motion is detected and goes off when no motion has been detected for OnTime minutes.&lt;/p&gt;</field>
+  </row>
+
+  <row>
+	<field name="id">514</field>
+	<field name="device">264</field>
+	<field name="group_id">1</field>
+	<field name="label">Wheel position change</field>
+	<field name="description"></field>
+	<field name="max">1</field>
+	<field name="controller">0</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">515</field>
+	<field name="device">264</field>
+	<field name="group_id">2</field>
+	<field name="label">Current leakage on relay</field>
+	<field name="description"></field>
+	<field name="max">1</field>
+	<field name="controller">0</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">516</field>
+	<field name="device">264</field>
+	<field name="group_id">3</field>
+	<field name="label">Power level change</field>
+	<field name="description">The new power reading is sent if the delta of the change is greater than the defined minimum variation</field>
+	<field name="max">1</field>
+	<field name="controller">0</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">517</field>
+	<field name="device">264</field>
+	<field name="group_id">4</field>
+	<field name="label">Over-current detection</field>
+	<field name="description"></field>
+	<field name="max">1</field>
+	<field name="controller">0</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">518</field>
+	<field name="device">272</field>
+	<field name="group_id">1</field>
+	<field name="label">Switch Button Group 1</field>
+	<field name="description"></field>
+	<field name="max">5</field>
+	<field name="controller">0</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">519</field>
+	<field name="device">272</field>
+	<field name="group_id">2</field>
+	<field name="label">Switch Button Group 2</field>
+	<field name="description"></field>
+	<field name="max">5</field>
+	<field name="controller">0</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">520</field>
+	<field name="device">272</field>
+	<field name="group_id">3</field>
+	<field name="label">Status Reports</field>
+	<field name="description"></field>
+	<field name="max">1</field>
+	<field name="controller">1</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">521</field>
+	<field name="device">270</field>
+	<field name="group_id">1</field>
+	<field name="label">Switch Input Change</field>
+	<field name="description">Target nodes that receive Basic Set command when the switch input changed.</field>
+	<field name="max">5</field>
+	<field name="controller">0</field>
+	<field name="overview">&lt;p&gt;The remote module supports association with maximum 5 node for Grouping 1. Grouping 1 supports BASIC_SET.&lt;/p&gt;
+&lt;p&gt;When the manual switch input is from NC to NO or from NO to NC, HAC01 would send Basic Set Command to the nodes in Grouping 1 to On or Off the controlled device. Basic Set Command:&lt;/p&gt;
+&lt;p&gt;Manual switch input at NC: Command Class Basic, Basic Set, Value = 0xFF(255)&lt;/p&gt;
+&lt;p&gt;Manual switch input at NO: Command Class Basic, Basic Set, Value = 0x00(0)&lt;/p&gt;</field>
+  </row>
+
+  <row>
+	<field name="id">522</field>
+	<field name="device">271</field>
+	<field name="group_id">1</field>
+	<field name="label">Group 1</field>
+	<field name="description"></field>
+	<field name="max">5</field>
+	<field name="controller">1</field>
+	<field name="overview"></field>
   </row>
 </resultset>

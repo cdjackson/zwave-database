@@ -106,15 +106,15 @@
 	<field name="type_id">2002:0203</field>
 	<field name="versionmin">0.000</field>
 	<field name="versionmax">255.255</field>
-	<field name="library_type">0</field>
-	<field name="protocol_version">0.000</field>
+	<field name="library_type">7</field>
+	<field name="protocol_version">3.067</field>
 	<field name="listening">0</field>
 	<field name="beaming">0</field>
 	<field name="security">0</field>
 	<field name="max_baud">0</field>
-	<field name="basicclass">0</field>
-	<field name="genericclass">0</field>
-	<field name="specificclass">0</field>
+	<field name="basicclass">5</field>
+	<field name="genericclass">19</field>
+	<field name="specificclass">45</field>
 	<field name="thingid">wapirz</field>
 	<field name="info_overview"></field>
 	<field name="info_inclusion"></field>
@@ -156,14 +156,14 @@
 	<field name="versionmax">255.255</field>
 	<field name="library_type">0</field>
 	<field name="protocol_version">0.000</field>
-	<field name="listening"></field>
-	<field name="beaming"></field>
-	<field name="security"></field>
+	<field name="listening">0</field>
+	<field name="beaming">0</field>
+	<field name="security">0</field>
 	<field name="max_baud">0</field>
 	<field name="basicclass">0</field>
 	<field name="genericclass">0</field>
 	<field name="specificclass">0</field>
-	<field name="thingid">pd300z-2</field>
+	<field name="thingid">pd300z2</field>
 	<field name="info_overview"></field>
 	<field name="info_inclusion"></field>
 	<field name="info_exclusion"></field>
@@ -180,14 +180,14 @@
 	<field name="versionmax">255.255</field>
 	<field name="library_type">0</field>
 	<field name="protocol_version">0.000</field>
-	<field name="listening"></field>
-	<field name="beaming"></field>
-	<field name="security"></field>
+	<field name="listening">0</field>
+	<field name="beaming">0</field>
+	<field name="security">0</field>
 	<field name="max_baud">0</field>
 	<field name="basicclass">0</field>
 	<field name="genericclass">0</field>
 	<field name="specificclass">0</field>
-	<field name="thingid">lb60z-1</field>
+	<field name="thingid">lb60z1</field>
 	<field name="info_overview"></field>
 	<field name="info_inclusion"></field>
 	<field name="info_exclusion"></field>
@@ -202,19 +202,33 @@
 	<field name="type_id">2001:0102</field>
 	<field name="versionmin">0.000</field>
 	<field name="versionmax">255.255</field>
-	<field name="library_type">0</field>
-	<field name="protocol_version">0.000</field>
-	<field name="listening"></field>
-	<field name="beaming"></field>
-	<field name="security"></field>
-	<field name="max_baud">0</field>
-	<field name="basicclass">0</field>
-	<field name="genericclass">0</field>
-	<field name="specificclass">0</field>
-	<field name="thingid">wadwaz-1</field>
-	<field name="info_overview"></field>
-	<field name="info_inclusion"></field>
-	<field name="info_exclusion"></field>
+	<field name="library_type">6</field>
+	<field name="protocol_version">3.067</field>
+	<field name="listening">0</field>
+	<field name="beaming">1</field>
+	<field name="security">0</field>
+	<field name="max_baud">40000</field>
+	<field name="basicclass">5</field>
+	<field name="genericclass">19</field>
+	<field name="specificclass">45</field>
+	<field name="thingid">wadwaz1</field>
+	<field name="info_overview">&lt;p&gt;Linear Z-Wave products are easy to install, and allow dealers to create an integrated wireless network with nearly limitless expansion and interoperability with security and health monitoring systems, energy management, home entertainment, appliances, and more.&lt;/p&gt;
+&lt;p&gt;The WADWAZ-1 sensor monitors a door or window and sends Z-Wave signals when the door is opened or closed.&lt;/p&gt;</field>
+	<field name="info_inclusion">&lt;p&gt;Refer to your Controller operating instructions to add this module under the command of the Wireless Controller.&lt;/p&gt;
+&lt;ol&gt;&lt;li&gt;Unscrew the screw fastening the rear cover and slide the rear cover down.&lt;/li&gt;
+&lt;li&gt;Insert a CR123A battery into the battery compartment and LED will start to fl ash slowly, which means the sensor has not yet performed “inclusion” with the Controller.&lt;/li&gt;
+&lt;li&gt;Prepare the Controller to include a unit to the network by adding it to a group (method of adding a node to the network). Refer to the Controller instructions.&lt;/li&gt;
+&lt;li&gt;If your Controller supports Network Wide Inclusion (NWI) locate the WADWAZ-1 near the proposed installation location. If not skip to Step 6.&lt;/li&gt;
+&lt;li&gt;With your Controller in Inclusion mode, you should see an indication on your Controller that the “device was included” in the network. It should display binary switch / Linear. The LED will stop blinking. Skip to Step 9. If the LED does not stop blinking, relocate the WADWAZ-1 to within 100 feet (line of sight) of a Z-Wave device or your hub and repeat Step 5. If the LED continues to blink, your Controller does not support NWI and continue with Step 6.&lt;/li&gt;
+&lt;li&gt;Place the WADWAZ-1 within 3 feet of the Controller.&lt;/li&gt;
+&lt;li&gt;With your Controller in Inclusion mode, depress the Program switch for 1 second then release.&lt;/li&gt;
+&lt;li&gt;You should see an indication on your Controller that the “device was included” in the network. It should display binary switch / Linear. The LED will stop blinking.&lt;/li&gt;
+&lt;li&gt;The device will appear in the list of Switches&lt;/li&gt;
+&lt;/ol&gt;&lt;p&gt;&lt;strong&gt;NOTE&lt;/strong&gt;: If you have trouble adding the WADWAZ-1 to a group it may be that the Home ID and Node ID were not cleared from it after testing. You must first “RESET UNIT” with your Controller to remove it from the network. Although adding it to a group includes it in the network, removing it from a group does not remove it from the network. If removed from a group, it functions as a repeater (only). “RESET UNIT” removes it completely from the network&lt;/p&gt;</field>
+	<field name="info_exclusion">&lt;p&gt;For “Exclusion” from (removing from) a network:&lt;/p&gt;
+&lt;ol&gt;&lt;li&gt;Set up the Z-WaveTM Interface Controller into “exclusion” mode, and following its instruction to delete the WADWAZ-1 from the Controller.&lt;/li&gt;
+&lt;li&gt;Press the Program switch of WADWAZ-1 for 1 second and release to be excluded. The LED light will fl ash continuously when the sensor is in the Exclusion condition.&lt;/li&gt;
+&lt;/ol&gt;</field>
 	<field name="info_wakeup"></field>
   </row>
 
@@ -252,14 +266,14 @@
 	<field name="versionmax">255.255</field>
 	<field name="library_type">0</field>
 	<field name="protocol_version">0.000</field>
-	<field name="listening"></field>
-	<field name="beaming"></field>
-	<field name="security"></field>
+	<field name="listening">0</field>
+	<field name="beaming">0</field>
+	<field name="security">0</field>
 	<field name="max_baud">0</field>
 	<field name="basicclass">0</field>
 	<field name="genericclass">0</field>
 	<field name="specificclass">0</field>
-	<field name="thingid">ngd00z-4</field>
+	<field name="thingid">ngd00z4</field>
 	<field name="info_overview"></field>
 	<field name="info_inclusion"></field>
 	<field name="info_exclusion"></field>
@@ -1508,9 +1522,10 @@
 	<field name="genericclass">11</field>
 	<field name="specificclass">22</field>
 	<field name="thingid">zw096</field>
-	<field name="info_overview">&lt;p&gt;Update command classes -:&lt;br /&gt;METER:5 :: ADD&lt;br /&gt;METER:6 :: ADD&lt;/p&gt;
-&lt;p&gt; &lt;/p&gt;
-&lt;p&gt;Aeon Labs Smart Switch is a Z-Wave power binary switch device based on Z-Wave enhanced 232 slave library V6.51.06.&lt;br /&gt;Its surface has the Smart RGB LEDs on, which can be used for indicating the output load status, the strength of wireless signal. You can also configure its indication colour according to your favour.&lt;br /&gt;It can be included and operated in any Z-wave network with other Z-wave certified devices from other manufacturers and/or other applications. All non-battery operated nodes within the network will act as repeaters regardless of vendor to increase reliability of the network.&lt;br /&gt;It is also a security Z-wave device and supports the Over The Air (OTA) feature for the product’s firmware upgrade.&lt;br /&gt;As soon as Smart Switch is removed from a z-wave network it will be restored into default factory setting.&lt;/p&gt;
+	<field name="info_overview">&lt;p&gt;Aeon Labs Smart Switch is a Z-Wave power binary switch device based on Z-Wave enhanced 232 slave library V6.51.06.&lt;/p&gt;
+&lt;p&gt;Its surface has the Smart RGB LEDs on, which can be used for indicating the output load status, the strength of wireless signal. You can also configure its indication colour according to your favour.&lt;/p&gt;
+&lt;p&gt;It can be included and operated in any Z-wave network with other Z-wave certified devices from other manufacturers and/or other applications. All non-battery operated nodes within the network will act as repeaters regardless of vendor to increase reliability of the network.&lt;/p&gt;
+&lt;p&gt;It is also a security Z-wave device and supports the Over The Air (OTA) feature for the product’s firmware upgrade.&lt;br /&gt;As soon as Smart Switch is removed from a z-wave network it will be restored into default factory setting.&lt;/p&gt;
 &lt;p&gt; &lt;/p&gt;
 &lt;p&gt;Reset Smart Switch to factory Default:&lt;/p&gt;
 &lt;ol&gt;&lt;li&gt;Make sure the Smart Switch has been connected to the power supply.&lt;/li&gt;
@@ -1570,21 +1585,21 @@
   <row>
 	<field name="id">65</field>
 	<field name="manufacturer">14</field>
-	<field name="label">HDS</field>
+	<field name="label">ZW078</field>
 	<field name="description">Heavy Duty Switch</field>
 	<field name="type_id">0003:000A,0003:004E</field>
 	<field name="versionmin">0.000</field>
 	<field name="versionmax">255.255</field>
 	<field name="library_type">0</field>
 	<field name="protocol_version">0.000</field>
-	<field name="listening"></field>
-	<field name="beaming"></field>
-	<field name="security"></field>
+	<field name="listening">0</field>
+	<field name="beaming">0</field>
+	<field name="security">0</field>
 	<field name="max_baud">0</field>
 	<field name="basicclass">0</field>
 	<field name="genericclass">0</field>
 	<field name="specificclass">0</field>
-	<field name="thingid">hds</field>
+	<field name="thingid">zw078</field>
 	<field name="info_overview"></field>
 	<field name="info_inclusion"></field>
 	<field name="info_exclusion"></field>
@@ -1618,8 +1633,8 @@
   <row>
 	<field name="id">67</field>
 	<field name="manufacturer">14</field>
-	<field name="label">Z-Stick S2</field>
-	<field name="description">Z-Wave USB Controller</field>
+	<field name="label">DSA02203</field>
+	<field name="description">Z-Stick S2 USB Controller</field>
 	<field name="type_id">0002:0001</field>
 	<field name="versionmin">0.000</field>
 	<field name="versionmax">255.255</field>
@@ -1632,7 +1647,7 @@
 	<field name="basicclass">3</field>
 	<field name="genericclass">4</field>
 	<field name="specificclass">6</field>
-	<field name="thingid">zsticks2</field>
+	<field name="thingid">dsa02203</field>
 	<field name="info_overview"></field>
 	<field name="info_inclusion"></field>
 	<field name="info_exclusion"></field>
@@ -1720,7 +1735,7 @@
   <row>
 	<field name="id">71</field>
 	<field name="manufacturer">14</field>
-	<field name="label">4in1MS</field>
+	<field name="label">DSB05</field>
 	<field name="description">4 in One MultiSensor</field>
 	<field name="type_id">0002:0005</field>
 	<field name="versionmin">0.000</field>
@@ -1734,7 +1749,7 @@
 	<field name="basicclass">5</field>
 	<field name="genericclass">19</field>
 	<field name="specificclass">45</field>
-	<field name="thingid">4in1ms</field>
+	<field name="thingid">dsb05</field>
 	<field name="info_overview"></field>
 	<field name="info_inclusion"></field>
 	<field name="info_exclusion"></field>
@@ -1744,21 +1759,21 @@
   <row>
 	<field name="id">72</field>
 	<field name="manufacturer">14</field>
-	<field name="label">4in1MS-G5</field>
+	<field name="label">ZW074</field>
 	<field name="description">4 in One MultiSensor (G5)</field>
 	<field name="type_id">0002:004A,0102:004A</field>
 	<field name="versionmin">0.000</field>
 	<field name="versionmax">255.255</field>
-	<field name="library_type">0</field>
-	<field name="protocol_version">0.000</field>
+	<field name="library_type">3</field>
+	<field name="protocol_version">12.002</field>
 	<field name="listening">0</field>
 	<field name="beaming">0</field>
 	<field name="security">0</field>
 	<field name="max_baud">0</field>
-	<field name="basicclass">0</field>
-	<field name="genericclass">0</field>
-	<field name="specificclass">0</field>
-	<field name="thingid">4in1msg5</field>
+	<field name="basicclass">5</field>
+	<field name="genericclass">7</field>
+	<field name="specificclass">13</field>
+	<field name="thingid">zw074</field>
 	<field name="info_overview"></field>
 	<field name="info_inclusion"></field>
 	<field name="info_exclusion"></field>
@@ -1792,21 +1807,21 @@
   <row>
 	<field name="id">74</field>
 	<field name="manufacturer">14</field>
-	<field name="label">Minimote</field>
-	<field name="description">4 button remote control</field>
+	<field name="label">DSA03202</field>
+	<field name="description">Minimote 4 button remote control</field>
 	<field name="type_id">0006:0002,0001:0003</field>
 	<field name="versionmin">0.000</field>
 	<field name="versionmax">255.255</field>
 	<field name="library_type">0</field>
-	<field name="protocol_version">0.000</field>
-	<field name="listening"></field>
-	<field name="beaming"></field>
-	<field name="security"></field>
+	<field name="protocol_version">2.079</field>
+	<field name="listening">0</field>
+	<field name="beaming">0</field>
+	<field name="security">0</field>
 	<field name="max_baud">0</field>
-	<field name="basicclass">0</field>
-	<field name="genericclass">0</field>
-	<field name="specificclass">0</field>
-	<field name="thingid">minimote</field>
+	<field name="basicclass">2</field>
+	<field name="genericclass">3</field>
+	<field name="specificclass">3</field>
+	<field name="thingid">dsa03202</field>
 	<field name="info_overview"></field>
 	<field name="info_inclusion"></field>
 	<field name="info_exclusion"></field>
@@ -1888,21 +1903,21 @@
   <row>
 	<field name="id">78</field>
 	<field name="manufacturer">14</field>
-	<field name="label">KeyFob</field>
+	<field name="label">DSA22</field>
 	<field name="description">4 button keyfob</field>
 	<field name="type_id">0001:0016</field>
 	<field name="versionmin">0.000</field>
 	<field name="versionmax">255.255</field>
 	<field name="library_type">0</field>
 	<field name="protocol_version">0.000</field>
-	<field name="listening"></field>
-	<field name="beaming"></field>
-	<field name="security"></field>
+	<field name="listening">0</field>
+	<field name="beaming">0</field>
+	<field name="security">0</field>
 	<field name="max_baud">0</field>
 	<field name="basicclass">0</field>
 	<field name="genericclass">0</field>
 	<field name="specificclass">0</field>
-	<field name="thingid">keyfob</field>
+	<field name="thingid">dsa22</field>
 	<field name="info_overview"></field>
 	<field name="info_inclusion"></field>
 	<field name="info_exclusion"></field>
@@ -2032,21 +2047,21 @@
   <row>
 	<field name="id">84</field>
 	<field name="manufacturer">14</field>
-	<field name="label">HEM</field>
+	<field name="label">DSB09104</field>
 	<field name="description">Home Energy Meter</field>
 	<field name="type_id">0002:0009</field>
 	<field name="versionmin">0.000</field>
 	<field name="versionmax">255.255</field>
 	<field name="library_type">0</field>
 	<field name="protocol_version">0.000</field>
-	<field name="listening"></field>
-	<field name="beaming"></field>
-	<field name="security"></field>
+	<field name="listening">0</field>
+	<field name="beaming">0</field>
+	<field name="security">0</field>
 	<field name="max_baud">0</field>
 	<field name="basicclass">0</field>
 	<field name="genericclass">0</field>
 	<field name="specificclass">0</field>
-	<field name="thingid">hem</field>
+	<field name="thingid">dsb09104</field>
 	<field name="info_overview"></field>
 	<field name="info_inclusion"></field>
 	<field name="info_exclusion"></field>
@@ -2056,7 +2071,7 @@
   <row>
 	<field name="id">85</field>
 	<field name="manufacturer">14</field>
-	<field name="label">HEM-G2</field>
+	<field name="label">DSB28</field>
 	<field name="description">Home Energy Meter G2</field>
 	<field name="type_id">0002:001C</field>
 	<field name="versionmin">0.000</field>
@@ -2070,7 +2085,7 @@
 	<field name="basicclass">0</field>
 	<field name="genericclass">0</field>
 	<field name="specificclass">0</field>
-	<field name="thingid">hemg2</field>
+	<field name="thingid">dsb28</field>
 	<field name="info_overview"></field>
 	<field name="info_inclusion"></field>
 	<field name="info_exclusion"></field>
@@ -2104,21 +2119,21 @@
   <row>
 	<field name="id">87</field>
 	<field name="manufacturer">14</field>
-	<field name="label">KeyFobG5</field>
-	<field name="description">4 button keyfob - generation 5</field>
+	<field name="label">ZW088</field>
+	<field name="description">4 button keyfob - Gen 5</field>
 	<field name="type_id">0001:0058,0101:0058,0201:0058</field>
 	<field name="versionmin">0.000</field>
 	<field name="versionmax">255.255</field>
 	<field name="library_type">0</field>
 	<field name="protocol_version">0.000</field>
-	<field name="listening"></field>
-	<field name="beaming"></field>
-	<field name="security"></field>
+	<field name="listening">0</field>
+	<field name="beaming">0</field>
+	<field name="security">0</field>
 	<field name="max_baud">0</field>
 	<field name="basicclass">0</field>
 	<field name="genericclass">0</field>
 	<field name="specificclass">0</field>
-	<field name="thingid">keyfobg5</field>
+	<field name="thingid">zw088</field>
 	<field name="info_overview"></field>
 	<field name="info_inclusion"></field>
 	<field name="info_exclusion"></field>
@@ -2152,7 +2167,7 @@
   <row>
 	<field name="id">89</field>
 	<field name="manufacturer">14</field>
-	<field name="label">SmartStrip</field>
+	<field name="label">DSC11</field>
 	<field name="description">Smart Strip</field>
 	<field name="type_id">0003:000B</field>
 	<field name="versionmin">0.000</field>
@@ -2166,8 +2181,8 @@
 	<field name="basicclass">5</field>
 	<field name="genericclass">11</field>
 	<field name="specificclass">22</field>
-	<field name="thingid">smartstrip</field>
-	<field name="info_overview">Update command classes -:&lt;br /&gt;METER:5  :: ADD&lt;br /&gt;METER:6  :: ADD</field>
+	<field name="thingid">dsc11</field>
+	<field name="info_overview">&lt;p&gt;Update command classes -:&lt;br /&gt;METER:5 :: ADD&lt;br /&gt;METER:6 :: ADD&lt;/p&gt;</field>
 	<field name="info_inclusion"></field>
 	<field name="info_exclusion"></field>
 	<field name="info_wakeup"></field>
@@ -2441,20 +2456,22 @@
 	<field name="specificclass">22</field>
 	<field name="thingid">gwpn6</field>
 	<field name="info_overview">&lt;p&gt;This Configuration is for the 6 plug version of the PowerNode.&lt;/p&gt;
-&lt;p&gt; &lt;/p&gt;</field>
-	<field name="info_inclusion"></field>
-	<field name="info_exclusion"></field>
+&lt;p&gt;It should work for both NP210 and NP310 devices (except &lt;em&gt;NP210&lt;/em&gt;-G-EN which is 5-port UK version).&lt;/p&gt;</field>
+	<field name="info_inclusion">&lt;p&gt;On the PowerNode, press and hold the &lt;strong&gt;Sync&lt;/strong&gt; button for approximately one second until the activity indicator displays a clockwise rotating pattern. This indicates the PowerNode is attempting inclusion. During this process, verify that the Gateway activity indicator still displays a clockwise rotating pattern.&lt;/p&gt;
+&lt;p&gt;After a few seconds, the rotating pattern on both the PowerNode and the Gateway stops. All bars turn green forming a circle for several seconds. This indicates a successful inclusion.&lt;/p&gt;
+&lt;p&gt;If all bars on the activity indicator start flashing instead of forming a solid circle, then the PowerNode inclusion process has failed, and you must start the sync process again. If syncing continually fails even though the PowerNode is close to the Gateway, then it may be an indication of a hardware fault, and the PowerNode might need replacing.&lt;/p&gt;</field>
+	<field name="info_exclusion">&lt;p&gt;On the PowerNode, press and hold the &lt;strong&gt;Sync&lt;/strong&gt; button for approximately one second until the PowerNode activity indicator begins to display a counter-clockwise rotating pattern. The PowerNode is attempting exclusion.&lt;/p&gt;</field>
 	<field name="info_wakeup"></field>
   </row>
 
   <row>
 	<field name="id">101</field>
 	<field name="manufacturer">16</field>
-	<field name="label">GWPN1</field>
+	<field name="label">GWPN1 [DELETE]</field>
 	<field name="description">Single-socket PowerNode</field>
 	<field name="type_id">0002:0002</field>
 	<field name="versionmin">1.000</field>
-	<field name="versionmax">3.000</field>
+	<field name="versionmax">2.000</field>
 	<field name="library_type">3</field>
 	<field name="protocol_version">3.041</field>
 	<field name="listening">1</field>
@@ -2464,7 +2481,7 @@
 	<field name="basicclass">5</field>
 	<field name="genericclass">11</field>
 	<field name="specificclass">22</field>
-	<field name="thingid">gwpn1</field>
+	<field name="thingid"></field>
 	<field name="info_overview"></field>
 	<field name="info_inclusion"></field>
 	<field name="info_exclusion"></field>
@@ -2477,21 +2494,24 @@
 	<field name="label">GWPN1</field>
 	<field name="description">Single-socket PowerNode</field>
 	<field name="type_id">0002:0002</field>
-	<field name="versionmin">4.000</field>
+	<field name="versionmin">3.000</field>
 	<field name="versionmax">4.000</field>
 	<field name="library_type">0</field>
-	<field name="protocol_version">0.000</field>
-	<field name="listening">0</field>
-	<field name="beaming">0</field>
+	<field name="protocol_version">3.041</field>
+	<field name="listening">1</field>
+	<field name="beaming">1</field>
 	<field name="security">0</field>
-	<field name="max_baud">0</field>
-	<field name="basicclass">0</field>
-	<field name="genericclass">0</field>
-	<field name="specificclass">0</field>
+	<field name="max_baud">40000</field>
+	<field name="basicclass">5</field>
+	<field name="genericclass">11</field>
+	<field name="specificclass">22</field>
 	<field name="thingid">gwpn1</field>
-	<field name="info_overview"></field>
-	<field name="info_inclusion"></field>
-	<field name="info_exclusion"></field>
+	<field name="info_overview">&lt;p&gt;This Configuration is for the 1 plug version of the PowerNode.&lt;/p&gt;
+&lt;p&gt;It should work for both NS210 and NS310 devices.&lt;/p&gt;</field>
+	<field name="info_inclusion">&lt;p&gt;On the PowerNode, press and hold the &lt;strong&gt;Sync&lt;/strong&gt; button for approximately one second until the activity indicator displays a clockwise rotating pattern. This indicates the PowerNode is attempting inclusion. During this process, verify that the Gateway activity indicator still displays a clockwise rotating pattern.&lt;/p&gt;
+&lt;p&gt;After a few seconds, the rotating pattern on both the PowerNode and the Gateway stops. All bars turn green forming a circle for several seconds. This indicates a successful inclusion.&lt;/p&gt;
+&lt;p&gt;If all bars on the activity indicator start flashing instead of forming a solid circle, then the PowerNode inclusion process has failed, and you must start the sync process again. If syncing continually fails even though the PowerNode is close to the Gateway, then it may be an indication of a hardware fault, and the PowerNode might need replacing.&lt;/p&gt;</field>
+	<field name="info_exclusion">&lt;p&gt;On the PowerNode, press and hold the &lt;strong&gt;Sync&lt;/strong&gt; button for approximately one second until the PowerNode activity indicator begins to display a counter-clockwise rotating pattern. The PowerNode is attempting exclusion.&lt;/p&gt;</field>
 	<field name="info_wakeup"></field>
   </row>
 
@@ -2887,15 +2907,15 @@
 	<field name="type_id">0100:0107,0100:0109,0100:300A,0100:100A,0100:0104,0100:0106</field>
 	<field name="versionmin">2.001</field>
 	<field name="versionmax">255.255</field>
-	<field name="library_type">0</field>
-	<field name="protocol_version">0.000</field>
-	<field name="listening">0</field>
-	<field name="beaming">0</field>
+	<field name="library_type">3</field>
+	<field name="protocol_version">3.052</field>
+	<field name="listening">1</field>
+	<field name="beaming">1</field>
 	<field name="security">0</field>
-	<field name="max_baud">0</field>
-	<field name="basicclass">0</field>
-	<field name="genericclass">0</field>
-	<field name="specificclass">0</field>
+	<field name="max_baud">40000</field>
+	<field name="basicclass">5</field>
+	<field name="genericclass">12</field>
+	<field name="specificclass">26</field>
 	<field name="thingid">fgd211</field>
 	<field name="info_overview"></field>
 	<field name="info_inclusion"></field>
@@ -4596,14 +4616,14 @@
 	<field name="versionmax">255.255</field>
 	<field name="library_type">0</field>
 	<field name="protocol_version">0.000</field>
-	<field name="listening"></field>
-	<field name="beaming"></field>
-	<field name="security"></field>
+	<field name="listening">0</field>
+	<field name="beaming">0</field>
+	<field name="security">0</field>
 	<field name="max_baud">0</field>
 	<field name="basicclass">0</field>
 	<field name="genericclass">0</field>
 	<field name="specificclass">0</field>
-	<field name="thingid">vri10-1lz</field>
+	<field name="thingid">vri101lz</field>
 	<field name="info_overview"></field>
 	<field name="info_inclusion"></field>
 	<field name="info_exclusion"></field>
@@ -4620,14 +4640,14 @@
 	<field name="versionmax">255.255</field>
 	<field name="library_type">0</field>
 	<field name="protocol_version">0.000</field>
-	<field name="listening"></field>
-	<field name="beaming"></field>
-	<field name="security"></field>
+	<field name="listening">0</field>
+	<field name="beaming">0</field>
+	<field name="security">0</field>
 	<field name="max_baud">0</field>
 	<field name="basicclass">0</field>
 	<field name="genericclass">0</field>
 	<field name="specificclass">0</field>
-	<field name="thingid">vrmx1-1lz</field>
+	<field name="thingid">vrmx11lz</field>
 	<field name="info_overview"></field>
 	<field name="info_inclusion"></field>
 	<field name="info_exclusion"></field>
@@ -4644,14 +4664,14 @@
 	<field name="versionmax">255.255</field>
 	<field name="library_type">0</field>
 	<field name="protocol_version">0.000</field>
-	<field name="listening"></field>
-	<field name="beaming"></field>
-	<field name="security"></field>
+	<field name="listening">0</field>
+	<field name="beaming">0</field>
+	<field name="security">0</field>
 	<field name="max_baud">0</field>
 	<field name="basicclass">0</field>
 	<field name="genericclass">0</field>
 	<field name="specificclass">0</field>
-	<field name="thingid">vre06-1lz</field>
+	<field name="thingid">vre061lz</field>
 	<field name="info_overview"></field>
 	<field name="info_inclusion"></field>
 	<field name="info_exclusion"></field>
@@ -4668,14 +4688,14 @@
 	<field name="versionmax">255.255</field>
 	<field name="library_type">0</field>
 	<field name="protocol_version">0.000</field>
-	<field name="listening"></field>
-	<field name="beaming"></field>
-	<field name="security"></field>
+	<field name="listening">0</field>
+	<field name="beaming">0</field>
+	<field name="security">0</field>
 	<field name="max_baud">0</field>
 	<field name="basicclass">0</field>
 	<field name="genericclass">0</field>
 	<field name="specificclass">0</field>
-	<field name="thingid">vrs15-1lz</field>
+	<field name="thingid">vrs151lz</field>
 	<field name="info_overview"></field>
 	<field name="info_inclusion"></field>
 	<field name="info_exclusion"></field>
@@ -4692,14 +4712,14 @@
 	<field name="versionmax">255.255</field>
 	<field name="library_type">0</field>
 	<field name="protocol_version">0.000</field>
-	<field name="listening"></field>
-	<field name="beaming"></field>
-	<field name="security"></field>
+	<field name="listening">0</field>
+	<field name="beaming">0</field>
+	<field name="security">0</field>
 	<field name="max_baud">0</field>
 	<field name="basicclass">0</field>
 	<field name="genericclass">0</field>
 	<field name="specificclass">0</field>
-	<field name="thingid">vri06-1lz</field>
+	<field name="thingid">vri061lz</field>
 	<field name="info_overview"></field>
 	<field name="info_inclusion"></field>
 	<field name="info_exclusion"></field>
@@ -4716,14 +4736,14 @@
 	<field name="versionmax">255.255</field>
 	<field name="library_type">0</field>
 	<field name="protocol_version">0.000</field>
-	<field name="listening"></field>
-	<field name="beaming"></field>
-	<field name="security"></field>
+	<field name="listening">0</field>
+	<field name="beaming">0</field>
+	<field name="security">0</field>
 	<field name="max_baud">0</field>
 	<field name="basicclass">0</field>
 	<field name="genericclass">0</field>
 	<field name="specificclass">0</field>
-	<field name="thingid">dzs15-1lz</field>
+	<field name="thingid">dzs151lz</field>
 	<field name="info_overview"></field>
 	<field name="info_inclusion"></field>
 	<field name="info_exclusion"></field>
@@ -4740,14 +4760,14 @@
 	<field name="versionmax">255.255</field>
 	<field name="library_type">0</field>
 	<field name="protocol_version">0.000</field>
-	<field name="listening"></field>
-	<field name="beaming"></field>
-	<field name="security"></field>
+	<field name="listening">0</field>
+	<field name="beaming">0</field>
+	<field name="security">0</field>
 	<field name="max_baud">0</field>
 	<field name="basicclass">0</field>
 	<field name="genericclass">0</field>
 	<field name="specificclass">0</field>
-	<field name="thingid">dzmx1-1lz</field>
+	<field name="thingid">dzmx11lz</field>
 	<field name="info_overview"></field>
 	<field name="info_inclusion"></field>
 	<field name="info_exclusion"></field>
@@ -4764,14 +4784,14 @@
 	<field name="versionmax">255.255</field>
 	<field name="library_type">0</field>
 	<field name="protocol_version">0.000</field>
-	<field name="listening"></field>
-	<field name="beaming"></field>
-	<field name="security"></field>
+	<field name="listening">0</field>
+	<field name="beaming">0</field>
+	<field name="security">0</field>
 	<field name="max_baud">0</field>
 	<field name="basicclass">0</field>
 	<field name="genericclass">0</field>
 	<field name="specificclass">0</field>
-	<field name="thingid">vrcz4-m0z</field>
+	<field name="thingid">vrcz4m0z</field>
 	<field name="info_overview"></field>
 	<field name="info_inclusion"></field>
 	<field name="info_exclusion"></field>
@@ -4788,14 +4808,14 @@
 	<field name="versionmax">255.255</field>
 	<field name="library_type">0</field>
 	<field name="protocol_version">0.000</field>
-	<field name="listening"></field>
-	<field name="beaming"></field>
-	<field name="security"></field>
+	<field name="listening">0</field>
+	<field name="beaming">0</field>
+	<field name="security">0</field>
 	<field name="max_baud">0</field>
 	<field name="basicclass">0</field>
 	<field name="genericclass">0</field>
 	<field name="specificclass">0</field>
-	<field name="thingid">vrcz4-mrz</field>
+	<field name="thingid">vrcz4mrz</field>
 	<field name="info_overview"></field>
 	<field name="info_inclusion"></field>
 	<field name="info_exclusion"></field>
@@ -4819,7 +4839,7 @@
 	<field name="basicclass">5</field>
 	<field name="genericclass">12</field>
 	<field name="specificclass">29</field>
-	<field name="thingid">vrpd3-1lw</field>
+	<field name="thingid">vrpd31lw</field>
 	<field name="info_overview"></field>
 	<field name="info_inclusion"></field>
 	<field name="info_exclusion"></field>
@@ -4836,14 +4856,14 @@
 	<field name="versionmax">255.255</field>
 	<field name="library_type">0</field>
 	<field name="protocol_version">0.000</field>
-	<field name="listening"></field>
-	<field name="beaming"></field>
-	<field name="security"></field>
+	<field name="listening">0</field>
+	<field name="beaming">0</field>
+	<field name="security">0</field>
 	<field name="max_baud">0</field>
 	<field name="basicclass">0</field>
 	<field name="genericclass">0</field>
 	<field name="specificclass">0</field>
-	<field name="thingid">dzr15-1lz</field>
+	<field name="thingid">dzr151lz</field>
 	<field name="info_overview"></field>
 	<field name="info_inclusion"></field>
 	<field name="info_exclusion"></field>
@@ -5122,15 +5142,15 @@
 	<field name="type_id">0005:0003</field>
 	<field name="versionmin">0.000</field>
 	<field name="versionmax">255.255</field>
-	<field name="library_type">0</field>
-	<field name="protocol_version">0.000</field>
-	<field name="listening"></field>
-	<field name="beaming"></field>
-	<field name="security"></field>
-	<field name="max_baud">0</field>
-	<field name="basicclass">0</field>
-	<field name="genericclass">0</field>
-	<field name="specificclass">0</field>
+	<field name="library_type">3</field>
+	<field name="protocol_version">3.067</field>
+	<field name="listening">1</field>
+	<field name="beaming">1</field>
+	<field name="security">0</field>
+	<field name="max_baud">40000</field>
+	<field name="basicclass">5</field>
+	<field name="genericclass">8</field>
+	<field name="specificclass">17</field>
 	<field name="thingid">zmnhla</field>
 	<field name="info_overview"></field>
 	<field name="info_inclusion"></field>
@@ -5532,15 +5552,15 @@
 	<field name="type_id">0100:0201</field>
 	<field name="versionmin">0.000</field>
 	<field name="versionmax">255.255</field>
-	<field name="library_type">0</field>
-	<field name="protocol_version">0.000</field>
-	<field name="listening"></field>
-	<field name="beaming"></field>
-	<field name="security"></field>
-	<field name="max_baud">0</field>
-	<field name="basicclass">0</field>
-	<field name="genericclass">0</field>
-	<field name="specificclass">0</field>
+	<field name="library_type">7</field>
+	<field name="protocol_version">4.005</field>
+	<field name="listening">0</field>
+	<field name="beaming">1</field>
+	<field name="security">0</field>
+	<field name="max_baud">40000</field>
+	<field name="basicclass">5</field>
+	<field name="genericclass">7</field>
+	<field name="specificclass">13</field>
 	<field name="thingid">004001</field>
 	<field name="info_overview"></field>
 	<field name="info_inclusion"></field>
@@ -6395,17 +6415,19 @@
 	<field name="genericclass">11</field>
 	<field name="specificclass">22</field>
 	<field name="thingid">gwpn5</field>
-	<field name="info_overview"></field>
-	<field name="info_inclusion"></field>
-	<field name="info_exclusion"></field>
+	<field name="info_overview">&lt;p&gt;This Configuration is for the 6 plug version of the PowerNode.&lt;/p&gt;</field>
+	<field name="info_inclusion">&lt;p&gt;On the PowerNode, press and hold the &lt;strong&gt;sync&lt;/strong&gt; button for approximately one second until the activity indicator displays a clockwise rotating pattern. This indicates the PowerNode is attempting inclusion. During this process, verify that the Gateway activity indicator still displays a clockwise rotating pattern.&lt;/p&gt;
+&lt;p&gt;After a few seconds, the rotating pattern on both the PowerNode and the Gateway stops. All bars turn green forming a circle for several seconds. This indicates a successful inclusion.&lt;/p&gt;
+&lt;p&gt;If all bars on the activity indicator start flashing instead of forming a solid circle, then the PowerNode inclusion process has failed, and you must start the sync process again. If syncing continually fails even though the PowerNode is close to the Gateway, then it may be an indication of a hardware fault, and the PowerNode might need replacing.&lt;/p&gt;</field>
+	<field name="info_exclusion">&lt;p&gt;On the PowerNode, press and hold the &lt;strong&gt;Sync&lt;/strong&gt; button for approximately one second until the PowerNode activity indicator begins to display a counter-clockwise rotating pattern. The PowerNode is attempting exclusion.&lt;/p&gt;</field>
 	<field name="info_wakeup"></field>
   </row>
 
   <row>
 	<field name="id">265</field>
 	<field name="manufacturer">14</field>
-	<field name="label">Z stick Gen5</field>
-	<field name="description">Aeon Labs Z ‐ Stick Gen5</field>
+	<field name="label">ZW090</field>
+	<field name="description"> Z‐Stick Gen5 USB Controller</field>
 	<field name="type_id">0001:005A,0101:005A,0201:005A</field>
 	<field name="versionmin">0.000</field>
 	<field name="versionmax">255.255</field>
@@ -6491,6 +6513,102 @@
 	<field name="genericclass">7</field>
 	<field name="specificclass">13</field>
 	<field name="thingid">EZMultiPli</field>
+	<field name="info_overview"></field>
+	<field name="info_inclusion"></field>
+	<field name="info_exclusion"></field>
+	<field name="info_wakeup"></field>
+  </row>
+
+  <row>
+	<field name="id">269</field>
+	<field name="manufacturer">33</field>
+	<field name="label">VRP03</field>
+	<field name="description">300W Scene Capable Plug-In Lamp Dimming Module</field>
+	<field name="type_id">0202:030B</field>
+	<field name="versionmin">0.000</field>
+	<field name="versionmax">255.255</field>
+	<field name="library_type">0</field>
+	<field name="protocol_version">0.000</field>
+	<field name="listening">0</field>
+	<field name="beaming">0</field>
+	<field name="security">0</field>
+	<field name="max_baud">0</field>
+	<field name="basicclass">0</field>
+	<field name="genericclass">0</field>
+	<field name="specificclass">0</field>
+	<field name="thingid"></field>
+	<field name="info_overview"></field>
+	<field name="info_inclusion"></field>
+	<field name="info_exclusion"></field>
+	<field name="info_wakeup"></field>
+  </row>
+
+  <row>
+	<field name="id">270</field>
+	<field name="manufacturer">8</field>
+	<field name="label">HAC01</field>
+	<field name="description">In-Wall Remote Insert</field>
+	<field name="type_id">0010:0001</field>
+	<field name="versionmin">0.000</field>
+	<field name="versionmax">255.255</field>
+	<field name="library_type">6</field>
+	<field name="protocol_version">3.042</field>
+	<field name="listening">1</field>
+	<field name="beaming">1</field>
+	<field name="security">0</field>
+	<field name="max_baud">40000</field>
+	<field name="basicclass">5</field>
+	<field name="genericclass">13</field>
+	<field name="specificclass">33</field>
+	<field name="thingid">hac01</field>
+	<field name="info_overview"></field>
+	<field name="info_inclusion"></field>
+	<field name="info_exclusion"></field>
+	<field name="info_wakeup"></field>
+  </row>
+
+  <row>
+	<field name="id">271</field>
+	<field name="manufacturer">55</field>
+	<field name="label">EBV-105</field>
+	<field name="description">Wireless Water Shutoff Valve</field>
+	<field name="type_id">0003:0512</field>
+	<field name="versionmin">0.000</field>
+	<field name="versionmax">255.255</field>
+	<field name="library_type">6</field>
+	<field name="protocol_version">4.005</field>
+	<field name="listening">1</field>
+	<field name="beaming">1</field>
+	<field name="security">0</field>
+	<field name="max_baud">40000</field>
+	<field name="basicclass">5</field>
+	<field name="genericclass">11</field>
+	<field name="specificclass">63</field>
+	<field name="thingid">ebv105</field>
+	<field name="info_overview">&lt;p&gt;The EBV105 water shutoff controller is easy to install and configure. No special tools or plumbing required. The included clamp supports installation &lt;/p&gt;</field>
+	<field name="info_inclusion"></field>
+	<field name="info_exclusion"></field>
+	<field name="info_wakeup"></field>
+  </row>
+
+  <row>
+	<field name="id">272</field>
+	<field name="manufacturer">49</field>
+	<field name="label">MH-S412</field>
+	<field name="description">Z-Wave touch panel switch with two channel</field>
+	<field name="type_id">4102:0202</field>
+	<field name="versionmin">0.000</field>
+	<field name="versionmax">255.255</field>
+	<field name="library_type">5</field>
+	<field name="protocol_version">3.067</field>
+	<field name="listening">1</field>
+	<field name="beaming">1</field>
+	<field name="security">0</field>
+	<field name="max_baud">40000</field>
+	<field name="basicclass">5</field>
+	<field name="genericclass">11</field>
+	<field name="specificclass">22</field>
+	<field name="thingid">mhs412</field>
 	<field name="info_overview"></field>
 	<field name="info_inclusion"></field>
 	<field name="info_exclusion"></field>

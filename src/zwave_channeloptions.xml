@@ -190,4 +190,22 @@
 	<field name="config">modeType=AUTO_LOW</field>
 	<field name="overview"></field>
   </row>
+
+  <row>
+	<field name="id">22</field>
+	<field name="channel">312</field>
+	<field name="name">Auto</field>
+	<field name="value">3</field>
+	<field name="config">modeType=AUTO</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">23</field>
+	<field name="channel">312</field>
+	<field name="name">Off</field>
+	<field name="value">0</field>
+	<field name="config">modeType=OFF</field>
+	<field name="overview"></field>
+  </row>
 </resultset>

@@ -707,17 +707,14 @@
 	<field name="bitmask">0</field>
 	<field name="label">Re-trigger Wait Time</field>
 	<field name="units"></field>
-	<field name="description">By default, to conserve battery life, after the WAPIRZ-1 detects motion it cannot
-be re-triggered by motion again for 3 minutes. Each time motion is detected
-(even during this wait time) the 3 minute timer starts over. The length of the
-re-trigger wait</field>
-	<field name="size">2</field>
+	<field name="description">By default, to conserve battery life, after the WAPIRZ-1 detects motion it cannotbe re-triggered by motion again for 3 minutes. Each time motion is detected(even during this wait time) the 3 minute timer starts over. The length of there-trigger wait</field>
+	<field name="size">1</field>
 	<field name="value_min">1</field>
 	<field name="value_max">255</field>
-	<field name="value_default">0</field>
-	<field name="read_only"></field>
-	<field name="write_only"></field>
-	<field name="limit_options"></field>
+	<field name="value_default">3</field>
+	<field name="read_only">0</field>
+	<field name="write_only">0</field>
+	<field name="limit_options">0</field>
 	<field name="overview"></field>
   </row>
 
@@ -4370,7 +4367,7 @@ set Parameter 3 to a value of 1.
 	<field name="read_only">0</field>
 	<field name="write_only">0</field>
 	<field name="limit_options">0</field>
-	<field name="overview">&lt;p&gt;Current Overload Protection. Load will be closed when the&lt;br /&gt;Current overrun (US: 15.5A, other country: 16.2A) and the&lt;br /&gt;time more than 2 minutes (0=disabled, 1=enabled).&lt;/p&gt;</field>
+	<field name="overview">&lt;p&gt;Current Overload Protection. Load will be closed when the Current overrun (US: 15.5A, other country: 16.2A) and the time more than 2 minutes (0=disabled, 1=enabled).&lt;/p&gt;</field>
   </row>
 
   <row>
@@ -5959,16 +5956,14 @@ threshold value is 2.0 ? (EU/AU vers</field>
 	<field name="bitmask">0</field>
 	<field name="label">Humidity Threshold</field>
 	<field name="units"></field>
-	<field name="description"> Threshold change in humidity to induce an automatic report.&lt;br&gt;
-The unit is %.&lt;br&gt;
-If the current humidity gap is larger than this value, sensor will send out a humidity report.</field>
-	<field name="size">2</field>
+	<field name="description"> Threshold change in humidity to induce an automatic report.The unit is %.If the current humidity gap is larger than this value, sensor will send out a humidity report.</field>
+	<field name="size">1</field>
 	<field name="value_min">0</field>
 	<field name="value_max">100</field>
 	<field name="value_default">10</field>
-	<field name="read_only"></field>
-	<field name="write_only"></field>
-	<field name="limit_options"></field>
+	<field name="read_only">0</field>
+	<field name="write_only">0</field>
+	<field name="limit_options">0</field>
 	<field name="overview"></field>
   </row>
 
@@ -6072,21 +6067,25 @@ The unit is UV index scale.</field>
 	<field name="device">73</field>
 	<field name="param_id">101</field>
 	<field name="bitmask">0</field>
-	<field name="label">Group 1 Periodic Reports
-			</field>
+	<field name="label">Group 1 Periodic Reports			</field>
 	<field name="units"></field>
-	<field name="description"> This value is a combination number made up of the sum of the values&lt;br&gt;
-for the individual sensors and battery. The sensors have these values:&lt;br&gt;
-Battery=1, Ultraviolet=16, Temperature=32, Humidity=64, Light=128&lt;br&gt;
-So if you want all sensors and the</field>
+	<field name="description">This value is a combination number made up of the sum of the values for the individual sensors and battery.</field>
 	<field name="size">4</field>
 	<field name="value_min">0</field>
 	<field name="value_max">65535</field>
 	<field name="value_default">241</field>
-	<field name="read_only"></field>
-	<field name="write_only"></field>
-	<field name="limit_options"></field>
-	<field name="overview"></field>
+	<field name="read_only">0</field>
+	<field name="write_only">0</field>
+	<field name="limit_options">0</field>
+	<field name="overview">&lt;p&gt;This value is a combination number made up of the sum of the values for the individual sensors and battery. The sensors have these values:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Battery=1&lt;/li&gt;
+&lt;li&gt;Ultraviolet=16&lt;/li&gt;
+&lt;li&gt;Temperature=32&lt;/li&gt;
+&lt;li&gt;Humidity=64&lt;/li&gt;
+&lt;li&gt;Light=128&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt; &lt;/p&gt;</field>
   </row>
 
   <row>
@@ -10524,14 +10523,14 @@ Bit 3:Clamp 3)</field>
 	<field name="device">100</field>
 	<field name="param_id">2</field>
 	<field name="bitmask">0</field>
-	<field name="label">Room color</field>
+	<field name="label">Wheel position</field>
 	<field name="units"></field>
-	<field name="description">The room color (Corner wheel color) on the GreenWave device</field>
+	<field name="description">Wheel position on the GreenWave device (read-only)</field>
 	<field name="size">1</field>
 	<field name="value_min">0</field>
 	<field name="value_max">255</field>
 	<field name="value_default">0</field>
-	<field name="read_only">0</field>
+	<field name="read_only">1</field>
 	<field name="write_only">0</field>
 	<field name="limit_options">0</field>
 	<field name="overview"></field>
@@ -10600,12 +10599,12 @@ Bit 3:Clamp 3)</field>
 	<field name="units"></field>
 	<field name="description">After how many minutes the GreenWave device should start flashing if the controller didn't communicate with this device</field>
 	<field name="size">1</field>
-	<field name="value_min">-1</field>
-	<field name="value_max">127</field>
+	<field name="value_min">0</field>
+	<field name="value_max">255</field>
 	<field name="value_default">2</field>
-	<field name="read_only"></field>
-	<field name="write_only"></field>
-	<field name="limit_options"></field>
+	<field name="read_only">0</field>
+	<field name="write_only">0</field>
+	<field name="limit_options">0</field>
 	<field name="overview"></field>
   </row>
 
@@ -10637,11 +10636,11 @@ Bit 3:Clamp 3)</field>
 	<field name="description">Default state after power loss</field>
 	<field name="size">1</field>
 	<field name="value_min">0</field>
-	<field name="value_max">255</field>
+	<field name="value_max">2</field>
 	<field name="value_default">2</field>
-	<field name="read_only"></field>
-	<field name="write_only"></field>
-	<field name="limit_options"></field>
+	<field name="read_only">0</field>
+	<field name="write_only">0</field>
+	<field name="limit_options">0</field>
 	<field name="overview"></field>
   </row>
 
@@ -10650,16 +10649,16 @@ Bit 3:Clamp 3)</field>
 	<field name="device">102</field>
 	<field name="param_id">4</field>
 	<field name="bitmask">0</field>
-	<field name="label">Network error</field>
+	<field name="label">LED for network error</field>
 	<field name="units"></field>
 	<field name="description">If the LED should indicate a network error by flashing or not</field>
 	<field name="size">1</field>
 	<field name="value_min">0</field>
-	<field name="value_max">255</field>
+	<field name="value_max">1</field>
 	<field name="value_default">0</field>
-	<field name="read_only"></field>
-	<field name="write_only"></field>
-	<field name="limit_options"></field>
+	<field name="read_only">0</field>
+	<field name="write_only">0</field>
+	<field name="limit_options">0</field>
 	<field name="overview"></field>
   </row>
 
@@ -33016,31 +33015,13 @@ Privacy Mode - all user codes disabled and RF Lock/Unlock disabled</field>
   </row>
 
   <row>
-	<field name="id">1755</field>
-	<field name="device">100</field>
-	<field name="param_id">0</field>
-	<field name="bitmask">0</field>
-	<field name="label">Min. variation of load current</field>
-	<field name="units"></field>
-	<field name="description">Minimum variation in load current before a message is sent. Value in percent (30 =&gt; 30%)</field>
-	<field name="size">1</field>
-	<field name="value_min">0</field>
-	<field name="value_max">100</field>
-	<field name="value_default">10</field>
-	<field name="read_only">0</field>
-	<field name="write_only">0</field>
-	<field name="limit_options">0</field>
-	<field name="overview"></field>
-  </row>
-
-  <row>
 	<field name="id">1756</field>
 	<field name="device">100</field>
 	<field name="param_id">4</field>
 	<field name="bitmask">0</field>
 	<field name="label">LED for network  error</field>
 	<field name="units"></field>
-	<field name="description"></field>
+	<field name="description">	If the LED should indicate a network error by flashing or not</field>
 	<field name="size">1</field>
 	<field name="value_min">0</field>
 	<field name="value_max">1</field>
@@ -33332,5 +33313,149 @@ Privacy Mode - all user codes disabled and RF Lock/Unlock disabled</field>
 	<field name="write_only">0</field>
 	<field name="limit_options">0</field>
 	<field name="overview">&lt;p&gt;TempAdj is a twos-complement number that is used to adjust the temperature reading to make it more accurate. The value is in tenths of degree Fahrenheit. The temperature reading can be adjusted by +12.7F to -12.8F. A value of 1 will adjust the temperature reading by +0.1F. A value of -1 will adjust the temperature by -0.1F. A value of 123 will adjust the temperature by +12.3F. &lt;/p&gt;</field>
+  </row>
+
+  <row>
+	<field name="id">1772</field>
+	<field name="device">100</field>
+	<field name="param_id">0</field>
+	<field name="bitmask">0</field>
+	<field name="label">Min. variation of load current</field>
+	<field name="units"></field>
+	<field name="description">Minimum variation in load current before a message is sent. Value in percent (30 =&gt; 30%)</field>
+	<field name="size">1</field>
+	<field name="value_min">0</field>
+	<field name="value_max">100</field>
+	<field name="value_default">10</field>
+	<field name="read_only">0</field>
+	<field name="write_only">0</field>
+	<field name="limit_options">0</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">1774</field>
+	<field name="device">264</field>
+	<field name="param_id">0</field>
+	<field name="bitmask">0</field>
+	<field name="label">Min. variation of load current</field>
+	<field name="units"></field>
+	<field name="description">	Minimum variation in load current before a message is sent. Value in percent (30 =&gt; 30%)</field>
+	<field name="size">1</field>
+	<field name="value_min">0</field>
+	<field name="value_max">100</field>
+	<field name="value_default">10</field>
+	<field name="read_only">0</field>
+	<field name="write_only">0</field>
+	<field name="limit_options">0</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">1775</field>
+	<field name="device">264</field>
+	<field name="param_id">1</field>
+	<field name="bitmask">0</field>
+	<field name="label">No communication light</field>
+	<field name="units"></field>
+	<field name="description">After how many minutes the GreenWave device should start flashing if the controller didn't communicate with this device</field>
+	<field name="size">1</field>
+	<field name="value_min">0</field>
+	<field name="value_max">255</field>
+	<field name="value_default">2</field>
+	<field name="read_only">0</field>
+	<field name="write_only">0</field>
+	<field name="limit_options">0</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">1776</field>
+	<field name="device">264</field>
+	<field name="param_id">2</field>
+	<field name="bitmask">0</field>
+	<field name="label">Wheel position</field>
+	<field name="units"></field>
+	<field name="description">	Wheel position on the GreenWave device (read-only)</field>
+	<field name="size">1</field>
+	<field name="value_min">0</field>
+	<field name="value_max">255</field>
+	<field name="value_default">0</field>
+	<field name="read_only">0</field>
+	<field name="write_only">0</field>
+	<field name="limit_options">0</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">1777</field>
+	<field name="device">264</field>
+	<field name="param_id">3</field>
+	<field name="bitmask">0</field>
+	<field name="label">Power-on state</field>
+	<field name="units"></field>
+	<field name="description">Default state after power loss</field>
+	<field name="size">1</field>
+	<field name="value_min">0</field>
+	<field name="value_max">2</field>
+	<field name="value_default">2</field>
+	<field name="read_only">0</field>
+	<field name="write_only">0</field>
+	<field name="limit_options">0</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">1778</field>
+	<field name="device">264</field>
+	<field name="param_id">4</field>
+	<field name="bitmask">0</field>
+	<field name="label">LED for network  error</field>
+	<field name="units"></field>
+	<field name="description">If the LED should indicate a network error by flashing or not</field>
+	<field name="size">1</field>
+	<field name="value_min">0</field>
+	<field name="value_max">1</field>
+	<field name="value_default">1</field>
+	<field name="read_only">0</field>
+	<field name="write_only">0</field>
+	<field name="limit_options">0</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">1779</field>
+	<field name="device">270</field>
+	<field name="param_id">1</field>
+	<field name="bitmask">0</field>
+	<field name="label">Basic Set Level</field>
+	<field name="units"></field>
+	<field name="description">The Basic Set Command is sent with this value.</field>
+	<field name="size">1</field>
+	<field name="value_min">0</field>
+	<field name="value_max">99</field>
+	<field name="value_default">99</field>
+	<field name="read_only">0</field>
+	<field name="write_only">0</field>
+	<field name="limit_options">0</field>
+	<field name="overview">&lt;p&gt;The Basic Set Command is sent with value to have the receiving device recognize the value for controlled level, for example, if the Basic Set Command sent to dimmer with value, the dimmer would activate the luminance according to the value. &lt;br /&gt;&lt;br /&gt;0 : Off&lt;br /&gt;1 – 99 : On (for Binary Switch Device); Dim Level (for Multilevel Switch Device)&lt;/p&gt;</field>
+  </row>
+
+  <row>
+	<field name="id">1780</field>
+	<field name="device">270</field>
+	<field name="param_id">2</field>
+	<field name="bitmask">0</field>
+	<field name="label">Amount Of Delay</field>
+	<field name="units">s</field>
+	<field name="description">Amount Of Delay (seconds) to send the Basic Set Off command.</field>
+	<field name="size">1</field>
+	<field name="value_min">0</field>
+	<field name="value_max">127</field>
+	<field name="value_default">1</field>
+	<field name="read_only">0</field>
+	<field name="write_only">0</field>
+	<field name="limit_options">0</field>
+	<field name="overview">&lt;p&gt;This is applied to determine the delay time setting to send the Basic Set Off command when the manual switch input at NO (open). &lt;br /&gt;&lt;br /&gt;Example : &lt;br /&gt;0 : immediately Off &lt;br /&gt;1 – 127 : delay 1 ~ 127 second to Off&lt;/p&gt;</field>
   </row>
 </resultset>

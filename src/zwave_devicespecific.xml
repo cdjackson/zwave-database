@@ -489,4 +489,12 @@
 	<field name="name">SMOKE_SENSOR_ZENSOR_ADVANCED</field>
 	<field name="label">Advanced Zensor Smoke Sensor</field>
   </row>
+
+  <row>
+	<field name="id">63</field>
+	<field name="generic">11</field>
+	<field name="value">6</field>
+	<field name="name">VALVE_SWITCH_BINARY</field>
+	<field name="label">VALVE_SWITCH_BINARY</field>
+  </row>
 </resultset>
