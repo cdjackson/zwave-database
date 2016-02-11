@@ -5766,4 +5766,71 @@ state and reflect</field>
 	<field name="controller">1</field>
 	<field name="overview"></field>
   </row>
+
+  <row>
+	<field name="id">523</field>
+	<field name="device">275</field>
+	<field name="group_id">1</field>
+	<field name="label">Group 1</field>
+	<field name="description"></field>
+	<field name="max">5</field>
+	<field name="controller">0</field>
+	<field name="overview">&lt;p&gt;When the state of Smart Dimmer(on/off/dim the load ) is changed:&lt;/p&gt;
+&lt;p&gt;1. Set Configuration parameter 80 to 0:Reserved (Default).&lt;br /&gt;2. Set Configuration parameter 80 to 1:Send Hail CC.&lt;br /&gt;3. Set Configuration parameter 80 to 2: Send the Basic Report.  &lt;/p&gt;</field>
+  </row>
+
+  <row>
+	<field name="id">524</field>
+	<field name="device">275</field>
+	<field name="group_id">2</field>
+	<field name="label">Group 2</field>
+	<field name="description"></field>
+	<field name="max">5</field>
+	<field name="controller">0</field>
+	<field name="overview">&lt;p&gt;Forward the Basic Set, Switch Multilevel Start Level Change, Switch Multilevel Stop Level Change, Switch Multilevel Set to associated nodes in Group 2 when the Smart Dimmer receives the Basic Set, Switch Multilevel Start Level Change, Switch Multilevel Stop Level Change, Switch Multilevel Set commands from main controller.  &lt;/p&gt;</field>
+  </row>
+
+  <row>
+	<field name="id">525</field>
+	<field name="device">277</field>
+	<field name="group_id">1</field>
+	<field name="label">Target for automatic meter reports</field>
+	<field name="description"></field>
+	<field name="max">5</field>
+	<field name="controller">0</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">526</field>
+	<field name="device">277</field>
+	<field name="group_id">2</field>
+	<field name="label">Target for automatic reports</field>
+	<field name="description"></field>
+	<field name="max">5</field>
+	<field name="controller">0</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">527</field>
+	<field name="device">278</field>
+	<field name="group_id">1</field>
+	<field name="label">Target for automatic meter reports</field>
+	<field name="description"></field>
+	<field name="max">5</field>
+	<field name="controller">0</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">528</field>
+	<field name="device">278</field>
+	<field name="group_id">2</field>
+	<field name="label">Target for automatic reports</field>
+	<field name="description"></field>
+	<field name="max">5</field>
+	<field name="controller">0</field>
+	<field name="overview"></field>
+  </row>
 </resultset>

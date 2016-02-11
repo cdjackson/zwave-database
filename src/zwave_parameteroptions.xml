@@ -20756,4 +20756,164 @@
 	<field name="label">Enable the LED for network error</field>
 	<field name="overview"></field>
   </row>
+
+  <row>
+	<field name="id">2593</field>
+	<field name="parameter">1782</field>
+	<field name="value">0</field>
+	<field name="label">Deactivate</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">2594</field>
+	<field name="parameter">1782</field>
+	<field name="value">1</field>
+	<field name="label">Activate</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">2595</field>
+	<field name="parameter">1783</field>
+	<field name="value">0</field>
+	<field name="label">Deactivate</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">2596</field>
+	<field name="parameter">1783</field>
+	<field name="value">1</field>
+	<field name="label">Hail CC Sent</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">2597</field>
+	<field name="parameter">1783</field>
+	<field name="value">2</field>
+	<field name="label">Basic CC Report Sent</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">2598</field>
+	<field name="parameter">1784</field>
+	<field name="value">0</field>
+	<field name="label">Deavtivate</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">2599</field>
+	<field name="parameter">1784</field>
+	<field name="value">1</field>
+	<field name="label">Activate</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">2600</field>
+	<field name="parameter">1793</field>
+	<field name="value">0</field>
+	<field name="label">Momentary Button Mode</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">2601</field>
+	<field name="parameter">1793</field>
+	<field name="value">1</field>
+	<field name="label">2 State Switch Mode</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">2602</field>
+	<field name="parameter">1793</field>
+	<field name="value">2</field>
+	<field name="label">3 Way Switch Mode</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">2603</field>
+	<field name="parameter">1795</field>
+	<field name="value">0</field>
+	<field name="label">Deactivate</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">2604</field>
+	<field name="parameter">1795</field>
+	<field name="value">1</field>
+	<field name="label">Activate</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">2605</field>
+	<field name="parameter">1796</field>
+	<field name="value">0</field>
+	<field name="label">Deactivate</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">2606</field>
+	<field name="parameter">1796</field>
+	<field name="value">1</field>
+	<field name="label">Hail CC Sent</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">2607</field>
+	<field name="parameter">1796</field>
+	<field name="value">2</field>
+	<field name="label">Basic CC Report Sent</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">2608</field>
+	<field name="parameter">1797</field>
+	<field name="value">0</field>
+	<field name="label">Deavtivate</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">2609</field>
+	<field name="parameter">1797</field>
+	<field name="value">1</field>
+	<field name="label">Activate</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">2610</field>
+	<field name="parameter">1806</field>
+	<field name="value">0</field>
+	<field name="label">Momentary Button Mode</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">2611</field>
+	<field name="parameter">1806</field>
+	<field name="value">1</field>
+	<field name="label">2 State Switch Mode</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">2612</field>
+	<field name="parameter">1806</field>
+	<field name="value">2</field>
+	<field name="label">3 Way Switch Mode</field>
+	<field name="overview"></field>
+  </row>
 </resultset>
