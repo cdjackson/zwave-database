@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Product xmlns="http://code.google.com/p/open-zwave/">
+
+  <!-- Association Groups -->
+  <CommandClass id="133">
+    <Associations num_groups="2">
+      <Group index="1" label="Switching of associated devices" max_associations="5" />
+      <Group index="2" label="Status Reports" max_associations="1" auto="true" />
+    </Associations>
+  </CommandClass>
+
+</Product>
+
