@@ -1281,4 +1281,14 @@
 	<field name="genericclass">0</field>
 	<field name="specificclass">0</field>
   </row>
+
+  <row>
+	<field name="id">132</field>
+	<field name="device">279</field>
+	<field name="number">0</field>
+	<field name="label">Endpoint 0</field>
+	<field name="basicclass">5</field>
+	<field name="genericclass">11</field>
+	<field name="specificclass">22</field>
+  </row>
 </resultset>

@@ -2854,4 +2854,13 @@
 	<field name="label">Dimmer</field>
 	<field name="overview"></field>
   </row>
+
+  <row>
+	<field name="id">330</field>
+	<field name="commandclass">906</field>
+	<field name="name">switch_binary</field>
+	<field name="config"></field>
+	<field name="label">Switch</field>
+	<field name="overview"></field>
+  </row>
 </resultset>

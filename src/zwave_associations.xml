@@ -5833,4 +5833,26 @@ state and reflect</field>
 	<field name="controller">0</field>
 	<field name="overview"></field>
   </row>
+
+  <row>
+	<field name="id">529</field>
+	<field name="device">279</field>
+	<field name="group_id">1</field>
+	<field name="label">Switching of associated devices</field>
+	<field name="description"></field>
+	<field name="max">5</field>
+	<field name="controller">0</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">530</field>
+	<field name="device">279</field>
+	<field name="group_id">2</field>
+	<field name="label">Status Reports</field>
+	<field name="description"></field>
+	<field name="max">1</field>
+	<field name="controller">1</field>
+	<field name="overview"></field>
+  </row>
 </resultset>

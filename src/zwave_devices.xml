@@ -2144,19 +2144,19 @@
 	<field name="id">88</field>
 	<field name="manufacturer">14</field>
 	<field name="label">DSA38</field>
-	<field name="description">1 button keyfob</field>
+	<field name="description">Panic Button Key Fob</field>
 	<field name="type_id">0001:0026</field>
 	<field name="versionmin">0.000</field>
 	<field name="versionmax">255.255</field>
 	<field name="library_type">0</field>
 	<field name="protocol_version">0.000</field>
-	<field name="listening"></field>
-	<field name="beaming"></field>
-	<field name="security"></field>
+	<field name="listening">0</field>
+	<field name="beaming">0</field>
+	<field name="security">0</field>
 	<field name="max_baud">0</field>
-	<field name="basicclass">0</field>
-	<field name="genericclass">0</field>
-	<field name="specificclass">0</field>
+	<field name="basicclass">2</field>
+	<field name="genericclass">3</field>
+	<field name="specificclass">3</field>
 	<field name="thingid">dsa38</field>
 	<field name="info_overview"></field>
 	<field name="info_inclusion"></field>
@@ -6595,7 +6595,7 @@
 	<field name="id">272</field>
 	<field name="manufacturer">49</field>
 	<field name="label">MH-S412</field>
-	<field name="description">Z-Wave touch panel switch with two channel</field>
+	<field name="description">Touch Panel Switch (Dual)</field>
 	<field name="type_id">4102:0202</field>
 	<field name="versionmin">0.000</field>
 	<field name="versionmax">255.255</field>
@@ -6754,6 +6754,30 @@
 	<field name="genericclass">0</field>
 	<field name="specificclass">0</field>
 	<field name="thingid">dsc18</field>
+	<field name="info_overview"></field>
+	<field name="info_inclusion"></field>
+	<field name="info_exclusion"></field>
+	<field name="info_wakeup"></field>
+  </row>
+
+  <row>
+	<field name="id">279</field>
+	<field name="manufacturer">49</field>
+	<field name="label">MH-S411</field>
+	<field name="description">Touch Panel Switch (Single)</field>
+	<field name="type_id">4102:0201</field>
+	<field name="versionmin">0.000</field>
+	<field name="versionmax">255.255</field>
+	<field name="library_type">5</field>
+	<field name="protocol_version">3.067</field>
+	<field name="listening">1</field>
+	<field name="beaming">1</field>
+	<field name="security">0</field>
+	<field name="max_baud">40000</field>
+	<field name="basicclass">5</field>
+	<field name="genericclass">11</field>
+	<field name="specificclass">22</field>
+	<field name="thingid">mhs411</field>
 	<field name="info_overview"></field>
 	<field name="info_inclusion"></field>
 	<field name="info_exclusion"></field>
