@@ -497,4 +497,12 @@
 	<field name="thingid">teldus</field>
 	<field name="url"></field>
   </row>
+
+  <row>
+	<field name="id">63</field>
+	<field name="label">Kwikset</field>
+	<field name="reference">144</field>
+	<field name="thingid">kwikset</field>
+	<field name="url">http://www.kwikset.com/</field>
+  </row>
 </resultset>

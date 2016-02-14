@@ -960,15 +960,15 @@
 	<field name="type_id">5257:3533</field>
 	<field name="versionmin">0.000</field>
 	<field name="versionmax">255.255</field>
-	<field name="library_type">0</field>
-	<field name="protocol_version">0.000</field>
-	<field name="listening"></field>
-	<field name="beaming"></field>
-	<field name="security"></field>
-	<field name="max_baud">0</field>
-	<field name="basicclass">0</field>
-	<field name="genericclass">0</field>
-	<field name="specificclass">0</field>
+	<field name="library_type">6</field>
+	<field name="protocol_version">3.040</field>
+	<field name="listening">1</field>
+	<field name="beaming">1</field>
+	<field name="security">0</field>
+	<field name="max_baud">40000</field>
+	<field name="basicclass">5</field>
+	<field name="genericclass">11</field>
+	<field name="specificclass">22</field>
 	<field name="thingid">45609</field>
 	<field name="info_overview"></field>
 	<field name="info_inclusion"></field>
@@ -984,15 +984,15 @@
 	<field name="type_id">4457:3230</field>
 	<field name="versionmin">0.000</field>
 	<field name="versionmax">255.255</field>
-	<field name="library_type">0</field>
-	<field name="protocol_version">0.000</field>
-	<field name="listening"></field>
-	<field name="beaming"></field>
-	<field name="security"></field>
-	<field name="max_baud">0</field>
-	<field name="basicclass">0</field>
-	<field name="genericclass">0</field>
-	<field name="specificclass">0</field>
+	<field name="library_type">6</field>
+	<field name="protocol_version">3.040</field>
+	<field name="listening">1</field>
+	<field name="beaming">1</field>
+	<field name="security">0</field>
+	<field name="max_baud">40000</field>
+	<field name="basicclass">5</field>
+	<field name="genericclass">12</field>
+	<field name="specificclass">26</field>
 	<field name="thingid">45606</field>
 	<field name="info_overview"></field>
 	<field name="info_inclusion"></field>
@@ -3027,15 +3027,15 @@
 	<field name="type_id">0202:1002</field>
 	<field name="versionmin">0.000</field>
 	<field name="versionmax">255.255</field>
-	<field name="library_type">0</field>
-	<field name="protocol_version">0.000</field>
-	<field name="listening"></field>
-	<field name="beaming"></field>
-	<field name="security"></field>
-	<field name="max_baud">0</field>
-	<field name="basicclass">0</field>
-	<field name="genericclass">0</field>
-	<field name="specificclass">0</field>
+	<field name="library_type">3</field>
+	<field name="protocol_version">3.052</field>
+	<field name="listening">1</field>
+	<field name="beaming">1</field>
+	<field name="security">0</field>
+	<field name="max_baud">40000</field>
+	<field name="basicclass">5</field>
+	<field name="genericclass">11</field>
+	<field name="specificclass">22</field>
 	<field name="thingid">fgs222</field>
 	<field name="info_overview"></field>
 	<field name="info_inclusion"></field>
@@ -5933,14 +5933,14 @@
 	<field name="manufacturer">51</field>
 	<field name="label">TZEMT400BB32MAA</field>
 	<field name="description">Trane Z-Wave Programmable Thermostat</field>
-	<field name="type_id">5452:5433,5452:5439</field>
+	<field name="type_id">5452:5433</field>
 	<field name="versionmin">0.000</field>
 	<field name="versionmax">255.255</field>
 	<field name="library_type">0</field>
 	<field name="protocol_version">0.000</field>
-	<field name="listening"></field>
-	<field name="beaming"></field>
-	<field name="security"></field>
+	<field name="listening">0</field>
+	<field name="beaming">0</field>
+	<field name="security">0</field>
 	<field name="max_baud">0</field>
 	<field name="basicclass">0</field>
 	<field name="genericclass">0</field>
@@ -6123,21 +6123,21 @@
   <row>
 	<field name="id">253</field>
 	<field name="manufacturer">59</field>
-	<field name="label">ZB22UK</field>
+	<field name="label">ZB22</field>
 	<field name="description">Smart LED Light Bulb</field>
 	<field name="type_id">4C42:3135</field>
 	<field name="versionmin">0.000</field>
 	<field name="versionmax">255.255</field>
 	<field name="library_type">0</field>
 	<field name="protocol_version">0.000</field>
-	<field name="listening"></field>
-	<field name="beaming"></field>
-	<field name="security"></field>
+	<field name="listening">0</field>
+	<field name="beaming">0</field>
+	<field name="security">0</field>
 	<field name="max_baud">0</field>
 	<field name="basicclass">0</field>
 	<field name="genericclass">0</field>
 	<field name="specificclass">0</field>
-	<field name="thingid">zb22uk</field>
+	<field name="thingid">zb22</field>
 	<field name="info_overview"></field>
 	<field name="info_inclusion"></field>
 	<field name="info_exclusion"></field>
@@ -6216,11 +6216,16 @@
 &lt;p&gt;It can be included and operated in any Z-wave network with other Z-wave certified devices from other manufacturers and/or other applications. All non-battery operated nodes within the network will act as repeaters regardless of vendor to increase reliability of the network.&lt;/p&gt;
 &lt;p&gt;It is also a security Z-wave device and supports the Over The Air (OTA) feature for the product’s firmware upgrade.&lt;/p&gt;</field>
 	<field name="info_inclusion">&lt;p&gt;Add Garage Door Controller into Z-Wave Network:&lt;/p&gt;
-&lt;p&gt;1. Install Garage Door Controller, and connect it to the 5V DC Adapter.&lt;br /&gt;2. Let the primary controller into inclusion mode (If you don’t know how to do this, please refer to its manual).&lt;br /&gt;3. Press the Z-Wave Button.&lt;/p&gt;
-&lt;p&gt; &lt;/p&gt;</field>
+&lt;ol&gt;&lt;li&gt;Install Garage Door Controller, and connect it to the 5V DC Adapter.&lt;/li&gt;
+&lt;li&gt;Let the primary controller into inclusion mode (If you don’t know how to do this, please refer to its manual).&lt;/li&gt;
+&lt;li&gt;Press the Z-Wave Button.&lt;/li&gt;
+&lt;/ol&gt;&lt;p&gt; &lt;/p&gt;</field>
 	<field name="info_exclusion">&lt;p&gt;Remove Garage Door Controller from Z-Wave Network:&lt;/p&gt;
-&lt;p&gt;1. Install Garage Door Controller, and connect it to the 5V DC Adapter.&lt;br /&gt;2. Let the primary controller into exclusion mode (If you don’t know how to do this, refer to its manual).&lt;br /&gt;3. Press the Z-Wave Button.&lt;br /&gt;4. If the remove is failed, please repeat the process from step 2.&lt;/p&gt;
-&lt;p&gt;Note: If Garage Door Controller is removed from Z-wave network, it will be reset to factory default.&lt;/p&gt;</field>
+&lt;ol&gt;&lt;li&gt;Install Garage Door Controller, and connect it to the 5V DC Adapter.&lt;/li&gt;
+&lt;li&gt;Let the primary controller into exclusion mode (If you don’t know how to do this, refer to its manual).&lt;/li&gt;
+&lt;li&gt;Press the Z-Wave Button.&lt;/li&gt;
+&lt;li&gt;If the remove is failed, please repeat the process from step 2.&lt;/li&gt;
+&lt;/ol&gt;&lt;p&gt;Note: If Garage Door Controller is removed from Z-wave network, it will be reset to factory default.&lt;/p&gt;</field>
 	<field name="info_wakeup"></field>
   </row>
 
@@ -6781,6 +6786,116 @@
 	<field name="info_overview"></field>
 	<field name="info_inclusion"></field>
 	<field name="info_exclusion"></field>
+	<field name="info_wakeup"></field>
+  </row>
+
+  <row>
+	<field name="id">280</field>
+	<field name="manufacturer">59</field>
+	<field name="label">ZE27</field>
+	<field name="description">Smart LED Light</field>
+	<field name="type_id">4C42:3134</field>
+	<field name="versionmin">0.000</field>
+	<field name="versionmax">255.255</field>
+	<field name="library_type">3</field>
+	<field name="protocol_version">45.000</field>
+	<field name="listening">1</field>
+	<field name="beaming">1</field>
+	<field name="security">0</field>
+	<field name="max_baud">40000</field>
+	<field name="basicclass">5</field>
+	<field name="genericclass">12</field>
+	<field name="specificclass">26</field>
+	<field name="thingid">ze27</field>
+	<field name="info_overview"></field>
+	<field name="info_inclusion"></field>
+	<field name="info_exclusion"></field>
+	<field name="info_wakeup"></field>
+  </row>
+
+  <row>
+	<field name="id">281</field>
+	<field name="manufacturer">10</field>
+	<field name="label">ZW4002</field>
+	<field name="description">In-Wall Smart Fan Control</field>
+	<field name="type_id">4944:3034</field>
+	<field name="versionmin">0.000</field>
+	<field name="versionmax">255.255</field>
+	<field name="library_type">6</field>
+	<field name="protocol_version">3.067</field>
+	<field name="listening">1</field>
+	<field name="beaming">1</field>
+	<field name="security">0</field>
+	<field name="max_baud">40000</field>
+	<field name="basicclass">5</field>
+	<field name="genericclass">12</field>
+	<field name="specificclass">26</field>
+	<field name="thingid">zw4002</field>
+	<field name="info_overview">&lt;p&gt;&lt;strong&gt;Basic Operation&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Note: Before starting, fan must be set to ‘HIGH’ position using pull chain. The connected fan can then be turned ON/OFF and adjust speed levels in two ways:&lt;/p&gt;
+&lt;ol&gt;&lt;li&gt;Manually from the front panel rocker of the In-wall Fan Control&lt;/li&gt;
+&lt;li&gt;Remotely with a Z-Wave controller&lt;/li&gt;
+&lt;/ol&gt;&lt;p&gt;&lt;strong&gt;Manual Control&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;To turn the connected fan ON: Press and release the top of the rocker. Note: Fan will return to last speed setting of Fan Control. Default setting – HIGH.&lt;/p&gt;
+&lt;p&gt;To turn the fan OFF: Press and release the bottom of the rocker.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Adjust fan speed&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;To decrease fan speed: Press and hold lower rocker.&lt;/p&gt;
+&lt;p&gt;To increase fan speed: Press and hold upper rocker.&lt;/p&gt;
+&lt;p&gt;The LED indicator confirms fan speed settings by flashing patterns&lt;/p&gt;
+&lt;ul&gt;&lt;li&gt;LOW – LED will blink every 2 seconds for 10 seconds&lt;/li&gt;
+&lt;li&gt;MEDIUM – LED will blink every second for 10 seconds&lt;/li&gt;
+&lt;li&gt;HIGH – LED will blink every half second for 10 seconds&lt;/li&gt;
+&lt;/ul&gt;</field>
+	<field name="info_inclusion">&lt;p&gt;Once the controller is ready to include your device, press and release the top or bottom of the smart fan control switch (rocker) to include it in the network.&lt;/p&gt;</field>
+	<field name="info_exclusion"></field>
+	<field name="info_wakeup"></field>
+  </row>
+
+  <row>
+	<field name="id">282</field>
+	<field name="manufacturer">51</field>
+	<field name="label">XL624</field>
+	<field name="description">Touchscreen Comfort Control Thermostat</field>
+	<field name="type_id">5452:5439</field>
+	<field name="versionmin">0.000</field>
+	<field name="versionmax">255.255</field>
+	<field name="library_type">6</field>
+	<field name="protocol_version">3.052</field>
+	<field name="listening">1</field>
+	<field name="beaming">1</field>
+	<field name="security">0</field>
+	<field name="max_baud">40000</field>
+	<field name="basicclass">5</field>
+	<field name="genericclass">8</field>
+	<field name="specificclass">19</field>
+	<field name="thingid">xl624</field>
+	<field name="info_overview"></field>
+	<field name="info_inclusion"></field>
+	<field name="info_exclusion"></field>
+	<field name="info_wakeup"></field>
+  </row>
+
+  <row>
+	<field name="id">283</field>
+	<field name="manufacturer">63</field>
+	<field name="label">914TRL</field>
+	<field name="description">Touchpad Electronic Deadbolt</field>
+	<field name="type_id">0001:0001</field>
+	<field name="versionmin">0.000</field>
+	<field name="versionmax">255.255</field>
+	<field name="library_type">6</field>
+	<field name="protocol_version">3.067</field>
+	<field name="listening">0</field>
+	<field name="beaming">1</field>
+	<field name="security">0</field>
+	<field name="max_baud">40000</field>
+	<field name="basicclass">5</field>
+	<field name="genericclass">24</field>
+	<field name="specificclass">50</field>
+	<field name="thingid">914trl</field>
+	<field name="info_overview"></field>
+	<field name="info_inclusion">&lt;p&gt; Press button “A” on the lock one time to include it in your system.&lt;/p&gt;</field>
+	<field name="info_exclusion">&lt;p&gt; Press button “A” on the lock one time to exclude it in your system.&lt;/p&gt;</field>
 	<field name="info_wakeup"></field>
   </row>
 </resultset>

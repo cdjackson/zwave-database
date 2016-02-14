@@ -20916,4 +20916,60 @@
 	<field name="label">3 Way Switch Mode</field>
 	<field name="overview"></field>
   </row>
+
+  <row>
+	<field name="id">2613</field>
+	<field name="parameter">1807</field>
+	<field name="value">0</field>
+	<field name="label">OFF</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">2614</field>
+	<field name="parameter">1807</field>
+	<field name="value">1</field>
+	<field name="label">ON</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">2615</field>
+	<field name="parameter">1808</field>
+	<field name="value">0</field>
+	<field name="label">OFF</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">2616</field>
+	<field name="parameter">1808</field>
+	<field name="value">1</field>
+	<field name="label">ON</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">2617</field>
+	<field name="parameter">1809</field>
+	<field name="value">0</field>
+	<field name="label">OFF</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">2618</field>
+	<field name="parameter">1809</field>
+	<field name="value">1</field>
+	<field name="label">ON</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">2619</field>
+	<field name="parameter">1810</field>
+	<field name="value">1</field>
+	<field name="label">Factory Default</field>
+	<field name="overview"></field>
+  </row>
 </resultset>

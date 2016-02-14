@@ -208,4 +208,94 @@
 	<field name="config">modeType=OFF</field>
 	<field name="overview"></field>
   </row>
+
+  <row>
+	<field name="id">24</field>
+	<field name="channel">334</field>
+	<field name="name">Cool</field>
+	<field name="value">2</field>
+	<field name="config">modeType=COOL</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">25</field>
+	<field name="channel">334</field>
+	<field name="name">Aux Heat</field>
+	<field name="value">4</field>
+	<field name="config">modeType=AUX_HEAT</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">26</field>
+	<field name="channel">334</field>
+	<field name="name">Heat</field>
+	<field name="value">1</field>
+	<field name="config">modeType=HEAT</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">27</field>
+	<field name="channel">334</field>
+	<field name="name">Off</field>
+	<field name="value">0</field>
+	<field name="config">modeType=OFF</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">28</field>
+	<field name="channel">334</field>
+	<field name="name">Auto</field>
+	<field name="value">3</field>
+	<field name="config">modeType=AUTO</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">29</field>
+	<field name="channel">335</field>
+	<field name="name">Idle</field>
+	<field name="value">0</field>
+	<field name="config">stateType=IDLE</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">30</field>
+	<field name="channel">335</field>
+	<field name="name">Running</field>
+	<field name="value">1</field>
+	<field name="config">stateType=RUNNING</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">31</field>
+	<field name="channel">341</field>
+	<field name="name">Circulate</field>
+	<field name="value">6</field>
+	<field name="config">modeType=CIRCULATE</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">32</field>
+	<field name="channel">341</field>
+	<field name="name">Auto (Low)</field>
+	<field name="value">0</field>
+	<field name="config">modeType=AUTO_LOW</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">33</field>
+	<field name="channel">341</field>
+	<field name="name">On (Low)</field>
+	<field name="value">1</field>
+	<field name="config">modeType=ON_LOW</field>
+	<field name="overview"></field>
+  </row>
 </resultset>

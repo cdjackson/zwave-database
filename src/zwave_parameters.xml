@@ -2801,16 +2801,15 @@ set Parameter 3 to a value of 1.
 	<field name="bitmask">0</field>
 	<field name="label">Night Light</field>
 	<field name="units"></field>
-	<field name="description">Defines the behavior of the blue LED. &lt;br&gt;
-			 Default is Night Light mode where LED is on when switch is off.</field>
+	<field name="description">Defines the behavior of the blue LED.</field>
 	<field name="size">1</field>
 	<field name="value_min">0</field>
 	<field name="value_max">255</field>
 	<field name="value_default">0</field>
-	<field name="read_only"></field>
-	<field name="write_only"></field>
-	<field name="limit_options"></field>
-	<field name="overview"></field>
+	<field name="read_only">0</field>
+	<field name="write_only">0</field>
+	<field name="limit_options">0</field>
+	<field name="overview">&lt;p&gt;Default is Night Light mode where LED is on when switch is off.&lt;/p&gt;</field>
   </row>
 
   <row>
@@ -2820,18 +2819,15 @@ set Parameter 3 to a value of 1.
 	<field name="bitmask">0</field>
 	<field name="label">Invert Switch</field>
 	<field name="units"></field>
-	<field name="description">Change the top of the switch to OFF and &lt;br&gt;
-			the bottom of the switch to ON. &lt;br&gt;
-			Note: If you invert the switches and also install the product upside down, &lt;br&gt;
-			remember the load will now be controlled by the right, not the left switch.</field>
+	<field name="description">Change the top of the switch to OFF and the bottom of the switch to ON.</field>
 	<field name="size">1</field>
 	<field name="value_min">0</field>
 	<field name="value_max">255</field>
 	<field name="value_default">0</field>
-	<field name="read_only"></field>
-	<field name="write_only"></field>
-	<field name="limit_options"></field>
-	<field name="overview"></field>
+	<field name="read_only">0</field>
+	<field name="write_only">0</field>
+	<field name="limit_options">0</field>
+	<field name="overview">&lt;p&gt;Note: If you invert the switches and also install the product upside down, remember the load will now be controlled by the right, not the left switch.&lt;/p&gt;</field>
   </row>
 
   <row>
@@ -2841,16 +2837,15 @@ set Parameter 3 to a value of 1.
 	<field name="bitmask">0</field>
 	<field name="label">Night Light</field>
 	<field name="units"></field>
-	<field name="description">Defines the behavior of the blue LED. &lt;br&gt;
-			Default is Night Light mode where LED is on when switch is off.</field>
+	<field name="description">Defines the behavior of the blue LED.</field>
 	<field name="size">1</field>
 	<field name="value_min">0</field>
 	<field name="value_max">255</field>
 	<field name="value_default">0</field>
-	<field name="read_only"></field>
-	<field name="write_only"></field>
-	<field name="limit_options"></field>
-	<field name="overview"></field>
+	<field name="read_only">0</field>
+	<field name="write_only">0</field>
+	<field name="limit_options">0</field>
+	<field name="overview">&lt;p&gt;Default is Night Light mode where LED is on when switch is off.&lt;/p&gt;</field>
   </row>
 
   <row>
@@ -2860,18 +2855,15 @@ set Parameter 3 to a value of 1.
 	<field name="bitmask">0</field>
 	<field name="label">Invert Switch</field>
 	<field name="units"></field>
-	<field name="description">Change the top of the switch to OFF and the bottom &lt;br&gt;
-			of the switch to ON. &lt;br&gt;
-			Note: If you invert the switches and also install the product upside down, &lt;br&gt;
-			remember the load will now be controlled by the right, not the left switch.</field>
+	<field name="description">Change the top of the switch to OFF and the bottom of the switch to ON.</field>
 	<field name="size">1</field>
 	<field name="value_min">0</field>
 	<field name="value_max">255</field>
 	<field name="value_default">0</field>
-	<field name="read_only"></field>
-	<field name="write_only"></field>
-	<field name="limit_options"></field>
-	<field name="overview"></field>
+	<field name="read_only">0</field>
+	<field name="write_only">0</field>
+	<field name="limit_options">0</field>
+	<field name="overview">&lt;p&gt;Note: If you invert the switches and also install the product upside down, remember the load will now be controlled by the right, not the left switch.&lt;/p&gt;</field>
   </row>
 
   <row>
@@ -2917,18 +2909,15 @@ set Parameter 3 to a value of 1.
 	<field name="bitmask">0</field>
 	<field name="label">On/Off Command Dim Rate</field>
 	<field name="units"></field>
-	<field name="description">This value indicates in 10 millisecond resolution, &lt;br&gt;
-			 how often the dim level will change. For example, if you set this parameter to 1, &lt;br&gt;
-			 then every 10ms the dim level will change. If you set it to 255, then every 2.55 &lt;br&gt;
-			 seconds the</field>
+	<field name="description">Sets the rate at which the dimmer changes the light level.</field>
 	<field name="size">1</field>
 	<field name="value_min">1</field>
 	<field name="value_max">255</field>
 	<field name="value_default">3</field>
-	<field name="read_only"></field>
-	<field name="write_only"></field>
-	<field name="limit_options"></field>
-	<field name="overview"></field>
+	<field name="read_only">0</field>
+	<field name="write_only">0</field>
+	<field name="limit_options">0</field>
+	<field name="overview">&lt;p&gt;This value indicates in 10 millisecond resolution, how often the dim level will change. For example, if you set this parameter to 1, then every 10ms the dim level will change. If you set it to 255, then every 2.55 seconds&lt;/p&gt;</field>
   </row>
 
   <row>
@@ -2956,18 +2945,15 @@ set Parameter 3 to a value of 1.
 	<field name="bitmask">0</field>
 	<field name="label">Local Control Dim Rate</field>
 	<field name="units"></field>
-	<field name="description">This value indicates in 10 millisecond resolution, &lt;br&gt;
-			how often the dim level will change. For example, if you set this parameter to 1, &lt;br&gt;
-			then every 10ms the dim level will change. If you set it to 255, then every 2.55 &lt;br&gt;
-			seconds the di</field>
+	<field name="description">Sets the dim rate</field>
 	<field name="size">1</field>
 	<field name="value_min">1</field>
 	<field name="value_max">255</field>
 	<field name="value_default">3</field>
-	<field name="read_only"></field>
-	<field name="write_only"></field>
-	<field name="limit_options"></field>
-	<field name="overview"></field>
+	<field name="read_only">0</field>
+	<field name="write_only">0</field>
+	<field name="limit_options">0</field>
+	<field name="overview">&lt;p&gt;This value indicates in 10 millisecond resolution, how often the dim level will change. For example, if you set this parameter to 1, then every 10ms the dim level will change. If you set it to 255, then every 2.55 seconds the dimmer will change.&lt;/p&gt;</field>
   </row>
 
   <row>
@@ -2995,18 +2981,15 @@ set Parameter 3 to a value of 1.
 	<field name="bitmask">0</field>
 	<field name="label">ALL ON/ALL OFF Dim Rate</field>
 	<field name="units"></field>
-	<field name="description">This value indicates in 10 millisecond resolution, &lt;br&gt;
-			 how often the dim level will change. For example, if you set this parameter to 1, &lt;br&gt;
-			 then every 10ms the dim level will change. If you set it to 255, then every 2.55 &lt;br&gt;
-			 seconds the</field>
+	<field name="description">Sets the dim rate for the all on/off command</field>
 	<field name="size">1</field>
 	<field name="value_min">1</field>
 	<field name="value_max">255</field>
 	<field name="value_default">3</field>
-	<field name="read_only"></field>
-	<field name="write_only"></field>
-	<field name="limit_options"></field>
-	<field name="overview"></field>
+	<field name="read_only">0</field>
+	<field name="write_only">0</field>
+	<field name="limit_options">0</field>
+	<field name="overview">&lt;p&gt;This value indicates in 10 millisecond resolution, how often the dim level will change. For example, if you set this parameter to 1, then every 10ms the dim level will change. If you set it to 255, then every 2.55 seconds the dimmer will change.&lt;/p&gt;</field>
   </row>
 
   <row>
@@ -14410,16 +14393,16 @@ Type	range</field>
 	<field name="device">124</field>
 	<field name="param_id">4</field>
 	<field name="bitmask">0</field>
-	<field name="label">Relay 1: OFF-delay time (10ms steps)</field>
+	<field name="label">Relay 1: OFF-delay time (100ms steps)</field>
 	<field name="units"></field>
 	<field name="description">Automatic turning off relay 1 after set time, in 10ms increments (default: 200ms)</field>
-	<field name="size">1</field>
+	<field name="size">2</field>
 	<field name="value_min">0</field>
 	<field name="value_max">255</field>
 	<field name="value_default">20</field>
-	<field name="read_only"></field>
-	<field name="write_only"></field>
-	<field name="limit_options"></field>
+	<field name="read_only">0</field>
+	<field name="write_only">0</field>
+	<field name="limit_options">0</field>
 	<field name="overview"></field>
   </row>
 
@@ -14428,16 +14411,16 @@ Type	range</field>
 	<field name="device">124</field>
 	<field name="param_id">5</field>
 	<field name="bitmask">0</field>
-	<field name="label">Relay 2: OFF-delay time (10ms steps)</field>
+	<field name="label">Relay 2: OFF-delay time (100ms steps)</field>
 	<field name="units"></field>
 	<field name="description">Automatic turning off relay 2 after set time, in 10ms increments (default: 200ms)</field>
-	<field name="size">1</field>
+	<field name="size">2</field>
 	<field name="value_min">0</field>
 	<field name="value_max">255</field>
 	<field name="value_default">20</field>
-	<field name="read_only"></field>
-	<field name="write_only"></field>
-	<field name="limit_options"></field>
+	<field name="read_only">0</field>
+	<field name="write_only">0</field>
+	<field name="limit_options">0</field>
 	<field name="overview"></field>
   </row>
 
@@ -33925,5 +33908,79 @@ Privacy Mode - all user codes disabled and RF Lock/Unlock disabled</field>
 	<field name="write_only"></field>
 	<field name="limit_options"></field>
 	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">1807</field>
+	<field name="device">283</field>
+	<field name="param_id">31</field>
+	<field name="bitmask">268435456</field>
+	<field name="label">Lock LED Status</field>
+	<field name="units"></field>
+	<field name="description">Door lock status LED blinks every 6 seconds.</field>
+	<field name="size">1</field>
+	<field name="value_min">0</field>
+	<field name="value_max">1</field>
+	<field name="value_default">1</field>
+	<field name="read_only">1</field>
+	<field name="write_only">0</field>
+	<field name="limit_options">0</field>
+	<field name="overview">&lt;p&gt;Door lock status LED blinks every 6 seconds. ON position is factory default.&lt;/p&gt;</field>
+  </row>
+
+  <row>
+	<field name="id">1808</field>
+	<field name="device">283</field>
+	<field name="param_id">31</field>
+	<field name="bitmask">16777216</field>
+	<field name="label">Auto Lock</field>
+	<field name="units"></field>
+	<field name="description">Automatically re-locks door 30 seconds after unlocking.</field>
+	<field name="size">1</field>
+	<field name="value_min">0</field>
+	<field name="value_max">1</field>
+	<field name="value_default">0</field>
+	<field name="read_only">1</field>
+	<field name="write_only">0</field>
+	<field name="limit_options">0</field>
+	<field name="overview">&lt;p&gt;Lock automatically re-locks door 30 seconds after unlocking. OFF position is factory default. If this switch is turned on, it will be disabled if all codes are deleted from the lock.&lt;/p&gt;</field>
+  </row>
+
+  <row>
+	<field name="id">1809</field>
+	<field name="device">283</field>
+	<field name="param_id">31</field>
+	<field name="bitmask">1048576</field>
+	<field name="label">Auto Buzzer</field>
+	<field name="units"></field>
+	<field name="description">Beeping sound enabled.</field>
+	<field name="size">1</field>
+	<field name="value_min">0</field>
+	<field name="value_max">1</field>
+	<field name="value_default">1</field>
+	<field name="read_only">1</field>
+	<field name="write_only">0</field>
+	<field name="limit_options">0</field>
+	<field name="overview">&lt;p&gt;Beeping sound enabled. When disabled, keypad buttons light red or amber when pressed.&lt;/p&gt;
+&lt;p&gt;ON position is factory default.&lt;/p&gt;
+&lt;p&gt;Note: It is recommended that the beeping sound is enabled during programming.&lt;/p&gt;</field>
+  </row>
+
+  <row>
+	<field name="id">1810</field>
+	<field name="device">283</field>
+	<field name="param_id">40</field>
+	<field name="bitmask">0</field>
+	<field name="label">Factory Default</field>
+	<field name="units"></field>
+	<field name="description">Reset to factory default settings.</field>
+	<field name="size">1</field>
+	<field name="value_min">0</field>
+	<field name="value_max">1</field>
+	<field name="value_default">0</field>
+	<field name="read_only">0</field>
+	<field name="write_only">1</field>
+	<field name="limit_options">1</field>
+	<field name="overview">&lt;p&gt;Reset factory default settings, except for the anti-theft setting.&lt;/p&gt;</field>
   </row>
 </resultset>
