@@ -458,9 +458,9 @@
 	<field name="versionmax">255.255</field>
 	<field name="library_type">0</field>
 	<field name="protocol_version">0.000</field>
-	<field name="listening"></field>
-	<field name="beaming"></field>
-	<field name="security"></field>
+	<field name="listening">0</field>
+	<field name="beaming">0</field>
+	<field name="security">0</field>
 	<field name="max_baud">0</field>
 	<field name="basicclass">0</field>
 	<field name="genericclass">0</field>
@@ -1558,15 +1558,15 @@
 	<field name="type_id">0002:0059,0102:0059,0202:0059</field>
 	<field name="versionmin">0.000</field>
 	<field name="versionmax">255.255</field>
-	<field name="library_type">0</field>
-	<field name="protocol_version">0.000</field>
+	<field name="library_type">3</field>
+	<field name="protocol_version">3.092</field>
 	<field name="listening">0</field>
 	<field name="beaming">1</field>
-	<field name="security">1</field>
-	<field name="max_baud">0</field>
+	<field name="security">0</field>
+	<field name="max_baud">40000</field>
 	<field name="basicclass">5</field>
-	<field name="genericclass">0</field>
-	<field name="specificclass">0</field>
+	<field name="genericclass">7</field>
+	<field name="specificclass">13</field>
 	<field name="thingid">zw089</field>
 	<field name="info_overview">&lt;p&gt;Aeon Labs Recessed Door Sensor Gen5 is a door detector that can detect the state of the door's open/close.&lt;/p&gt;</field>
 	<field name="info_inclusion">&lt;ol&gt;&lt;li&gt;Power on the Recessed Door Sensor Gen5.&lt;/li&gt;
@@ -1574,7 +1574,7 @@
 &lt;li&gt;Press the Z‐Wave button.&lt;/li&gt;
 &lt;li&gt;If the inclusion is success, Recessed Door Sensor Gen5’s LED will be kept turning on for 10 minutes. If the LED still blinks slowly, in which you need to repeat the process from step 2.  &lt;/li&gt;
 &lt;/ol&gt;</field>
-	<field name="info_exclusion">&lt;ol&gt;&lt;li&gt;1. Power on the Recessed Door Sensor Gen5.&lt;/li&gt;
+	<field name="info_exclusion">&lt;ol&gt;&lt;li&gt;Power on the Recessed Door Sensor Gen5.&lt;/li&gt;
 &lt;li&gt;Let the primary controller into exclusion mode (If you don’t know how to do this, refer to its manual).&lt;/li&gt;
 &lt;li&gt;Press the Z‐Wave button.&lt;/li&gt;
 &lt;li&gt;If the exclusion is success, Recessed Door Sensor Gen5’s LED will blink slowly. If LED still be solid status for 3 seconds after you short press the Z‐Wave button, in which you need to repeat the process from step 2&lt;/li&gt;
@@ -1587,18 +1587,18 @@
 	<field name="manufacturer">14</field>
 	<field name="label">ZW078</field>
 	<field name="description">Heavy Duty Switch</field>
-	<field name="type_id">0003:000A,0003:004E</field>
+	<field name="type_id">0003:004E,0103:004E,0203:004E</field>
 	<field name="versionmin">0.000</field>
 	<field name="versionmax">255.255</field>
 	<field name="library_type">0</field>
 	<field name="protocol_version">0.000</field>
-	<field name="listening">0</field>
+	<field name="listening">1</field>
 	<field name="beaming">0</field>
 	<field name="security">0</field>
 	<field name="max_baud">0</field>
-	<field name="basicclass">0</field>
-	<field name="genericclass">0</field>
-	<field name="specificclass">0</field>
+	<field name="basicclass">5</field>
+	<field name="genericclass">11</field>
+	<field name="specificclass">22</field>
 	<field name="thingid">zw078</field>
 	<field name="info_overview"></field>
 	<field name="info_inclusion"></field>
@@ -1609,21 +1609,21 @@
   <row>
 	<field name="id">66</field>
 	<field name="manufacturer">14</field>
-	<field name="label">DSD37-ZW</field>
+	<field name="label">DSD37</field>
 	<field name="description">Range Extender</field>
 	<field name="type_id">0004:0025,0019:0004</field>
 	<field name="versionmin">0.000</field>
 	<field name="versionmax">255.255</field>
 	<field name="library_type">0</field>
 	<field name="protocol_version">0.000</field>
-	<field name="listening">0</field>
+	<field name="listening">1</field>
 	<field name="beaming">0</field>
 	<field name="security">0</field>
 	<field name="max_baud">0</field>
-	<field name="basicclass">0</field>
-	<field name="genericclass">0</field>
-	<field name="specificclass">0</field>
-	<field name="thingid">dsd37zw</field>
+	<field name="basicclass">5</field>
+	<field name="genericclass">10</field>
+	<field name="specificclass">21</field>
+	<field name="thingid">dsd37</field>
 	<field name="info_overview"></field>
 	<field name="info_inclusion"></field>
 	<field name="info_exclusion"></field>
@@ -1664,13 +1664,13 @@
 	<field name="versionmax">255.255</field>
 	<field name="library_type">0</field>
 	<field name="protocol_version">0.000</field>
-	<field name="listening"></field>
-	<field name="beaming"></field>
-	<field name="security"></field>
+	<field name="listening">0</field>
+	<field name="beaming">0</field>
+	<field name="security">0</field>
 	<field name="max_baud">0</field>
-	<field name="basicclass">0</field>
-	<field name="genericclass">0</field>
-	<field name="specificclass">0</field>
+	<field name="basicclass">5</field>
+	<field name="genericclass">19</field>
+	<field name="specificclass">45</field>
 	<field name="thingid">dsb54</field>
 	<field name="info_overview"></field>
 	<field name="info_inclusion"></field>
@@ -1681,8 +1681,8 @@
   <row>
 	<field name="id">69</field>
 	<field name="manufacturer">14</field>
-	<field name="label">DSB54 (Gen5)</field>
-	<field name="description">Recessed Door/Window Sensor (Gen5)</field>
+	<field name="label">ZW089 (DUPLICATE)</field>
+	<field name="description">(DUPLICATE) Recessed Door/Window Sensor (Gen5)</field>
 	<field name="type_id">0102:0059</field>
 	<field name="versionmin">0.000</field>
 	<field name="versionmax">255.255</field>
@@ -1695,14 +1695,14 @@
 	<field name="basicclass">5</field>
 	<field name="genericclass">7</field>
 	<field name="specificclass">13</field>
-	<field name="thingid">dsb54gen5</field>
+	<field name="thingid"></field>
 	<field name="info_overview">&lt;p&gt; Aeon Labs Recessed Door Sensor Gen5 is a door detector that can detect the state of the door's &lt;br /&gt;open/close.  It is a notification sensor device based on Z‐wave routing slave library V6.51.01&lt;br /&gt;The Recessed Door Sensor can be included and operated in any Z‐wave network with other Z‐wave &lt;br /&gt;certified devices from other manufacturers and/or other applications. All non‐battery operated nodes &lt;br /&gt;within the network will act as repeaters regardless of vendor to increase reliability of the network. &lt;/p&gt;
-&lt;p&gt; &lt;/p&gt;
+
 &lt;p&gt;Reset:&lt;/p&gt;
 &lt;p&gt;Press and hold the Z‐wave Button for 20 seconds&lt;/p&gt;
 &lt;p&gt;Recessed Door Sensor will be reset and send Device Reset Locally CC to controller.&lt;/p&gt;
 &lt;p&gt;Note:  This procedure should only be used when the primary cont&lt;br /&gt;roller is inoperable or missing.&lt;/p&gt;
-&lt;p&gt; &lt;/p&gt;</field>
+</field>
 	<field name="info_inclusion">&lt;p&gt;Add Recessed Door Sensor Gen5 into z‐wave network:  &lt;br /&gt;1. Power on the Recessed Door Sensor Gen5.   &lt;br /&gt;2. Let the primary controller into inclusion mode (If you don’t &lt;br /&gt;know how to do this, refer to its manual).  &lt;br /&gt;3. Press the Z‐Wave button.  &lt;br /&gt;4. If the inclusion is success, Recessed Door Sensor Gen5’s LED &lt;br /&gt;will be kept turning on for 10 minutes. If the LED still blinks &lt;br /&gt;slowly, in which you need to repeat the process from step 2. &lt;/p&gt;</field>
 	<field name="info_exclusion">&lt;p&gt;Remove Recessed Door Sensor Gen5  from z‐wave network:  &lt;br /&gt;1. Power on the Recessed Door Sensor Gen5.   &lt;br /&gt;2. Let the primary controller into exclusion mode (If you don’t &lt;br /&gt;know how to do this, refer to its manual).  &lt;br /&gt;3. Press the Z‐Wave button.  &lt;br /&gt;4. If the exclusion is success, Recessed Door Sensor Gen5’s LED &lt;br /&gt;will blink slowly. If LED still be solid status for 3 seconds after you &lt;br /&gt;short press the Z‐Wave button, in which you need to repeat the &lt;br /&gt;process from step 2&lt;/p&gt;</field>
 	<field name="info_wakeup">&lt;p&gt;Press and hold the Z‐wave Button for 6 seconds &lt;br /&gt;1, It will be wake up and send Wake Up Notification with broadcast.   &lt;br /&gt;2, It will sleep after you released the z‐wave button for 10 &lt;br /&gt;seconds, or sleep right away when received the Wake Up No &lt;br /&gt;More Information and then the led will turn off. &lt;/p&gt;</field>
@@ -1711,7 +1711,7 @@
   <row>
 	<field name="id">70</field>
 	<field name="manufacturer">14</field>
-	<field name="label">DSB29ZWUS</field>
+	<field name="label">DSB29</field>
 	<field name="description">Door/Window sensor Gen2</field>
 	<field name="type_id">0002:0004,0002:001D</field>
 	<field name="versionmin">0.000</field>
@@ -1725,7 +1725,7 @@
 	<field name="basicclass">5</field>
 	<field name="genericclass">19</field>
 	<field name="specificclass">45</field>
-	<field name="thingid">dsb29zwus</field>
+	<field name="thingid">dsb29</field>
 	<field name="info_overview"></field>
 	<field name="info_inclusion"></field>
 	<field name="info_exclusion"></field>
@@ -1783,7 +1783,7 @@
   <row>
 	<field name="id">73</field>
 	<field name="manufacturer">14</field>
-	<field name="label">ZW100-A</field>
+	<field name="label">ZW100</field>
 	<field name="description">MultiSensor 6</field>
 	<field name="type_id">0002:0064,0102:0064,0202:0064</field>
 	<field name="versionmin">0.000</field>
@@ -1831,7 +1831,7 @@
   <row>
 	<field name="id">75</field>
 	<field name="manufacturer">14</field>
-	<field name="label">DSB06</field>
+	<field name="label">DSC06</field>
 	<field name="description">Smart Energy Switch</field>
 	<field name="type_id">0003:0006</field>
 	<field name="versionmin">0.000</field>
@@ -1845,7 +1845,7 @@
 	<field name="basicclass">5</field>
 	<field name="genericclass">11</field>
 	<field name="specificclass">22</field>
-	<field name="thingid">dsb06</field>
+	<field name="thingid">dsc06</field>
 	<field name="info_overview"></field>
 	<field name="info_inclusion"></field>
 	<field name="info_exclusion"></field>
@@ -1914,9 +1914,9 @@
 	<field name="beaming">0</field>
 	<field name="security">0</field>
 	<field name="max_baud">0</field>
-	<field name="basicclass">0</field>
-	<field name="genericclass">0</field>
-	<field name="specificclass">0</field>
+	<field name="basicclass">2</field>
+	<field name="genericclass">3</field>
+	<field name="specificclass">3</field>
 	<field name="thingid">dsa22</field>
 	<field name="info_overview"></field>
 	<field name="info_inclusion"></field>
@@ -1929,7 +1929,7 @@
 	<field name="manufacturer">14</field>
 	<field name="label">DSC19</field>
 	<field name="description">Micro Smart Energy Illuminator G2</field>
-	<field name="type_id">0003:000D,0003:0013</field>
+	<field name="type_id">0003:0013</field>
 	<field name="versionmin">0.000</field>
 	<field name="versionmax">255.255</field>
 	<field name="library_type">0</field>
@@ -1938,9 +1938,9 @@
 	<field name="beaming">0</field>
 	<field name="security">0</field>
 	<field name="max_baud">0</field>
-	<field name="basicclass">0</field>
-	<field name="genericclass">0</field>
-	<field name="specificclass">0</field>
+	<field name="basicclass">5</field>
+	<field name="genericclass">12</field>
+	<field name="specificclass">26</field>
 	<field name="thingid">dsc19</field>
 	<field name="info_overview"></field>
 	<field name="info_inclusion"></field>
@@ -1962,9 +1962,9 @@
 	<field name="beaming">0</field>
 	<field name="security">0</field>
 	<field name="max_baud">0</field>
-	<field name="basicclass">0</field>
-	<field name="genericclass">0</field>
-	<field name="specificclass">0</field>
+	<field name="basicclass">5</field>
+	<field name="genericclass">12</field>
+	<field name="specificclass">26</field>
 	<field name="thingid">dsc27</field>
 	<field name="info_overview"></field>
 	<field name="info_inclusion"></field>
@@ -1986,9 +1986,9 @@
 	<field name="beaming">0</field>
 	<field name="security">0</field>
 	<field name="max_baud">0</field>
-	<field name="basicclass">0</field>
-	<field name="genericclass">0</field>
-	<field name="specificclass">0</field>
+	<field name="basicclass">5</field>
+	<field name="genericclass">11</field>
+	<field name="specificclass">22</field>
 	<field name="thingid">dsc17</field>
 	<field name="info_overview"></field>
 	<field name="info_inclusion"></field>
@@ -2010,9 +2010,9 @@
 	<field name="beaming">0</field>
 	<field name="security">0</field>
 	<field name="max_baud">0</field>
-	<field name="basicclass">0</field>
-	<field name="genericclass">0</field>
-	<field name="specificclass">0</field>
+	<field name="basicclass">5</field>
+	<field name="genericclass">11</field>
+	<field name="specificclass">22</field>
 	<field name="thingid">dsc26</field>
 	<field name="info_overview"></field>
 	<field name="info_inclusion"></field>
@@ -2047,21 +2047,21 @@
   <row>
 	<field name="id">84</field>
 	<field name="manufacturer">14</field>
-	<field name="label">DSB09104</field>
+	<field name="label">DSB09</field>
 	<field name="description">Home Energy Meter</field>
 	<field name="type_id">0002:0009</field>
 	<field name="versionmin">0.000</field>
 	<field name="versionmax">255.255</field>
 	<field name="library_type">0</field>
 	<field name="protocol_version">0.000</field>
-	<field name="listening">0</field>
+	<field name="listening">1</field>
 	<field name="beaming">0</field>
 	<field name="security">0</field>
 	<field name="max_baud">0</field>
-	<field name="basicclass">0</field>
-	<field name="genericclass">0</field>
-	<field name="specificclass">0</field>
-	<field name="thingid">dsb09104</field>
+	<field name="basicclass">5</field>
+	<field name="genericclass">20</field>
+	<field name="specificclass">46</field>
+	<field name="thingid">dsb09</field>
 	<field name="info_overview"></field>
 	<field name="info_inclusion"></field>
 	<field name="info_exclusion"></field>
@@ -2078,13 +2078,13 @@
 	<field name="versionmax">255.255</field>
 	<field name="library_type">0</field>
 	<field name="protocol_version">0.000</field>
-	<field name="listening">0</field>
+	<field name="listening">1</field>
 	<field name="beaming">0</field>
 	<field name="security">0</field>
 	<field name="max_baud">0</field>
-	<field name="basicclass">0</field>
-	<field name="genericclass">0</field>
-	<field name="specificclass">0</field>
+	<field name="basicclass">5</field>
+	<field name="genericclass">23</field>
+	<field name="specificclass">47</field>
 	<field name="thingid">dsb28</field>
 	<field name="info_overview"></field>
 	<field name="info_inclusion"></field>
@@ -2102,13 +2102,13 @@
 	<field name="versionmax">255.255</field>
 	<field name="library_type">0</field>
 	<field name="protocol_version">0.000</field>
-	<field name="listening"></field>
-	<field name="beaming"></field>
-	<field name="security"></field>
+	<field name="listening">0</field>
+	<field name="beaming">0</field>
+	<field name="security">0</field>
 	<field name="max_baud">0</field>
-	<field name="basicclass">0</field>
-	<field name="genericclass">0</field>
-	<field name="specificclass">0</field>
+	<field name="basicclass">5</field>
+	<field name="genericclass">11</field>
+	<field name="specificclass">25</field>
 	<field name="thingid">dsd31</field>
 	<field name="info_overview"></field>
 	<field name="info_inclusion"></field>
@@ -2130,9 +2130,9 @@
 	<field name="beaming">0</field>
 	<field name="security">0</field>
 	<field name="max_baud">0</field>
-	<field name="basicclass">0</field>
-	<field name="genericclass">0</field>
-	<field name="specificclass">0</field>
+	<field name="basicclass">2</field>
+	<field name="genericclass">3</field>
+	<field name="specificclass">3</field>
 	<field name="thingid">zw088</field>
 	<field name="info_overview"></field>
 	<field name="info_inclusion"></field>
@@ -2203,8 +2203,8 @@
 	<field name="security">0</field>
 	<field name="max_baud">0</field>
 	<field name="basicclass">5</field>
-	<field name="genericclass">0</field>
-	<field name="specificclass">0</field>
+	<field name="genericclass">11</field>
+	<field name="specificclass">25</field>
 	<field name="thingid">zw080</field>
 	<field name="info_overview">&lt;p&gt;Update command classes -:&lt;br /&gt;METER:5 :: ADD&lt;br /&gt;METER:6 :: ADD&lt;/p&gt;</field>
 	<field name="info_inclusion">&lt;p&gt;1. Install Siren, and plug it into the socket of AC Power.&lt;br /&gt;2. Let the primary controller into inclusion mode (If you don’t know how to do this, please refer to its manual).&lt;br /&gt;3. Press the Action Button.&lt;br /&gt;4. If the Learning is failed, please repeat the process from step 2.&lt;/p&gt;</field>
@@ -2243,7 +2243,7 @@
   <row>
 	<field name="id">92</field>
 	<field name="manufacturer">14</field>
-	<field name="label">DSB45-ZWUS</field>
+	<field name="label">DSB45</field>
 	<field name="description">Water Sensor</field>
 	<field name="type_id">0002:002D</field>
 	<field name="versionmin">0.000</field>
@@ -2272,21 +2272,21 @@
   <row>
 	<field name="id">93</field>
 	<field name="manufacturer">14</field>
-	<field name="label">ZW089B</field>
-	<field name="description">Door/Window Sensor</field>
+	<field name="label">ZW089 (DUPLICATE)</field>
+	<field name="description">(DUPLICATE) Door/Window Sensor</field>
 	<field name="type_id">0202:0059</field>
 	<field name="versionmin">0.000</field>
 	<field name="versionmax">255.255</field>
 	<field name="library_type">0</field>
 	<field name="protocol_version">0.000</field>
-	<field name="listening"></field>
-	<field name="beaming"></field>
-	<field name="security"></field>
+	<field name="listening">0</field>
+	<field name="beaming">0</field>
+	<field name="security">0</field>
 	<field name="max_baud">0</field>
 	<field name="basicclass">0</field>
 	<field name="genericclass">0</field>
 	<field name="specificclass">0</field>
-	<field name="thingid">zw089b</field>
+	<field name="thingid"></field>
 	<field name="info_overview"></field>
 	<field name="info_inclusion"></field>
 	<field name="info_exclusion"></field>
@@ -2346,7 +2346,7 @@
 	<field name="manufacturer">15</field>
 	<field name="label">CT100</field>
 	<field name="description">Z-Wave Thermostat</field>
-	<field name="type_id">6401:0015,6401:0106,6401:0107</field>
+	<field name="type_id">6401:0015,6401:0106,6401:0107,6401:01FD</field>
 	<field name="versionmin">0.000</field>
 	<field name="versionmax">255.255</field>
 	<field name="library_type">3</field>
@@ -2856,7 +2856,7 @@
 	<field name="manufacturer">18</field>
 	<field name="label">FGD211</field>
 	<field name="description">Universal Dimmer 500W</field>
-	<field name="type_id">0100:0107,0100:0109,0100:300A,0100:100A,0100:0104,0100:0106</field>
+	<field name="type_id">0100:0104,0100:0106,0100:0107,0100:0109,0100:100A,0100:300A</field>
 	<field name="versionmin">0.000</field>
 	<field name="versionmax">1.008</field>
 	<field name="library_type">3</field>
@@ -4611,7 +4611,7 @@
 	<field name="manufacturer">33</field>
 	<field name="label">VRI10-1LZ</field>
 	<field name="description">Scene Capable Push On/Off Dimmer</field>
-	<field name="type_id">0501:0334,0501:0209</field>
+	<field name="type_id">0501:0209,0501:0334</field>
 	<field name="versionmin">0.000</field>
 	<field name="versionmax">255.255</field>
 	<field name="library_type">0</field>
@@ -4620,9 +4620,9 @@
 	<field name="beaming">0</field>
 	<field name="security">0</field>
 	<field name="max_baud">0</field>
-	<field name="basicclass">0</field>
-	<field name="genericclass">0</field>
-	<field name="specificclass">0</field>
+	<field name="basicclass">5</field>
+	<field name="genericclass">12</field>
+	<field name="specificclass">29</field>
 	<field name="thingid">vri101lz</field>
 	<field name="info_overview"></field>
 	<field name="info_inclusion"></field>
@@ -6386,13 +6386,13 @@
 	<field name="versionmax">255.255</field>
 	<field name="library_type">0</field>
 	<field name="protocol_version">0.000</field>
-	<field name="listening">0</field>
+	<field name="listening">1</field>
 	<field name="beaming">0</field>
 	<field name="security">0</field>
 	<field name="max_baud">0</field>
-	<field name="basicclass">0</field>
-	<field name="genericclass">0</field>
-	<field name="specificclass">0</field>
+	<field name="basicclass">5</field>
+	<field name="genericclass">11</field>
+	<field name="specificclass">25</field>
 	<field name="thingid">zw056</field>
 	<field name="info_overview">&lt;p&gt;Aeon Labs Doorbell is a switch binary device based on Z-wave enhanced slave library V6.51.06.&lt;/p&gt;
 &lt;p&gt;The Doorbell supports playing MP3 music files with a press of this doorbell. It has a 16MB flash memory that can store up to 100 ringtones. The volume can be adjusted manually via short press on the Volume Button, also you can switch the doorbell sound to the next via long press on the Volume Button. You may change/update your doorbell ringtone at any point in time you want by connecting your Doorbell to your PC to update the sound track on your Doorbell’s flash memory. &lt;/p&gt;</field>
@@ -6649,7 +6649,7 @@
 	<field name="manufacturer">14</field>
 	<field name="label">ZW112</field>
 	<field name="description">Door/Window Sensor 6</field>
-	<field name="type_id">0002:0070,0102:0070,0202:0070,1D02:0070,</field>
+	<field name="type_id">0002:0070,0102:0070,0202:0070,1D02:0070</field>
 	<field name="versionmin">0.000</field>
 	<field name="versionmax">255.255</field>
 	<field name="library_type">0</field>
@@ -6727,13 +6727,13 @@
 	<field name="versionmax">255.255</field>
 	<field name="library_type">0</field>
 	<field name="protocol_version">0.000</field>
-	<field name="listening">0</field>
+	<field name="listening">1</field>
 	<field name="beaming">0</field>
 	<field name="security">0</field>
 	<field name="max_baud">0</field>
-	<field name="basicclass">0</field>
-	<field name="genericclass">0</field>
-	<field name="specificclass">0</field>
+	<field name="basicclass">5</field>
+	<field name="genericclass">11</field>
+	<field name="specificclass">22</field>
 	<field name="thingid">dsc12</field>
 	<field name="info_overview"></field>
 	<field name="info_inclusion"></field>
@@ -6755,9 +6755,9 @@
 	<field name="beaming">0</field>
 	<field name="security">0</field>
 	<field name="max_baud">0</field>
-	<field name="basicclass">0</field>
-	<field name="genericclass">0</field>
-	<field name="specificclass">0</field>
+	<field name="basicclass">5</field>
+	<field name="genericclass">11</field>
+	<field name="specificclass">22</field>
 	<field name="thingid">dsc18</field>
 	<field name="info_overview"></field>
 	<field name="info_inclusion"></field>
@@ -6896,6 +6896,126 @@
 	<field name="info_overview"></field>
 	<field name="info_inclusion">&lt;p&gt; Press button “A” on the lock one time to include it in your system.&lt;/p&gt;</field>
 	<field name="info_exclusion">&lt;p&gt; Press button “A” on the lock one time to exclude it in your system.&lt;/p&gt;</field>
+	<field name="info_wakeup"></field>
+  </row>
+
+  <row>
+	<field name="id">285</field>
+	<field name="manufacturer">14</field>
+	<field name="label">DSC10</field>
+	<field name="description">Heavy Duty Smart Switch</field>
+	<field name="type_id">0003:000A</field>
+	<field name="versionmin">0.000</field>
+	<field name="versionmax">255.255</field>
+	<field name="library_type">0</field>
+	<field name="protocol_version">0.000</field>
+	<field name="listening">1</field>
+	<field name="beaming">0</field>
+	<field name="security">0</field>
+	<field name="max_baud">0</field>
+	<field name="basicclass">5</field>
+	<field name="genericclass">11</field>
+	<field name="specificclass">22</field>
+	<field name="thingid">dsc10</field>
+	<field name="info_overview"></field>
+	<field name="info_inclusion"></field>
+	<field name="info_exclusion"></field>
+	<field name="info_wakeup"></field>
+  </row>
+
+  <row>
+	<field name="id">286</field>
+	<field name="manufacturer">0</field>
+	<field name="label"></field>
+	<field name="description"></field>
+	<field name="type_id"></field>
+	<field name="versionmin">0.000</field>
+	<field name="versionmax">255.255</field>
+	<field name="library_type">0</field>
+	<field name="protocol_version">0.000</field>
+	<field name="listening">0</field>
+	<field name="beaming">0</field>
+	<field name="security">0</field>
+	<field name="max_baud">0</field>
+	<field name="basicclass">0</field>
+	<field name="genericclass">0</field>
+	<field name="specificclass">0</field>
+	<field name="thingid"></field>
+	<field name="info_overview"></field>
+	<field name="info_inclusion"></field>
+	<field name="info_exclusion"></field>
+	<field name="info_wakeup"></field>
+  </row>
+
+  <row>
+	<field name="id">287</field>
+	<field name="manufacturer">14</field>
+	<field name="label">DSC13</field>
+	<field name="description">Micro Smart Energy Illuminator</field>
+	<field name="type_id">0003:000D</field>
+	<field name="versionmin">0.000</field>
+	<field name="versionmax">255.255</field>
+	<field name="library_type">0</field>
+	<field name="protocol_version">0.000</field>
+	<field name="listening">1</field>
+	<field name="beaming">0</field>
+	<field name="security">0</field>
+	<field name="max_baud">0</field>
+	<field name="basicclass">5</field>
+	<field name="genericclass">12</field>
+	<field name="specificclass">26</field>
+	<field name="thingid">dsc13</field>
+	<field name="info_overview"></field>
+	<field name="info_inclusion"></field>
+	<field name="info_exclusion"></field>
+	<field name="info_wakeup"></field>
+  </row>
+
+  <row>
+	<field name="id">288</field>
+	<field name="manufacturer">0</field>
+	<field name="label"></field>
+	<field name="description"></field>
+	<field name="type_id"></field>
+	<field name="versionmin">0.000</field>
+	<field name="versionmax">255.255</field>
+	<field name="library_type">0</field>
+	<field name="protocol_version">0.000</field>
+	<field name="listening">0</field>
+	<field name="beaming">0</field>
+	<field name="security">0</field>
+	<field name="max_baud">0</field>
+	<field name="basicclass">0</field>
+	<field name="genericclass">0</field>
+	<field name="specificclass">0</field>
+	<field name="thingid"></field>
+	<field name="info_overview"></field>
+	<field name="info_inclusion"></field>
+	<field name="info_exclusion"></field>
+	<field name="info_wakeup"></field>
+  </row>
+
+  <row>
+	<field name="id">289</field>
+	<field name="manufacturer">14</field>
+	<field name="label">DSC14</field>
+	<field name="description">Micro Motor Controller</field>
+	<field name="type_id">0003:000E</field>
+	<field name="versionmin">0.000</field>
+	<field name="versionmax">255.255</field>
+	<field name="library_type">0</field>
+	<field name="protocol_version">0.000</field>
+	<field name="listening">1</field>
+	<field name="beaming">0</field>
+	<field name="security">0</field>
+	<field name="max_baud">0</field>
+	<field name="basicclass">5</field>
+	<field name="genericclass">12</field>
+	<field name="specificclass">30</field>
+	<field name="thingid">dsc14</field>
+	<field name="info_overview"></field>
+	<field name="info_inclusion"></field>
+	<field name="info_exclusion"></field>
 	<field name="info_wakeup"></field>
   </row>
 </resultset>

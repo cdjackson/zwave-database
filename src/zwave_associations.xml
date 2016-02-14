@@ -5866,4 +5866,48 @@ state and reflect</field>
 	<field name="controller">1</field>
 	<field name="overview"></field>
   </row>
+
+  <row>
+	<field name="id">532</field>
+	<field name="device">285</field>
+	<field name="group_id">1</field>
+	<field name="label">Group 1</field>
+	<field name="description"></field>
+	<field name="max">5</field>
+	<field name="controller">0</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">533</field>
+	<field name="device">285</field>
+	<field name="group_id">2</field>
+	<field name="label">Group 2</field>
+	<field name="description"></field>
+	<field name="max">5</field>
+	<field name="controller">0</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">534</field>
+	<field name="device">287</field>
+	<field name="group_id">1</field>
+	<field name="label">Group 1</field>
+	<field name="description">Status Reports</field>
+	<field name="max">5</field>
+	<field name="controller">0</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">535</field>
+	<field name="device">289</field>
+	<field name="group_id">1</field>
+	<field name="label">Group 1</field>
+	<field name="description">Status Reports</field>
+	<field name="max">5</field>
+	<field name="controller">0</field>
+	<field name="overview"></field>
+  </row>
 </resultset>

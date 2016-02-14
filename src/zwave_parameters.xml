@@ -4684,9 +4684,9 @@ set Parameter 3 to a value of 1.
 	<field name="value_min">0</field>
 	<field name="value_max">65535</field>
 	<field name="value_default">0</field>
-	<field name="read_only"></field>
-	<field name="write_only"></field>
-	<field name="limit_options"></field>
+	<field name="read_only">0</field>
+	<field name="write_only">1</field>
+	<field name="limit_options">0</field>
 	<field name="overview"></field>
   </row>
 
@@ -5050,9 +5050,9 @@ set Parameter 3 to a value of 1.
 	<field name="value_min">0</field>
 	<field name="value_max">65535</field>
 	<field name="value_default">0</field>
-	<field name="read_only"></field>
-	<field name="write_only"></field>
-	<field name="limit_options"></field>
+	<field name="read_only">0</field>
+	<field name="write_only">1</field>
+	<field name="limit_options">0</field>
 	<field name="overview"></field>
   </row>
 
@@ -33982,5 +33982,581 @@ Privacy Mode - all user codes disabled and RF Lock/Unlock disabled</field>
 	<field name="write_only">1</field>
 	<field name="limit_options">1</field>
 	<field name="overview">&lt;p&gt;Reset factory default settings, except for the anti-theft setting.&lt;/p&gt;</field>
+  </row>
+
+  <row>
+	<field name="id">1811</field>
+	<field name="device">285</field>
+	<field name="param_id">3</field>
+	<field name="bitmask">0</field>
+	<field name="label">Current Overload Protection</field>
+	<field name="units"></field>
+	<field name="description">Load will be closed when the Current more than 39.5A and the time more than 5 seconds.</field>
+	<field name="size">1</field>
+	<field name="value_min">0</field>
+	<field name="value_max">1</field>
+	<field name="value_default">0</field>
+	<field name="read_only">0</field>
+	<field name="write_only">0</field>
+	<field name="limit_options">1</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">1812</field>
+	<field name="device">285</field>
+	<field name="param_id">20</field>
+	<field name="bitmask">0</field>
+	<field name="label">Output Load Status</field>
+	<field name="units"></field>
+	<field name="description">Configure the output load status after re‐power on.</field>
+	<field name="size">1</field>
+	<field name="value_min">0</field>
+	<field name="value_max">2</field>
+	<field name="value_default">0</field>
+	<field name="read_only">0</field>
+	<field name="write_only">0</field>
+	<field name="limit_options">1</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">1813</field>
+	<field name="device">285</field>
+	<field name="param_id">80</field>
+	<field name="bitmask">0</field>
+	<field name="label">Notification on Status Change</field>
+	<field name="units"></field>
+	<field name="description">Defines the automated status notification of an associated device when status changes.</field>
+	<field name="size">1</field>
+	<field name="value_min">0</field>
+	<field name="value_max">2</field>
+	<field name="value_default">0</field>
+	<field name="read_only">0</field>
+	<field name="write_only">0</field>
+	<field name="limit_options">0</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">1814</field>
+	<field name="device">285</field>
+	<field name="param_id">90</field>
+	<field name="bitmask">0</field>
+	<field name="label">Enables/disables parameter 91/92</field>
+	<field name="units"></field>
+	<field name="description"></field>
+	<field name="size">1</field>
+	<field name="value_min">0</field>
+	<field name="value_max">1</field>
+	<field name="value_default">0</field>
+	<field name="read_only">0</field>
+	<field name="write_only">0</field>
+	<field name="limit_options">1</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">1815</field>
+	<field name="device">285</field>
+	<field name="param_id">91</field>
+	<field name="bitmask">0</field>
+	<field name="label">Minimum Change to send Report (Watt)</field>
+	<field name="units">Watts</field>
+	<field name="description">The value represents the minimum change in wattage for a Report to be sent.</field>
+	<field name="size">2</field>
+	<field name="value_min">0</field>
+	<field name="value_max">32000</field>
+	<field name="value_default">50</field>
+	<field name="read_only">0</field>
+	<field name="write_only">0</field>
+	<field name="limit_options">0</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">1816</field>
+	<field name="device">285</field>
+	<field name="param_id">92</field>
+	<field name="bitmask">0</field>
+	<field name="label">Minimum Change to send Report (%)</field>
+	<field name="units">%</field>
+	<field name="description">The value represents the minimum change in wattage Percent for a report to be sent. (Valid values 0‐100)</field>
+	<field name="size">1</field>
+	<field name="value_min">0</field>
+	<field name="value_max">100</field>
+	<field name="value_default">10</field>
+	<field name="read_only">0</field>
+	<field name="write_only">0</field>
+	<field name="limit_options">0</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">1817</field>
+	<field name="device">285</field>
+	<field name="param_id">200</field>
+	<field name="bitmask">0</field>
+	<field name="label">Partner ID</field>
+	<field name="units"></field>
+	<field name="description"></field>
+	<field name="size">1</field>
+	<field name="value_min">0</field>
+	<field name="value_max">1</field>
+	<field name="value_default">0</field>
+	<field name="read_only">1</field>
+	<field name="write_only">0</field>
+	<field name="limit_options">1</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">1818</field>
+	<field name="device">285</field>
+	<field name="param_id">252</field>
+	<field name="bitmask">0</field>
+	<field name="label">Lock/unlock Configuration Changes</field>
+	<field name="units"></field>
+	<field name="description"></field>
+	<field name="size">1</field>
+	<field name="value_min">0</field>
+	<field name="value_max">1</field>
+	<field name="value_default">0</field>
+	<field name="read_only">0</field>
+	<field name="write_only">0</field>
+	<field name="limit_options">1</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">1819</field>
+	<field name="device">287</field>
+	<field name="param_id">1</field>
+	<field name="bitmask">0</field>
+	<field name="label">Type of Sensor Report</field>
+	<field name="units"></field>
+	<field name="description">Defines the value type to be sent as Sensor Report.</field>
+	<field name="size">1</field>
+	<field name="value_min">0</field>
+	<field name="value_max">1</field>
+	<field name="value_default">0</field>
+	<field name="read_only">0</field>
+	<field name="write_only">0</field>
+	<field name="limit_options">1</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">1820</field>
+	<field name="device">287</field>
+	<field name="param_id">2</field>
+	<field name="bitmask">0</field>
+	<field name="label">Blinking Behavior</field>
+	<field name="units"></field>
+	<field name="description">The LSB defines the total time the device need to blink. The value if set in seconds. The MSB defines the on/off interval of the blinking. The unit is 0.1 s.</field>
+	<field name="size">2</field>
+	<field name="value_min">0</field>
+	<field name="value_max">65535</field>
+	<field name="value_default">0</field>
+	<field name="read_only">0</field>
+	<field name="write_only">0</field>
+	<field name="limit_options">0</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">1821</field>
+	<field name="device">287</field>
+	<field name="param_id">80</field>
+	<field name="bitmask">0</field>
+	<field name="label">Notification on Status Change</field>
+	<field name="units"></field>
+	<field name="description">Defines the automated status notification of an associated device when status changes</field>
+	<field name="size">1</field>
+	<field name="value_min">0</field>
+	<field name="value_max">2</field>
+	<field name="value_default">0</field>
+	<field name="read_only">0</field>
+	<field name="write_only">0</field>
+	<field name="limit_options">1</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">1822</field>
+	<field name="device">287</field>
+	<field name="param_id">90</field>
+	<field name="bitmask">0</field>
+	<field name="label">Disables Function of automated sending of a Report triggered by minimal change of value.</field>
+	<field name="units"></field>
+	<field name="description"></field>
+	<field name="size">1</field>
+	<field name="value_min">0</field>
+	<field name="value_max">1</field>
+	<field name="value_default">0</field>
+	<field name="read_only">0</field>
+	<field name="write_only">0</field>
+	<field name="limit_options">1</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">1823</field>
+	<field name="device">287</field>
+	<field name="param_id">91</field>
+	<field name="bitmask">0</field>
+	<field name="label">Minimum Change to send Report (Watt)</field>
+	<field name="units">Watts</field>
+	<field name="description">The value represents the minimum change in Wattage for a Report to be sent</field>
+	<field name="size">2</field>
+	<field name="value_min">0</field>
+	<field name="value_max">32000</field>
+	<field name="value_default">50</field>
+	<field name="read_only">0</field>
+	<field name="write_only">0</field>
+	<field name="limit_options">0</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">1824</field>
+	<field name="device">287</field>
+	<field name="param_id">92</field>
+	<field name="bitmask">0</field>
+	<field name="label">Minimum Change to send Report (%)</field>
+	<field name="units"></field>
+	<field name="description">The value represents the minimum change in Watage Percent for a report to be sent</field>
+	<field name="size">1</field>
+	<field name="value_min">0</field>
+	<field name="value_max">100</field>
+	<field name="value_default">10</field>
+	<field name="read_only">0</field>
+	<field name="write_only">0</field>
+	<field name="limit_options">0</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">1825</field>
+	<field name="device">287</field>
+	<field name="param_id">101</field>
+	<field name="bitmask">0</field>
+	<field name="label">Which reports need to send automatically in timing intervals for group 1 </field>
+	<field name="units"></field>
+	<field name="description">The value is a combination number made up of the sum of the values for the individual parameters. The parameters have the values: Wattage=4, Current=2, Voltage=1.</field>
+	<field name="size">4</field>
+	<field name="value_min">0</field>
+	<field name="value_max">65535</field>
+	<field name="value_default">4</field>
+	<field name="read_only">0</field>
+	<field name="write_only">0</field>
+	<field name="limit_options">0</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">1826</field>
+	<field name="device">287</field>
+	<field name="param_id">102</field>
+	<field name="bitmask">0</field>
+	<field name="label">Which reports need to send automatically in timing intervals for group 2</field>
+	<field name="units"></field>
+	<field name="description">The value is a combination number made up of the sum of the values for the individual parameters. The parameters have the values: Wattage=4, Current=2, Voltage=1.</field>
+	<field name="size">4</field>
+	<field name="value_min">0</field>
+	<field name="value_max">65535</field>
+	<field name="value_default">4</field>
+	<field name="read_only">0</field>
+	<field name="write_only">0</field>
+	<field name="limit_options">0</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">1827</field>
+	<field name="device">287</field>
+	<field name="param_id">103</field>
+	<field name="bitmask">0</field>
+	<field name="label">Which reports need to send automatically in timing intervals for group 3</field>
+	<field name="units"></field>
+	<field name="description">The value is a combination number made up of the sum of the values for the individual parameters. The parameters have the values: Wattage=4, Current=2, Voltage=1.</field>
+	<field name="size">4</field>
+	<field name="value_min">0</field>
+	<field name="value_max">65535</field>
+	<field name="value_default">4</field>
+	<field name="read_only">0</field>
+	<field name="write_only">0</field>
+	<field name="limit_options">0</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">1828</field>
+	<field name="device">287</field>
+	<field name="param_id">111</field>
+	<field name="bitmask">0</field>
+	<field name="label">Interval to send out reports of group 1</field>
+	<field name="units"></field>
+	<field name="description">Defines the time interval when the defined report of Reporting Group 1 is sent out.</field>
+	<field name="size">4</field>
+	<field name="value_min">0</field>
+	<field name="value_max">65535</field>
+	<field name="value_default">720</field>
+	<field name="read_only">0</field>
+	<field name="write_only">0</field>
+	<field name="limit_options">0</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">1829</field>
+	<field name="device">287</field>
+	<field name="param_id">112</field>
+	<field name="bitmask">0</field>
+	<field name="label">Interval to send out reports of group 2</field>
+	<field name="units"></field>
+	<field name="description">Defines the time interval when the defined report of Reporting Group 2 is sent out.</field>
+	<field name="size">4</field>
+	<field name="value_min">0</field>
+	<field name="value_max">65535</field>
+	<field name="value_default">720</field>
+	<field name="read_only">0</field>
+	<field name="write_only">0</field>
+	<field name="limit_options">0</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">1830</field>
+	<field name="device">287</field>
+	<field name="param_id">113</field>
+	<field name="bitmask">0</field>
+	<field name="label">Interval to send out reports of group 3</field>
+	<field name="units"></field>
+	<field name="description">Defines the time interval when the defined report of Reporting Group 3 is sent out.</field>
+	<field name="size">4</field>
+	<field name="value_min">0</field>
+	<field name="value_max">65535</field>
+	<field name="value_default">720</field>
+	<field name="read_only">0</field>
+	<field name="write_only">0</field>
+	<field name="limit_options">0</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">1831</field>
+	<field name="device">289</field>
+	<field name="param_id">1</field>
+	<field name="bitmask">0</field>
+	<field name="label">Type of Sensor Report</field>
+	<field name="units"></field>
+	<field name="description"></field>
+	<field name="size">1</field>
+	<field name="value_min">0</field>
+	<field name="value_max">1</field>
+	<field name="value_default">0</field>
+	<field name="read_only"></field>
+	<field name="write_only"></field>
+	<field name="limit_options"></field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">1832</field>
+	<field name="device">289</field>
+	<field name="param_id">2</field>
+	<field name="bitmask">0</field>
+	<field name="label">Blinking Behavior</field>
+	<field name="units"></field>
+	<field name="description"></field>
+	<field name="size">2</field>
+	<field name="value_min">0</field>
+	<field name="value_max">65535</field>
+	<field name="value_default">0</field>
+	<field name="read_only"></field>
+	<field name="write_only"></field>
+	<field name="limit_options"></field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">1833</field>
+	<field name="device">289</field>
+	<field name="param_id">80</field>
+	<field name="bitmask">0</field>
+	<field name="label">Notification on Status Change</field>
+	<field name="units"></field>
+	<field name="description"></field>
+	<field name="size">1</field>
+	<field name="value_min">0</field>
+	<field name="value_max">2</field>
+	<field name="value_default">0</field>
+	<field name="read_only"></field>
+	<field name="write_only"></field>
+	<field name="limit_options"></field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">1834</field>
+	<field name="device">289</field>
+	<field name="param_id">90</field>
+	<field name="bitmask">0</field>
+	<field name="label">Disables Function of automated sending of a Report triggered by minimal change of value.</field>
+	<field name="units"></field>
+	<field name="description"></field>
+	<field name="size">1</field>
+	<field name="value_min">0</field>
+	<field name="value_max">1</field>
+	<field name="value_default">0</field>
+	<field name="read_only"></field>
+	<field name="write_only"></field>
+	<field name="limit_options"></field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">1835</field>
+	<field name="device">289</field>
+	<field name="param_id">91</field>
+	<field name="bitmask">0</field>
+	<field name="label">Minimum Change to send Report (Watt)</field>
+	<field name="units"></field>
+	<field name="description"></field>
+	<field name="size">2</field>
+	<field name="value_min">0</field>
+	<field name="value_max">32000</field>
+	<field name="value_default">50</field>
+	<field name="read_only"></field>
+	<field name="write_only"></field>
+	<field name="limit_options"></field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">1836</field>
+	<field name="device">289</field>
+	<field name="param_id">92</field>
+	<field name="bitmask">0</field>
+	<field name="label">Minimum Change to send Report (%)</field>
+	<field name="units"></field>
+	<field name="description"></field>
+	<field name="size">1</field>
+	<field name="value_min">0</field>
+	<field name="value_max">100</field>
+	<field name="value_default">10</field>
+	<field name="read_only"></field>
+	<field name="write_only"></field>
+	<field name="limit_options"></field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">1837</field>
+	<field name="device">289</field>
+	<field name="param_id">101</field>
+	<field name="bitmask">0</field>
+	<field name="label">Which reports need to send automatically in timing intervals for group 1 </field>
+	<field name="units"></field>
+	<field name="description">The value is a combination number made up of the sum of the values for the individual parameters. The parameters have the values: Wattage=4, Current=2, Voltage=1.</field>
+	<field name="size">4</field>
+	<field name="value_min">0</field>
+	<field name="value_max">65535</field>
+	<field name="value_default">4</field>
+	<field name="read_only">0</field>
+	<field name="write_only">0</field>
+	<field name="limit_options">0</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">1838</field>
+	<field name="device">289</field>
+	<field name="param_id">102</field>
+	<field name="bitmask">0</field>
+	<field name="label">Which reports need to send automatically in timing intervals for group 2</field>
+	<field name="units"></field>
+	<field name="description">The value is a combination number made up of the sum of the values for the individual parameters. The parameters have the values: Wattage=4, Current=2, Voltage=1.</field>
+	<field name="size">4</field>
+	<field name="value_min">0</field>
+	<field name="value_max">65535</field>
+	<field name="value_default">4</field>
+	<field name="read_only">0</field>
+	<field name="write_only">0</field>
+	<field name="limit_options">0</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">1839</field>
+	<field name="device">289</field>
+	<field name="param_id">103</field>
+	<field name="bitmask">0</field>
+	<field name="label">Which reports need to send automatically in timing intervals for group 3</field>
+	<field name="units"></field>
+	<field name="description">The value is a combination number made up of the sum of the values for the individual parameters. The parameters have the values: Wattage=4, Current=2, Voltage=1.</field>
+	<field name="size">4</field>
+	<field name="value_min">0</field>
+	<field name="value_max">65535</field>
+	<field name="value_default">4</field>
+	<field name="read_only">0</field>
+	<field name="write_only">0</field>
+	<field name="limit_options">0</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">1840</field>
+	<field name="device">289</field>
+	<field name="param_id">111</field>
+	<field name="bitmask">0</field>
+	<field name="label">Interval to send out reports of group 1</field>
+	<field name="units"></field>
+	<field name="description"></field>
+	<field name="size">4</field>
+	<field name="value_min">0</field>
+	<field name="value_max">65535</field>
+	<field name="value_default">720</field>
+	<field name="read_only"></field>
+	<field name="write_only"></field>
+	<field name="limit_options"></field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">1841</field>
+	<field name="device">289</field>
+	<field name="param_id">112</field>
+	<field name="bitmask">0</field>
+	<field name="label">Interval to send out reports of group 2</field>
+	<field name="units"></field>
+	<field name="description"></field>
+	<field name="size">4</field>
+	<field name="value_min">0</field>
+	<field name="value_max">65535</field>
+	<field name="value_default">720</field>
+	<field name="read_only"></field>
+	<field name="write_only"></field>
+	<field name="limit_options"></field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">1842</field>
+	<field name="device">289</field>
+	<field name="param_id">113</field>
+	<field name="bitmask">0</field>
+	<field name="label">Interval to send out reports of group 3</field>
+	<field name="units"></field>
+	<field name="description"></field>
+	<field name="size">4</field>
+	<field name="value_min">0</field>
+	<field name="value_max">65535</field>
+	<field name="value_default">720</field>
+	<field name="read_only"></field>
+	<field name="write_only"></field>
+	<field name="limit_options"></field>
+	<field name="overview"></field>
   </row>
 </resultset>

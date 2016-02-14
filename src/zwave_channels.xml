@@ -2998,4 +2998,22 @@
 	<field name="label">Switch</field>
 	<field name="overview"></field>
   </row>
+
+  <row>
+	<field name="id">346</field>
+	<field name="commandclass">973</field>
+	<field name="name">alarm_general</field>
+	<field name="config"></field>
+	<field name="label">Alarm</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">347</field>
+	<field name="commandclass">978</field>
+	<field name="name">sensor_binary</field>
+	<field name="config"></field>
+	<field name="label">Binary Sensor</field>
+	<field name="overview"></field>
+  </row>
 </resultset>

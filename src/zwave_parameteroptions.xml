@@ -20972,4 +20972,228 @@
 	<field name="label">Factory Default</field>
 	<field name="overview"></field>
   </row>
+
+  <row>
+	<field name="id">2620</field>
+	<field name="parameter">1811</field>
+	<field name="value">0</field>
+	<field name="label">Activate Overload Protection</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">2621</field>
+	<field name="parameter">1811</field>
+	<field name="value">1</field>
+	<field name="label">Deactivate Overload Protection</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">2622</field>
+	<field name="parameter">1812</field>
+	<field name="value">0</field>
+	<field name="label">Last Status</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">2623</field>
+	<field name="parameter">1812</field>
+	<field name="value">1</field>
+	<field name="label">Always ON</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">2624</field>
+	<field name="parameter">1812</field>
+	<field name="value">2</field>
+	<field name="label">Always OFF</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">2625</field>
+	<field name="parameter">1813</field>
+	<field name="value">0</field>
+	<field name="label">Nothing</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">2626</field>
+	<field name="parameter">1813</field>
+	<field name="value">1</field>
+	<field name="label">Hail</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">2627</field>
+	<field name="parameter">1813</field>
+	<field name="value">2</field>
+	<field name="label">Basic CC Report</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">2628</field>
+	<field name="parameter">1814</field>
+	<field name="value">0</field>
+	<field name="label">Enable parameters 91 and 92</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">2629</field>
+	<field name="parameter">1814</field>
+	<field name="value">1</field>
+	<field name="label">Disable parameters 91 and 92</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">2630</field>
+	<field name="parameter">1817</field>
+	<field name="value">0</field>
+	<field name="label">Aeon Labs</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">2631</field>
+	<field name="parameter">1817</field>
+	<field name="value">1</field>
+	<field name="label">Other</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">2632</field>
+	<field name="parameter">1818</field>
+	<field name="value">0</field>
+	<field name="label">Unlocked</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">2633</field>
+	<field name="parameter">1818</field>
+	<field name="value">1</field>
+	<field name="label">Locked</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">2634</field>
+	<field name="parameter">1819</field>
+	<field name="value">0</field>
+	<field name="label">Power</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">2635</field>
+	<field name="parameter">1819</field>
+	<field name="value">1</field>
+	<field name="label">Voltage</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">2636</field>
+	<field name="parameter">1821</field>
+	<field name="value">0</field>
+	<field name="label">Nothing</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">2637</field>
+	<field name="parameter">1821</field>
+	<field name="value">1</field>
+	<field name="label">Hail</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">2638</field>
+	<field name="parameter">1821</field>
+	<field name="value">2</field>
+	<field name="label">Basic CC Report</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">2639</field>
+	<field name="parameter">1822</field>
+	<field name="value">0</field>
+	<field name="label">Disabled</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">2640</field>
+	<field name="parameter">1822</field>
+	<field name="value">1</field>
+	<field name="label">Enabled</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">2641</field>
+	<field name="parameter">1831</field>
+	<field name="value">0</field>
+	<field name="label">Power</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">2642</field>
+	<field name="parameter">1831</field>
+	<field name="value">1</field>
+	<field name="label">Voltage</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">2643</field>
+	<field name="parameter">1833</field>
+	<field name="value">0</field>
+	<field name="label">Nothing</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">2644</field>
+	<field name="parameter">1833</field>
+	<field name="value">1</field>
+	<field name="label">Hail</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">2645</field>
+	<field name="parameter">1833</field>
+	<field name="value">2</field>
+	<field name="label">Basic CC Report</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">2646</field>
+	<field name="parameter">1834</field>
+	<field name="value">0</field>
+	<field name="label">Disabled</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">2647</field>
+	<field name="parameter">1834</field>
+	<field name="value">1</field>
+	<field name="label">Enabled</field>
+	<field name="overview"></field>
+  </row>
 </resultset>
