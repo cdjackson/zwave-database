@@ -386,14 +386,14 @@
 	<field name="versionmax">255.255</field>
 	<field name="library_type">0</field>
 	<field name="protocol_version">0.000</field>
-	<field name="listening"></field>
-	<field name="beaming"></field>
-	<field name="security"></field>
+	<field name="listening">0</field>
+	<field name="beaming">1</field>
+	<field name="security">0</field>
 	<field name="max_baud">0</field>
-	<field name="basicclass">0</field>
-	<field name="genericclass">0</field>
-	<field name="specificclass">0</field>
-	<field name="thingid">rf9540-n</field>
+	<field name="basicclass">5</field>
+	<field name="genericclass">12</field>
+	<field name="specificclass">29</field>
+	<field name="thingid">rf9540n</field>
 	<field name="info_overview"></field>
 	<field name="info_inclusion"></field>
 	<field name="info_exclusion"></field>
@@ -410,14 +410,14 @@
 	<field name="versionmax">255.255</field>
 	<field name="library_type">0</field>
 	<field name="protocol_version">0.000</field>
-	<field name="listening"></field>
-	<field name="beaming"></field>
-	<field name="security"></field>
+	<field name="listening">0</field>
+	<field name="beaming">0</field>
+	<field name="security">0</field>
 	<field name="max_baud">0</field>
 	<field name="basicclass">0</field>
 	<field name="genericclass">0</field>
 	<field name="specificclass">0</field>
-	<field name="thingid">rf9542-z</field>
+	<field name="thingid">rf9542z</field>
 	<field name="info_overview"></field>
 	<field name="info_inclusion"></field>
 	<field name="info_exclusion"></field>
@@ -2100,12 +2100,12 @@
 	<field name="type_id">0004:0050</field>
 	<field name="versionmin">0.000</field>
 	<field name="versionmax">255.255</field>
-	<field name="library_type">0</field>
-	<field name="protocol_version">0.000</field>
-	<field name="listening">0</field>
-	<field name="beaming">0</field>
+	<field name="library_type">3</field>
+	<field name="protocol_version">3.092</field>
+	<field name="listening">1</field>
+	<field name="beaming">1</field>
 	<field name="security">0</field>
-	<field name="max_baud">0</field>
+	<field name="max_baud">40000</field>
 	<field name="basicclass">5</field>
 	<field name="genericclass">11</field>
 	<field name="specificclass">25</field>
@@ -2523,15 +2523,15 @@
 	<field name="type_id">200A:0A02</field>
 	<field name="versionmin">0.000</field>
 	<field name="versionmax">255.255</field>
-	<field name="library_type">0</field>
-	<field name="protocol_version">0.000</field>
-	<field name="listening"></field>
-	<field name="beaming"></field>
-	<field name="security"></field>
+	<field name="library_type">7</field>
+	<field name="protocol_version">3.052</field>
+	<field name="listening">0</field>
+	<field name="beaming">0</field>
+	<field name="security">0</field>
 	<field name="max_baud">0</field>
-	<field name="basicclass">0</field>
-	<field name="genericclass">0</field>
-	<field name="specificclass">0</field>
+	<field name="basicclass">5</field>
+	<field name="genericclass">19</field>
+	<field name="specificclass">45</field>
 	<field name="thingid">zg8101</field>
 	<field name="info_overview"></field>
 	<field name="info_inclusion"></field>
@@ -2845,7 +2845,7 @@
 	<field name="genericclass">12</field>
 	<field name="specificclass">31</field>
 	<field name="thingid">fgrm222</field>
-	<field name="info_overview">Update command classes -:&lt;br /&gt;MANUFACTURER_PROPRIETARY  :: ADD</field>
+	<field name="info_overview"></field>
 	<field name="info_inclusion"></field>
 	<field name="info_exclusion"></field>
 	<field name="info_wakeup"></field>
@@ -2931,15 +2931,15 @@
 	<field name="type_id">0400:0102,0400:0104,0400:0105,0400:0106,0400:0107,0400:0108,0400:0109,0400:100A,0400:300A</field>
 	<field name="versionmin">0.000</field>
 	<field name="versionmax">255.255</field>
-	<field name="library_type">0</field>
-	<field name="protocol_version">0.000</field>
-	<field name="listening"></field>
-	<field name="beaming"></field>
-	<field name="security"></field>
+	<field name="library_type">3</field>
+	<field name="protocol_version">7.002</field>
+	<field name="listening">1</field>
+	<field name="beaming">0</field>
+	<field name="security">0</field>
 	<field name="max_baud">0</field>
-	<field name="basicclass">0</field>
-	<field name="genericclass">0</field>
-	<field name="specificclass">0</field>
+	<field name="basicclass">5</field>
+	<field name="genericclass">11</field>
+	<field name="specificclass">22</field>
 	<field name="thingid">fgs211</field>
 	<field name="info_overview"></field>
 	<field name="info_inclusion"></field>
@@ -3868,19 +3868,19 @@
 	<field name="type_id">0101:0103</field>
 	<field name="versionmin">0.000</field>
 	<field name="versionmax">255.255</field>
-	<field name="library_type">0</field>
-	<field name="protocol_version">0.000</field>
-	<field name="listening"></field>
-	<field name="beaming"></field>
-	<field name="security"></field>
-	<field name="max_baud">0</field>
-	<field name="basicclass">0</field>
-	<field name="genericclass">0</field>
-	<field name="specificclass">0</field>
+	<field name="library_type">7</field>
+	<field name="protocol_version">3.040</field>
+	<field name="listening">1</field>
+	<field name="beaming">1</field>
+	<field name="security">0</field>
+	<field name="max_baud">40000</field>
+	<field name="basicclass">5</field>
+	<field name="genericclass">11</field>
+	<field name="specificclass">22</field>
 	<field name="thingid">tz68</field>
-	<field name="info_overview"></field>
-	<field name="info_inclusion"></field>
-	<field name="info_exclusion"></field>
+	<field name="info_overview">&lt;p&gt;The TKB TZ68 is a switch plug that can be placed between a wall outlet and electric devices, plugged in by cord. It can switch all loads up to 3500 W. The device is IP 20 rated and can therefore only be used in dry environments.&lt;/p&gt;</field>
+	<field name="info_inclusion">&lt;p&gt;To confirm Inclusion hit the button on the device.&lt;/p&gt;</field>
+	<field name="info_exclusion">&lt;p&gt;To confirm Exclusion hit the button on the device.&lt;/p&gt;</field>
 	<field name="info_wakeup"></field>
   </row>
 
@@ -4021,7 +4021,7 @@
 	<field name="basicclass">5</field>
 	<field name="genericclass">8</field>
 	<field name="specificclass">17</field>
-	<field name="thingid">lc-13</field>
+	<field name="thingid">lc13</field>
 	<field name="info_overview"></field>
 	<field name="info_inclusion"></field>
 	<field name="info_exclusion"></field>
@@ -4441,21 +4441,21 @@
   <row>
 	<field name="id">183</field>
 	<field name="manufacturer">29</field>
-	<field name="label">EUR_STELLAZ</field>
+	<field name="label">STELLAZ</field>
 	<field name="description">Thermostatic Valve</field>
 	<field name="type_id">0001:0001</field>
 	<field name="versionmin">0.000</field>
 	<field name="versionmax">255.255</field>
-	<field name="library_type">0</field>
-	<field name="protocol_version">0.000</field>
-	<field name="listening"></field>
-	<field name="beaming"></field>
-	<field name="security"></field>
+	<field name="library_type">3</field>
+	<field name="protocol_version">7.002</field>
+	<field name="listening">0</field>
+	<field name="beaming">0</field>
+	<field name="security">0</field>
 	<field name="max_baud">0</field>
-	<field name="basicclass">0</field>
-	<field name="genericclass">0</field>
-	<field name="specificclass">0</field>
-	<field name="thingid">eur_stellaz</field>
+	<field name="basicclass">5</field>
+	<field name="genericclass">8</field>
+	<field name="specificclass">19</field>
+	<field name="thingid">stellaz</field>
 	<field name="info_overview"></field>
 	<field name="info_inclusion"></field>
 	<field name="info_exclusion"></field>
@@ -4609,7 +4609,7 @@
   <row>
 	<field name="id">190</field>
 	<field name="manufacturer">33</field>
-	<field name="label">VRI10-1LZ</field>
+	<field name="label">VRI10</field>
 	<field name="description">Scene Capable Push On/Off Dimmer</field>
 	<field name="type_id">0501:0209,0501:0334</field>
 	<field name="versionmin">0.000</field>
@@ -4623,7 +4623,7 @@
 	<field name="basicclass">5</field>
 	<field name="genericclass">12</field>
 	<field name="specificclass">29</field>
-	<field name="thingid">vri101lz</field>
+	<field name="thingid">vri10</field>
 	<field name="info_overview"></field>
 	<field name="info_inclusion"></field>
 	<field name="info_exclusion"></field>
@@ -4657,8 +4657,8 @@
   <row>
 	<field name="id">192</field>
 	<field name="manufacturer">33</field>
-	<field name="label">VRE06-1LZ</field>
-	<field name="description">Scene Capable Push On/Off Dimmer</field>
+	<field name="label">VRE06</field>
+	<field name="description">Electronic Low Voltage Scene Capable Dimmer</field>
 	<field name="type_id">0E01:0334</field>
 	<field name="versionmin">0.000</field>
 	<field name="versionmax">255.255</field>
@@ -4668,10 +4668,10 @@
 	<field name="beaming">0</field>
 	<field name="security">0</field>
 	<field name="max_baud">0</field>
-	<field name="basicclass">0</field>
-	<field name="genericclass">0</field>
-	<field name="specificclass">0</field>
-	<field name="thingid">vre061lz</field>
+	<field name="basicclass">5</field>
+	<field name="genericclass">12</field>
+	<field name="specificclass">29</field>
+	<field name="thingid">vre06</field>
 	<field name="info_overview"></field>
 	<field name="info_inclusion"></field>
 	<field name="info_exclusion"></field>
@@ -4681,7 +4681,7 @@
   <row>
 	<field name="id">193</field>
 	<field name="manufacturer">33</field>
-	<field name="label">VRS15-1LZ</field>
+	<field name="label">VRS15</field>
 	<field name="description">Scene Capable Push On/Off</field>
 	<field name="type_id">0301:0209,0301:0334</field>
 	<field name="versionmin">0.000</field>
@@ -4692,10 +4692,10 @@
 	<field name="beaming">0</field>
 	<field name="security">0</field>
 	<field name="max_baud">0</field>
-	<field name="basicclass">0</field>
-	<field name="genericclass">0</field>
-	<field name="specificclass">0</field>
-	<field name="thingid">vrs151lz</field>
+	<field name="basicclass">5</field>
+	<field name="genericclass">11</field>
+	<field name="specificclass">24</field>
+	<field name="thingid">vrs15</field>
 	<field name="info_overview"></field>
 	<field name="info_inclusion"></field>
 	<field name="info_exclusion"></field>
@@ -4705,8 +4705,8 @@
   <row>
 	<field name="id">194</field>
 	<field name="manufacturer">33</field>
-	<field name="label">VRI06-1LZ</field>
-	<field name="description">Scene Capable Push On/Off Dimmer</field>
+	<field name="label">VRI06</field>
+	<field name="description">Incandescent Scene Capable Dimmer</field>
 	<field name="type_id">0401:0209,0401:0334</field>
 	<field name="versionmin">0.000</field>
 	<field name="versionmax">255.255</field>
@@ -4716,10 +4716,10 @@
 	<field name="beaming">0</field>
 	<field name="security">0</field>
 	<field name="max_baud">0</field>
-	<field name="basicclass">0</field>
-	<field name="genericclass">0</field>
-	<field name="specificclass">0</field>
-	<field name="thingid">vri061lz</field>
+	<field name="basicclass">5</field>
+	<field name="genericclass">12</field>
+	<field name="specificclass">29</field>
+	<field name="thingid">vri06</field>
 	<field name="info_overview"></field>
 	<field name="info_inclusion"></field>
 	<field name="info_exclusion"></field>
@@ -4729,21 +4729,21 @@
   <row>
 	<field name="id">195</field>
 	<field name="manufacturer">33</field>
-	<field name="label">DZS15-1LZ</field>
+	<field name="label">DZS15</field>
 	<field name="description">Scene Capable Push On/Off</field>
 	<field name="type_id">1C02:0334</field>
 	<field name="versionmin">0.000</field>
 	<field name="versionmax">255.255</field>
-	<field name="library_type">0</field>
-	<field name="protocol_version">0.000</field>
-	<field name="listening">0</field>
+	<field name="library_type">3</field>
+	<field name="protocol_version">3.052</field>
+	<field name="listening">1</field>
 	<field name="beaming">0</field>
 	<field name="security">0</field>
 	<field name="max_baud">0</field>
-	<field name="basicclass">0</field>
-	<field name="genericclass">0</field>
-	<field name="specificclass">0</field>
-	<field name="thingid">dzs151lz</field>
+	<field name="basicclass">5</field>
+	<field name="genericclass">11</field>
+	<field name="specificclass">24</field>
+	<field name="thingid">dzs15</field>
 	<field name="info_overview"></field>
 	<field name="info_inclusion"></field>
 	<field name="info_exclusion"></field>
@@ -4758,15 +4758,15 @@
 	<field name="type_id">1B03:0334</field>
 	<field name="versionmin">0.000</field>
 	<field name="versionmax">255.255</field>
-	<field name="library_type">0</field>
-	<field name="protocol_version">0.000</field>
-	<field name="listening">0</field>
+	<field name="library_type">3</field>
+	<field name="protocol_version">3.052</field>
+	<field name="listening">1</field>
 	<field name="beaming">0</field>
 	<field name="security">0</field>
 	<field name="max_baud">0</field>
-	<field name="basicclass">0</field>
-	<field name="genericclass">0</field>
-	<field name="specificclass">0</field>
+	<field name="basicclass">5</field>
+	<field name="genericclass">12</field>
+	<field name="specificclass">29</field>
 	<field name="thingid">dzmx11lz</field>
 	<field name="info_overview"></field>
 	<field name="info_inclusion"></field>
@@ -4777,7 +4777,7 @@
   <row>
 	<field name="id">197</field>
 	<field name="manufacturer">33</field>
-	<field name="label">VRCZ4-M0Z</field>
+	<field name="label">VRCZ4</field>
 	<field name="description">4-Zone Controller</field>
 	<field name="type_id">0702:0261,0802:0261</field>
 	<field name="versionmin">0.000</field>
@@ -4788,10 +4788,10 @@
 	<field name="beaming">0</field>
 	<field name="security">0</field>
 	<field name="max_baud">0</field>
-	<field name="basicclass">0</field>
-	<field name="genericclass">0</field>
-	<field name="specificclass">0</field>
-	<field name="thingid">vrcz4m0z</field>
+	<field name="basicclass">3</field>
+	<field name="genericclass">4</field>
+	<field name="specificclass">7</field>
+	<field name="thingid">vrcz4</field>
 	<field name="info_overview"></field>
 	<field name="info_inclusion"></field>
 	<field name="info_exclusion"></field>
@@ -4801,7 +4801,7 @@
   <row>
 	<field name="id">198</field>
 	<field name="manufacturer">33</field>
-	<field name="label">VRCZ4-MRZ</field>
+	<field name="label">VRCZ4-MR</field>
 	<field name="description">4-Zone Controller</field>
 	<field name="type_id">1202:0243</field>
 	<field name="versionmin">0.000</field>
@@ -4812,10 +4812,10 @@
 	<field name="beaming">0</field>
 	<field name="security">0</field>
 	<field name="max_baud">0</field>
-	<field name="basicclass">0</field>
-	<field name="genericclass">0</field>
-	<field name="specificclass">0</field>
-	<field name="thingid">vrcz4mrz</field>
+	<field name="basicclass">3</field>
+	<field name="genericclass">4</field>
+	<field name="specificclass">2</field>
+	<field name="thingid">vrcz4mr</field>
 	<field name="info_overview"></field>
 	<field name="info_inclusion"></field>
 	<field name="info_exclusion"></field>
@@ -4825,7 +4825,7 @@
   <row>
 	<field name="id">199</field>
 	<field name="manufacturer">33</field>
-	<field name="label">VRPD3-1LW</field>
+	<field name="label">VRPD3</field>
 	<field name="description">Scene Capable Plug-in Dimmer</field>
 	<field name="type_id">1706:0334</field>
 	<field name="versionmin">0.000</field>
@@ -4839,7 +4839,7 @@
 	<field name="basicclass">5</field>
 	<field name="genericclass">12</field>
 	<field name="specificclass">29</field>
-	<field name="thingid">vrpd31lw</field>
+	<field name="thingid">vrpd3</field>
 	<field name="info_overview"></field>
 	<field name="info_inclusion"></field>
 	<field name="info_exclusion"></field>
@@ -4849,7 +4849,7 @@
   <row>
 	<field name="id">200</field>
 	<field name="manufacturer">33</field>
-	<field name="label">DZR15-1LZ</field>
+	<field name="label">DZR15</field>
 	<field name="description">Scene Capable Receptacle</field>
 	<field name="type_id">1D04:0334</field>
 	<field name="versionmin">0.000</field>
@@ -4857,13 +4857,13 @@
 	<field name="library_type">0</field>
 	<field name="protocol_version">0.000</field>
 	<field name="listening">0</field>
-	<field name="beaming">0</field>
+	<field name="beaming">1</field>
 	<field name="security">0</field>
 	<field name="max_baud">0</field>
-	<field name="basicclass">0</field>
-	<field name="genericclass">0</field>
-	<field name="specificclass">0</field>
-	<field name="thingid">dzr151lz</field>
+	<field name="basicclass">5</field>
+	<field name="genericclass">11</field>
+	<field name="specificclass">24</field>
+	<field name="thingid">dzr15</field>
 	<field name="info_overview"></field>
 	<field name="info_inclusion"></field>
 	<field name="info_exclusion"></field>
@@ -4974,15 +4974,15 @@
 	<field name="type_id">0002:0002</field>
 	<field name="versionmin">0.000</field>
 	<field name="versionmax">255.255</field>
-	<field name="library_type">0</field>
-	<field name="protocol_version">0.000</field>
-	<field name="listening"></field>
-	<field name="beaming"></field>
-	<field name="security"></field>
+	<field name="library_type">3</field>
+	<field name="protocol_version">3.067</field>
+	<field name="listening">1</field>
+	<field name="beaming">0</field>
+	<field name="security">0</field>
 	<field name="max_baud">0</field>
-	<field name="basicclass">0</field>
-	<field name="genericclass">0</field>
-	<field name="specificclass">0</field>
+	<field name="basicclass">5</field>
+	<field name="genericclass">11</field>
+	<field name="specificclass">22</field>
 	<field name="thingid">zmnhaa</field>
 	<field name="info_overview"></field>
 	<field name="info_inclusion"></field>
@@ -5094,15 +5094,15 @@
 	<field name="type_id">0001:0051</field>
 	<field name="versionmin">0.000</field>
 	<field name="versionmax">255.255</field>
-	<field name="library_type">0</field>
-	<field name="protocol_version">0.000</field>
-	<field name="listening"></field>
-	<field name="beaming"></field>
-	<field name="security"></field>
+	<field name="library_type">3</field>
+	<field name="protocol_version">4.005</field>
+	<field name="listening">1</field>
+	<field name="beaming">0</field>
+	<field name="security">0</field>
 	<field name="max_baud">0</field>
-	<field name="basicclass">0</field>
-	<field name="genericclass">0</field>
-	<field name="specificclass">0</field>
+	<field name="basicclass">5</field>
+	<field name="genericclass">12</field>
+	<field name="specificclass">26</field>
 	<field name="thingid">zmnhdd</field>
 	<field name="info_overview"></field>
 	<field name="info_inclusion"></field>
@@ -6104,16 +6104,16 @@
 	<field name="type_id">0002:000E</field>
 	<field name="versionmin">0.000</field>
 	<field name="versionmax">255.255</field>
-	<field name="library_type">0</field>
-	<field name="protocol_version">0.000</field>
-	<field name="listening"></field>
-	<field name="beaming"></field>
-	<field name="security"></field>
-	<field name="max_baud">0</field>
-	<field name="basicclass">0</field>
-	<field name="genericclass">0</field>
-	<field name="specificclass">0</field>
-	<field name="thingid">dch-z110</field>
+	<field name="library_type">3</field>
+	<field name="protocol_version">3.095</field>
+	<field name="listening">0</field>
+	<field name="beaming">1</field>
+	<field name="security">0</field>
+	<field name="max_baud">40000</field>
+	<field name="basicclass">5</field>
+	<field name="genericclass">7</field>
+	<field name="specificclass">13</field>
+	<field name="thingid">dchz110</field>
 	<field name="info_overview"></field>
 	<field name="info_inclusion"></field>
 	<field name="info_exclusion"></field>
@@ -6538,10 +6538,10 @@
 	<field name="beaming">0</field>
 	<field name="security">0</field>
 	<field name="max_baud">0</field>
-	<field name="basicclass">0</field>
-	<field name="genericclass">0</field>
-	<field name="specificclass">0</field>
-	<field name="thingid"></field>
+	<field name="basicclass">5</field>
+	<field name="genericclass">12</field>
+	<field name="specificclass">29</field>
+	<field name="thingid">vrp03</field>
 	<field name="info_overview"></field>
 	<field name="info_inclusion"></field>
 	<field name="info_exclusion"></field>
@@ -6924,30 +6924,6 @@
   </row>
 
   <row>
-	<field name="id">286</field>
-	<field name="manufacturer">0</field>
-	<field name="label"></field>
-	<field name="description"></field>
-	<field name="type_id"></field>
-	<field name="versionmin">0.000</field>
-	<field name="versionmax">255.255</field>
-	<field name="library_type">0</field>
-	<field name="protocol_version">0.000</field>
-	<field name="listening">0</field>
-	<field name="beaming">0</field>
-	<field name="security">0</field>
-	<field name="max_baud">0</field>
-	<field name="basicclass">0</field>
-	<field name="genericclass">0</field>
-	<field name="specificclass">0</field>
-	<field name="thingid"></field>
-	<field name="info_overview"></field>
-	<field name="info_inclusion"></field>
-	<field name="info_exclusion"></field>
-	<field name="info_wakeup"></field>
-  </row>
-
-  <row>
 	<field name="id">287</field>
 	<field name="manufacturer">14</field>
 	<field name="label">DSC13</field>
@@ -6972,30 +6948,6 @@
   </row>
 
   <row>
-	<field name="id">288</field>
-	<field name="manufacturer">0</field>
-	<field name="label"></field>
-	<field name="description"></field>
-	<field name="type_id"></field>
-	<field name="versionmin">0.000</field>
-	<field name="versionmax">255.255</field>
-	<field name="library_type">0</field>
-	<field name="protocol_version">0.000</field>
-	<field name="listening">0</field>
-	<field name="beaming">0</field>
-	<field name="security">0</field>
-	<field name="max_baud">0</field>
-	<field name="basicclass">0</field>
-	<field name="genericclass">0</field>
-	<field name="specificclass">0</field>
-	<field name="thingid"></field>
-	<field name="info_overview"></field>
-	<field name="info_inclusion"></field>
-	<field name="info_exclusion"></field>
-	<field name="info_wakeup"></field>
-  </row>
-
-  <row>
 	<field name="id">289</field>
 	<field name="manufacturer">14</field>
 	<field name="label">DSC14</field>
@@ -7013,6 +6965,30 @@
 	<field name="genericclass">12</field>
 	<field name="specificclass">30</field>
 	<field name="thingid">dsc14</field>
+	<field name="info_overview"></field>
+	<field name="info_inclusion"></field>
+	<field name="info_exclusion"></field>
+	<field name="info_wakeup"></field>
+  </row>
+
+  <row>
+	<field name="id">290</field>
+	<field name="manufacturer">43</field>
+	<field name="label">Yale Real Living Push Button Deadbolt</field>
+	<field name="description">Touchpad Electronic Deadbolt </field>
+	<field name="type_id">0004:0000</field>
+	<field name="versionmin">0.000</field>
+	<field name="versionmax">0.000</field>
+	<field name="library_type">3</field>
+	<field name="protocol_version">3.034</field>
+	<field name="listening">0</field>
+	<field name="beaming">0</field>
+	<field name="security">0</field>
+	<field name="max_baud">0</field>
+	<field name="basicclass">5</field>
+	<field name="genericclass">24</field>
+	<field name="specificclass">50</field>
+	<field name="thingid">yalereallivingpushbuttondeadbo</field>
 	<field name="info_overview"></field>
 	<field name="info_inclusion"></field>
 	<field name="info_exclusion"></field>

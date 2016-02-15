@@ -298,4 +298,31 @@
 	<field name="config">modeType=ON_LOW</field>
 	<field name="overview"></field>
   </row>
+
+  <row>
+	<field name="id">34</field>
+	<field name="channel">376</field>
+	<field name="name">Economy Heat</field>
+	<field name="value">11</field>
+	<field name="config">modeType=HEAT_ECON</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">35</field>
+	<field name="channel">376</field>
+	<field name="name">Off</field>
+	<field name="value">0</field>
+	<field name="config">modeType=OFF</field>
+	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">36</field>
+	<field name="channel">376</field>
+	<field name="name">Heat</field>
+	<field name="value">1</field>
+	<field name="config">modeType=HEAT</field>
+	<field name="overview"></field>
+  </row>
 </resultset>

@@ -15245,7 +15245,7 @@
 	<field name="id">1905</field>
 	<field name="parameter">1120</field>
 	<field name="value">0</field>
-	<field name="label">blue indicates off</field>
+	<field name="label">blue indicates off (Default)</field>
 	<field name="overview"></field>
   </row>
 

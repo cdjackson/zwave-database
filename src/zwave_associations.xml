@@ -1355,7 +1355,7 @@
 	<field name="label">Lifeline</field>
 	<field name="description"></field>
 	<field name="max">5</field>
-	<field name="controller">0</field>
+	<field name="controller">1</field>
 	<field name="overview"></field>
   </row>
 
