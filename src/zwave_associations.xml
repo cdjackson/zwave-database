@@ -882,7 +882,7 @@
 	<field name="label">State Updates</field>
 	<field name="description"></field>
 	<field name="max">5</field>
-	<field name="controller">0</field>
+	<field name="controller">1</field>
 	<field name="overview"></field>
   </row>
 
@@ -1091,7 +1091,7 @@
 	<field name="label">Status Reports</field>
 	<field name="description"></field>
 	<field name="max">5</field>
-	<field name="controller">0</field>
+	<field name="controller">1</field>
 	<field name="overview"></field>
   </row>
 
@@ -1190,7 +1190,7 @@
 	<field name="label">Target for automatic reports</field>
 	<field name="description"></field>
 	<field name="max">5</field>
-	<field name="controller">0</field>
+	<field name="controller">1</field>
 	<field name="overview"></field>
   </row>
 
@@ -1245,7 +1245,7 @@
 	<field name="label">Target for automatic reports</field>
 	<field name="description"></field>
 	<field name="max">5</field>
-	<field name="controller">0</field>
+	<field name="controller">1</field>
 	<field name="overview"></field>
   </row>
 

@@ -6311,9 +6311,9 @@ calibration value = 8 – 9 = -1 (0xFE).</field>
 	<field name="value_min">0</field>
 	<field name="value_max">65535</field>
 	<field name="value_default">0</field>
-	<field name="read_only"></field>
-	<field name="write_only"></field>
-	<field name="limit_options"></field>
+	<field name="read_only">0</field>
+	<field name="write_only">0</field>
+	<field name="limit_options">0</field>
 	<field name="overview"></field>
   </row>
 
@@ -7337,9 +7337,9 @@ calibration value = 8 – 9 = -1 (0xFE).</field>
 	<field name="value_min">0</field>
 	<field name="value_max">255</field>
 	<field name="value_default">0</field>
-	<field name="read_only"></field>
-	<field name="write_only"></field>
-	<field name="limit_options"></field>
+	<field name="read_only">0</field>
+	<field name="write_only">1</field>
+	<field name="limit_options">0</field>
 	<field name="overview"></field>
   </row>
 
@@ -14006,16 +14006,16 @@ Type	range</field>
 	<field name="device">123</field>
 	<field name="param_id">1</field>
 	<field name="bitmask">0</field>
-	<field name="label">Enable/Disable ALL ON/OFF</field>
+	<field name="label">Activate / deactivate functions ALL ON / ALL  OFF</field>
 	<field name="units"></field>
-	<field name="description">Activate/Deactive ALL ON/OFF</field>
+	<field name="description">Activate / deactivate functions ALL ON / ALL  OFF</field>
 	<field name="size">1</field>
 	<field name="value_min">0</field>
 	<field name="value_max">255</field>
 	<field name="value_default">255</field>
-	<field name="read_only"></field>
-	<field name="write_only"></field>
-	<field name="limit_options"></field>
+	<field name="read_only">0</field>
+	<field name="write_only">0</field>
+	<field name="limit_options">0</field>
 	<field name="overview"></field>
   </row>
 
@@ -14024,16 +14024,16 @@ Type	range</field>
 	<field name="device">123</field>
 	<field name="param_id">3</field>
 	<field name="bitmask">0</field>
-	<field name="label">Enable/Disable Manual Override</field>
+	<field name="label">Auto off relay after specified time</field>
 	<field name="units"></field>
-	<field name="description">Enable / Disable manual override for relay auto off</field>
+	<field name="description">Auto off relay after specified time, with the possibility of manual override - immediate Off after button push</field>
 	<field name="size">1</field>
 	<field name="value_min">0</field>
 	<field name="value_max">255</field>
 	<field name="value_default">0</field>
-	<field name="read_only"></field>
-	<field name="write_only"></field>
-	<field name="limit_options"></field>
+	<field name="read_only">0</field>
+	<field name="write_only">0</field>
+	<field name="limit_options">0</field>
 	<field name="overview"></field>
   </row>
 
@@ -14042,16 +14042,16 @@ Type	range</field>
 	<field name="device">123</field>
 	<field name="param_id">4</field>
 	<field name="bitmask">0</field>
-	<field name="label">Relay 1: OFF-delay time</field>
-	<field name="units"></field>
-	<field name="description">Automatic turning off relay 1 after set time in milliseconds, 0 to disable</field>
+	<field name="label">Auto off for relay 1</field>
+	<field name="units">miliseconds</field>
+	<field name="description">Time period for auto off, in miliseconds 0 - Auto off disabled</field>
 	<field name="size">2</field>
 	<field name="value_min">0</field>
 	<field name="value_max">65535</field>
 	<field name="value_default">0</field>
-	<field name="read_only"></field>
-	<field name="write_only"></field>
-	<field name="limit_options"></field>
+	<field name="read_only">0</field>
+	<field name="write_only">0</field>
+	<field name="limit_options">0</field>
 	<field name="overview"></field>
   </row>
 
@@ -14060,16 +14060,16 @@ Type	range</field>
 	<field name="device">123</field>
 	<field name="param_id">5</field>
 	<field name="bitmask">0</field>
-	<field name="label">Relay 2: OFF-delay time</field>
-	<field name="units"></field>
-	<field name="description">Automatic turning off relay 2 after set time in milliseconds, 0 to disable</field>
+	<field name="label">Auto off for relay 2</field>
+	<field name="units">miliseconds</field>
+	<field name="description">Time period for auto off, in miliseconds 0 - Auto off disabled </field>
 	<field name="size">2</field>
 	<field name="value_min">0</field>
 	<field name="value_max">65535</field>
 	<field name="value_default">0</field>
-	<field name="read_only"></field>
-	<field name="write_only"></field>
-	<field name="limit_options"></field>
+	<field name="read_only">0</field>
+	<field name="write_only">0</field>
+	<field name="limit_options">0</field>
 	<field name="overview"></field>
   </row>
 
@@ -14078,18 +14078,17 @@ Type	range</field>
 	<field name="device">123</field>
 	<field name="param_id">6</field>
 	<field name="bitmask">0</field>
-	<field name="label">Separation of association sending (key 1)</field>
+	<field name="label">Sending commands to control devices assigned to 1-st association group (key no. 1)</field>
 	<field name="units"></field>
-	<field name="description">Activate/Deactivate association sending for group
-				1 - Also see param #16</field>
+	<field name="description">Sending commands to control devices assigned to 1-st association group (key no. 1)</field>
 	<field name="size">1</field>
 	<field name="value_min">0</field>
 	<field name="value_max">255</field>
 	<field name="value_default">0</field>
-	<field name="read_only"></field>
-	<field name="write_only"></field>
-	<field name="limit_options"></field>
-	<field name="overview"></field>
+	<field name="read_only">0</field>
+	<field name="write_only">0</field>
+	<field name="limit_options">0</field>
+	<field name="overview">&lt;p&gt;NOTE: Parameter 15 value must be set to 1 to work properly. This activates the double-click functionality - dimmer/roller shutter control&lt;/p&gt;</field>
   </row>
 
   <row>
@@ -14097,21 +14096,17 @@ Type	range</field>
 	<field name="device">123</field>
 	<field name="param_id">7</field>
 	<field name="bitmask">0</field>
-	<field name="label">Control key #2 behaviour</field>
+	<field name="label">Sending commands to control devices assigned to 2-nd association group (key no. 2)</field>
 	<field name="units"></field>
-	<field name="description">Key no.2 is not represented by any physical device - only
-				devices in the association list.
-				This functionality prevents of lack of reaction on pressing key no.2
-				through polling devices
-				from association list one by one and checking their</field>
+	<field name="description">Sending commands to control devices assigned to 2-nd association group (key no. 2)</field>
 	<field name="size">1</field>
 	<field name="value_min">0</field>
 	<field name="value_max">255</field>
-	<field name="value_default">1</field>
-	<field name="read_only"></field>
-	<field name="write_only"></field>
-	<field name="limit_options"></field>
-	<field name="overview"></field>
+	<field name="value_default">0</field>
+	<field name="read_only">0</field>
+	<field name="write_only">0</field>
+	<field name="limit_options">0</field>
+	<field name="overview">&lt;p&gt;Info: Parameter 15 must be set to 1 to make this parameter work properly. This activates the double-click functionality - dimmer/roller shutter control.&lt;/p&gt;</field>
   </row>
 
   <row>
@@ -14119,18 +14114,17 @@ Type	range</field>
 	<field name="device">123</field>
 	<field name="param_id">13</field>
 	<field name="bitmask">0</field>
-	<field name="label">Inputs behaviour</field>
+	<field name="label">Assigns bistable key status to the device status</field>
 	<field name="units"></field>
-	<field name="description">In case of bi-stable switches, define their behaviour (toggle
-				or follow)</field>
+	<field name="description">Assigns bistable key status to the device status</field>
 	<field name="size">1</field>
 	<field name="value_min">0</field>
 	<field name="value_max">255</field>
 	<field name="value_default">0</field>
-	<field name="read_only"></field>
-	<field name="write_only"></field>
-	<field name="limit_options"></field>
-	<field name="overview"></field>
+	<field name="read_only">0</field>
+	<field name="write_only">0</field>
+	<field name="limit_options">0</field>
+	<field name="overview">&lt;p&gt;Info: Remote control from Fibaro System Is Still Possible. This function is useful When you want display status of external devices, e.g. Motion Sensor, in Fibaro System.&lt;/p&gt;</field>
   </row>
 
   <row>
@@ -14138,16 +14132,16 @@ Type	range</field>
 	<field name="device">123</field>
 	<field name="param_id">14</field>
 	<field name="bitmask">0</field>
-	<field name="label">Inputs Button/Switch configuration</field>
+	<field name="label">Switch type connector</field>
 	<field name="units"></field>
-	<field name="description">Binary inputs type configuration</field>
+	<field name="description">Switch type connector, you may choose between momentary and toggle switches</field>
 	<field name="size">1</field>
 	<field name="value_min">0</field>
 	<field name="value_max">255</field>
 	<field name="value_default">1</field>
-	<field name="read_only"></field>
-	<field name="write_only"></field>
-	<field name="limit_options"></field>
+	<field name="read_only">0</field>
+	<field name="write_only">0</field>
+	<field name="limit_options">0</field>
 	<field name="overview"></field>
   </row>
 
@@ -14156,19 +14150,16 @@ Type	range</field>
 	<field name="device">123</field>
 	<field name="param_id">15</field>
 	<field name="bitmask">0</field>
-	<field name="label">Dimmer/Roller shutter control</field>
+	<field name="label">Operation of the Dimmer and Roller Shutter Controller</field>
 	<field name="units"></field>
-	<field name="description">Enable/Disable operation of dimmer or roller shutter devices
-				associated to group 1.
-				Available only when using mono-stable inputs (buttons) - Hold button 1 or
-				double-tap for operation</field>
+	<field name="description">Enabling this option allows the user to dim lighting/shut roller by associating Dimmer/Roller Shutter Controller and holding or double press of double switch (only momentary switch)</field>
 	<field name="size">1</field>
 	<field name="value_min">0</field>
 	<field name="value_max">255</field>
 	<field name="value_default">0</field>
-	<field name="read_only"></field>
-	<field name="write_only"></field>
-	<field name="limit_options"></field>
+	<field name="read_only">0</field>
+	<field name="write_only">0</field>
+	<field name="limit_options">0</field>
 	<field name="overview"></field>
   </row>
 
@@ -14177,17 +14168,17 @@ Type	range</field>
 	<field name="device">123</field>
 	<field name="param_id">16</field>
 	<field name="bitmask">0</field>
-	<field name="label">Saving state before power failure</field>
+	<field name="label">Saving the state of the device after a power failure</field>
 	<field name="units"></field>
-	<field name="description">Saving state before power failure</field>
+	<field name="description">Fibaro Switch returns to the last position saved before a power failure</field>
 	<field name="size">1</field>
 	<field name="value_min">0</field>
 	<field name="value_max">255</field>
 	<field name="value_default">1</field>
-	<field name="read_only"></field>
-	<field name="write_only"></field>
-	<field name="limit_options"></field>
-	<field name="overview"></field>
+	<field name="read_only">0</field>
+	<field name="write_only">0</field>
+	<field name="limit_options">0</field>
+	<field name="overview">&lt;p&gt;Options for changing the parameter 0-1&lt;/p&gt;</field>
   </row>
 
   <row>

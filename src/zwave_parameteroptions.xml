@@ -8241,7 +8241,7 @@
 	<field name="id">1030</field>
 	<field name="parameter">754</field>
 	<field name="value">0</field>
-	<field name="label">ALL ON disabled/ ALL OFF disabled</field>
+	<field name="label">ALL ON is not active ALL OFF is not active</field>
 	<field name="overview"></field>
   </row>
 
@@ -8249,7 +8249,7 @@
 	<field name="id">1031</field>
 	<field name="parameter">754</field>
 	<field name="value">1</field>
-	<field name="label">ALL ON disabled/ ALL OFF active</field>
+	<field name="label">ALL ON is not active ALL OFF active</field>
 	<field name="overview"></field>
   </row>
 
@@ -8257,15 +8257,15 @@
 	<field name="id">1032</field>
 	<field name="parameter">754</field>
 	<field name="value">2</field>
-	<field name="label">ALL ON active / ALL OFF disabled</field>
+	<field name="label">ALL ON active ALL OFF is not active</field>
 	<field name="overview"></field>
   </row>
 
   <row>
 	<field name="id">1033</field>
 	<field name="parameter">754</field>
-	<field name="value">-1</field>
-	<field name="label">ALL ON active / ALL OFF active</field>
+	<field name="value">255</field>
+	<field name="label">ALL ON active, ALL OFF active</field>
 	<field name="overview"></field>
   </row>
 
@@ -8273,23 +8273,23 @@
 	<field name="id">1034</field>
 	<field name="parameter">755</field>
 	<field name="value">0</field>
-	<field name="label">Manual Override Disabled</field>
-	<field name="overview"></field>
+	<field name="label">Manual override disabled</field>
+	<field name="overview">&lt;p&gt;After single button push the relay turns on and automatically turns off after specified time.&lt;/p&gt;</field>
   </row>
 
   <row>
 	<field name="id">1035</field>
 	<field name="parameter">755</field>
 	<field name="value">1</field>
-	<field name="label">Manual Override Enabled</field>
-	<field name="overview"></field>
+	<field name="label">Manual override enabled. </field>
+	<field name="overview">&lt;p&gt;After single button push the relay turns on and automatically turns off after specified time. Another button push turns the relay off immediately&lt;/p&gt;</field>
   </row>
 
   <row>
 	<field name="id">1036</field>
 	<field name="parameter">758</field>
 	<field name="value">0</field>
-	<field name="label">Map status to all devices in group 1</field>
+	<field name="label">Commands are sent when device is turned on and off</field>
 	<field name="overview"></field>
   </row>
 
@@ -8297,23 +8297,23 @@
 	<field name="id">1037</field>
 	<field name="parameter">758</field>
 	<field name="value">1</field>
-	<field name="label">Map OFF status to all devices in group 1, Double click on key 1 will s</field>
-	<field name="overview"></field>
+	<field name="label">Commands are sent when device is turned off</field>
+	<field name="overview">&lt;p&gt;Enabling device does not send control commands. Double-clicking key sends 'turn on' command, dimmers memorize the last saved state (e.g. 50% brightness).&lt;/p&gt;</field>
   </row>
 
   <row>
 	<field name="id">1038</field>
 	<field name="parameter">758</field>
 	<field name="value">2</field>
-	<field name="label">Map OFF status to all devices in group 1, Double click on key 1 will s</field>
-	<field name="overview"></field>
+	<field name="label">Commands are sent when device is turned off</field>
+	<field name="overview">&lt;p&gt;Enabling device does not send control commands. Double-clicking key sends 'turn on' command and dimmers are set to 100% brightness.&lt;/p&gt;</field>
   </row>
 
   <row>
 	<field name="id">1039</field>
 	<field name="parameter">759</field>
 	<field name="value">0</field>
-	<field name="label">Device status is not checked</field>
+	<field name="label">Commands are sent when device is turned on and off</field>
 	<field name="overview"></field>
   </row>
 
@@ -8321,15 +8321,15 @@
 	<field name="id">1040</field>
 	<field name="parameter">759</field>
 	<field name="value">1</field>
-	<field name="label">Device status is checked</field>
-	<field name="overview"></field>
+	<field name="label">Commands are sent when device is turned off</field>
+	<field name="overview">&lt;p&gt;Enabling device does not send control commands. Double-clicking key sends 'turn on' command, dimmers memorize the last saved state (e.g. 50% brightness).&lt;/p&gt;</field>
   </row>
 
   <row>
 	<field name="id">1041</field>
 	<field name="parameter">760</field>
 	<field name="value">0</field>
-	<field name="label">Toggle</field>
+	<field name="label">[On / Off] device changes status on key status change</field>
 	<field name="overview"></field>
   </row>
 
@@ -8337,15 +8337,15 @@
 	<field name="id">1042</field>
 	<field name="parameter">760</field>
 	<field name="value">1</field>
-	<field name="label">Follow switch contact (closed=ON, open=OFF)</field>
-	<field name="overview"></field>
+	<field name="label">Device status depends on key status</field>
+	<field name="overview">&lt;p&gt;Device status depends on key status: ON when the key is ON, OFF when the key is OFF.&lt;/p&gt;</field>
   </row>
 
   <row>
 	<field name="id">1043</field>
 	<field name="parameter">761</field>
 	<field name="value">0</field>
-	<field name="label">Mono-stable input (button)</field>
+	<field name="label">Momentary switch</field>
 	<field name="overview"></field>
   </row>
 
@@ -8353,7 +8353,7 @@
 	<field name="id">1044</field>
 	<field name="parameter">761</field>
 	<field name="value">1</field>
-	<field name="label">Bi-stable input (switch)</field>
+	<field name="label">Toggle switch</field>
 	<field name="overview"></field>
   </row>
 
@@ -8361,7 +8361,7 @@
 	<field name="id">1045</field>
 	<field name="parameter">762</field>
 	<field name="value">0</field>
-	<field name="label">Disable Dimmer/Roller shutter control</field>
+	<field name="label">Dimmer/Roller Shutter Controller control is not active</field>
 	<field name="overview"></field>
   </row>
 
@@ -8369,7 +8369,7 @@
 	<field name="id">1046</field>
 	<field name="parameter">762</field>
 	<field name="value">1</field>
-	<field name="label">Enable Dimmer/Roller shutter control</field>
+	<field name="label">Dimmer/Roller Shutter Controller control is active</field>
 	<field name="overview"></field>
   </row>
 
@@ -8377,15 +8377,15 @@
 	<field name="id">1047</field>
 	<field name="parameter">763</field>
 	<field name="value">0</field>
-	<field name="label">State NOT saved at power failure, all outputs are set to OFF upon powe</field>
-	<field name="overview"></field>
+	<field name="label">Fibaro Switch does not save the state after a power failure</field>
+	<field name="overview">&lt;p&gt;Fibaro Switch does not save the state after a power failure, it returns to &quot;off&quot; position&lt;/p&gt;</field>
   </row>
 
   <row>
 	<field name="id">1048</field>
 	<field name="parameter">763</field>
 	<field name="value">1</field>
-	<field name="label">State saved at power failure, all outputs are set to previous state up</field>
+	<field name="label">Fibaro Switch saves its state before power failure</field>
 	<field name="overview"></field>
   </row>
 
@@ -21195,5 +21195,13 @@
 	<field name="value">1</field>
 	<field name="label">Enabled</field>
 	<field name="overview"></field>
+  </row>
+
+  <row>
+	<field name="id">2648</field>
+	<field name="parameter">759</field>
+	<field name="value">2</field>
+	<field name="label">Commands are sent when device is turned off</field>
+	<field name="overview">&lt;p&gt;Enabling device does not send control commands. Double-clicking key sends 'turn on' command and dimmers are set to 100% brightness.&lt;/p&gt;</field>
   </row>
 </resultset>
